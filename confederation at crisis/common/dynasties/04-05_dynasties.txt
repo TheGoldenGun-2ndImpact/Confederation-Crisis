@@ -9,949 +9,1186 @@
 
 901 = {
 	name = "Patel"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 902 = {
 	name = "Patel"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 903 = {
 	name = "Patel"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 904 = {
 	name = "Agarwal"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 905 = {
 	name = "Agarwal"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 906 = {
 	name = "Agarwal"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 907 = {
 	name = "Amin"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 908 = {
 	name = "Amin"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 909 = {
 	name = "Amin"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 910 = {
 	name = "Ahmed"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 911 = {
 	name = "Ahmed"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 912 = {
 	name = "Ahmed"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 913 = {
 	name = "Abbasi"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 914 = {
 	name = "Abbasi"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 915 = {
 	name = "Abbasi"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 916 = {
 	name = "Ali"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 917 = {
 	name = "Ali"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 918 = {
 	name = "Ali"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 919 = {
 	name = "Arora"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 920 = {
 	name = "Arora"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 921 = {
 	name = "Arora"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 922 = {
 	name = "Banerjee"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 923 = {
 	name = "Banerjee"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 924 = {
 	name = "Banerjee"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 925 = {
 	name = "Bhargav"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 926 = {
 	name = "Bhargav"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 927 = {
 	name = "Bhargav"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 928 = {
 	name = "Bhatnagar"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 929 = {
 	name = "Bhatnagar"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 930 = {
 	name = "Bhatnagar"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 931 = {
 	name = "Bhatt"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 932 = {
 	name = "Bhatt"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 933 = {
 	name = "Bhatt"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 934 = {
 	name = "Bhattacharya"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 935 = {
 	name = "Bhattacharya"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 936 = {
 	name = "Bhattacharya"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 937 = {
 	name = "Bhosle"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 938 = {
 	name = "Bhosle"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 939 = {
 	name = "Bhosle"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 940 = {
 	name = "Biswas"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 941 = {
 	name = "Biswas"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 942 = {
 	name = "Biswas"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 943 = {
 	name = "Bisht"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 944 = {
 	name = "Bisht"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 945 = {
 	name = "Bisht"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 946 = {
 	name = "Bose"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 947 = {
 	name = "Bose"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 948 = {
 	name = "Bose"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 949 = {
 	name = "Brar"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 950 = {
 	name = "Brar"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 951 = {
 	name = "Brar"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 952 = {
 	name = "Chauhan"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 953 = {
 	name = "Chauhan"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 954 = {
 	name = "Chauhan"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 955 = {
 	name = "Chakraborty"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 956 = {
 	name = "Chakraborty"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 957 = {
 	name = "Chakraborty"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 958 = {
 	name = "Chandra"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 959 = {
 	name = "Chandra"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 960 = {
 	name = "Chandra"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 961 = {
 	name = "Chatterjee"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 962 = {
 	name = "Chatterjee"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 963 = {
 	name = "Chatterjee"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 964 = {
 	name = "Chaudhary"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 965 = {
 	name = "Chaudhary"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 966 = {
 	name = "Chaudhary"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 967 = {
 	name = "Chopra"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 968 = {
 	name = "Chopra"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 969 = {
 	name = "Chopra"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 970 = {
 	name = "Das"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 971 = {
 	name = "Das"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 972 = {
 	name = "Das"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 973 = {
 	name = "Dravid"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 974 = {
 	name = "Dravid"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 975 = {
 	name = "Dravid"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 976 = {
 	name = "Dang"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 977 = {
 	name = "Dang"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 978 = {
 	name = "Dang"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 979 = {
 	name = "Desai"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 980 = {
 	name = "Desai"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 981 = {
 	name = "Desai"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 982 = {
 	name = "Deshmukh"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 983 = {
 	name = "Deshmukh"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 984 = {
 	name = "Deshmukh"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 985 = {
 	name = "Dwivedi"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 986 = {
 	name = "Dwivedi"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 987 = {
 	name = "Dwivedi"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 988 = {
 	name = "Dutt"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 989 = {
 	name = "Dutt"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 990 = {
 	name = "Dutt"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 991 = {
 	name = "Farooqi"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 992 = {
 	name = "Farooqi"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 993 = {
 	name = "Farooqi"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 994 = {
 	name = "Ganguly"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 995 = {
 	name = "Ganguly"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 996 = {
 	name = "Ganguly"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 997 = {
 	name = "Gounder"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 998 = {
 	name = "Gounder"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 999 = {
 	name = "Gounder"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1000 = {
 	name = "Gowda"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1001 = {
 	name = "Gowda"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1002 = {
 	name = "Gowda"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1003 = {
 	name = "Gupta"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1004 = {
 	name = "Gupta"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1005 = {
 	name = "Gupta"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1006 = {
 	name = "Inamdar"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1007 = {
 	name = "Inamdar"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1008 = {
 	name = "Inamdar"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1009 = {
 	name = "Iyer"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1010 = {
 	name = "Iyer"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1011 = {
 	name = "Iyer"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1012 = {
 	name = "Jadhav"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1013 = {
 	name = "Jadhav"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1014 = {
 	name = "Jadhav"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1015 = {
 	name = "Jha"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1016 = {
 	name = "Jha"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1017 = {
 	name = "Jha"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1018 = {
 	name = "Joshi"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1019 = {
 	name = "Joshi"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1020 = {
 	name = "Joshi"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1021 = {
 	name = "Kamat"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1022 = {
 	name = "Kamat"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1023 = {
 	name = "Kamat"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1024 = {
 	name = "Pant"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1025 = {
 	name = "Pant"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1026 = {
 	name = "Pant"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1027 = {
 	name = "Parab"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1028 = {
 	name = "Parab"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1029 = {
 	name = "Parab"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1030 = {
 	name = "Parmar"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1031 = {
 	name = "Parmar"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1032 = {
 	name = "Parmar"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1033 = {
 	name = "Poonia"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1034 = {
 	name = "Poonia"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1035 = {
 	name = "Poonia"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1036 = {
 	name = "Pradhan"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1037 = {
 	name = "Pradhan"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1038 = {
 	name = "Pradhan"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1039 = {
 	name = "Prasad"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1040 = {
 	name = "Prasad"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1041 = {
 	name = "Prasad"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1042 = {
 	name = "Purohit"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1043 = {
 	name = "Purohit"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1044 = {
 	name = "Purohit"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1045 = {
 	name = "Rana"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1046 = {
 	name = "Rana"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1047 = {
 	name = "Rana"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1048 = {
 	name = "Rao"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1049 = {
 	name = "Rao"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1050 = {
 	name = "Rao"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1051 = {
 	name = "Rathore"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1052 = {
 	name = "Rathore"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1053 = {
 	name = "Rathore"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1054 = {
 	name = "Rawat"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1055 = {
 	name = "Rawat"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1056 = {
 	name = "Rawat"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1057 = {
 	name = "Ray"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1058 = {
 	name = "Ray"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1059 = {
 	name = "Ray"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1060 = {
 	name = "Reddy"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1061 = {
 	name = "Reddy"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1062 = {
 	name = "Reddy"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1063 = {
 	name = "Rizvi"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1064 = {
 	name = "Rizvi"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1065 = {
 	name = "Rizvi"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1066 = {
 	name = "Saxena"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1067 = {
 	name = "Saxena"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1068 = {
 	name = "Saxena"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1069 = {
 	name = "Sarkar"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1070 = {
 	name = "Sarkar"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1071 = {
 	name = "Sarkar"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1072 = {
 	name = "Sandhu"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1073 = {
 	name = "Sandhu"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1074 = {
 	name = "Sandhu"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1075 = {
 	name = "Sen"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1076 = {
 	name = "Sen"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1077 = {
 	name = "Sen"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1078 = {
 	name = "Shah"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1079 = {
 	name = "Shah"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1080 = {
 	name = "Shah"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1081 = {
 	name = "Shaikh"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1082 = {
 	name = "Shaikh"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1083 = {
 	name = "Shaikh"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1084 = {
 	name = "Sharma"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1085 = {
 	name = "Sharma"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1086 = {
 	name = "Sharma"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1087 = {
 	name = "Shukia"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1088 = {
 	name = "Shukia"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1089 = {
 	name = "Shukia"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1090 = {
 	name = "Sinha"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1091 = {
 	name = "Sinha"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1092 = {
 	name = "Sinha"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1093 = {
 	name = "Sehgal"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1094 = {
 	name = "Sehgal"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1095 = {
 	name = "Sehgal"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1096 = {
 	name = "Singhal"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1097 = {
 	name = "Singhal"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1098 = {
 	name = "Singhal"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1099 = {
 	name = "Somani"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1100 = {
 	name = "Somani"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1101 = {
 	name = "Somani"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1102 = {
 	name = "Soni"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1103 = {
 	name = "Soni"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1104 = {
 	name = "Soni"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1105 = {
 	name = "Srinivas"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1106 = {
 	name = "Srinivas"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1107 = {
 	name = "Srinivas"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1108 = {
 	name = "Srivastava"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1109 = {
 	name = "Srivastava"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1110 = {
 	name = "Srivastava"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1111 = {
 	name = "Subramanian"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1112 = {
 	name = "Subramanian"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1113 = {
 	name = "Subramanian"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1114 = {
 	name = "Swamy"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1115 = {
 	name = "Swamy"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1116 = {
 	name = "Swamy"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1117 = {
 	name = "Sayyed"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1118 = {
 	name = "Sayyed"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1119 = {
 	name = "Sayyed"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1120 = {
 	name = "Thakur"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1121 = {
 	name = "Thakur"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1122 = {
 	name = "Thakur"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1123 = {
 	name = "Trivedi"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1124 = {
 	name = "Trivedi"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1125 = {
 	name = "Trivedi"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1126 = {
 	name = "Upadhyay"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1127 = {
 	name = "Upadhyay"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1128 = {
 	name = "Upadhyay"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1129 = {
 	name = "Vaghela"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1130 = {
 	name = "Vaghela"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1131 = {
 	name = "Vaghela"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1132 = {
 	name = "Verma"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1133 = {
 	name = "Verma"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1134 = {
 	name = "Verma"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }
 1135 = {
 	name = "Yadav"
-	culture = indo_terran
+	culture="indo_terran" 
+ religion="terran_federalist"
 }
 1136 = {
 	name = "Yadav"
-	culture = indo_mukta
+	culture="indo_mukta" 
+ religion="colonial_separatist"
 }
 1137 = {
 	name = "Yadav"
-	culture = indo_tarkan
+	culture="indo_tarkan" 
+ religion="cyberneticist"
 }

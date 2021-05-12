@@ -10,2465 +10,3081 @@
 
 2001 = {
 	name = "Smirnov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2002 = {
 	name = "Smirnov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2003 = {
 	name = "Smirnov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2004 = {
 	name = "Smirnov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2005 = {
 	name = "Ivanov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2006 = {
 	name = "Ivanov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2007 = {
 	name = "Ivanov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2008 = {
 	name = "Ivanov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2009 = {
 	name = "Kuznetsov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2010 = {
 	name = "Kuznetsov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2011 = {
 	name = "Kuznetsov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2012 = {
 	name = "Kuznetsov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2013 = {
 	name = "Popov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2014 = {
 	name = "Popov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2015 = {
 	name = "Popov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2016 = {
 	name = "Popov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2017 = {
 	name = "Sokolov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2018 = {
 	name = "Sokolov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2019 = {
 	name = "Sokolov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2020 = {
 	name = "Sokolov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2021 = {
 	name = "Lebedev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2022 = {
 	name = "Lebedev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2023 = {
 	name = "Lebedev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2024 = {
 	name = "Lebedev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2025 = {
 	name = "Kozlov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2026 = {
 	name = "Kozlov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2027 = {
 	name = "Kozlov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2028 = {
 	name = "Kozlov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2029 = {
 	name = "Novikov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2030 = {
 	name = "Novikov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2031 = {
 	name = "Novikov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2032 = {
 	name = "Novikov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2033 = {
 	name = "Morozov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2034 = {
 	name = "Morozov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2035 = {
 	name = "Morozov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2036 = {
 	name = "Morozov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2037 = {
 	name = "Petrov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2038 = {
 	name = "Petrov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2039 = {
 	name = "Petrov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2040 = {
 	name = "Petrov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2041 = {
 	name = "Volkov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2042 = {
 	name = "Volkov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2043 = {
 	name = "Volkov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2044 = {
 	name = "Volkov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2045 = {
 	name = "Solovyov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2046 = {
 	name = "Solovyov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2047 = {
 	name = "Solovyov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2048 = {
 	name = "Solovyov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2049 = {
 	name = "Vasilyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2050 = {
 	name = "Vasilyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2051 = {
 	name = "Vasilyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2052 = {
 	name = "Vasilyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2053 = {
 	name = "Zaytsev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2054 = {
 	name = "Zaytsev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2055 = {
 	name = "Zaytsev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2056 = {
 	name = "Zaytsev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2057 = {
 	name = "Pavlov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2058 = {
 	name = "Pavlov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2059 = {
 	name = "Pavlov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2060 = {
 	name = "Pavlov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2061 = {
 	name = "Semyonov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2062 = {
 	name = "Semyonov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2063 = {
 	name = "Semyonov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2064 = {
 	name = "Semyonov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2065 = {
 	name = "Golubev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2066 = {
 	name = "Golubev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2067 = {
 	name = "Golubev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2068 = {
 	name = "Golubev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2069 = {
 	name = "Vinogradov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2070 = {
 	name = "Vinogradov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2071 = {
 	name = "Vinogradov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2072 = {
 	name = "Vinogradov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2073 = {
 	name = "Bogdanov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2074 = {
 	name = "Bogdanov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2075 = {
 	name = "Bogdanov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2076 = {
 	name = "Bogdanov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2077 = {
 	name = "Vorbyov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2078 = {
 	name = "Vorbyov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2079 = {
 	name = "Vorbyov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2080 = {
 	name = "Vorbyov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2081 = {
 	name = "Avdeyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2082 = {
 	name = "Avdeyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2083 = {
 	name = "Avdeyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2084 = {
 	name = "Avdeyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2085 = {
 	name = "Alexandrov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2086 = {
 	name = "Alexandrov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2087 = {
 	name = "Alexandrov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2088 = {
 	name = "Alexandrov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2089 = {
 	name = "Aptekar"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2090 = {
 	name = "Aptekar"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2091 = {
 	name = "Aptekar"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2092 = {
 	name = "Aptekar"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2093 = {
 	name = "Artyomov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2094 = {
 	name = "Artyomov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2095 = {
 	name = "Artyomov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2096 = {
 	name = "Artyomov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2097 = {
 	name = "Baburin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2098 = {
 	name = "Baburin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2099 = {
 	name = "Baburin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2100 = {
 	name = "Baburin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2101 = {
 	name = "Belinsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2102 = {
 	name = "Belinsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2103 = {
 	name = "Belinsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2104 = {
 	name = "Belinsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2105 = {
 	name = "Berezhnoy"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2106 = {
 	name = "Berezhnoy"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2107 = {
 	name = "Berezhnoy"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2108 = {
 	name = "Berezhnoy"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2109 = {
 	name = "Bogomolov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2110 = {
 	name = "Bogomolov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2111 = {
 	name = "Bogomolov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2112 = {
 	name = "Bogomolov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2113 = {
 	name = "Burkov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2114 = {
 	name = "Burkov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2115 = {
 	name = "Burkov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2116 = {
 	name = "Burkov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2117 = {
 	name = "Vasin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2118 = {
 	name = "Vasin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2119 = {
 	name = "Vasin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2120 = {
 	name = "Vasin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2121 = {
 	name = "Vereshchagin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2122 = {
 	name = "Vereshchagin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2123 = {
 	name = "Vereshchagin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2124 = {
 	name = "Vereshchagin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2125 = {
 	name = "Vinogradov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2126 = {
 	name = "Vinogradov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2127 = {
 	name = "Vinogradov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2128 = {
 	name = "Vinogradov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2129 = {
 	name = "Voronin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2130 = {
 	name = "Voronin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2131 = {
 	name = "Voronin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2132 = {
 	name = "Voronin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2133 = {
 	name = "Gagarin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2134 = {
 	name = "Gagarin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2135 = {
 	name = "Gagarin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2136 = {
 	name = "Gagarin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2137 = {
 	name = "Golovin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2138 = {
 	name = "Golovin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2139 = {
 	name = "Golovin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2140 = {
 	name = "Golovin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2141 = {
 	name = "Grebenshchikov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2142 = {
 	name = "Grebenshchikov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2143 = {
 	name = "Grebenshchikov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2144 = {
 	name = "Grebenshchikov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2145 = {
 	name = "Grigoryev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2146 = {
 	name = "Grigoryev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2147 = {
 	name = "Grigoryev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2148 = {
 	name = "Grigoryev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2149 = {
 	name = "Dorofeyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2150 = {
 	name = "Dorofeyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2151 = {
 	name = "Dorofeyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2152 = {
 	name = "Dorofeyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2153 = {
 	name = "Dolgorukov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2154 = {
 	name = "Dolgorukov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2155 = {
 	name = "Dolgorukov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2156 = {
 	name = "Dolgorukov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2157 = {
 	name = "Dubinin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2158 = {
 	name = "Dubinin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2159 = {
 	name = "Dubinin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2160 = {
 	name = "Dubinin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2161 = {
 	name = "Dubrovsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2162 = {
 	name = "Dubrovsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2163 = {
 	name = "Dubrovsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2164 = {
 	name = "Dubrovsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2165 = {
 	name = "Yevseyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2166 = {
 	name = "Yevseyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2167 = {
 	name = "Yevseyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2168 = {
 	name = "Yevseyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2169 = {
 	name = "Yeltsin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2170 = {
 	name = "Yeltsin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2171 = {
 	name = "Yeltsin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2172 = {
 	name = "Yeltsin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2173 = {
 	name = "Yermakov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2174 = {
 	name = "Yermakov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2175 = {
 	name = "Yermakov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2176 = {
 	name = "Yermakov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2177 = {
 	name = "Yefimov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2178 = {
 	name = "Yefimov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2179 = {
 	name = "Yefimov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2180 = {
 	name = "Yefimov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2181 = {
 	name = "Yozhikov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2182 = {
 	name = "Yozhikov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2183 = {
 	name = "Yozhikov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2184 = {
 	name = "Yozhikov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2185 = {
 	name = "Yolkin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2186 = {
 	name = "Yolkin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2187 = {
 	name = "Yolkin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2188 = {
 	name = "Yolkin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2189 = {
 	name = "Yolkov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2190 = {
 	name = "Yolkov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2191 = {
 	name = "Yolkov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2192 = {
 	name = "Yolkov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2193 = {
 	name = "Zhdanov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2194 = {
 	name = "Zhdanov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2195 = {
 	name = "Zhdanov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2196 = {
 	name = "Zhdanov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2197 = {
 	name = "Zherdev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2198 = {
 	name = "Zherdev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2199 = {
 	name = "Zherdev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2200 = {
 	name = "Zherdev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2201 = {
 	name = "Zhirov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2202 = {
 	name = "Zhirov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2203 = {
 	name = "Zhirov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2204 = {
 	name = "Zhirov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2205 = {
 	name = "Zhukov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2206 = {
 	name = "Zhukov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2207 = {
 	name = "Zhukov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2208 = {
 	name = "Zhukov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2209 = {
 	name = "Zadornov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2210 = {
 	name = "Zadornov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2211 = {
 	name = "Zadornov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2212 = {
 	name = "Zadornov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2213 = {
 	name = "Zaporozhets"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2214 = {
 	name = "Zaporozhets"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2215 = {
 	name = "Zaporozhets"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2216 = {
 	name = "Zaporozhets"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2217 = {
 	name = "Zubarev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2218 = {
 	name = "Zubarev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2219 = {
 	name = "Zubarev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2220 = {
 	name = "Zubarev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2221 = {
 	name = "Zinchenko"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2222 = {
 	name = "Zinchenko"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2223 = {
 	name = "Zinchenko"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2224 = {
 	name = "Zinchenko"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2225 = {
 	name = "Ignatyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2226 = {
 	name = "Ignatyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2227 = {
 	name = "Ignatyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2228 = {
 	name = "Ignatyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2229 = {
 	name = "Illyn"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2230 = {
 	name = "Illyn"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2231 = {
 	name = "Illyn"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2232 = {
 	name = "Illyn"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2233 = {
 	name = "Isayev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2234 = {
 	name = "Isayev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2235 = {
 	name = "Isayev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2236 = {
 	name = "Isayev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2237 = {
 	name = "Kalashnik"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2238 = {
 	name = "Kalashnik"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2239 = {
 	name = "Kalashnik"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2240 = {
 	name = "Kalashnik"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2241 = {
 	name = "Kazakov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2242 = {
 	name = "Kazakov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2243 = {
 	name = "Kazakov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2244 = {
 	name = "Kazakov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2245 = {
 	name = "Kirilov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2246 = {
 	name = "Kirilov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2247 = {
 	name = "Kirilov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2248 = {
 	name = "Kirilov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2249 = {
 	name = "Kedrov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2250 = {
 	name = "Kedrov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2251 = {
 	name = "Kedrov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2252 = {
 	name = "Kedrov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2253 = {
 	name = "Kovalenko"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2254 = {
 	name = "Kovalenko"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2255 = {
 	name = "Kovalenko"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2256 = {
 	name = "Kovalenko"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2257 = {
 	name = "Komissarov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2258 = {
 	name = "Komissarov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2259 = {
 	name = "Komissarov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2260 = {
 	name = "Komissarov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2261 = {
 	name = "Korovin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2262 = {
 	name = "Korovin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2263 = {
 	name = "Korovin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2264 = {
 	name = "Korovin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2265 = {
 	name = "Korotkov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2266 = {
 	name = "Korotkov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2267 = {
 	name = "Korotkov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2268 = {
 	name = "Korotkov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2269 = {
 	name = "Kotov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2270 = {
 	name = "Kotov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2271 = {
 	name = "Kotov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2272 = {
 	name = "Kotov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2273 = {
 	name = "Kravchuk"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2274 = {
 	name = "Kravchuk"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2275 = {
 	name = "Kravchuk"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2276 = {
 	name = "Kravchuk"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2277 = {
 	name = "Kruglov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2278 = {
 	name = "Kruglov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2279 = {
 	name = "Kruglov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2280 = {
 	name = "Kruglov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2281 = {
 	name = "Kudrin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2282 = {
 	name = "Kudrin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2283 = {
 	name = "Kudrin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2284 = {
 	name = "Kudrin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2285 = {
 	name = "Kulikov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2286 = {
 	name = "Kulikov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2287 = {
 	name = "Kulikov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2288 = {
 	name = "Kulikov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2289 = {
 	name = "Kutepov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2290 = {
 	name = "Kutepov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2291 = {
 	name = "Kutepov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2292 = {
 	name = "Kutepov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2293 = {
 	name = "Lapin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2294 = {
 	name = "Lapin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2295 = {
 	name = "Lapin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2296 = {
 	name = "Lapin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2297 = {
 	name = "Leonidov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2298 = {
 	name = "Leonidov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2299 = {
 	name = "Leonidov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2300 = {
 	name = "Leonidov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2301 = {
 	name = "Loban"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2302 = {
 	name = "Loban"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2303 = {
 	name = "Loban"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2304 = {
 	name = "Loban"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2305 = {
 	name = "Lomonosov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2306 = {
 	name = "Lomonosov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2307 = {
 	name = "Lomonosov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2308 = {
 	name = "Lomonosov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2309 = {
 	name = "Lvov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2310 = {
 	name = "Lvov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2311 = {
 	name = "Lvov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2312 = {
 	name = "Lvov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2313 = {
 	name = "Malyshev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2314 = {
 	name = "Malyshev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2315 = {
 	name = "Malyshev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2316 = {
 	name = "Malyshev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2317 = {
 	name = "Medvedev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2318 = {
 	name = "Medvedev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2319 = {
 	name = "Medvedev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2320 = {
 	name = "Medvedev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2321 = {
 	name = "Mikhaylov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2322 = {
 	name = "Mikhaylov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2323 = {
 	name = "Mikhaylov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2324 = {
 	name = "Mikhaylov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2325 = {
 	name = "Moskvin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2326 = {
 	name = "Moskvin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2327 = {
 	name = "Moskvin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2328 = {
 	name = "Moskvin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2329 = {
 	name = "Nazarov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2330 = {
 	name = "Nazarov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2331 = {
 	name = "Nazarov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2332 = {
 	name = "Nazarov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2333 = {
 	name = "Nikitin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2334 = {
 	name = "Nikitin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2335 = {
 	name = "Nikitin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2336 = {
 	name = "Nikitin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2337 = {
 	name = "Norin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2338 = {
 	name = "Norin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2339 = {
 	name = "Norin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2340 = {
 	name = "Norin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2341 = {
 	name = "Obolensky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2342 = {
 	name = "Obolensky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2343 = {
 	name = "Obolensky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2344 = {
 	name = "Obolensky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2345 = {
 	name = "Ozerov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2346 = {
 	name = "Ozerov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2347 = {
 	name = "Ozerov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2348 = {
 	name = "Ozerov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2349 = {
 	name = "Orlov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2350 = {
 	name = "Orlov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2351 = {
 	name = "Orlov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2352 = {
 	name = "Orlov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2353 = {
 	name = "Ostrovsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2354 = {
 	name = "Ostrovsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2355 = {
 	name = "Ostrovsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2356 = {
 	name = "Ostrovsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2357 = {
 	name = "Panin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2358 = {
 	name = "Panin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2359 = {
 	name = "Panin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2360 = {
 	name = "Panin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2361 = {
 	name = "Panfilov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2362 = {
 	name = "Panfilov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2363 = {
 	name = "Panfilov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2364 = {
 	name = "Panfilov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2365 = {
 	name = "Pasternak"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2366 = {
 	name = "Pasternak"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2367 = {
 	name = "Pasternak"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2368 = {
 	name = "Pasternak"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2369 = {
 	name = "Pirogov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2370 = {
 	name = "Pirogov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2371 = {
 	name = "Pirogov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2372 = {
 	name = "Pirogov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2373 = {
 	name = "Platonov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2374 = {
 	name = "Platonov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2375 = {
 	name = "Platonov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2376 = {
 	name = "Platonov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2377 = {
 	name = "Pozharsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2378 = {
 	name = "Pozharsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2379 = {
 	name = "Pozharsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2380 = {
 	name = "Pozharsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2381 = {
 	name = "Polunin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2382 = {
 	name = "Polunin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2383 = {
 	name = "Polunin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2384 = {
 	name = "Polunin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2385 = {
 	name = "Potyomkin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2386 = {
 	name = "Potyomkin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2387 = {
 	name = "Potyomkin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2388 = {
 	name = "Potyomkin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2389 = {
 	name = "Preobrazhensky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2390 = {
 	name = "Preobrazhensky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2391 = {
 	name = "Preobrazhensky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2392 = {
 	name = "Preobrazhensky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2393 = {
 	name = "Primakov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2394 = {
 	name = "Primakov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2395 = {
 	name = "Primakov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2396 = {
 	name = "Primakov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2397 = {
 	name = "Putin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2398 = {
 	name = "Putin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2399 = {
 	name = "Putin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2400 = {
 	name = "Putin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2401 = {
 	name = "Razin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2402 = {
 	name = "Razin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2403 = {
 	name = "Razin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2404 = {
 	name = "Razin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2405 = {
 	name = "Rogov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2406 = {
 	name = "Rogov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2407 = {
 	name = "Rogov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2408 = {
 	name = "Rogov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2409 = {
 	name = "Rumyantsev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2410 = {
 	name = "Rumyantsev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2411 = {
 	name = "Rumyantsev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2412 = {
 	name = "Rumyantsev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2413 = {
 	name = "Rybakov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2414 = {
 	name = "Rybakov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2415 = {
 	name = "Rybakov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2416 = {
 	name = "Rybakov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2417 = {
 	name = "Sadovsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2418 = {
 	name = "Sadovsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2419 = {
 	name = "Sadovsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2420 = {
 	name = "Sadovsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2421 = {
 	name = "Samsonov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2422 = {
 	name = "Samsonov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2423 = {
 	name = "Samsonov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2424 = {
 	name = "Samsonov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2425 = {
 	name = "Seleznyov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2426 = {
 	name = "Seleznyov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2427 = {
 	name = "Seleznyov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2428 = {
 	name = "Seleznyov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2429 = {
 	name = "Sergeyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2430 = {
 	name = "Sergeyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2431 = {
 	name = "Sergeyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2432 = {
 	name = "Sergeyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2433 = {
 	name = "Sidorov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2434 = {
 	name = "Sidorov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2435 = {
 	name = "Sidorov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2436 = {
 	name = "Sidorov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2437 = {
 	name = "Simonov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2438 = {
 	name = "Simonov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2439 = {
 	name = "Simonov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2440 = {
 	name = "Simonov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2441 = {
 	name = "Sobolev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2442 = {
 	name = "Sobolev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2443 = {
 	name = "Sobolev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2444 = {
 	name = "Sobolev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2445 = {
 	name = "Sobchak"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2446 = {
 	name = "Sobchak"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2447 = {
 	name = "Sobchak"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2448 = {
 	name = "Sobchak"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2449 = {
 	name = "Solomonov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2450 = {
 	name = "Solomonov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2451 = {
 	name = "Solomonov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2452 = {
 	name = "Solomonov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2453 = {
 	name = "Stepanov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2454 = {
 	name = "Stepanov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2455 = {
 	name = "Stepanov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2456 = {
 	name = "Stepanov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2457 = {
 	name = "Suvorov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2458 = {
 	name = "Suvorov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2459 = {
 	name = "Suvorov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2460 = {
 	name = "Suvorov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2461 = {
 	name = "Syosyev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2462 = {
 	name = "Syosyev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2463 = {
 	name = "Syosyev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2464 = {
 	name = "Syosyev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2465 = {
 	name = "Tamarkin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2466 = {
 	name = "Tamarkin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2467 = {
 	name = "Tamarkin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2468 = {
 	name = "Tamarkin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2469 = {
 	name = "Tereshchenko"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2470 = {
 	name = "Tereshchenko"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2471 = {
 	name = "Tereshchenko"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2472 = {
 	name = "Tereshchenko"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2473 = {
 	name = "Travkin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2474 = {
 	name = "Travkin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2475 = {
 	name = "Travkin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2476 = {
 	name = "Travkin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2477 = {
 	name = "Treyakov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2478 = {
 	name = "Treyakov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2479 = {
 	name = "Treyakov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2480 = {
 	name = "Treyakov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2481 = {
 	name = "Uvarov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2482 = {
 	name = "Uvarov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2483 = {
 	name = "Uvarov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2484 = {
 	name = "Uvarov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2485 = {
 	name = "Ulanov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2486 = {
 	name = "Ulanov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2487 = {
 	name = "Ulanov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2488 = {
 	name = "Ulanov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2489 = {
 	name = "Usilov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2490 = {
 	name = "Usilov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2491 = {
 	name = "Usilov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2492 = {
 	name = "Usilov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2493 = {
 	name = "Uspensky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2494 = {
 	name = "Uspensky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2495 = {
 	name = "Uspensky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2496 = {
 	name = "Uspensky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2497 = {
 	name = "Fedotov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2498 = {
 	name = "Fedotov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2499 = {
 	name = "Fedotov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2500 = {
 	name = "Fedotov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2501 = {
 	name = "Filatov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2502 = {
 	name = "Filatov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2503 = {
 	name = "Filatov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2504 = {
 	name = "Filatov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2505 = {
 	name = "Fokin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2506 = {
 	name = "Fokin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2507 = {
 	name = "Fokin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2508 = {
 	name = "Fokin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2509 = {
 	name = "Firsov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2510 = {
 	name = "Firsov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2511 = {
 	name = "Firsov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2512 = {
 	name = "Firsov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2513 = {
 	name = "Khabarov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2514 = {
 	name = "Khabarov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2515 = {
 	name = "Khabarov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2516 = {
 	name = "Khabarov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2517 = {
 	name = "Kharlamov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2518 = {
 	name = "Kharlamov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2519 = {
 	name = "Kharlamov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2520 = {
 	name = "Kharlamov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2521 = {
 	name = "Khlebnikov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2522 = {
 	name = "Khlebnikov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2523 = {
 	name = "Khlebnikov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2524 = {
 	name = "Khlebnikov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2525 = {
 	name = "Khrushchyov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2526 = {
 	name = "Khrushchyov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2527 = {
 	name = "Khrushchyov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2528 = {
 	name = "Khrushchyov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2529 = {
 	name = "Tsaritsyn"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2530 = {
 	name = "Tsaritsyn"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2531 = {
 	name = "Tsaritsyn"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2532 = {
 	name = "Tsaritsyn"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2533 = {
 	name = "Tseydlits"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2534 = {
 	name = "Tseydlits"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2535 = {
 	name = "Tseydlits"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2536 = {
 	name = "Tseydlits"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2537 = {
 	name = "Tsiolkovsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2538 = {
 	name = "Tsiolkovsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2539 = {
 	name = "Tsiolkovsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2540 = {
 	name = "Tsiolkovsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2541 = {
 	name = "Tsulukidze"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2542 = {
 	name = "Tsulukidze"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2543 = {
 	name = "Tsulukidze"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2544 = {
 	name = "Tsulukidze"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2545 = {
 	name = "Chebotaryov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2546 = {
 	name = "Chebotaryov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2547 = {
 	name = "Chebotaryov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2548 = {
 	name = "Chebotaryov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2549 = {
 	name = "Chernov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2550 = {
 	name = "Chernov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2551 = {
 	name = "Chernov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2552 = {
 	name = "Chernov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2553 = {
 	name = "Chekhov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2554 = {
 	name = "Chekhov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2555 = {
 	name = "Chekhov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2556 = {
 	name = "Chekhov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2557 = {
 	name = "Churkin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2558 = {
 	name = "Churkin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2559 = {
 	name = "Churkin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2560 = {
 	name = "Churkin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2561 = {
 	name = "Shaposhniko"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2562 = {
 	name = "Shaposhniko"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2563 = {
 	name = "Shaposhniko"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2564 = {
 	name = "Shaposhniko"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2565 = {
 	name = "Shigin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2566 = {
 	name = "Shigin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2567 = {
 	name = "Shigin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2568 = {
 	name = "Shigin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2569 = {
 	name = "Shirokov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2570 = {
 	name = "Shirokov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2571 = {
 	name = "Shirokov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2572 = {
 	name = "Shirokov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2573 = {
 	name = "Shuysky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2574 = {
 	name = "Shuysky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2575 = {
 	name = "Shuysky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2576 = {
 	name = "Shuysky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2577 = {
 	name = "Elkin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2578 = {
 	name = "Elkin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2579 = {
 	name = "Elkin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2580 = {
 	name = "Elkin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2581 = {
 	name = "Engalychev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2582 = {
 	name = "Engalychev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2583 = {
 	name = "Engalychev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2584 = {
 	name = "Engalychev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2585 = {
 	name = "Entin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2586 = {
 	name = "Entin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2587 = {
 	name = "Entin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2588 = {
 	name = "Entin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2589 = {
 	name = "Yudin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2590 = {
 	name = "Yudin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2591 = {
 	name = "Yudin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2592 = {
 	name = "Yudin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2593 = {
 	name = "Yumashev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2594 = {
 	name = "Yumashev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2595 = {
 	name = "Yumashev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2596 = {
 	name = "Yumashev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2597 = {
 	name = "Yuryev"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2598 = {
 	name = "Yuryev"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2599 = {
 	name = "Yuryev"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2600 = {
 	name = "Yuryev"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2601 = {
 	name = "Yazov"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2602 = {
 	name = "Yazov"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2603 = {
 	name = "Yazov"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2604 = {
 	name = "Yazov"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2605 = {
 	name = "Yakubovich"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2606 = {
 	name = "Yakubovich"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2607 = {
 	name = "Yakubovich"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2608 = {
 	name = "Yakubovich"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2609 = {
 	name = "Yaroslavsky"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2610 = {
 	name = "Yaroslavsky"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2611 = {
 	name = "Yaroslavsky"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2612 = {
 	name = "Yaroslavsky"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }
 2613 = {
 	name = "Yashin"
-	culture = russo_terran
+	culture="russo_terran" 
+ religion="terran_republican"
 }
 2614 = {
 	name = "Yashin"
-	culture = russo_centauri
+	culture="russo_centauri" 
+ religion="terran_republican"
 }
 2615 = {
 	name = "Yashin"
-	culture = russo_strugatskite
+	culture="russo_strugatskite" 
+ religion="neo_socialist"
 }
 2616 = {
 	name = "Yashin"
-	culture = russo_edemite
+	culture="russo_edemite" 
+ religion="astrist"
 }

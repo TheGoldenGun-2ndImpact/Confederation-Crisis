@@ -1,195 +1,243 @@
 #######################################
 1 = {
 	#Historic
-	name = "Marschall"
-	culture = terran_terran
+	name="Marschall"
+	culture="terran_terran"
+	religion="terran_republican"
 	used_for_random = no
 }
 #######################################
+#All of these were marked as Neo-Feudal to save time. When we get more religion-specific COA sets, I'll back and change these.
 14833 = {
-	name = "Romanov"
-	culture = russo_terran
+	name="Romanov"
+	culture="russo_terran"
+	religion="neo_feudal"
 }
 20019 = {
-	name = "Locksley"
-	culture = anglo_avalonian
+	name="Locksley"
+	culture="anglo_avalonian"
+	religion="neo_feudal"
 }
 20020 = {
-	name = "Pendragon"
-	culture = anglo_avalonian
+	name="Pendragon"
+	culture="anglo_avalonian"
+	religion="neo_feudal"
 	used_for_random = no
 }
 20021 = {
-	name = "Barfield"
-	culture = anglo_avalonian
+	name="Barfield"
+	culture="anglo_avalonian"
+	religion="neo_feudal"
 	used_for_random = no
 }
 20022 = {
-	name = "Forrófeju"
-	culture = anglo_avalonian
+	name="Forrófeju"
+	culture="anglo_avalonian"
+	religion="neo_feudal"
 	used_for_random = no
 }
 20025 = {
-	name = "Lim"
-	culture = sino_bianjiangese
+	name="Lim"
+	culture="sino_bianjiangese"
+	religion="neo_feudal"
 }
 20030 = {
-	name = "Shepard"
-	culture = anglo_avalonian
+	name="Shepard"
+	culture="anglo_avalonian"
+	religion="neo_feudal"
 }
 20031 = {
-	name = "Aali"
-	culture = indo_tarkan
+	name="Aali"
+	culture="indo_tarkan"
+	religion="neo_feudal"
 }
 20032 = {
-	name = "Darvish"
-	culture = iranian_samawati
+	name="Darvish"
+	culture="iranian_samawati"
+	religion="neo_feudal"
 }
 20033 = {
-	name = "Bhari"
-	culture = indo_mukta
+	name="Bhari"
+	culture="indo_mukta"
+	religion="neo_feudal"
 }
 20034 = {
-	name = "Castellano"
-	culture = hispanic_celestean
+	name="Castellano"
+	culture="hispanic_celestean"
+	religion="neo_feudal"
 }
 20035 = {
-	name = "Bird"
-	culture = anglo_avalonian
+	name="Bird"
+	culture="anglo_avalonian"
+	religion="neo_feudal"
 }
 20036 = {
-	name = "Pansota"
-	culture = indo_mukta
+	name="Pansota"
+	culture="indo_mukta"
+	religion="neo_feudal"
 }
 20037 = {
-	name = "Hawsawi"
-	culture = arab_samawati
+	name="Hawsawi"
+	culture="arab_samawati"
+	religion="neo_feudal"
 }
 20038 = {
-	name = "Tehrani"
-	culture = iranian_samawati
+	name="Tehrani"
+	culture="iranian_samawati"
+	religion="neo_feudal"
 }
 20039 = {
-	name = "Dibla"
-	culture = indo_tarkan
+	name="Dibla"
+	culture="indo_tarkan"
+	religion="neo_feudal"
 }
 20040 = {
-	name = "Hawking"
-	culture = anglo_frontiersman
+	name="Hawking"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20041 = {
-	name = "Bullock"
-	culture = anglo_frontiersman
+	name="Bullock"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20042 = {
-	name = "Cameron"
-	culture = anglo_frontiersman
+	name="Cameron"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20043 = {
-	name = "Davis"
-	culture = anglo_frontiersman
+	name="Davis"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20044 = {
-	name = "Ishikawa"
-	culture = japanese_tengoku
+	name="Ishikawa"
+	culture="japanese_tengoku"
+	religion="neo_feudal"
 }
 20045 = {
-	name = "Omosun"
-	culture = west_afro_angani
+	name="Omosun"
+	culture="west_afro_angani"
+	religion="neo_feudal"
 }
 20046 = {
-	name = "Butler"
-	culture = anglo_frontiersman
+	name="Butler"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20047 = {
-	name = "Clifford"
-	culture = anglo_frontiersman
+	name="Clifford"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20048 = {
-	name = "Curtis"
-	culture = anglo_frontiersman
+	name="Curtis"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20049 = {
-	name = "Draper"
-	culture = anglo_frontiersman
+	name="Draper"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20050 = {
-	name = "Elliott"
-	culture = anglo_frontiersman
+	name="Elliott"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20051 = {
-	name = "Gardener"
-	culture = anglo_frontiersman
+	name="Gardener"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20052 = {
-	name = "Vasilyev"
-	culture = russo_centauri
+	name="Vasilyev"
+	culture="russo_centauri"
+	religion="neo_feudal"
 }
 20053 = {
-	name = "Foster"
-	culture = anglo_frontiersman
+	name="Foster"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20054 = {
-	name = "Everett"
-	culture = anglo_frontiersman
+	name="Everett"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20055 = {
-	name = "Himura"
-	culture = japanese_tengoku
+	name="Himura"
+	culture="japanese_tengoku"
+	religion="neo_feudal"
 }
 20056 = {
-	name = "Fletcher"
-	culture = anglo_frontiersman
+	name="Fletcher"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20057 = {
-	name = "Hargrave"
-	culture = anglo_frontiersman
+	name="Hargrave"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20058 = {
-	name = "Letourneau"
-	culture = anglo_frontiersman
+	name="Letourneau"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20059 = {
-	name = "Josephs"
-	culture = anglo_frontiersman
+	name="Josephs"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20060 = {
-	name = "Havelock"
-	culture = anglo_frontiersman
+	name="Havelock"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20061 = {
-	name = "Shizuka"
-	culture = japanese_tengoku
+	name="Shizuka"
+	culture="japanese_tengoku"
+	religion="neo_feudal"
 }
 20062 = {
-	name = "Smith"
-	culture = anglo_frontiersman
+	name="Smith"
+	culture="anglo_frontiersman"
+	religion="neo_feudal"
 }
 20063 = {
-	name = "Baranovsky"
-	culture = russo_edemite
+	name="Baranovsky"
+	culture="russo_edemite"
+	religion="neo_feudal"
 }
 20064 = {
-	name = "Yu"
-	culture = sino_bianjiangese
+	name="Yu"
+	culture="sino_bianjiangese"
+	religion="neo_feudal"
 }
 20065 = {
-	name = "Cabrera"
-	culture = hispanic_celestean
+	name="Cabrera"
+	culture="hispanic_celestean"
+	religion="neo_feudal"
 }
 20066 = {
-	name = "Dorofeyev"
-	culture = russo_edemite
+	name="Dorofeyev"
+	culture="russo_edemite"
+	religion="neo_feudal"
 }
 20067 = {
-	name = "Feng"
-	culture = sino_bianjiangese
+	name="Feng"
+	culture="sino_bianjiangese"
+	religion="neo_feudal"
 }
 20068 = {
-	name = "Varundra"
-	culture = indo_mukta
+	name="Varundra"
+	culture="indo_mukta"
+	religion="neo_feudal"
 }
 20074 = {
-	name = "Shaeffer"
-	culture = outerrim
+	name="Shaeffer"
+	culture="outerrim"
+	religion="neo_feudal"
 }

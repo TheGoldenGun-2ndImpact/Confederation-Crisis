@@ -4,53 +4,122 @@ culture =
 		"terran_federalist"
 		"terran_republican"
 		"colonial_separatist"
+		"terran_imperial"
+		"neo_feudal"
+		"astrist"
+		"space_pirate"
+		"mobster"
+		"orthodox"
+		"pilgrim"
+		"solarian"
+		"solar_cultist"
+		"terran_imperial_cult"
+		"adoptionist"
+		"adoptionist_cultist"
+		"xenoterran"
+		"imperial_cult"
+		"old_world_religion"
+		"cyberneticist"
+		"machine_cultist"
+		"hiver"
+		"bio_directionist"
 	}
 
 	templates = { 
-		"coa_plain_pagan:1"
+		"coa_plain:1"
+		"coa_party_per_fess:2"
+		"coa_party_per_pale:2"
+		"coa_party_per_cross:4"
+		"coa_party_triangle:3"
 	}
 
 	color = {
-		{ 255 255 255 }	#0		White
-		{ 255 0 0 }		#1		Red
-		{ 0 255 0 }		#2		Green
-		{ 0 0 255 }		#3		Blue
-		{ 255 255 0 }	#4		Yellow
-		{ 0 0 0 }		#5		Black
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
 	}
 	
-	rebel_colors = { 0 1 3 }
+	rebel_colors = { 3 5 7 }
 
 	banned_colors = 
-	{
-		{ 0 }	#0
-		{ 1 }	#1
-		{ 2 }	#2
-		{ 3 }	#3
-		{ 4 }	#4
-		{ 5 }	#5
+	{ 
+		{ 0 1 }						#0		
+		{ 0 1 9}					#1		
+		{ 2 3 4 6 7 8 9 12 14 }		#2		
+		{ 2 3 4 7 9 10  }			#3		
+		{ 2 4 6 7 9 10 13 14}		#4		
+		{ 5 10 14 15}				#5		
+		{ 2 4 6 10 11 12 }			#6		
+		{ 2 3 4 7 8 10 13 }			#7		
+		{ 2 4 6 7 8 9 }				#8		
+		{ 2 3 4 8 9 10 11 13 }		#9		
+		{ 3 4 5 6 7 9 10 }			#10		
+		{ 6 9 11 }					#11
+		{ 6 12 }					#12
+		{ 4 7 9 13 14 }				#13
+		{ 2 4 13 14 }				#14
 	}
 	
 	emblem = {
-		file = "gfx\\coats_of_arms\\Emblem.tga"
+		file = "gfx\\coats_of_arms\\emblem.tga"
 		noOfFrames = 25
 	}
 
 	# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	textures = {
 		texture = {
-			file = "gfx\\coats_of_arms\\pattern2.tga"
-			size = { x = 10 y = 3 }
-			noOfFrames = 22
-			color = 3
-			emblem = no
+			file = "gfx\\coats_of_arms\\pattern.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 47
+			color = 2
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern2.tga"
 			size = { x = 10 y = 3 }
 			noOfFrames = 22
 			color = 3
-			emblem = yes
+			emblem_chance = 30
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern3.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 44
+			color = 3
+			emblem = no
+		}
+		
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties.tga"
+			size = { x = 16 y = 4 }
+			noOfFrames = 51
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern4.tga"
+			size = { x = 10 y = 5 }
+			noOfFrames = 45
+			color = 2
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties2.tga"
+			size = { x = 16 y = 4 }
+			noOfFrames = 50
+			color = 0
+			random = no # Do not use for random CoAs
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\patricians.tga"
@@ -59,7 +128,34 @@ culture =
 			color = 0
 			random = no # Do not use for random CoAs
 		}
-		
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties3.tga"
+			size = { x = 16 y = 4 }
+			noOfFrames = 51
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties4.tga"
+			size = { x = 16 y = 4 }
+			noOfFrames = 52
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties5.tga"
+			size = { x = 1 y = 1 }
+			noOfFrames = 1
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties_corporate.tga"
+			size = { x = 5 y = 1 }
+			noOfFrames = 5
+			color = 0
+			random = no # Do not use for random CoAs
+		}
 		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
@@ -71,56 +167,62 @@ culture =
 	}
 
 	templates = { 
-		"coa_plain_pagan:1"
+		"coa_plain_indian:1"
 	}
 
 	color = {
-		{ 255 255 255 }	#0		White
-		{ 255 0 0 }		#1		Red
-		{ 255 255 0 }	#2		Yellow
-		{ 0 0 0 }		#3		Black
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
 	}
 	
-	rebel_colors = { 1 2 1 }
-
+	rebel_colors = { 3 5 7 }
+	
 	banned_colors = 
 	{
-		{ 0 2 }	#0
-		{ }		#1
-		{ 0 2 }	#2
-		{ 3 }	#3
-	}
-	
-	emblem = {
-		file = "gfx\\coats_of_arms\\Emblem.tga"
-		noOfFrames = 25
+		{ 0 1 4 9 13 }				# Gold
+		{ 1 0 9 13 }				# White
+		{ 2 4 6 8 9 10 11 12 }		# Dark Green
+		{ 3 4 6 7 8 10 11 }			# Red
+		{ 4 0 2 3 6 8 9 11 12 }		# Green
+		{ 5 6 }						# Black
+		{ 6 2 3 4 5 7 8 9 10 11 12 } # Brown
+		{ 7 3 6 8 10 11 }			# Dark Red
+		{ 8 2 3 4 6 7 9 10 12 }		# Orange
+		{ 9 0 1 2 4 6 8 12 13 }		# Light Green
+		{ 10 2 3 6 7 8 11 }			# Mulberry
+		{ 11 2 3 4 6 7 10 }			# Deep Blue
+		{ 12 2 4 6 8 9  }			# Turqouise
+		{ 13 0 1 9  }				# Silver
 	}
 
-	# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
+	emblem = {
+		file = "gfx\\coats_of_arms\\emblem_muslim.dds"
+		noOfFrames = 1
+	}
+
+	# WHEN ADDING NEW, ALWAYS ADD AT THE END
 	textures = {
 		texture = {
-			file = "gfx\\coats_of_arms\\pattern2.tga"
-			size = { x = 10 y = 3 }
-			noOfFrames = 22
+			file = "gfx\\coats_of_arms\\pattern_neosocialist.tga"
+			size = { x = 10 y = 4 }
+			noOfFrames = 40
 			color = 3
 			emblem = no
+			#random = no
 		}
-		texture = {
-			file = "gfx\\coats_of_arms\\pattern2.tga"
-			size = { x = 10 y = 3 }
-			noOfFrames = 22
-			color = 3
-			emblem = yes
-		}
-		texture = {
-			file = "gfx\\coats_of_arms\\patricians.tga"
-			size = { x = 16 y = 2 }
-			noOfFrames = 25
-			color = 0
-			random = no # Do not use for random CoAs
-		}
-		
-		# WHEN ADDING NEW, ALWAYS ADD AT THE END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111
 	}
 }
 
@@ -191,6 +293,13 @@ culture =
 			noOfFrames = 55
 			color = 3
 			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties4_muslim.tga"
+			size = { x = 3 y = 1 }
+			noOfFrames = 3
+			color = 0
+			random = no # Do not use for random CoAs
 		}
 	}
 }
@@ -280,6 +389,14 @@ culture = {
 			color = 0
 			random = no # Do not use for random CoAs
 		}
+		texture = {
+		# Skara, Kinda, Tiohärad, Sevede, Kiev, Minsk, Vladimir, Volhynia
+			file = "gfx\\coats_of_arms\\pagans2.tga"
+			size = { x = 8 y = 1 }
+			noOfFrames = 8
+			color = 0
+			random = no # Do not use for random CoAs
+		}
 	}
 }
 
@@ -353,6 +470,14 @@ culture = {
 			color = 0
 			random = no # Do not use for random CoAs
 		}
+		texture = {
+		# Skara, Kinda, Tiohärad, Sevede, Kiev, Minsk, Vladimir, Volhynia
+			file = "gfx\\coats_of_arms\\pagans2.tga"
+			size = { x = 8 y = 1 }
+			noOfFrames = 8
+			color = 0
+			random = no # Do not use for random CoAs
+		}
 	}
 }
 
@@ -360,6 +485,7 @@ culture = {
 	religion = {
 		"tengri_pagan_reformed"
 		"tengri_pagan"
+	    "bon"
 	}
 	
 	templates = { 
@@ -369,14 +495,14 @@ culture = {
 	color = {
 		{ 255 231 93 }		# 0		Gold
 		{ 245 245 245 } 	# 1 	White
-		{ 35 101 29 } 		# 2 	Dark Green
-		{ 176 0 0 } 		# 3		Red
+		{ 48 92 164 } 		# 2   	Azure ( Blue)
+		{ 201 43 43 } 		# 3   	Gules (Red)
 		{ 83 141 39 } 		# 4 	Green
 		{ 20 20 20 }		# 5 	Black
 		{ 80 40 0 }			# 6 	Brown
 		{ 130 0 0 }			# 7 	Dark Red
 		{ 205 87 10 }		# 8 	Orange
-		{ 119 201 94 } 		# 9 	Light Green
+		{ 133 194 226 }		# 9		Bleu-Celeste (Sky Blue)
 		{ 128 0 40 }		# 10 	Mulberry
 		{ 15 15 204 }		# 11  	Deep Blue
 		{ 50 153 162 }		# 12	Turqouise
@@ -389,18 +515,18 @@ culture = {
 	{
 		{ 0 1 4 9 13 }				# Gold
 		{ 1 0 9 13 }				# White
-		{ 2 4 6 8 9 10 11 12 }		# Dark Green
-		{ 3 4 6 7 8 10 11 }			# Red
-		{ 4 0 2 3 6 8 9 11 12 }		# Green
+		{ 2 4 6 8 9 10 11 12 }		# Azure ( Blue)
+		{ 3 4 6	 8 10 11 }			# Gules (Red)
+		{ 4 0 2 3 6 8 11 12 }		# Green
 		{ 5 6 }						# Black
-		{ 6 2 3 4 5 7 8 9 10 11 12 } # Brown
-		{ 7 3 6 8 10 11 }			# Dark Red
-		{ 8 2 3 4 6 7 9 10 12 }		# Orange
-		{ 9 0 1 2 4 6 8 12 13 }		# Light Green
+		{ 6 2 3 4 5 7 8 10 11 12 }  # Brown
+		{ 7 6 8 10 11 }				# Dark Red
+		{ 8 2 3 4 6 7 10 12 }		# Orange
+		{ 9 0 1 2 12 }				# Bleu-Celeste (Sky Blue)
 		{ 10 2 3 6 7 8 11 }			# Mulberry
 		{ 11 2 3 4 6 7 10 }			# Deep Blue
 		{ 12 2 4 6 8 9  }			# Turqouise
-		{ 13 0 1 9  }				# Silver
+		{ 13 0 1  }					# Silver
 	}
 
 	emblem = {
@@ -412,15 +538,15 @@ culture = {
 	textures = {
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern_mongol.tga"
-			size = { x = 10 y = 1 }
-			noOfFrames = 10
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
 			color = 2
 			emblem = no
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern2_mongol.tga"
-			size = { x = 10 y = 1 }
-			noOfFrames = 10
+			size = { x = 10 y = 5 }
+			noOfFrames = 50
 			color = 3
 			emblem = no
 		}
@@ -429,6 +555,14 @@ culture = {
 			file = "gfx\\coats_of_arms\\pagans.tga"
 			size = { x = 13 y = 1 }
 			noOfFrames = 13
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+		texture = {
+		# Skara, Kinda, Tiohärad, Sevede, Kiev, Minsk, Vladimir, Volhynia
+			file = "gfx\\coats_of_arms\\pagans2.tga"
+			size = { x = 8 y = 1 }
+			noOfFrames = 8
 			color = 0
 			random = no # Do not use for random CoAs
 		}
@@ -567,14 +701,13 @@ culture =
 			size = { x = 10 y = 5 }
 			noOfFrames = 47
 			color = 2
-			emblem = no
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern2.tga"
 			size = { x = 10 y = 3 }
 			noOfFrames = 22
 			color = 3
-			emblem = no
+			emblem_chance = 30
 		}
 		texture = {
 			file = "gfx\\coats_of_arms\\pattern3.tga"
@@ -596,7 +729,11 @@ culture =
 }
 
 culture = {
-	religion_group = "indian_group"
+	religion = {
+		"buddhist"
+		"hindu"
+		"jain"
+	}
 	
 	templates = { 
 		"coa_plain_indian:1"
@@ -657,6 +794,85 @@ culture = {
 			file = "gfx\\coats_of_arms\\pattern2_indian.tga"
 			size = { x = 10 y = 4 }
 			noOfFrames = 36
+			color = 3
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\dynasties4_indian.tga"
+			size = { x = 2 y = 1 }
+			noOfFrames = 2
+			color = 0
+			random = no # Do not use for random CoAs
+		}
+	}
+}
+
+culture = {
+	religion = {
+		"taoist"
+	}
+	
+	templates = { 
+		"coa_plain_indian:1"
+	}
+
+	color = {
+		{ 255 231 93 }	#0  	Or (Gold)
+		{ 245 245 245 } #1   	Argent (White )
+		{ 48 92 164 } 	#2   	Azure ( Blue)
+		{ 201 43 43 } 	#3   	Gules (Red)
+		{ 131 192 114 } #4   	Vert (Light Green)
+		{ 20 20 20 }	#5   	Sable (Black)
+		{ 129 24 164 }	#6   	Purple
+		{ 113 0 0 }		#7   	Sanguine (Blood Red)
+		{ 205 87 10 }	#8   	Tenné (Tawny aka orange)
+		{ 133 194 226 }	#9		Bleu-Celeste (Sky Blue)
+		{ 128 0 40 }	#10  	Murrey (Mulberry) Burgundy
+		{ 17 53 13 }	#11  	Dark green
+		{ 51 33 20 }	#12  	Brown
+		{ 50 173 192 }	#13  	Turqouise
+		{ 1 182 108 }	#14  	Teal
+	}
+	
+	rebel_colors = { 3 5 7 }
+	
+	banned_colors = 
+	{ 
+		{ 0 1 }						#0		
+		{ 0 1 9}					#1		
+		{ 2 3 4 6 7 8 9 12 14 }		#2		
+		{ 2 3 4 7 9 10  }			#3		
+		{ 2 4 6 7 9 10 13 14}		#4		
+		{ 5 10 14 15}				#5		
+		{ 2 4 6 10 11 12 }			#6		
+		{ 2 3 4 7 8 10 13 }			#7		
+		{ 2 4 6 7 8 9 }				#8		
+		{ 2 3 4 8 9 10 11 13 }		#9		
+		{ 3 4 5 6 7 9 10 }			#10		
+		{ 6 9 11 }					#11
+		{ 6 12 }					#12
+		{ 4 7 9 13 14 }				#13
+		{ 2 4 13 14 }				#14
+	}
+
+	emblem = {
+		file = "gfx\\coats_of_arms\\emblem_muslim.dds"
+		noOfFrames = 1
+	}
+
+	# WHEN ADDING NEW, ALWAYS ADD AT THE END
+	textures = {
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern_china.tga"
+			size = { x = 10 y = 3 }
+			noOfFrames = 26
+			color = 3
+			emblem = no
+		}
+		texture = {
+			file = "gfx\\coats_of_arms\\pattern2_china.tga"
+			size = { x = 10 y = 3 }
+			noOfFrames = 26
 			color = 3
 			emblem = no
 		}

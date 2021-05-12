@@ -9,785 +9,993 @@
 
 1701 = {
 	name = "Sato"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1702 = {
 	name = "Sato"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1703 = {
 	name = "Suzuki"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1704 = {
 	name = "Suzuki"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1705 = {
 	name = "Takahashi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1706 = {
 	name = "Takahashi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1707 = {
 	name = "Tanaka"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1708 = {
 	name = "Tanaka"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1709 = {
 	name = "Watanabe"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1710 = {
 	name = "Watanabe"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1711 = {
 	name = "Ito"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1712 = {
 	name = "Ito"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1713 = {
 	name = "Nakamura"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1714 = {
 	name = "Nakamura"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1715 = {
 	name = "Kobayashi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1716 = {
 	name = "Kobayashi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1717 = {
 	name = "Yamamoto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1718 = {
 	name = "Yamamoto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1719 = {
 	name = "Kato"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1720 = {
 	name = "Kato"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1721 = {
 	name = "Yoshida"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1722 = {
 	name = "Yoshida"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1723 = {
 	name = "Yamada"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1724 = {
 	name = "Yamada"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1725 = {
 	name = "Sasaki"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1726 = {
 	name = "Sasaki"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1727 = {
 	name = "Yamaguchi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1728 = {
 	name = "Yamaguchi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1729 = {
 	name = "Matsumoto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1730 = {
 	name = "Matsumoto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1731 = {
 	name = "Inoue"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1732 = {
 	name = "Inoue"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1733 = {
 	name = "Kimura"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1734 = {
 	name = "Kimura"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1735 = {
 	name = "Shimizu"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1736 = {
 	name = "Shimizu"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1737 = {
 	name = "Hayashi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1738 = {
 	name = "Hayashi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1739 = {
 	name = "Saito"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1740 = {
 	name = "Saito"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1741 = {
 	name = "Yamazaki"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1742 = {
 	name = "Yamazaki"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1743 = {
 	name = "Nakajima"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1744 = {
 	name = "Nakajima"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1745 = {
 	name = "Mori"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1746 = {
 	name = "Mori"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1747 = {
 	name = "Abe"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1748 = {
 	name = "Abe"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1749 = {
 	name = "Ikeda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1750 = {
 	name = "Ikeda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1751 = {
 	name = "Hashimoto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1752 = {
 	name = "Hashimoto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1753 = {
 	name = "Ishikawa"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1754 = {
 	name = "Ishikawa"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1755 = {
 	name = "Yamashita"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1756 = {
 	name = "Yamashita"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1757 = {
 	name = "Ogawa"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1758 = {
 	name = "Ogawa"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1759 = {
 	name = "Ishii"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1760 = {
 	name = "Ishii"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1761 = {
 	name = "Hasegawa"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1762 = {
 	name = "Hasegawa"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1763 = {
 	name = "Goto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1764 = {
 	name = "Goto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1765 = {
 	name = "Okada"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1766 = {
 	name = "Okada"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1767 = {
 	name = "Kondo"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1768 = {
 	name = "Kondo"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1769 = {
 	name = "Maeda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1770 = {
 	name = "Maeda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1771 = {
 	name = "Fujita"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1772 = {
 	name = "Fujita"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1773 = {
 	name = "Endo"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1774 = {
 	name = "Endo"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1775 = {
 	name = "Aoki"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1776 = {
 	name = "Aoki"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1777 = {
 	name = "Sakamoto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1778 = {
 	name = "Sakamoto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1779 = {
 	name = "Murakami"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1780 = {
 	name = "Murakami"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1781 = {
 	name = "Ota"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1782 = {
 	name = "Ota"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1783 = {
 	name = "Kaneko"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1784 = {
 	name = "Kaneko"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1785 = {
 	name = "Fujii"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1786 = {
 	name = "Fujii"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1787 = {
 	name = "Fukuda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1788 = {
 	name = "Fukuda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1789 = {
 	name = "Nishimura"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1790 = {
 	name = "Nishimura"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1791 = {
 	name = "Miura"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1792 = {
 	name = "Miura"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1793 = {
 	name = "Takeuchi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1794 = {
 	name = "Takeuchi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1795 = {
 	name = "Nakagawa"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1796 = {
 	name = "Nakagawa"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1797 = {
 	name = "Okamoto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1798 = {
 	name = "Okamoto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1799 = {
 	name = "Matsuda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1800 = {
 	name = "Matsuda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1801 = {
 	name = "Harada"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1802 = {
 	name = "Harada"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1803 = {
 	name = "Nakano"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1804 = {
 	name = "Nakano"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1805 = {
 	name = "Ono"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1806 = {
 	name = "Ono"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1807 = {
 	name = "Tamura"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1808 = {
 	name = "Tamura"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1809 = {
 	name = "Fujiwara"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1810 = {
 	name = "Fujiwara"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1811 = {
 	name = "Nakayama"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1812 = {
 	name = "Nakayama"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1813 = {
 	name = "Ishida"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1814 = {
 	name = "Ishida"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1815 = {
 	name = "Kojima"
-	culture = japanese_terran
+	culture="japanese_terran" 
+	religion="terran_republican"
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 4
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 1816 = {
 	name = "Kojima"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1817 = {
 	name = "Wada"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1818 = {
 	name = "Wada"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1819 = {
 	name = "Morita"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1820 = {
 	name = "Morita"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1821 = {
 	name = "Uchida"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1822 = {
 	name = "Uchida"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="neo_socialist"
 }
 1823 = {
 	name = "Shibata"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1824 = {
 	name = "Shibata"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1825 = {
 	name = "Sakai"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1826 = {
 	name = "Sakai"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1827 = {
 	name = "Hara"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1828 = {
 	name = "Hara"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1829 = {
 	name = "Takagi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1830 = {
 	name = "Takagi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1831 = {
 	name = "Yokoyama"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1832 = {
 	name = "Yokoyama"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1833 = {
 	name = "Ando"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1834 = {
 	name = "Ando"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1835 = {
 	name = "Miyazaki"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1836 = {
 	name = "Miyazaki"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1837 = {
 	name = "Ueda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1838 = {
 	name = "Ueda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1839 = {
 	name = "Shimada"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1840 = {
 	name = "Shimada"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1841 = {
 	name = "Kudo"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1842 = {
 	name = "Kudo"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1843 = {
 	name = "Miyamoto"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1844 = {
 	name = "Miyamoto"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1845 = {
 	name = "Sugiyama"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1846 = {
 	name = "Sugiyama"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1847 = {
 	name = "Imai"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1848 = {
 	name = "Imai"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1849 = {
 	name = "Maruyama"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1850 = {
 	name = "Maruyama"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1851 = {
 	name = "Masuda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1852 = {
 	name = "Masuda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1853 = {
 	name = "Takada"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1854 = {
 	name = "Takada"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1855 = {
 	name = "Murata"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1856 = {
 	name = "Murata"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1857 = {
 	name = "Hirano"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1858 = {
 	name = "Hirano"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1859 = {
 	name = "Otsuka"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1860 = {
 	name = "Otsuka"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1861 = {
 	name = "Sugawara"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1862 = {
 	name = "Sugawara"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1863 = {
 	name = "Takeda"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1864 = {
 	name = "Takeda"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1865 = {
 	name = "Arai"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1866 = {
 	name = "Arai"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1867 = {
 	name = "Koyama"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1868 = {
 	name = "Koyama"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1869 = {
 	name = "Noguchi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1870 = {
 	name = "Noguchi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1871 = {
 	name = "Sakurai"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1872 = {
 	name = "Sakurai"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1873 = {
 	name = "Chiba"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1874 = {
 	name = "Chiba"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1875 = {
 	name = "Iwasaki"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1876 = {
 	name = "Iwasaki"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1877 = {
 	name = "Sano"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1878 = {
 	name = "Sano"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1879 = {
 	name = "Taniguchi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1880 = {
 	name = "Taniguchi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1881 = {
 	name = "Ueno"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1882 = {
 	name = "Ueno"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1883 = {
 	name = "Matsui"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1884 = {
 	name = "Matsui"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1885 = {
 	name = "Kono"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1886 = {
 	name = "Kono"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1887 = {
 	name = "Ichikawa"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1888 = {
 	name = "Ichikawa"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1889 = {
 	name = "Watanabe"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1890 = {
 	name = "Watanabe"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1891 = {
 	name = "Nomura"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1892 = {
 	name = "Nomura"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1893 = {
 	name = "Kikuchi"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1894 = {
 	name = "Kikuchi"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }
 1895 = {
 	name = "Kinoshita"
-	culture = japanese_terran
+	culture="japanese_terran" 
+ religion="terran_republican"
 }
 1896 = {
 	name = "Kinoshita"
-	culture = japanese_tengoku
+	culture="japanese_tengoku" 
+ religion="astrist"
 }

@@ -8,281 +8,351 @@
 
 1901 = {
 	name = "Acatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1902 = {
 	name = "Acatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1903 = {
 	name = "Atl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1904 = {
 	name = "Atl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1905 = {
 	name = "Calli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1906 = {
 	name = "Calli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1907 = {
 	name = "Cipactli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1908 = {
 	name = "Cipactli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1909 = {
 	name = "Coatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1910 = {
 	name = "Coatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1911 = {
 	name = "Coyotl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1912 = {
 	name = "Coyotl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1913 = {
 	name = "Cozcaquauhtli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1914 = {
 	name = "Cozcaquauhtli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1915 = {
 	name = "Cuetzpalin"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1916 = {
 	name = "Cuetzpalin"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1917 = {
 	name = "Ehecatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1918 = {
 	name = "Ehecatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1919 = {
 	name = "Icpalli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1920 = {
 	name = "Icpalli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1921 = {
 	name = "Itz"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1922 = {
 	name = "Itz"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1923 = {
 	name = "Itzcuintli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1924 = {
 	name = "Itzcuintli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1925 = {
 	name = "Macehualli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1926 = {
 	name = "Macehualli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1927 = {
 	name = "Malinalli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1928 = {
 	name = "Malinalli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1929 = {
 	name = "Mazatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1930 = {
 	name = "Mazatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1931 = {
 	name = "Miquiztli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1932 = {
 	name = "Miquiztli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1933 = {
 	name = "Nezahual"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1934 = {
 	name = "Nezahual"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1935 = {
 	name = "Nochtli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1936 = {
 	name = "Nochtli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1937 = {
 	name = "Ocelotl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1938 = {
 	name = "Ocelotl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1939 = {
 	name = "Ollin"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1940 = {
 	name = "Ollin"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1941 = {
 	name = "Otli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1942 = {
 	name = "Otli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1943 = {
 	name = "Ozomatli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1944 = {
 	name = "Ozomatli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1945 = {
 	name = "Pipiltin"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1946 = {
 	name = "Pipiltin"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1947 = {
 	name = "Pochtecatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1948 = {
 	name = "Pochtecatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1949 = {
 	name = "Quauhtli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1950 = {
 	name = "Quauhtli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1951 = {
 	name = "Quauitl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1952 = {
 	name = "Quauitl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1953 = {
 	name = "Quiautl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1954 = {
 	name = "Quiautl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1955 = {
 	name = "Tecpatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1956 = {
 	name = "Tecpatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1957 = {
 	name = "Tecuhtli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1958 = {
 	name = "Tecuhtli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1959 = {
 	name = "Tepetl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1960 = {
 	name = "Tepetl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1961 = {
 	name = "Tetl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1962 = {
 	name = "Tetl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1963 = {
 	name = "Tlantli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1964 = {
 	name = "Tlantli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1965 = {
 	name = "Tochtli"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1966 = {
 	name = "Tochtli"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1967 = {
 	name = "Toltecatl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1968 = {
 	name = "Toltecatl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }
 1969 = {
 	name = "Xochitl"
-	culture = mesoamerican_terran
+	culture="mesoamerican_terran" 
+ religion="terran_federalist"
 }
 1970 = {
 	name = "Xochitl"
-	culture = mesoamerican_sexto_solar
+	culture="mesoamerican_sexto_solar" 
+ religion="adoptionist_cultist"
 }

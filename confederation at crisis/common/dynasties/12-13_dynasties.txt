@@ -8,129 +8,161 @@
 
 3301 = {
 	name = "Jumaane"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3302 = {
 	name = "Kondo"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3303 = {
 	name = "Simba"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3304 = {
 	name = "Husani"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3305 = {
 	name = "Baraka"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3306 = {
 	name = "Taji"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3307 = {
 	name = "Baraka"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3308 = {
 	name = "Ramadhani"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3309 = {
 	name = "Azize"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3310 = {
 	name = "Kitwana"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3311 = {
 	name = "Mbwana"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3312 = {
 	name = "Hamisi"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3313 = {
 	name = "Elimu"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3314 = {
 	name = "Mbwana"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3315 = {
 	name = "Khalfani"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3316 = {
 	name = "Darweshi"
-	culture = east_afro_angani
+	culture="east_afro_angani" 
+ religion="terran_federalist"
 }
 3317 = {
 	name = "Jumaane"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3318 = {
 	name = "Kondo"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3319 = {
 	name = "Simba"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3320 = {
 	name = "Husani"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3321 = {
 	name = "Baraka"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3322 = {
 	name = "Taji"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3323 = {
 	name = "Baraka"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3324 = {
 	name = "Ramadhani"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3325 = {
 	name = "Azize"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3326 = {
 	name = "Kitwana"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3327 = {
 	name = "Mbwana"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3328 = {
 	name = "Hamisi"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3329 = {
 	name = "Elimu"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3330 = {
 	name = "Mbwana"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3331 = {
 	name = "Khalfani"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }
 3332 = {
 	name = "Darweshi"
-	culture = east_afro_terran
+	culture="east_afro_terran" 
+ religion="terran_republican"
 }

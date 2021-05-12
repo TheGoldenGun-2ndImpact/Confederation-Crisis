@@ -8,465 +8,593 @@
 
 3001 = {
 	name = "Adebayo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3002 = {
 	name = "Adebayo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3003 = {
 	name = "Ademola"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3004 = {
 	name = "Ademola"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3005 = {
 	name = "Aminu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3006 = {
 	name = "Aminu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3007 = {
 	name = "Okoye"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3008 = {
 	name = "Okoye"
-	culture = west_afro_angani
+	culture="west_afro_angani"
+	religion="terran_federalist"
 }
 3009 = {
-	name = "Afolayan"
-	culture = west_afro_terran
+	name="Afolayan"
+	culture="west_afro_terran"
+	religion="terran_republican"
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 3010 = {
 	name = "Afolayan"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3011 = {
 	name = "Rabiu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3012 = {
 	name = "Rabiu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3013 = {
 	name = "Ihejirika"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3014 = {
 	name = "Ihejirika"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3015 = {
 	name = "Oni"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3016 = {
 	name = "Oni"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3017 = {
 	name = "Eze"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3018 = {
 	name = "Eze"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3019 = {
 	name = "Adeyemi"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3020 = {
 	name = "Adeyemi"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3021 = {
 	name = "Adewuyi"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3022 = {
 	name = "Adewuyi"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3023 = {
 	name = "Adeosun"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3024 = {
 	name = "Adeosun"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3025 = {
 	name = "Adesina"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3026 = {
 	name = "Adesina"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3027 = {
 	name = "Adeyemo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3028 = {
 	name = "Adeyemo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3029 = {
 	name = "Adewunmi"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3030 = {
 	name = "Adewunmi"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3031 = {
 	name = "Okafor"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3032 = {
 	name = "Okafor"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3033 = {
 	name = "Chukwu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3034 = {
 	name = "Chukwu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3035 = {
 	name = "Okoro"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3036 = {
 	name = "Okoro"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3037 = {
 	name = "Adeniji"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3038 = {
 	name = "Adeniji"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3039 = {
 	name = "Adedayo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3040 = {
 	name = "Adedayo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3041 = {
 	name = "Ogunleye"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3042 = {
 	name = "Ogunleye"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3043 = {
 	name = "Okonkwo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3044 = {
 	name = "Okonkwo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3045 = {
 	name = "Taiwo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3046 = {
 	name = "Taiwo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3047 = {
 	name = "Salami"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3048 = {
 	name = "Salami"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3049 = {
 	name = "Badmus"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3050 = {
 	name = "Badmus"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3051 = {
 	name = "Olagbegi"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3052 = {
 	name = "Olagbegi"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3053 = {
 	name = "Okoli"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3054 = {
 	name = "Okoli"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3055 = {
 	name = "Adamu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3056 = {
 	name = "Adamu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3057 = {
 	name = "Bakare"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3058 = {
 	name = "Bakare"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3059 = {
 	name = "Balogun"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3060 = {
 	name = "Balogun"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3061 = {
 	name = "Obi"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3062 = {
 	name = "Obi"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3063 = {
 	name = "Idowu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3064 = {
 	name = "Idowu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3065 = {
 	name = "Okoro"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3066 = {
 	name = "Okoro"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3067 = {
 	name = "Uzo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3068 = {
 	name = "Uzo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3069 = {
 	name = "Igwe"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3070 = {
 	name = "Igwe"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3071 = {
 	name = "Madu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3072 = {
 	name = "Madu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3073 = {
 	name = "Eke"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3074 = {
 	name = "Eke"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3075 = {
 	name = "Agu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3076 = {
 	name = "Agu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3077 = {
 	name = "Okon"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3078 = {
 	name = "Okon"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3079 = {
 	name = "Okoye"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3080 = {
 	name = "Okoye"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3081 = {
 	name = "Agwu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3082 = {
 	name = "Agwu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3083 = {
 	name = "Nnaji"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3084 = {
 	name = "Nnaji"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3085 = {
 	name = "Nwankwo"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3086 = {
 	name = "Nwankwo"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3087 = {
 	name = "Okongwu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3088 = {
 	name = "Okongwu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3089 = {
 	name = "Okereke"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3090 = {
 	name = "Okereke"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3091 = {
 	name = "Uchechukwu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3092 = {
 	name = "Uchechukwu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3093 = {
 	name = "Akinwande"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3094 = {
 	name = "Akinwande"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3095 = {
 	name = "Akinwale"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3096 = {
 	name = "Akinwale"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3097 = {
 	name = "Omotoso"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3098 = {
 	name = "Omotoso"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3099 = {
 	name = "Nwosu"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3100 = {
 	name = "Nwosu"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3101 = {
 	name = "Ilori"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3102 = {
 	name = "Ilori"
-	culture = west_afro_angani
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3103 = {
 	name = "Umeh"
-	culture = west_afro_terran
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3104 = {
 	name = "Umeh"
-	culture = west_afro_angani
-}
-3104 = {
-	name = "Omogobige"
-	culture = west_afro_terran
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3105 = {
 	name = "Omogobige"
-	culture = west_afro_angani
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3106 = {
-	name = "Omosun"
-	culture = west_afro_terran
+	name = "Omogobige"
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3107 = {
 	name = "Omosun"
-	culture = west_afro_angani
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3108 = {
-	name = "Omonua"
-	culture = west_afro_terran
+	name = "Omosun"
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3109 = {
 	name = "Omonua"
-	culture = west_afro_angani
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3110 = {
-	name = "Okechukwu"
-	culture = west_afro_terran
+	name = "Omonua"
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3111 = {
 	name = "Okechukwu"
-	culture = west_afro_angani
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3112 = {
-	name = "Oseni"
-	culture = west_afro_terran
+	name = "Okechukwu"
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3113 = {
 	name = "Oseni"
-	culture = west_afro_angani
+	culture="west_afro_terran" 
+ religion="terran_republican"
 }
 3114 = {
-	name = "Nwachukwu"
-	culture = west_afro_terran
+	name = "Oseni"
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }
 3115 = {
 	name = "Nwachukwu"
-	culture = west_afro_angani
+	culture="west_afro_terran" 
+ religion="terran_republican"
+}
+3116 = {
+	name = "Nwachukwu"
+	culture="west_afro_angani" 
+ religion="terran_federalist"
 }

@@ -8,1001 +8,1251 @@
 
 501 = {
 	name = "Attasi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 502 = {
 	name = "Attasi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 503 = {
 	name = "Addem"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 504 = {
 	name = "Addem"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 505 = {
 	name = "al-Agha"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 506 = {
 	name = "al-Agha"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 507 = {
 	name = "al-Assad"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 508 = {
 	name = "al-Assad"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 509 = {
 	name = "al-Mahainy"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 510 = {
 	name = "al-Mahainy"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 511 = {
 	name = "al-Utari"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 512 = {
 	name = "al-Utari"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 513 = {
 	name = "Hussain"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 514 = {
 	name = "Hussain"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 515 = {
 	name = "Homsi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 516 = {
 	name = "Homsi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 517 = {
 	name = "Khoury"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 518 = {
 	name = "Khoury"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 519 = {
 	name = "Kuzbari"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 520 = {
 	name = "Kuzbari"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 521 = {
 	name = "Nahas"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 522 = {
 	name = "Nahas"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 523 = {
 	name = "Najjar"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 524 = {
 	name = "Najjar"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 525 = {
 	name = "Semaan"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 526 = {
 	name = "Semaan"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 527 = {
 	name = "Shaaban"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 528 = {
 	name = "Shaaban"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 529 = {
 	name = "al-Zuhairi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 530 = {
 	name = "al-Zuhairi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 531 = {
 	name = "al-Rawry"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 532 = {
 	name = "al-Rawry"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 533 = {
 	name = "al-Bhadly"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 534 = {
 	name = "al-Bhadly"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 535 = {
 	name = "al-Karbalai"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 536 = {
 	name = "al-Karbalai"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 537 = {
 	name = "al-Rifai"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 538 = {
 	name = "al-Rifai"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 539 = {
 	name = "al-Baghdadi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 540 = {
 	name = "al-Baghdadi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 541 = {
 	name = "al-Shirazi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 542 = {
 	name = "al-Shirazi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 543 = {
 	name = "al-Hassani"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 544 = {
 	name = "al-Hassani"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 545 = {
 	name = "Ali"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 546 = {
 	name = "Ali"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 547 = {
 	name = "al-Soraifi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 548 = {
 	name = "al-Soraifi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 549 = {
 	name = "al-Lamy"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 550 = {
 	name = "al-Lamy"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 551 = {
 	name = "al-Dahwi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 552 = {
 	name = "al-Dahwi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 553 = {
 	name = "al-Bayati"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 554 = {
 	name = "al-Bayati"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 555 = {
 	name = "al-Basri"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 556 = {
 	name = "al-Basri"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 557 = {
 	name = "al-Dujaili"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 558 = {
 	name = "al-Dujaili"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 559 = {
 	name = "Jaffari"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 560 = {
 	name = "Jaffari"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 561 = {
 	name = "al-Shamari"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 562 = {
 	name = "al-Shamari"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 563 = {
 	name = "al-Husseini"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 564 = {
 	name = "al-Husseini"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 565 = {
 	name = "al-Tamini"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 566 = {
 	name = "al-Tamini"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 567 = {
 	name = "al-Saadi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 568 = {
 	name = "al-Saadi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 569 = {
 	name = "al-Musawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 570 = {
 	name = "al-Musawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 571 = {
 	name = "al-Asadi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 572 = {
 	name = "al-Asadi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 573 = {
 	name = "al-Alousi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 574 = {
 	name = "al-Alousi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 575 = {
 	name = "al-Baldawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 576 = {
 	name = "al-Baldawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 577 = {
 	name = "al-Zahawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 578 = {
 	name = "al-Zahawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 579 = {
 	name = "al-Tikriti"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 580 = {
 	name = "al-Tikriti"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 581 = {
 	name = "Majali"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 582 = {
 	name = "Majali"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 583 = {
 	name = "Odwan"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 584 = {
 	name = "Odwan"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 585 = {
 	name = "Khalayleh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 586 = {
 	name = "Khalayleh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 587 = {
 	name = "Mubaideen"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 588 = {
 	name = "Mubaideen"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 589 = {
 	name = "Khawaldeh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 590 = {
 	name = "Khawaldeh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 591 = {
 	name = "Zubi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 592 = {
 	name = "Zubi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 593 = {
 	name = "Qudah"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 594 = {
 	name = "Qudah"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 595 = {
 	name = "Hayek"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 596 = {
 	name = "Hayek"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 597 = {
 	name = "Bakhit"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 598 = {
 	name = "Bakhit"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 599 = {
 	name = "Nsour"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 600 = {
 	name = "Nsour"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 601 = {
 	name = "Shaqran"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 602 = {
 	name = "Shaqran"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 603 = {
 	name = "Zboun"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 604 = {
 	name = "Zboun"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 605 = {
 	name = "Shatnawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 606 = {
 	name = "Shatnawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 607 = {
 	name = "Hourani"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 608 = {
 	name = "Hourani"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 609 = {
 	name = "Ababneh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 610 = {
 	name = "Ababneh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 611 = {
 	name = "Thiabat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 612 = {
 	name = "Thiabat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 613 = {
 	name = "Rayahneh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 614 = {
 	name = "Rayahneh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 615 = {
 	name = "Athamneh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 616 = {
 	name = "Athamneh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 617 = {
 	name = "Abu Abed"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 618 = {
 	name = "Abu Abed"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 619 = {
 	name = "Khatib"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 620 = {
 	name = "Khatib"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 621 = {
 	name = "Shishani"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 622 = {
 	name = "Shishani"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 623 = {
 	name = "Hazaymeh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 624 = {
 	name = "Hazaymeh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 625 = {
 	name = "Shiyab"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 626 = {
 	name = "Shiyab"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 627 = {
 	name = "Nawateer"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 628 = {
 	name = "Nawateer"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 629 = {
 	name = "Basha"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 630 = {
 	name = "Basha"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 631 = {
 	name = "Hatamleh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 632 = {
 	name = "Hatamleh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 633 = {
 	name = "Maqableh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 634 = {
 	name = "Maqableh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 635 = {
 	name = "al-Dawud"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 636 = {
 	name = "al-Dawud"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 637 = {
 	name = "Zureiqat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 638 = {
 	name = "Zureiqat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 639 = {
 	name = "Rawabdeh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 640 = {
 	name = "Rawabdeh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 641 = {
 	name = "Suaibat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 642 = {
 	name = "Suaibat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 643 = {
 	name = "Marhameh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 644 = {
 	name = "Marhameh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 645 = {
 	name = "Zawahreh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 646 = {
 	name = "Zawahreh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 647 = {
 	name = "Abadallat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 648 = {
 	name = "Abadallat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 649 = {
 	name = "Saqqar"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 650 = {
 	name = "Saqqar"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 651 = {
 	name = "Luzi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 652 = {
 	name = "Luzi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 653 = {
 	name = "Sarhan"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 654 = {
 	name = "Sarhan"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 655 = {
 	name = "Manasir"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 656 = {
 	name = "Manasir"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 657 = {
 	name = "Shboul"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 658 = {
 	name = "Shboul"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 659 = {
 	name = "Mumani"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 660 = {
 	name = "Mumani"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 661 = {
 	name = "Shdifat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 662 = {
 	name = "Shdifat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 663 = {
 	name = "Rawashdeh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 664 = {
 	name = "Rawashdeh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 665 = {
 	name = "Dardour"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 666 = {
 	name = "Dardour"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 667 = {
 	name = "Samara"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 668 = {
 	name = "Samara"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 669 = {
 	name = "Qaider"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 670 = {
 	name = "Qaider"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 671 = {
 	name = "Obeidat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 672 = {
 	name = "Obeidat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 673 = {
 	name = "al-Salman"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 674 = {
 	name = "al-Salman"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 675 = {
 	name = "Wrikat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 676 = {
 	name = "Wrikat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 677 = {
 	name = "Bzour"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 678 = {
 	name = "Bzour"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 679 = {
 	name = "Laham"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 680 = {
 	name = "Laham"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 681 = {
 	name = "Bishtawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 682 = {
 	name = "Bishtawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 683 = {
 	name = "Zarqawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 684 = {
 	name = "Zarqawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 685 = {
 	name = "Haddad"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 686 = {
 	name = "Haddad"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 687 = {
 	name = "Hudeib"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 688 = {
 	name = "Hudeib"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 689 = {
 	name = "Barqawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 690 = {
 	name = "Barqawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 691 = {
 	name = "Matalqa"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 692 = {
 	name = "Matalqa"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 693 = {
 	name = "Khalidi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 694 = {
 	name = "Khalidi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 695 = {
 	name = "Hash'hash"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 696 = {
 	name = "Hash'hash"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 697 = {
 	name = "Amaireh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 698 = {
 	name = "Amaireh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 699 = {
 	name = "Attar"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 700 = {
 	name = "Attar"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 701 = {
 	name = "Dweikat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 702 = {
 	name = "Dweikat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 703 = {
 	name = "Zahran"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 704 = {
 	name = "Zahran"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 705 = {
 	name = "Quteishat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 706 = {
 	name = "Quteishat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 707 = {
 	name = "Khalazeh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 708 = {
 	name = "Khalazeh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 709 = {
 	name = "Ijbarat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 710 = {
 	name = "Ijbarat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 711 = {
 	name = "Naber"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 712 = {
 	name = "Naber"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 713 = {
 	name = "Aleeqa"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 714 = {
 	name = "Aleeqa"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 715 = {
 	name = "Khair"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 716 = {
 	name = "Khair"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 717 = {
 	name = "Mahadeen"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 718 = {
 	name = "Mahadeen"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 719 = {
 	name = "Otaibi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 720 = {
 	name = "Otaibi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 721 = {
 	name = "Nimr"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 722 = {
 	name = "Nimr"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 723 = {
 	name = "Jbour"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 724 = {
 	name = "Jbour"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 725 = {
 	name = "Alawneh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 726 = {
 	name = "Alawneh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 727 = {
 	name = "Hanahneh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 728 = {
 	name = "Hanahneh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 729 = {
 	name = "Kurdi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 730 = {
 	name = "Kurdi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 731 = {
 	name = "Dmour"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 732 = {
 	name = "Dmour"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 734 = {
 	name = "Hafnawi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 735 = {
 	name = "Hafnawi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 736 = {
 	name = "Nawaisheh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 737 = {
 	name = "Nawaisheh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 738 = {
 	name = "Arshidat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 739 = {
 	name = "Arshidat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 740 = {
 	name = "Daboubi"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 741 = {
 	name = "Daboubi"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 742 = {
 	name = "Hwaitat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 743 = {
 	name = "Hwaitat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 744 = {
 	name = "Bataineh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 745 = {
 	name = "Bataineh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 746 = {
 	name = "Naeemat"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 747 = {
 	name = "Naeemat"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 748 = {
 	name = "Shawabkeh"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 749 = {
 	name = "Shawabkeh"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }
 750 = {
 	name = "Malkawai"
-	culture = arab_terran
+	culture="arab_terran" 
+ religion="terran_republican"
 }
 751 = {
 	name = "Malkawai"
-	culture = arab_samawati
+	culture="arab_samawati" 
+ religion="terran_federalist"
 }

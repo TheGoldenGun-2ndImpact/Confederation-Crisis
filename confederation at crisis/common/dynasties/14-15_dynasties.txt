@@ -6,721 +6,901 @@
 
 1501 = {
 	name = "Bauer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1502 = {
 	name = "Braun"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1503 = {
 	name = "Walter"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1504 = {
 	name = "Werner"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1505 = {
 	name = "Kaiser"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1506 = {
 	name = "Hofmann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1507 = {
 	name = "Fuchs"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1508 = {
 	name = "Beck"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1509 = {
 	name = "Frank"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1510 = {
 	name = "Klein"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1511 = {
 	name = "Keller"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1512 = {
 	name = "Krause"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1513 = {
 	name = "Friedrich"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1514 = {
 	name = "Berger"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1515 = {
 	name = "Baumann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1516 = {
 	name = "Albrecht"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1517 = {
 	name = "Lang"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1518 = {
 	name = "Kraus"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1519 = {
 	name = "Lorenz"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1520 = {
 	name = "Herrmann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1521 = {
 	name = "Schuster"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1523 = {
 	name = "Simon"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1524 = {
 	name = "Huber"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1525 = {
 	name = "Arnold"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1526 = {
 	name = "Martin"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1527 = {
 	name = "Haas"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1528 = {
 	name = "Graf"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1529 = {
 	name = "Dietrich"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1530 = {
 	name = "Lindner"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1531 = {
 	name = "Engel"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1532 = {
 	name = "Thomas"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1533 = {
 	name = "Jung"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1534 = {
 	name = "Bergmann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1535 = {
 	name = "Franz"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1536 = {
 	name = "Brandt"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1537 = {
 	name = "Kern"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1538 = {
 	name = "Kuhn"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1539 = {
 	name = "Ernst"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1540 = {
 	name = "Wilhelm"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1541 = {
 	name = "Beyer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1542 = {
 	name = "Hermann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1543 = {
 	name = "Peter"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1544 = {
 	name = "Paul"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1545 = {
 	name = "Bayer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1546 = {
 	name = "Grimm"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1547 = {
 	name = "Busch"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1548 = {
 	name = "Otto"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1549 = {
 	name = "Gruber"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1550 = {
 	name = "Brunner"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1551 = {
 	name = "Arndt"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1552 = {
 	name = "Michel"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1553 = {
 	name = "Adam"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1554 = {
 	name = "Pfeiffer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1555 = {
 	name = "Langer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1556 = {
 	name = "Bachmann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1557 = {
 	name = "Kramer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1558 = {
 	name = "Jahn"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1559 = {
 	name = "Fiedler"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1560 = {
 	name = "Peters"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1561 = {
 	name = "Berg"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1562 = {
 	name = "Eckert"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1563 = {
 	name = "Kaufmann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1564 = {
 	name = "Geiger"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1565 = {
 	name = "Kraft"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1566 = {
 	name = "Haase"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1567 = {
 	name = "Binder"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1568 = {
 	name = "Frey"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1569 = {
 	name = "Bach"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1570 = {
 	name = "Ebert"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1571 = {
 	name = "Hartmann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1572 = {
 	name = "Maurer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1573 = {
 	name = "Baier"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1574 = {
 	name = "Moser"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1575 = {
 	name = "Herzog"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1576 = {
 	name = "Breuer"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1577 = {
 	name = "Heinz"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1578 = {
 	name = "Ackermann"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1579 = {
 	name = "Kirchner"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1580 = {
 	name = "Kunze"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1581 = {
 	name = "Fink"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1582 = {
 	name = "Lenz"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1583 = {
 	name = "Thiele"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1584 = {
 	name = "Hein"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1585 = {
 	name = "Hoppe"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1586 = {
 	name = "Albert"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1587 = {
 	name = "Baum"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1588 = {
 	name = "Bader"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1589 = {
 	name = "Von"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1590 = {
 	name = "Jansen"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1591 = {
 	name = "Jakob"
-	culture = outerrim
+	culture="outerrim" 
+ religion="astrist"
 }
 1592 = {
 	name = "Bauer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1593 = {
 	name = "Braun"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1594 = {
 	name = "Walter"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1595 = {
 	name = "Werner"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1596 = {
 	name = "Kaiser"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1597 = {
 	name = "Hofmann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1598 = {
 	name = "Fuchs"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1599 = {
 	name = "Beck"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1600 = {
 	name = "Frank"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1601 = {
 	name = "Klein"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1602 = {
 	name = "Keller"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1603 = {
 	name = "Krause"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1604 = {
 	name = "Friedrich"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1605 = {
 	name = "Berger"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1606 = {
 	name = "Baumann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1607 = {
 	name = "Albrecht"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1608 = {
 	name = "Lang"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1609 = {
 	name = "Kraus"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1610 = {
 	name = "Lorenz"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1611 = {
 	name = "Herrmann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1612 = {
 	name = "Schuster"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1613 = {
 	name = "Simon"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1614 = {
 	name = "Huber"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1615 = {
 	name = "Arnold"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1616 = {
 	name = "Martin"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1617 = {
 	name = "Haas"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1618 = {
 	name = "Graf"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1619 = {
 	name = "Dietrich"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1620 = {
 	name = "Lindner"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1621 = {
 	name = "Engel"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1622 = {
 	name = "Thomas"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1623 = {
 	name = "Jung"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1624 = {
 	name = "Bergmann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1625 = {
 	name = "Franz"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1626 = {
 	name = "Brandt"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1627 = {
 	name = "Kern"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1628 = {
 	name = "Kuhn"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1629 = {
 	name = "Ernst"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1630 = {
 	name = "Wilhelm"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1631 = {
 	name = "Beyer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1632 = {
 	name = "Hermann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1633 = {
 	name = "Peter"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1634 = {
 	name = "Paul"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1635 = {
 	name = "Bayer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1636 = {
 	name = "Grimm"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1637 = {
 	name = "Busch"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1638 = {
 	name = "Otto"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1639 = {
 	name = "Gruber"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1640 = {
 	name = "Brunner"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1641 = {
 	name = "Arndt"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1642 = {
 	name = "Michel"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1643 = {
 	name = "Adam"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1644 = {
 	name = "Pfeiffer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1645 = {
 	name = "Langer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1646 = {
 	name = "Bachmann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1647 = {
 	name = "Kramer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1648 = {
 	name = "Jahn"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1649 = {
 	name = "Fiedler"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1650 = {
 	name = "Peters"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1651 = {
 	name = "Berg"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1652 = {
 	name = "Eckert"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1653 = {
 	name = "Kaufmann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1654 = {
 	name = "Geiger"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1655 = {
 	name = "Kraft"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1656 = {
 	name = "Haase"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1657 = {
 	name = "Binder"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1658 = {
 	name = "Frey"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1659 = {
 	name = "Bach"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1660 = {
 	name = "Ebert"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1661 = {
 	name = "Hartmann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1662 = {
 	name = "Maurer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1663 = {
 	name = "Baier"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1664 = {
 	name = "Moser"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1665 = {
 	name = "Herzog"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1666 = {
 	name = "Breuer"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1667 = {
 	name = "Heinz"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1668 = {
 	name = "Ackermann"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1669 = {
 	name = "Kirchner"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1670 = {
 	name = "Kunze"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1671 = {
 	name = "Fink"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1672 = {
 	name = "Lenz"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1673 = {
 	name = "Thiele"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1674 = {
 	name = "Hein"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1675 = {
 	name = "Hoppe"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1676 = {
 	name = "Albert"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1677 = {
 	name = "Baum"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1678 = {
 	name = "Bader"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1679 = {
 	name = "Von"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1680 = {
 	name = "Jansen"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }
 1681 = {
 	name = "Jakob"
-	culture = german_terran
+	culture="german_terran" 
+ religion="terran_federalist"
 }

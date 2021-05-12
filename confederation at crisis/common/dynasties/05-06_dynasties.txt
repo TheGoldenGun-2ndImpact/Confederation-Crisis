@@ -9,865 +9,1093 @@
 
 1201 = {
 	name = "Abbasi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1202 = {
 	name = "Abbasi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1203 = {
 	name = "Ahmadi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1204 = {
 	name = "Ahmadi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1205 = {
 	name = "Akbari"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1206 = {
 	name = "Akbari"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1207 = {
 	name = "Alizadeh"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1208 = {
 	name = "Alizadeh"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1209 = {
 	name = "Hosseini"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1210 = {
 	name = "Hosseini"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1211 = {
 	name = "Jafari"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1212 = {
 	name = "Jafari"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1213 = {
 	name = "Kazemi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1214 = {
 	name = "Kazemi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1215 = {
 	name = "Mohammadi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1216 = {
 	name = "Mohammadi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1217 = {
 	name = "Shirazi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1218 = {
 	name = "Shirazi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1219 = {
 	name = "Akhtar"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1220 = {
 	name = "Akhtar"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1221 = {
 	name = "Arbab"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1222 = {
 	name = "Arbab"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1223 = {
 	name = "Balkhi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1224 = {
 	name = "Balkhi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1225 = {
 	name = "Banai"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1226 = {
 	name = "Banai"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1227 = {
 	name = "Bukhari"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1228 = {
 	name = "Bukhari"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1229 = {
 	name = "Ghaznavi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1230 = {
 	name = "Ghaznavi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1231 = {
 	name = "Gilani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1232 = {
 	name = "Gilani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1233 = {
 	name = "Golshiri"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1234 = {
 	name = "Golshiri"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1235 = {
 	name = "Haghighi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1236 = {
 	name = "Haghighi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1237 = {
 	name = "Jan"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1238 = {
 	name = "Jan"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1239 = {
 	name = "Najafi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1240 = {
 	name = "Najafi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1241 = {
 	name = "Parande"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1242 = {
 	name = "Parande"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1243 = {
 	name = "Rouhani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1244 = {
 	name = "Rouhani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1245 = {
 	name = "Saatchi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1246 = {
 	name = "Saatchi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1247 = {
 	name = "Sadeghi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1248 = {
 	name = "Sadeghi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1249 = {
 	name = "Safavi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1250 = {
 	name = "Safavi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1251 = {
 	name = "Shahzad"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1252 = {
 	name = "Shahzad"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1253 = {
 	name = "Taghvaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1254 = {
 	name = "Taghvaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1255 = {
 	name = "Veisi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1256 = {
 	name = "Veisi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1257 = {
 	name = "Abdullahi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1258 = {
 	name = "Abdullahi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1259 = {
 	name = "Abedini"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1260 = {
 	name = "Abedini"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1261 = {
 	name = "Adeli"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1262 = {
 	name = "Adeli"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1263 = {
 	name = "Ahadi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1264 = {
 	name = "Ahadi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1265 = {
 	name = "Amoli"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1266 = {
 	name = "Amoli"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1267 = {
 	name = "Asadi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1268 = {
 	name = "Asadi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1269 = {
 	name = "Ebrahimi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1270 = {
 	name = "Ebrahimi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1271 = {
 	name = "Esfahani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1272 = {
 	name = "Esfahani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1273 = {
 	name = "Fanaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1274 = {
 	name = "Fanaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1275 = {
 	name = "Farahani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1276 = {
 	name = "Farahani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1277 = {
 	name = "Farsi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1278 = {
 	name = "Farsi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1279 = {
 	name = "Fazeli"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1280 = {
 	name = "Fazeli"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1281 = {
 	name = "Fikri"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1282 = {
 	name = "Fikri"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1283 = {
 	name = "Ganji"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1284 = {
 	name = "Ganji"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1285 = {
 	name = "Ghasemi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1286 = {
 	name = "Ghasemi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1287 = {
 	name = "Gholami"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1288 = {
 	name = "Gholami"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1289 = {
 	name = "Ghorbani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1290 = {
 	name = "Ghorbani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1291 = {
 	name = "Habibi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1292 = {
 	name = "Habibi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1293 = {
 	name = "Hamadani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1294 = {
 	name = "Hamadani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1295 = {
 	name = "Hamidi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1296 = {
 	name = "Hamidi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1297 = {
 	name = "Banu Hashim"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1298 = {
 	name = "Banu Hashim"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1299 = {
 	name = "Heidari"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1300 = {
 	name = "Heidari"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1301 = {
 	name = "Hijazi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1302 = {
 	name = "Hijazi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1303 = {
 	name = "Jahanbani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1304 = {
 	name = "Jahanbani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1305 = {
 	name = "Jalili"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1306 = {
 	name = "Jalili"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1307 = {
 	name = "Jamshidi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1308 = {
 	name = "Jamshidi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1309 = {
 	name = "Javadi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1310 = {
 	name = "Javadi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1311 = {
 	name = "Kadivar"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1312 = {
 	name = "Kadivar"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1313 = {
 	name = "Karimi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1314 = {
 	name = "Karimi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1315 = {
 	name = "Kashani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1316 = {
 	name = "Kashani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1317 = {
 	name = "Khadem"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1318 = {
 	name = "Khadem"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1319 = {
 	name = "Khalaji"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1320 = {
 	name = "Khalaji"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1321 = {
 	name = "Khomeini"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1322 = {
 	name = "Khomeini"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1323 = {
 	name = "Khorasani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1324 = {
 	name = "Khorasani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1325 = {
 	name = "Khorsandi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1326 = {
 	name = "Khorsandi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1327 = {
 	name = "Mahdavi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1328 = {
 	name = "Mahdavi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1329 = {
 	name = "Mahmoudi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1330 = {
 	name = "Mahmoudi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1331 = {
 	name = "Mahmoudieh"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1332 = {
 	name = "Mahmoudieh"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1333 = {
 	name = "Majidi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1334 = {
 	name = "Majidi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1335 = {
 	name = "Mazanderani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1336 = {
 	name = "Mazanderani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1337 = {
 	name = "Mirzaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1338 = {
 	name = "Mirzaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1339 = {
 	name = "Mokri"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1340 = {
 	name = "Mokri"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1341 = {
 	name = "Nabavi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1342 = {
 	name = "Nabavi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1343 = {
 	name = "Naceri"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1344 = {
 	name = "Naceri"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1345 = {
 	name = "Nafisi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1346 = {
 	name = "Nafisi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1347 = {
 	name = "Naghdi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1348 = {
 	name = "Naghdi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1349 = {
 	name = "Najafi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1350 = {
 	name = "Najafi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1351 = {
 	name = "Nalci"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1352 = {
 	name = "Nalci"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1353 = {
 	name = "Namazi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1354 = {
 	name = "Namazi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1355 = {
 	name = "Namdar"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1356 = {
 	name = "Namdar"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1357 = {
 	name = "Nariman"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1358 = {
 	name = "Nariman"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1359 = {
 	name = "Nazari"
-	culture = iranian_terran
+	culture="iranian_terran" 
+	religion="terran_republican"
+	used_for_random=no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 2
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 1360 = {
 	name = "Nazari"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1361 = {
 	name = "Norouzi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1362 = {
 	name = "Norouzi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1363 = {
 	name = "Pahlavi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1364 = {
 	name = "Pahlavi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1365 = {
 	name = "Paria"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1366 = {
 	name = "Paria"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1367 = {
 	name = "Parsi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1368 = {
 	name = "Parsi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1369 = {
 	name = "Pashaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1370 = {
 	name = "Pashaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1371 = {
 	name = "Pejman"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1372 = {
 	name = "Pejman"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1373 = {
 	name = "Qazwini"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1374 = {
 	name = "Qazwini"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1375 = {
 	name = "Rahimi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1376 = {
 	name = "Rahimi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1377 = {
 	name = "Rahmani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1378 = {
 	name = "Rahmani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1379 = {
 	name = "Rajaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1380 = {
 	name = "Rajaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1381 = {
 	name = "Ramadani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1382 = {
 	name = "Ramadani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1383 = {
 	name = "Rashidi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1384 = {
 	name = "Rashidi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1385 = {
 	name = "Salehi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1386 = {
 	name = "Salehi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1387 = {
 	name = "Salemi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1388 = {
 	name = "Salemi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1389 = {
 	name = "Salimi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1390 = {
 	name = "Salimi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1391 = {
 	name = "Shahbazi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1392 = {
 	name = "Shahbazi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1393 = {
 	name = "Shahidi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1394 = {
 	name = "Shahidi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1395 = {
 	name = "Shojaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1396 = {
 	name = "Shojaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1397 = {
 	name = "Soomekh"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1398 = {
 	name = "Soomekh"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1399 = {
 	name = "Soroush"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1400 = {
 	name = "Soroush"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1401 = {
 	name = "Tabatabaei"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1402 = {
 	name = "Tabatabaei"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1403 = {
 	name = "Talebi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1404 = {
 	name = "Talebi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1405 = {
 	name = "Tehrani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1406 = {
 	name = "Tehrani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1407 = {
 	name = "Tousi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1408 = {
 	name = "Tousi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1409 = {
 	name = "Yazdani"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1410 = {
 	name = "Yazdani"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1411 = {
 	name = "Yazdi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1412 = {
 	name = "Yazdi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1413 = {
 	name = "Yousefi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1414 = {
 	name = "Yousefi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
 1415 = {
 	name = "Zandi"
-	culture = iranian_terran
+	culture="iranian_terran" 
+ religion="terran_republican"
 }
 1416 = {
 	name = "Zandi"
-	culture = iranian_samawati
+	culture="iranian_samawati" 
+ religion="terran_republican"
 }
