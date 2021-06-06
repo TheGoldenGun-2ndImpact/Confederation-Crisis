@@ -1,17 +1,19 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 TOOLTIP_EMPLOYMENT_COOLDOWN_EXPIRED;Has not hired any new courtiers in the last 180 days.;;;;;;;;;;;;;x
-toggle_employment;Toggle Employment Decisions;;;;;;;;;;;;;x
-toggle_employment_desc;Toggles visibility for employment decisions.;;;;;;;;;;;;;x
+open_employment_menu_decision;Open Employment Menu;;;;;;;;;;;;;x
+open_employment_menu_decision_desc;Display decisions related to hiring specialist characters.;;;;;;;;;;;;;x
+close_employment_menu_decision;Close Employment Menu;;;;;;;;;;;;;x
+close_employment_menu_decision_desc;Hide decisions related to hiring specialist characters to free up space in the decision list.;;;;;;;;;;;;;x
 employ_diplomat_decision;Hire Diplomat;;;;;;;;;;;;;x
 employ_diplomat_decision_desc;Hire an experienced diplomat to serve you as an advisor.;;;;;;;;;;;;;x
 employ_commander_decision;Hire Commander;;;;;;;;;;;;;x
-employ_commander_decision_desc;Invite an experienced military officer to serve you as an advisor.;;;;;;;;;;;;;x
+employ_commander_decision_desc;Hire an experienced military officer to serve you as an advisor.;;;;;;;;;;;;;x
 employ_steward_decision;Hire Accountant;;;;;;;;;;;;;x
-employ_steward_decision_desc;Invite an experienced financial expert to serve you as an advisor.;;;;;;;;;;;;;x
+employ_steward_decision_desc;Hire an experienced financial expert to serve you as an advisor.;;;;;;;;;;;;;x
 employ_spymaster_decision;Hire Intelligence Agent;;;;;;;;;;;;;x
-employ_spymaster_decision_desc;Invite an experienced intelligence officer to serve you as an advisor.;;;;;;;;;;;;;x
+employ_spymaster_decision_desc;Hire an experienced intelligence officer to serve you as an advisor.;;;;;;;;;;;;;x
 employ_scholar_decision;Hire Scholar;;;;;;;;;;;;;x
-employ_scholar_decision_desc;Invite an experienced scientist to serve you as an advisor.;;;;;;;;;;;;;x
+employ_scholar_decision_desc;Hire an experienced scientist to serve you as an advisor.;;;;;;;;;;;;;x
 present_female_debutante_decision;Present Female Debutante;;;;;;;;;;;;;x
 present_female_debutante_decision_desc;A young woman who has caught your eye makes her début at a formal ball.;;;;;;;;;;;;;x
 present_male_debutante_decision;Present Male Debutante;;;;;;;;;;;;;x

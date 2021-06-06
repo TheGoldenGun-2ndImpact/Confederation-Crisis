@@ -1,0 +1,313 @@
+spriteTypes = {
+
+# Government Decisions
+
+	spriteType = {
+		name = "GFX_set_kingdom_capital_system"
+		texturefile = "gfx\\interface\\decisions\\set_kingdom_capital_system.dds"
+	}
+	spriteType = {
+		name = "GFX_set_empire_capital_system"
+		texturefile = "gfx\\interface\\decisions\\set_empire_capital_system.dds"
+	}
+	spriteType = {
+		name = "GFX_become_military_decision"
+		texturefile = "gfx\\interface\\decisions\\become_military_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_become_republic_decision"
+		texturefile = "gfx\\interface\\decisions\\become_republic_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_apply_to_join_empire"
+		texturefile = "gfx\\interface\\decisions\\apply_to_join_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_host_confederation_congress"
+		texturefile = "gfx\\interface\\decisions\\host_confederation_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_dissolve_legislature_decision"
+		texturefile = "gfx\\interface\\decisions\\dissolve_legislature_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_fill_seats_with_available_people"
+		texturefile = "gfx\\interface\\decisions\\fill_seats_with_available_people.dds"
+	}
+	spriteType = {
+		name = "GFX_request_senator_candidates_from_provinces"
+		texturefile = "gfx\\interface\\decisions\\request_senator_candidates_from_provinces.dds"
+	}
+
+# Employment Decisions
+
+	spriteType = {
+		name = "GFX_present_female_debutante_decision"
+		texturefile = "gfx\\interface\\decisions\\present_female_debutante_decision.dds"
+	}	
+	spriteType = {
+		name = "GFX_present_male_debutante_decision"
+		texturefile = "gfx\\interface\\decisions\\present_male_debutante_decision.dds"
+	}	
+	spriteType = {
+		name = "GFX_employ_diplomat_decision"
+		texturefile = "gfx\\interface\\decisions\\employ_diplomat_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_employ_commander_decision"
+		texturefile = "gfx\\interface\\decisions\\employ_commander_decision.dds"
+	}	
+	spriteType = {
+		name = "GFX_employ_steward_decision"
+		texturefile = "gfx\\interface\\decisions\\employ_steward_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_employ_spymaster_decision"
+		texturefile = "gfx\\interface\\decisions\\employ_spymaster_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_employ_scholar_decision"
+		texturefile = "gfx\\interface\\decisions\\employ_scholar_decision.dds"
+	}
+
+# Cybernetic Decisions
+
+	spriteType = {
+		name = "GFX_get_cybernetic_skeleton_decision"
+		texturefile = "gfx\\interface\\decisions\\get_cybernetic_skeleton_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_cybernetic_leg_decision"
+		texturefile = "gfx\\interface\\decisions\\get_cybernetic_leg_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_cybernetic_limb_decision"
+		texturefile = "gfx\\interface\\decisions\\get_cybernetic_limb_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_full_cybernetic_conversion_decision"
+		texturefile = "gfx\\interface\\decisions\\get_full_cybernetic_conversion_decision.dds"
+	}
+
+# Implant Decisions
+
+	spriteType = {
+		name = "GFX_get_thoth_mk_i_decision"
+		texturefile = "gfx\\interface\\decisions\\get_thoth_mk_i_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_thoth_mk_ii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_thoth_mk_ii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_thoth_mk_iii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_thoth_mk_iii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_thoth_mk_iv_decision"
+		texturefile = "gfx\\interface\\decisions\\get_thoth_mk_iv_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_thoth_mk_v_decision"
+		texturefile = "gfx\\interface\\decisions\\get_thoth_mk_v_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pluto_mk_i_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pluto_mk_i_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pluto_mk_ii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pluto_mk_ii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pluto_mk_iii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pluto_mk_iii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pluto_mk_iv_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pluto_mk_iv_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pluto_mk_v_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pluto_mk_v_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pci_mk_i_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pci_mk_i_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pci_mk_ii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pci_mk_ii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pci_mk_iii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pci_mk_iii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pci_mk_iv_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pci_mk_iv_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_pci_mk_v_decision"
+		texturefile = "gfx\\interface\\decisions\\get_pci_mk_v_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_odin_mk_i_decision"
+		texturefile = "gfx\\interface\\decisions\\get_odin_mk_i_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_odin_mk_ii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_odin_mk_ii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_odin_mk_iii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_odin_mk_iii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_odin_mk_iv_decision"
+		texturefile = "gfx\\interface\\decisions\\get_odin_mk_iv_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_odin_mk_v_decision"
+		texturefile = "gfx\\interface\\decisions\\get_odin_mk_v_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_iaei_mk_i_decision"
+		texturefile = "gfx\\interface\\decisions\\get_iaei_mk_i_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_iaei_mk_ii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_iaei_mk_ii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_iaei_mk_iii_decision"
+		texturefile = "gfx\\interface\\decisions\\get_iaei_mk_iii_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_iaei_mk_iv_decision"
+		texturefile = "gfx\\interface\\decisions\\get_iaei_mk_iv_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_get_iaei_mk_v_decision"
+		texturefile = "gfx\\interface\\decisions\\get_iaei_mk_v_decision.dds"
+	}
+
+# Empire Decisions
+
+	spriteType = {
+		name = "GFX_found_terran_empire"
+		texturefile = "gfx\\interface\\decisions\\found_terran_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_xingjie_empire"
+		texturefile = "gfx\\interface\\decisions\\found_xingjie_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_tierra_celeste_empire"
+		texturefile = "gfx\\interface\\decisions\\found_tierra_celeste_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_al_samawat_empire"
+		texturefile = "gfx\\interface\\decisions\\found_al_samawat_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_zenye_nyota_angani_empire"
+		texturefile = "gfx\\interface\\decisions\\found_zenye_nyota_angani_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_frontier_empire"
+		texturefile = "gfx\\interface\\decisions\\found_frontier_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_centauri_reach_empire"
+		texturefile = "gfx\\interface\\decisions\\found_centauri_reach_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_helix_empire"
+		texturefile = "gfx\\interface\\decisions\\found_helix_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_xin_zizhiqu_empire"
+		texturefile = "gfx\\interface\\decisions\\found_xin_zizhiqu_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_bianjiang_empire"
+		texturefile = "gfx\\interface\\decisions\\found_bianjiang_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_orion_reach_empire"
+		texturefile = "gfx\\interface\\decisions\\found_orion_reach_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_paraiso_empire"
+		texturefile = "gfx\\interface\\decisions\\found_paraiso_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_tarka_empire"
+		texturefile = "gfx\\interface\\decisions\\found_tarka_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_avalon_empire"
+		texturefile = "gfx\\interface\\decisions\\found_avalon_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_new_frontier_empire"
+		texturefile = "gfx\\interface\\decisions\\found_new_frontier_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_jion_empire"
+		texturefile = "gfx\\interface\\decisions\\found_jion_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_strugatsky_empire"
+		texturefile = "gfx\\interface\\decisions\\found_strugatsky_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_novyy_edem_empire"
+		texturefile = "gfx\\interface\\decisions\\found_novyy_edem_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_flame_nebula_empire"
+		texturefile = "gfx\\interface\\decisions\\found_flame_nebula_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_orion_nebula_empire"
+		texturefile = "gfx\\interface\\decisions\\found_orion_nebula_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_horsehead_nebula_empire"
+		texturefile = "gfx\\interface\\decisions\\found_horsehead_nebula_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_veil_nebula_empire"
+		texturefile = "gfx\\interface\\decisions\\found_veil_nebula_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_found_witchhead_nebula_empire"
+		texturefile = "gfx\\interface\\decisions\\found_witchhead_nebula_empire.dds"
+	}
+	spriteType = {
+		name = "GFX_form_bhaarat"
+		texturefile = "gfx\\interface\\decisions\\form_bhaarat.dds"
+	}
+
+# Eternal Way Decisions
+
+	spriteType = {
+		name = "GFX_EW_visit_shrine"
+		texturefile = "gfx\\interface\\decisions\\EW_visit_shrine.dds"
+	}
+	spriteType = {
+		name = "GFX_EW_coronation"
+		texturefile = "gfx\\interface\\decisions\\EW_coronation.dds"
+	}
+	spriteType = {
+		name = "GFX_EW_prepare_dharmayuddh"
+		texturefile = "gfx\\interface\\decisions\\EW_prepare_dharmayuddh.dds"
+	}
+	spriteType = {
+		name = "GFX_EW_cancel_dharmayuddh"
+		texturefile = "gfx\\interface\\decisions\\EW_cancel_dharmayuddh.dds"
+	}
+
+}

@@ -1,5 +1,5 @@
 warhawk = {
-	icon = 5
+	icon = 6
 
 	# The player also needs to obey the potential triggers when choosing a position
 	potential = {

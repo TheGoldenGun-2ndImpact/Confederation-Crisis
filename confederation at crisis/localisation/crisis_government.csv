@@ -1,7 +1,8 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-host_confederation_congress;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-host_confederation_congress;Host a confederation congress;;;;;;;;;;;;;x
-host_confederation_congress_desc;You will host a confederation congress and try to create an empire based on your realm;;;;;;;;;;;;;x
+apply_to_join_empire;Apply To Join [e_terran_confederation.GetName];;;;;;;;;;;;;x
+apply_to_join_empire_desc;Attempt to join [e_terran_confederation.GetName];;;;;;;;;;;;;x
+host_confederation_congress;Host A Confederation Congress;;;;;;;;;;;;;x
+host_confederation_congress_desc;You will host a confederation congress and try to create an empire based on your realm.;;;;;;;;;;;;;x
 military_monarchy;Feudal Monarchy;;;;;;;;;;;;;x
 military_monarchy_desc;Under a feudal monarchy, legitimate authority is held to derive from inheritance, while political power is concentrated in the hands of the military, who often form an elite hereditary warrior caste.\n\nMilitary Monarchies may use the following succession laws: Primogeniture, Ultimogeniture, Seniority, Gavelkind, Dynastic Elective, Federal Elective.;;;;;;;;;;;;;x
 military_republic;Military Republic;;;;;;;;;;;;;x

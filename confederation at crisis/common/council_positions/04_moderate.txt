@@ -1,5 +1,5 @@
 moderate = {
-	icon = 6
+	icon = 5
 
 	# The player also needs to obey the potential triggers when choosing a position
 	potential = {

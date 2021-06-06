@@ -1,0 +1,23 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+loyalist;§YLoyalist§!;§YLoyaliste§!;§YLoyalist§!;;§YLeal§!;;;;;;;;;x
+obstructionist;§YObstructionist§!;§YMécontent§!;§YQuerulant§!;;§YDescontento§!;;;;;;;;;x
+ideologist;§YIdeologist§!;§YFanatique§!;§YEiferer§!;;§YFanático/a§!;;;;;;;;;x
+fisiologist;§YFisiologist§!;§YPragmatique§!;§YPragmatiker§!;;§YPragmático/a§!;;;;;;;;;x
+moderate;§YModerate§!;§YChercheur de gloire§!;§YRuhmsucht§!;;§YSediento de gloria§!;;;;;;;;;x
+warhawk;§YWar Hawk§!;§YLoyaliste§!;§YLoyalist§!;;§YLeal§!;;;;;;;;;x
+econhawk;§YEcon Hawk§!;§YMécontent§!;§YQuerulant§!;;§YDescontento§!;;;;;;;;;x
+diplohawk;§YDiplo Hawk§!;§YFanatique§!;§YEiferer§!;;§YFanático/a§!;;;;;;;;;x
+techhawk;§YTech Hawk§!;§YPragmatique§!;§YPragmatiker§!;;§YPragmático/a§!;;;;;;;;;x
+stability_seeker;§YStability Seeker§!;§YChercheur de gloire§!;§YRuhmsucht§!;;§YSediento de gloria§!;;;;;;;;;x
+
+loyalist_desc;A Loyalist councilor will generally be a faithful servant to the ruler. They will support their liege in all actions except those that will directly decrease their own power.;Le conseiller loyaliste est loyal au seigneur lige, sauf lorsque les actions de ce dernier ont pour effet de réduire son propre pouvoir.;Ein Loyalist ist als Ratsherr dafür bekannt, seinem Lehnsherrn zur Seite zu stehen. Ein loyaler Ratsherr wird seinen Lehnsherrn überall unterstützen, nur bei der eigenen Absetzung nicht.;;Un consejero Fiel es conocido por su indiscutible lealtad hacia el señor del reino. Un consejero Fiel apoyará al consejero de señor en todas las acciones, excepto aquellas que le quiten directamente poder.;;;;;;;;;x
+obstructionist_desc;An Obstructionist councilor is unhappy with the current state of affairs in the realm. They are a troublesome force on the council and will always oppose the will of the ruler unless they directly stand to gain power.;Le conseiller mécontent est insatisfait de l'état actuel des choses au sein du pays. Il s'opposera toujours à la volonté du seigneur lige, sauf si cela peut lui permettre d'augmenter son propre pouvoir.;Ein Querulant als Ratsherr ist mit der Lage der Dinge im Reich unzufrieden. Solche Ratsherrn sind eine Belastung für den Rat und sprechen sich bei jeder Gelegenheit gegen die Pläne des Herrschers aus, es sei denn, es geht um die eigene Beförderung.;;Un consejero descontento es infeliz con la situación actual en el reino. Son una fuerza molesta en el consejo y siempre se opondrán siempre la voluntad del gobernante a menos que les lleve a conseguir poder.;;;;;;;;;x
+ideologist_desc;An Ideologist councilor will strive towards bringing ideology or religion to the forefront of the realm's political agenda. If ideological and religious war targets are available this councilor might oppose wars against other targets. The councilor will also be more inclined to accept hostile action against heathen and heretic characters.;Le conseiller fanatique s'efforcera d'inscrire dans les projets politiques du pays les sujets d'ordre religieux. S'il existe une cible pour une guerre religieuse, il pourrait s'opposer aux guerres contre d'autres cibles. Il sera par ailleurs davantage enclin à accepter des actions hostiles contre les infidèles et les hérétiques.;Ein Eiferer versucht, als Ratsherr religiöse Ziele in den Mittelpunkt der Politik zu rücken. Wenn religiös motivierte Kriege möglich sind, wird er andere Kriege ablehnen. Ein solcher Ratsherr hat gegenüber Andersgläubigen eine größere Bereitschaft, feindseligen Aktionen zuzustimmen.;;Un consejero fanático se esforzará en poner la religión al frente de la agenda política del reino. Si hay objetivos de guerra religiosa disponibles, este consejero puede oponerse guerras contra otros objetivos. El consejero también estará más inclinado a aceptar acciones hostiles contra personajes paganos y herejes.;;;;;;;;;x
+fisiologist_desc;Fisiologist;;;;;;;;;;;;;x
+moderate_desc;Moderate;;;;;;;;;;;;;x
+warhawk_desc;War Hawk;;;;;;;;;;;;;x
+econhawk_desc;Econ Hawk;;;;;;;;;;;;;x
+diplohawk_desc;Diplo Hawk;;;;;;;;;;;;;x
+techhawk_desc;Tech Hawk;;;;;;;;;;;;;x
+stability_seeker_desc;Stability Seeker;;;;;;;;;;;;;x

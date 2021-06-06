@@ -1,31 +1,5 @@
 decisions = {
-	# Decrees
-	# Menu Controls
-	open_decree_menu = {
-		ai_check_interval = 10 
-		potential = {
-			ai = no
-			NOT = { has_character_flag = flag_decree_menu_open }
-		}
-		allow = { always = yes }
-		effect = {
-			set_character_flag = flag_decree_menu_open
-		}
-		ai_will_do = { factor = 0 }
-	}
-	close_decree_menu = {
-		is_high_prio = yes
-		ai_check_interval = 10 
-		potential = {
-			ai = no
-			has_character_flag = flag_decree_menu_open
-		}
-		allow = { always = yes }
-		effect = {
-			clr_character_flag = flag_decree_menu_open
-		}
-		ai_will_do = { factor = 1 }
-	}
+	## MENU CONTROLS
 	# Cybernetics
 	open_cybernetics_menu_decision = {
 		ai_check_interval = 10 
@@ -56,6 +30,58 @@ decisions = {
 		effect = {
 			clr_character_flag = flag_cybernetics_menu_open
 		}
+	}
+	# Decrees
+	open_decree_menu = {
+		ai_check_interval = 10 
+		potential = {
+			ai = no
+			NOT = { has_character_flag = flag_decree_menu_open }
+		}
+		allow = { always = yes }
+		effect = {
+			set_character_flag = flag_decree_menu_open
+		}
+		ai_will_do = { factor = 0 }
+	}
+	close_decree_menu = {
+		is_high_prio = yes
+		ai_check_interval = 10 
+		potential = {
+			ai = no
+			has_character_flag = flag_decree_menu_open
+		}
+		allow = { always = yes }
+		effect = {
+			clr_character_flag = flag_decree_menu_open
+		}
+		ai_will_do = { factor = 1 }
+	}
+	# Employment
+	open_employment_menu_decision = {
+		only_playable = yes
+		potential = {
+			ai = no
+			NOT = { has_character_flag = flag_employment_menu_open }
+		}
+		allow = { always = yes }
+		effect = {
+			set_character_flag = flag_employment_menu_open
+		}
+		ai_will_do = { factor = 0 }
+	}
+	close_employment_menu_decision = {
+		is_high_prio = yes
+		only_playable = yes
+		potential = {
+			ai = no
+			has_character_flag = flag_employment_menu_open
+		}
+		allow = { always = yes }
+		effect = {
+			clr_character_flag = flag_employment_menu_open
+		}
+		ai_will_do = { factor = 1 }
 	}
 	# Market
 	open_market_menu_decision = {

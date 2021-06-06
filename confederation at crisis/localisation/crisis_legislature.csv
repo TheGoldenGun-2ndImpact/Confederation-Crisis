@@ -1,4 +1,8 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+fill_seats_with_available_people;Fill Seats With Available People;;;;;;;;;;;;;x
+fill_seats_with_available_people_desc;There are vacant seats in the senate, and we can choose to fill those seats with the people we have available.;;;;;;;;;;;;;x
+request_senator_candidates_from_provinces;Request Senator Candidates From Provinces;;;;;;;;;;;;;x
+request_senator_candidates_from_provinces_desc;Due to the lack of potential candidates for the Senate, we can request the provinces to provide their own candidates for this purpose.;;;;;;;;;;;;;x
 improve_public_order_decision;Restore Public Order;;;;;;;;;;;;;x
 improve_public_order_decision_desc;The immediate crisis is ended, and the [Root.PrimaryTitle.GetFullName] is now united behind you. You can now start to rebuild public order and end the chaos gripping the state.;;;;;;;;;;;;;x
 var_senate_majority;Senators Required For Majority Vote;;;;;;;;;;;;;x
