@@ -1610,4 +1610,19 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_neofeudal_uncrowned"
+		textureFile = "gfx/traits/neofeudal_uncrowned.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_neofeudal_crowned"
+		textureFile = "gfx/traits/neofeudal_crowned.tga"
+		noOfFrames = 1
+		noRefCount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	
 }

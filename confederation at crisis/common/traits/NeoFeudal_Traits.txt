@@ -60,3 +60,35 @@ worthy = {
 	religious = yes
 	ruler_designer_cost = 21
 }
+
+neofeudal_uncrowned = {
+	potential = {
+		religion = neo_feudal
+		government = neofeudal_government
+	}
+	opposites =  {
+		neofeudal_crowned
+	}
+	
+	monthly_character_piety = -0.5
+	vassal_opinion = -10
+	
+	customizer = no
+	random = no
+}
+
+neofeudal_crowned = {
+	potential = {
+		religion = neo_feudal
+		government = neofeudal_government
+	}
+	opposites =  {
+		neofeudal_uncrowned
+	}
+	
+	monthly_character_piety = 0.1
+	vassal_opinion = 5
+	
+	customizer = no
+	random = no
+}

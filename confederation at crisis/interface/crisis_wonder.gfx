@@ -1,0 +1,116 @@
+spriteTypes = {
+	##########################
+	### Wonder Images
+	##########################
+
+	# Ecumenopolis
+	spriteType = {
+		name = "GFX_wonder_strip_ecumenopolis_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_ecumenopolis_large.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_ecumenopolis_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_ecumenopolis_medium.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_ecumenopolis_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_ecumenopolis_small.dds"
+		noOfFrames = 5
+	}
+
+
+	# Bastion
+	spriteType = {
+		name = "GFX_wonder_strip_bastion_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_bastion_large.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_bastion_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_bastion_medium.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_bastion_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_bastion_small.dds"
+		noOfFrames = 5
+	}
+
+
+	# Orbital Mansion
+	spriteType = {
+		name = "GFX_wonder_strip_orbital_mansion_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_orbital_mansion_large.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_orbital_mansion_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_orbital_mansion_medium.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_orbital_mansion_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_orbital_mansion_small.dds"
+		noOfFrames = 5
+	}
+
+
+	# Orbital Palace
+	spriteType = {
+		name = "GFX_wonder_strip_orbital_palace_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_orbital_palace_large.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_orbital_palace_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_orbital_palace_medium.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_orbital_palace_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_orbital_palace_small.dds"
+		noOfFrames = 5
+	}
+
+
+	# Battleship Platform
+	spriteType = {
+		name = "GFX_wonder_strip_battleship_platform_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_battleship_platform_large.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_battleship_platform_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_battleship_platform_medium.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_wonder_strip_battleship_platform_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_battleship_platform_small.dds"
+		noOfFrames = 5
+	}
+
+
+	#############################
+	### Wonder background Images
+	#############################
+	
+	# Space
+	spriteType = {
+		name = "GFX_wonder_background_space_large"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_backgrounds\\wonder_background_space_large.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_wonder_background_space_medium"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_backgrounds\\wonder_background_space_medium.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_wonder_background_space_small"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_backgrounds\\wonder_background_space_small.dds"
+		noOfFrames = 3
+	}
+}

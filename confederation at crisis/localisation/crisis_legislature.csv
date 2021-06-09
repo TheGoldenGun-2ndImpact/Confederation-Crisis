@@ -1,4 +1,6 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+call_senate_elections;Call Senate Elections;;;;;;;;;;;;;x
+call_senate_elections_desc;Call for senate elections to be held.;;;;;;;;;;;;;x
 fill_seats_with_available_people;Fill Seats With Available People;;;;;;;;;;;;;x
 fill_seats_with_available_people_desc;There are vacant seats in the senate, and we can choose to fill those seats with the people we have available.;;;;;;;;;;;;;x
 request_senator_candidates_from_provinces;Request Senator Candidates From Provinces;;;;;;;;;;;;;x

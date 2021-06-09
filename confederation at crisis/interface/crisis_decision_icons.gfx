@@ -38,6 +38,10 @@ spriteTypes = {
 		name = "GFX_request_senator_candidates_from_provinces"
 		texturefile = "gfx\\interface\\decisions\\request_senator_candidates_from_provinces.dds"
 	}
+	spriteType = {
+		name = "GFX_call_senate_elections"
+		texturefile = "gfx\\interface\\decisions\\call_senate_elections.dds"
+	}
 
 # Employment Decisions
 
@@ -289,6 +293,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_form_bhaarat"
 		texturefile = "gfx\\interface\\decisions\\form_bhaarat.dds"
+	}
+
+# Neofeudal Decisions
+
+	spriteType = {
+		name = "GFX_neofeudal_coronation"
+		texturefile = "gfx\\interface\\decisions\\neofeudal_coronation.dds"
+	}
+	spriteType = {
+		name = "GFX_levy_tax_decision"
+		texturefile = "gfx\\interface\\decisions\\levy_tax_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_english_classics_decision"
+		texturefile = "gfx\\interface\\decisions\\english_classics_decision.dds"
 	}
 
 # Eternal Way Decisions

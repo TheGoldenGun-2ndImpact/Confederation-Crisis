@@ -782,3 +782,377 @@ character_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+#neofeudal.15-18, Coronation events
+
+character_event = {
+	id = neofeudal.15
+	desc = EVTDESC_coronation_15
+	picture = GFX_evt_magnificent_castle
+
+	trigger = {
+		has_dlc = "Holy Fury"
+		is_landed = yes
+		OR = {
+			AND = {
+				independent = yes
+				higher_real_tier_than = BARON
+			}
+			higher_tier_than = COUNT
+		}
+		government = neofeudal_government
+		religion = neo_feudal
+		NOR = {
+			trait = neofeudal_crowned
+			trait = neofeudal_uncrowned
+			has_character_flag = flag_neofeudal_coronation
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+	}
+
+	option = {
+	    name = OPT_A_coronation_15
+		add_trait = neofeudal_uncrowned
+		prestige = -10
+	}
+}
+
+character_event = {
+	id = neofeudal.16
+	desc = {
+		trigger = {
+			war = no
+		}
+		text = EVTDESC_coronation_A_16
+	}
+	desc = {
+		trigger = {
+			war = yes
+		}
+		text = EVTDESC_coronation_B_16
+	}
+
+	picture = GFX_evt_magnificent_castle
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		government = neofeudal_government
+		religion = neo_feudal
+	}
+	is_triggered_only = yes
+	
+	immediate = {
+		save_event_target_as = coronation_ruler
+		add_character_modifier = {
+			name = out_traveling
+			duration = 66
+			hidden = yes #Make the character inaccessible, the ruler himself is not actually out, he's still at court.
+		}
+	}
+
+	option = {
+		name = OPT_A_coronation_16
+		trigger = { war = no }
+		set_character_flag = flag_extravagant_coronation
+		if = { 
+			limit = { ai = no } #Cheaty AI...
+			scaled_wealth = { value = -1 min = -250 max = -1000 }
+		}
+		hidden_tooltip = {
+			character_event = { id = neofeudal.17 days = 11 } #Ceremony actually starts
+		}
+		ai_chance = { 
+			factor = 30 
+			modifier = { 
+				factor = 0.5
+				NOT = { scaled_wealth = 1 } 
+			} 
+			modifier = { 
+				factor = 0.5
+				NOT = { scaled_wealth = 0.5 } 
+			} 
+			modifier = { 
+				factor = 0.25
+				NOT = { wealth = 0 } 
+			} 
+			modifier = { 
+				factor = 0
+				NOT = { wealth = -100 } 
+			} 
+			modifier = { 
+				factor = 3
+				tier = EMPEROR
+			} 
+			modifier = { 
+				factor = 0.75
+				trait = greedy
+			} 
+		}
+	}
+	option = {
+		name = OPT_B_coronation_16
+		trigger = { war = no }
+		set_character_flag = flag_regular_coronation
+		hidden_tooltip = {
+			character_event = { id = neofeudal.17 days = 11 } #Ceremony actually starts
+		}
+		if = { 
+			limit = { ai = no } #Cheaty AI...
+			scaled_wealth = { value = -0.5 min = -100 max = -500 }
+		}
+		ai_chance = { 
+			factor = 40 
+			modifier = { 
+				factor = 0.5
+				NOT = { scaled_wealth = 0.5 } 
+			} 
+			modifier = { 
+				factor = 0.5
+				NOT = { scaled_wealth = 0.25 } 
+			} 
+			modifier = { 
+				factor = 0.25
+				NOT = { wealth = 0 } 
+			} 
+			modifier = { 
+				factor = 0
+				NOT = { wealth = -100 } 
+			} 
+			modifier = { 
+				factor = 0.5
+				tier = EMPEROR
+			} 
+			modifier = { 
+				factor = 0.75
+				trait = greedy
+			} 
+		}
+	}
+	option = {
+		name = {
+			text = OPT_C_coronation_16
+			trigger = {
+				war = no
+			}
+		}
+		name = {
+			text = OPT_D_coronation_16
+			trigger = {
+				war = yes
+			}
+		}
+		set_character_flag = flag_secluded_coronation
+		if = { 
+			limit = { ai = no } #Cheaty AI...
+			scaled_wealth = { value = -0.05 min = -10 max = -160 }
+		}
+		hidden_tooltip = {
+			character_event = { id = neofeudal.17 days = 11 } #Ceremony actually starts
+		}
+		ai_chance = {
+			factor = 30 
+			modifier = { 
+				factor = 0.25
+				NOT = { wealth = 0 } 
+			} 
+			modifier = { 
+				factor = 3
+				NOT = { wealth = -100 } 
+			} 
+			modifier = { 
+				factor = 0.1
+				tier = EMPEROR
+			} 
+			modifier = { 
+				factor = 1.5
+				trait = greedy
+			}
+		}
+	}
+}
+
+character_event = {
+	id = neofeudal.17
+	desc = {
+		trigger = {
+			has_character_flag = flag_extravagant_coronation 
+			war = no
+		}
+		text = EVTDESC_coronation_A_17
+	}
+	desc = {
+		trigger = {
+			has_character_flag = flag_regular_coronation
+			war = no
+		}
+		text = EVTDESC_coronation_B_17
+	}
+	desc = {
+		trigger = {
+			has_character_flag = flag_secluded_coronation
+			war = no
+		}
+		text = EVTDESC_coronation_C_17
+	}
+
+	desc = {
+		trigger = {
+			war = yes
+		}
+		text = EVTDESC_coronation_D_17
+	}
+
+	picture = GFX_evt_magnificent_castle
+	border = GFX_event_normal_frame_religion
+
+	trigger = {
+		government = neofeudal_government
+		religion = neo_feudal
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OPT_A_coronation_17
+		hidden_tooltip = { character_event = { id = neofeudal.18 days = 32 } } #THE CORONATION ITSELF
+	}
+}
+
+character_event = {
+	id = neofeudal.18
+	title = TITLE_coronation_18
+	desc = {
+		trigger = {
+			ROOT = { 
+				war = no
+				NOT = { has_character_flag = flag_secluded_coronation }
+				age = 18
+			}
+		}
+		text = EVTDESC_coronation_A_18		# Localization for any adult ruler neofeudal_crowned by a Bishop or Priest (not in a barn).
+		picture = GFX_evt_a_crowning_ceremony
+	}
+	desc = {
+		trigger = {
+			ROOT = { 
+				war = no
+				NOT = { has_character_flag = flag_secluded_coronation }
+				NOT = { age = 18 }
+			}
+		}
+		text = EVTDESC_coronation_B_18		# Localization for any child ruler neofeudal_crowned by a Bishop or Priest (not in a barn).
+		picture = GFX_evt_a_crowning_ceremony
+	}
+	desc = {
+		trigger = {
+			ROOT = { 
+				war = no
+				has_character_flag = flag_secluded_coronation
+			}
+		}
+		text = EVTDESC_coronation_C_18		# Localization for any ruler neofeudal_crowned by a Bishop or Priest in a barn.
+		picture = GFX_evt_a_crowning_ceremony
+	}
+	desc = {
+		trigger = {
+			ROOT = { 
+				war = yes
+			}
+		}
+		text = EVTDESC_coronation_D_18		# War Coronation description.
+		picture = GFX_evt_space_battle
+	}
+
+	#picture = GFX_evt_found_hre
+	border = GFX_event_normal_frame_religion
+	hide_new = yes
+
+	trigger = {
+		event_target:coronation_ruler = { 
+			religion = neo_feudal
+			NOT = { trait = neofeudal_crowned }
+		}
+		# event_target:coronation_priest = { is_alive = yes } #Check if the priest supposed to be crowning you is still alive.
+		event_target:coronation_ruler = { is_alive = yes } #Check if the ruler supposed to be neofeudal_crowned is still alive. (check for guests)
+		event_target:coronation_ruler = { character = ROOT }
+	}
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = flag_secluded_coronation
+				war = no
+			}
+			sound_effect = coronation_barn
+		}
+		else_if = {
+			limit = {
+				has_character_flag = flag_extravagant_coronation
+			}
+			sound_effect = coronation_extravagant
+		}
+		else = {
+			sound_effect = coronation_normal
+		}
+	}
+	option = {
+		name = OPT_A_coronation_18
+		#Assign proper trait.
+		hidden_tooltip = {
+			remove_trait = neofeudal_uncrowned
+		}
+		add_trait = neofeudal_crowned
+		random_list = {
+			10 = {
+				add_trait = just
+			}
+			90 = {
+			}
+		}
+		#Assign possible modifier.
+		if = { 
+			limit = { 
+				war = no
+				has_character_flag = flag_secluded_coronation
+			} 
+			add_character_modifier = {
+				name = crowned_in_barn
+				days = -1
+			}
+		}
+		if = { 
+			limit = { 
+				war = yes
+				has_character_flag = flag_secluded_coronation 
+			} 
+			add_character_modifier = {
+				name = crowned_in_war
+				days = -1
+			}
+		}
+		if = { 
+			limit = { 
+				has_character_flag = flag_extravagant_coronation 
+			} 
+			add_character_modifier = {
+				name = extravagant_coronation
+				days = 7300
+			}
+		}
+		ai_chance = { 	
+			factor = 95		
+		}
+	}
+	after = {
+		clr_character_flag = flag_neofeudal_coronation
+		clr_character_flag = flag_extravagant_coronation
+		clr_character_flag = flag_regular_coronation
+		clr_character_flag = flag_secluded_coronation
+		clr_character_flag = do_not_disturb
+	}
+}
