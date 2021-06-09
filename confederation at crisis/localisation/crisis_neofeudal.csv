@@ -64,7 +64,7 @@ worthy_desc;This character is revered far and wide as a modern pinnacle of chiva
 neofeudal_uncrowned;Uncrowned;;;;;;;;;;;;;x
 neofeudal_uncrowned_desc;This character has not been officialy coronated, hurting their legitimacy.;;;;;;;;;;;;;x
 neofeudal_crowned;Crowned;;;;;;;;;;;;;x
-neofeudal_crowned_desc;This character has been coronated, as befits a [Root.GetTitle] [This.GetTitle] [GetTitle].;;;;;;;;;;;;;x
+neofeudal_crowned_desc;This character has been coronated, as befits a [Root.GetTitle].;;;;;;;;;;;;;x
 tooltip_delve_into_english_classics;You take some time to study the works of the Ancient English;;;;;;x
 tooltipt_neofeudal9_A;Focus your studies on classics of poetry and theatre.;;;;;;x
 tooltipt_neofeudal9_B;Focus your studies on the great national epic.;;;;;;x

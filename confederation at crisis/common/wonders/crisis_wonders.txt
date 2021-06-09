@@ -80,7 +80,7 @@ wonder_ecumenopolis = {
 			FROMFROMFROM = { TECH_CONSTRUCTION = 2 }
 		}
 		build_time = 100
-		gold_cost_flat = 1000
+		gold_cost_flat = 1500
 		gold_cost_ticking = 5
 		restore_time = 50
 		loot_time = 50
@@ -101,7 +101,7 @@ wonder_ecumenopolis = {
 			FROMFROMFROM = { TECH_CONSTRUCTION = 3 }
 		}
 		build_time = 50
-		gold_cost_flat = 500
+		gold_cost_flat = 750
 		gold_cost_ticking = 5
 		restore_time = 50
 		loot_time = 50
@@ -122,7 +122,7 @@ wonder_ecumenopolis = {
 			FROMFROMFROM = { TECH_CONSTRUCTION = 4 }
 		}
 		build_time = 50
-		gold_cost_flat = 500
+		gold_cost_flat = 750
 		gold_cost_ticking = 5
 		restore_time = 50
 		loot_time = 50
@@ -143,7 +143,7 @@ wonder_ecumenopolis = {
 			FROMFROMFROM = { TECH_CONSTRUCTION = 5 }
 		}
 		build_time = 50
-		gold_cost_flat = 500
+		gold_cost_flat = 750
 		gold_cost_ticking = 5
 		restore_time = 50
 		loot_time = 50
@@ -316,7 +316,7 @@ wonder_orbital_mansion = {
 			}
 		}
 		build_time = 50
-		gold_cost_flat = 6000
+		gold_cost_flat = 4000
 		gold_cost_ticking = 1
 		restore_time = 50
 		loot_time = 50
