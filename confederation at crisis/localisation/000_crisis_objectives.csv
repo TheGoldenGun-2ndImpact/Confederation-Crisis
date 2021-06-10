@@ -13,12 +13,15 @@ obj_become_emperor_title;Become Ruler of [This.Capital.Empire.GetName];Devient [
 obj_become_emperor_desc;[This.GetFullName] wants to become [Root.GetEmperorEmpress] of [This.Capital.Empire.GetName].;[This.GetFullName] désire devenir [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName]. S'il est païen, cela permet à/au [This.GetObjectPronoun] l'utilisation illimitée de l'assujettissement casus belli au sein du royaume. ;[This.GetFullName] möchte [Root.GetEmperorEmpress] von [This.Capital.Empire.GetName] werden. Bei heidnischer Herrschaft erlaubt dies [This.GetObjectPronoun] die unbegrenzte Verwendung des Kriegsgrunds Unterwerfung in diesem Königreich.;; [This.GetFullName] quiere convertirse en [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName]. Si es pagano, permite a [This.GetObjectPronoun] el uso ilimitado de la Casus Belli Subyugación dentro del reino.;;;;;;;;;x
 obj_become_emperor_tip;Is [Root.GetEmperorEmpress] of [This.Capital.Empire.GetName];Est [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];Ist [Root.GetEmperorEmpress] von [This.Capital.Empire.GetName];;Es [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];;;;;;;;;x
 
-# TODO: write descriptions for all of the following objectives
+# TODO: write descriptions and tips for all of the following objectives
 
 obj_expand_realm_title;Expand Realm;;;;;;;;;;;;;x
 obj_amass_wealth_2_title;Amass Wealth;;;;;;;;;;;;;x
+obj_amass_wealth_2_desc;[Root.GetFullName] feels that [Root.GetSheHe] is low on funds, and wants to amass a large amount of wealth.;;;;;;;;;;;;;x
 obj_amass_wealth_3_title;Amass Wealth;;;;;;;;;;;;;x
+obj_amass_wealth_3_desc;[Root.GetFullName] feels that [Root.GetSheHe] is low on funds, and wants to amass a large amount of wealth.;;;;;;;;;;;;;x
 obj_amass_wealth_4_title;Amass Wealth;;;;;;;;;;;;;x
+obj_amass_wealth_4_desc;[Root.GetFullName] feels that [Root.GetSheHe] is low on funds, and wants to amass a large amount of wealth.;;;;;;;;;;;;;x
 obj_become_exalted_2_title;Become Famed Across the Stars;;;;;;;;;;;;;x
 obj_become_exalted_2_desc;[Root.GetFullName] wants to earn such fame and recognition that [Root.GetHerHis] name will be spoken across the Known Worlds.;;;;;;;;;;;;;x
 obj_become_exalted_3_title;Become Famed Across the Stars;;;;;;;;;;;;;x
@@ -37,14 +40,23 @@ obj_fifteen_children_desc;[Root.GetFullName] is feeling [Root.GetHerHis] genetic
 obj_twenty_children_title;Have 20 Children;;;;;;;;;;;;;x
 obj_twenty_children_desc;[Root.GetFullName] is feeling [Root.GetHerHis] genetic imperative, and wants to have twenty children, either through cloning or the more conventional method.;;;;;;;;;;;;;x
 obj_increase_demesne_1_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_1_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_2_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_2_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_3_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_3_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_4_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_4_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_5_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_5_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_6_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_6_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_7_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_7_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_8_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_8_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_increase_demesne_9_title;Increase Demesne;;;;;;;;;;;;;x
+obj_increase_demesne_9_desc;[Root.GetFullName]'s power base is too weak. To rectify this, [Root.GetSheHe] needs to hold more Star Systems as [Root.GetHerHis] personal demesne.;;;;;;;;;;;;;x
 obj_become_duke_title;Become Duke;;;;;;;;;;;;;x
 obj_become_duke_desc;[This.GetFullName] wants to become [Root.GetDukeDuchess] of [This.Capital.Duchy.GetName].;[This.GetFullName] désire devenir [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName]. S'il est païen, cela permet à/au [This.GetObjectPronoun] l'utilisation illimitée de l'assujettissement casus belli au sein du royaume. ;[This.GetFullName] möchte [Root.GetEmperorEmpress] von [This.Capital.Empire.GetName] werden. Bei heidnischer Herrschaft erlaubt dies [This.GetObjectPronoun] die unbegrenzte Verwendung des Kriegsgrunds Unterwerfung in diesem Königreich.;; [This.GetFullName] quiere convertirse en [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName]. Si es pagano, permite a [This.GetObjectPronoun] el uso ilimitado de la Casus Belli Subyugación dentro del reino.;;;;;;;;;x
 obj_become_duke_tip;Is [Root.DukeDuchess] of [This.Capital.Duchy.GetName];Est [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];Ist [Root.GetEmperorEmpress] von [This.Capital.Empire.GetName];;Es [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];;;;;;;;;x
@@ -53,6 +65,8 @@ obj_go_crusade_title;Go on a Crusade;;;;;;;;;;;;;x
 obj_go_jihad_title;Go on a Jihad;;;;;;;;;;;;;x
 obj_break_out_of_prison_title;Break Out Of Prison;;;;;;;;;;;;;x
 obj_win_a_war_title;Win A War;;;;;;;;;;;;;x
+obj_win_a_war_desc;[Root.GetFullName] wants to prove [Root.GetHerHis] martial ability by winning a war against another ruler.;;;;;;;;;;;;;x
+obj_win_a_war_tip;Won a war;;;;;;;;;;;;;x
 obj_convert_a_province_title;Convert A Province;;;;;;;;;;;;;x
 obj_adopt_a_lifestyle_title;Adopt A Lifestyle;;;;;;;;;;;;;x
 obj_gain_honorary_title_title;Gain An Honorary Title;;;;;;;;;;;;;x
@@ -76,13 +90,20 @@ obj_lower_decadence70_title;Lower Decadence;;;;;;;;;;;;;x
 obj_lower_decadence75_title;Lower Decadence;;;;;;;;;;;;;x
 obj_lower_decadence80_title;Lower Decadence;;;;;;;;;;;;;x
 obj_reign_20_years_title;Reign For 20 Years;;;;;;;;;;;;;x
+obj_reign_20_years_desc;[Root.GetFullName] wants to reign for a long period of time in order to cement their authority.;;;;;;;;;;;;;x
+obj_reign_20_years_tip;Reigned for 20 years;;;;;;;;;;;;;x
 obj_peace_10_year_title;Stay At Peace For 10 Years;;;;;;;;;;;;;x
-obj_great_council_title;Have A Great Council;;;;;;;;;;;;;x
+obj_peace_10_year_desc;[Root.GetFullName] wants to adopt a pacifist foreign policy and wishes to keep the realm out of all wars in the near future.;;;;;;;;;;;;;x
+obj_peace_10_year_tip;Was at peace for 10 years;Est [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];Ist [Root.GetEmperorEmpress] von [This.Capital.Empire.GetName];;Es [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];;;;;;;;;x
+obj_great_council_title;Have A Great Cabinet;;;;;;;;;;;;;x
+obj_great_council_desc;[Root.GetFullName] wants to have a cabinet of highly talented ministers in order to manage the realm effectively.;;;;;;;;;;;;;x
 obj_be_legitimized_title;Be Legitimized;;;;;;;;;;;;;x
 obj_druze_esoteric_learning_title;Druze Esoteric Learning;;;;;;;;;;;;;x
 obj_become_saint_title;Become A Saint;;;;;;;;;;;;;x
 obj_warlord_title;Become A Warlord;;;;;;;;;;;;;x
 obj_pledge_peace_title;Stay At Peace For 15 Years;;;;;;;;;;;;;x
+obj_pledge_peace_desc;[Root.GetFullName] wants to adopt a pacifist foreign policy and wishes to keep the realm out of all wars in the near future.;;;;;;;;;;;;;x
+obj_pledge_peace_tip;Was at peace for 15 years;Est [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];Ist [Root.GetEmperorEmpress] von [This.Capital.Empire.GetName];;Es [Root.GetEmperorEmpress] de [This.Capital.Empire.GetName];;;;;;;;;x
 
 
 focus_economics_title;Economics;;;;;;;;;;;;;x

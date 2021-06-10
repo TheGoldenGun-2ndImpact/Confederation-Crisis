@@ -1,11 +1,12 @@
 namespace = invasion
 
-# Planetary Invasion events (i.e., new siege events)
+## Planetary Invasion events (i.e., new siege events)
+
 # You just won a siege in which you used an orbital bombardment
 character_event = {
 	id = invasion.100
 	desc = "EVTDESCINVASION100"
-	picture = GFX_evt_invasion
+	picture = GFX_evt_mushroom_cloud
 	is_triggered_only = yes
 	border = GFX_evt_frame_character_frame_war
 
@@ -1563,7 +1564,7 @@ character_event = {
 character_event = {
 	id = invasion.101
 	desc = "EVTDESCINVASION101"
-	picture = GFX_evt_battle
+	picture = GFX_evt_mushroom_cloud
 	border = GFX_evt_frame_character_frame_war
 	is_triggered_only = yes
 
@@ -1572,11 +1573,12 @@ character_event = {
 		death = { death_reason = death_battle killer = FROM }
 	}
 }
+
 # You were maimed in an orbital bombardment
 character_event = {
 	id = invasion.102
 	desc = "EVTDESCINVASION102"
-	picture = GFX_evt_battle
+	picture = GFX_evt_mushroom_cloud
 	border = GFX_evt_frame_character_frame_war
 	is_triggered_only = yes
 
@@ -1600,7 +1602,7 @@ character_event = {
 character_event = {
 	id = invasion.103
 	desc = "EVTDESCINVASION103"
-	picture = GFX_evt_battle
+	picture = GFX_evt_mushroom_cloud
 	border = GFX_evt_frame_character_frame_war
 	is_triggered_only = yes
 
@@ -1615,6 +1617,7 @@ character_event = {
 		}
 	}
 }
+
 # WMDs used on your authorization
 character_event = {
 	id = invasion.104
@@ -1624,11 +1627,12 @@ character_event = {
 
 	option = { name = "EVTOPTCONFIRM" }
 }
+
 # Your planet's gone
 character_event = {
 	id = invasion.105
 	desc = "EVTDESCINVASION105"
-	picture = GFX_evt_battle
+	picture = GFX_evt_mushroom_cloud
 	border = GFX_evt_frame_character_frame_war
 	is_triggered_only = yes
 
@@ -1643,6 +1647,7 @@ character_event = {
 		}
 	}
 }
+
 # WMDs used WITHOUT your authorization
 character_event = {
 	id = invasion.106
@@ -1658,7 +1663,7 @@ narrative_event = {
 	title = "EVTTITLEINVASION110"
 	id = invasion.110
 	desc = "EVTDESCINVASION110"
-	picture = GFX_evt_burning_house
+	picture = GFX_evt_mushroom_cloud
 	border = GFX_event_narrative_frame_war
 	major = yes
 	is_triggered_only = yes
@@ -1746,6 +1751,7 @@ character_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
 # Weapons of mass destruction are authorized
 character_event = {
 	id = invasion.116
@@ -1758,6 +1764,7 @@ character_event = {
 
 	option = { name = "EVTOPTCONFIRM" }
 }
+
 # Remove authorization
 character_event = {
 	id = invasion.117
@@ -1773,6 +1780,7 @@ character_event = {
 
 	immediate = { clr_character_flag = flag_authorized_orbital_bombardment }
 }
+
 # Order orbital bombardment
 character_event = {
 	id = invasion.120

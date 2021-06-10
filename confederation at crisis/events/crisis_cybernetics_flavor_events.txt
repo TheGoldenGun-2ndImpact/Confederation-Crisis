@@ -76,7 +76,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10005"
+		name = "EVTOPT_A_CYBERNETICS_10005"
 		random_list = {
 			50 = {
 				add_character_modifier = { name = feedback_bliss duration = 365 }
@@ -110,23 +110,23 @@ character_event = {
 
 character_event = {
 	id = cybernetics.10006
-	desc = "EVTDESCCYBERNETICS10006"
+	desc = "EVTDESC_CYBERNETICS_10006"
 	picture = GFX_evt_lovers
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10006"
+		name = "EVTOPT_A_CYBERNETICS_10006"
 		add_character_modifier = { name = feedback_overload duration = 365 }
 	}
 }
 character_event = {
 	id = cybernetics.10007
-	desc = "EVTDESCCYBERNETICS10007"
+	desc = "EVTDESC_CYBERNETICS_10007"
 	picture = GFX_evt_lovers
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10007"
+		name = "EVTOPT_A_CYBERNETICS_10007"
 		add_character_modifier = { name = feedback_overload duration = 365 }
 	}
 }
@@ -243,12 +243,12 @@ character_event = {
 
 character_event = {
 	id = cybernetics.10011
-	desc = "EVTDESCCYBERNETICS10011"
+	desc = "EVTDESC_CYBERNETICS_10011"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10011"
+		name = "EVTOPT_A_CYBERNETICS_10011"
 		character_event = { id = spymaster.0 tooltip = "EVTTOOLTIPSPYMASTER0" } # Send this one to the new plot interface
 	}
 }
@@ -256,7 +256,7 @@ character_event = {
 # Cybernetic limb is cutting into flesh
 character_event = {
 	id = cybernetics.10015
-	desc = "EVTDESCCYBERNETICS10015"
+	desc = "EVTDESC_CYBERNETICS_10015"
 	picture = GFX_evt_wounded
 
 	min_age = 16
@@ -285,7 +285,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10015"
+		name = "EVTOPT_A_CYBERNETICS_10015"
 		inflict_minor_injury_effect = yes
 	}
 }
@@ -293,7 +293,7 @@ character_event = {
 # # Young cyborg is uncomfortable with their augmentations
 # character_event = {
 	# id = cybernetics.10020
-	# desc = "EVTDESCCYBERNETICS10020"
+	# desc = "EVTDESC_CYBERNETICS_10020"
 	# picture = GFX_evt_child_cyborg
 
 	# min_age = 6
@@ -341,7 +341,7 @@ character_event = {
 
 	# option = {
 		# # Talk to father
-		# name = "EVTOPTACYBERNETICS10020"
+		# name = "EVTOPT_A_CYBERNETICS_10020"
 		# trigger = {
 			# father = {
 				# is_alive = yes
@@ -448,7 +448,7 @@ character_event = {
 	# }
 	# option = {
 		# # Talk to mother
-		# name = "EVTOPTBCYBERNETICS10020"
+		# name = "EVTOPT_B_CYBERNETICS_10020"
 		# trigger = {
 			# mother = {
 				# is_alive = yes
@@ -555,7 +555,7 @@ character_event = {
 	# }
 	# option = {
 		# # Talk to guardian
-		# name = "EVTOPTCCYBERNETICS10020"
+		# name = "EVTOPT_C_CYBERNETICS_10020"
 		# trigger = {
 			# has_guardian = yes
 			# guardian = { NOT = { any_child = { character = ROOT } } }
@@ -658,7 +658,7 @@ character_event = {
 	# }
 	# option = {
 		# # I don't want to talk to anybody about it
-		# name = "EVTOPTDCYBERNETICS10020"
+		# name = "EVTOPT_D_CYBERNETICS_10020"
 		# set_character_flag = flag_cybernetic_adjustment_event
 		# degrade_mood_effect = yes
 		# random = {
@@ -671,13 +671,13 @@ character_event = {
 # # Guardian or parent deals with child's uncomfortability
 # character_event = {
 	# id = cybernetics.10021
-	# desc = "EVTDESCCYBERNETICS10021"
+	# desc = "EVTDESC_CYBERNETICS_10021"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
 	# option = {
 		# # Ignore them
-		# name = "EVTOPTACYBERNETICS10021"
+		# name = "EVTOPT_A_CYBERNETICS_10021"
 		# FROM = {
 			# degrade_mood_effect = yes
 			# opinion = { who = ROOT modifier = opinion_mad_at_guardian months = 60 }
@@ -719,7 +719,7 @@ character_event = {
 			# NOT = { diplomacy = 14 }
 		# }
 		# # Try to talk them through it (no experience, poor diplomacy)
-		# name = "EVTOPTBCYBERNETICS10021"
+		# name = "EVTOPT_B_CYBERNETICS_10021"
 		# FROM = {
 			# random_list = {
 				# 30 = {
@@ -754,7 +754,7 @@ character_event = {
 			# NOT = { diplomacy = 14 }
 		# }
 		# # Try to talk them through it (speaks from experience, poor diplomacy)
-		# name = "EVTOPTCCYBERNETICS10021"
+		# name = "EVTOPT_C_CYBERNETICS_10021"
 		# FROM = {
 			# random_list = {
 				# 25 = {
@@ -787,7 +787,7 @@ character_event = {
 			# diplomacy = 14
 		# }
 		# # Try to talk them through it (no experience, good diplomacy)
-		# name = "EVTOPTBCYBERNETICS10021"
+		# name = "EVTOPT_B_CYBERNETICS_10021"
 		# FROM = {
 			# random_list = {
 				# 25 = {
@@ -822,7 +822,7 @@ character_event = {
 			# diplomacy = 14
 		# }
 		# # Try to talk them through it (experience, good diplomacy)
-		# name = "EVTOPTCCYBERNETICS10021"
+		# name = "EVTOPT_C_CYBERNETICS_10021"
 		# FROM = {
 			# random_list = {
 				# 5 = {
@@ -852,7 +852,7 @@ character_event = {
 	# option = {
 		# trigger = { religion_group = religious_group }
 		# # You are an abomination
-		# name = "EVTOPTDCYBERNETICS10021"
+		# name = "EVTOPT_D_CYBERNETICS_10021"
 		# piety = 100
 		# remove_trait = friendly
 		# add_trait = cold
@@ -896,26 +896,26 @@ character_event = {
 # # Guardian ignored me!
 # character_event = {
 	# id = cybernetics.10022
-	# desc = "EVTDESCCYBERNETICS10022"
+	# desc = "EVTDESC_CYBERNETICS_10022"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
 	# immediate = { improve_mood_effect = yes }
 
 	# option = {
-		# name = "EVTOPTACYBERNETICS10022"
+		# name = "EVTOPT_A_CYBERNETICS_10022"
 		# degrade_mood_effect = yes
 	# }
 # }
 # # Guardian tried to console me, it didn't work
 # character_event = {
 	# id = cybernetics.10023
-	# desc = "EVTDESCCYBERNETICS10023"
+	# desc = "EVTDESC_CYBERNETICS_10023"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
 	# option = {
-		# name = "EVTOPTACYBERNETICS10023"
+		# name = "EVTOPT_A_CYBERNETICS_10023"
 		# degrade_mood_effect = yes
 		# if = {
 			# limit = { NOT = { trait = confident } }
@@ -927,25 +927,25 @@ character_event = {
 # # Guardian tried to console me, it worked
 # character_event = {
 	# id = cybernetics.10024
-	# desc = "EVTDESCCYBERNETICS10024"
+	# desc = "EVTDESC_CYBERNETICS_10024"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 	# option = {
-		# name = "EVTOPTACYBERNETICS10024"
+		# name = "EVTOPT_A_CYBERNETICS_10024"
 		# hidden_tooltip = { FROM = { character_event = { id = cybernetics.10028 } } }
 	# }
 # }
 # # Guardian tried to console me, it worked really well
 # character_event = {
 	# id = cybernetics.10025
-	# desc = "EVTDESCCYBERNETICS10025"
+	# desc = "EVTDESC_CYBERNETICS_10025"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
 	# immediate = { remove_trait = confident }
 
 	# option = {
-		# name = "EVTOPTACYBERNETICS10025"
+		# name = "EVTOPT_A_CYBERNETICS_10025"
 		# remove_trait = neurotic
 		# add_trait = confident
 		# hidden_tooltip = { FROM = { character_event = { id = cybernetics.10029 } } }
@@ -954,14 +954,14 @@ character_event = {
 # # Guardian called me an abomination
 # character_event = {
 	# id = cybernetics.10026
-	# desc = "EVTDESCCYBERNETICS10026"
+	# desc = "EVTDESC_CYBERNETICS_10026"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
 	# immediate = { remove_trait = depressed }
 
 	# option = {
-		# name = "EVTOPTACYBERNETICS10026"
+		# name = "EVTOPT_A_CYBERNETICS_10026"
 		# add_trait = depressed
 	# }
 # }
@@ -969,7 +969,7 @@ character_event = {
 # # Consoling didn't work
 # character_event = {
 	# id = cybernetics.10027
-	# desc = "EVTDESCCYBERNETICS10027"
+	# desc = "EVTDESC_CYBERNETICS_10027"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
@@ -978,7 +978,7 @@ character_event = {
 # # Consoling worked
 # character_event = {
 	# id = cybernetics.10028
-	# desc = "EVTDESCCYBERNETICS10028"
+	# desc = "EVTDESC_CYBERNETICS_10028"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
@@ -987,7 +987,7 @@ character_event = {
 # # Consoling worked really well
 # character_event = {
 	# id = cybernetics.10029
-	# desc = "EVTDESCCYBERNETICS10029"
+	# desc = "EVTDESC_CYBERNETICS_10029"
 	# picture = GFX_evt_child_cyborg
 	# is_triggered_only = yes
 
@@ -1039,7 +1039,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10030"
+		name = "EVTOPT_A_CYBERNETICS_10030"
 		liege = {
 			job_chancellor = {
 				ROOT = { add_rival = PREV }
@@ -1084,7 +1084,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTBCYBERNETICS10030"
+		name = "EVTOPT_B_CYBERNETICS_10030"
 		random_list = {
 			70 = { }
 			20 = { change_diplomacy = 1 }
@@ -1136,7 +1136,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10030"
+		name = "EVTOPT_A_CYBERNETICS_10030"
 		liege = {
 			job_marshal = {
 				ROOT = { add_rival = PREV }
@@ -1181,7 +1181,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTBCYBERNETICS10030"
+		name = "EVTOPT_B_CYBERNETICS_10030"
 		random_list = {
 			70 = { }
 			20 = { change_martial = 1 }
@@ -1233,7 +1233,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10030"
+		name = "EVTOPT_A_CYBERNETICS_10030"
 		liege = {
 			job_treasurer = {
 				ROOT = { add_rival = PREV }
@@ -1278,7 +1278,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTBCYBERNETICS10030"
+		name = "EVTOPT_B_CYBERNETICS_10030"
 		random_list = {
 			70 = { }
 			20 = { change_stewardship = 1 }
@@ -1330,7 +1330,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10030"
+		name = "EVTOPT_A_CYBERNETICS_10030"
 		liege = {
 			job_spymaster = {
 				ROOT = { add_rival = PREV }
@@ -1375,7 +1375,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTBCYBERNETICS10030"
+		name = "EVTOPT_B_CYBERNETICS_10030"
 		random_list = {
 			70 = { }
 			20 = { change_intrigue = 1 }
@@ -1427,7 +1427,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10030"
+		name = "EVTOPT_A_CYBERNETICS_10030"
 		liege = {
 			job_spiritual = {
 				ROOT = { add_rival = PREV }
@@ -1472,7 +1472,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTBCYBERNETICS10030"
+		name = "EVTOPT_B_CYBERNETICS_10030"
 		random_list = {
 			70 = { }
 			20 = { change_learning = 1 }
@@ -1482,12 +1482,12 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.10035
-	desc = "EVTDESCCYBERNETICS10035"
+	desc = "EVTDESC_CYBERNETICS_10035"
 	picture = GFX_evt_quarrel
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10035"
+		name = "EVTOPT_A_CYBERNETICS_10035"
 		add_rival = FROM
 	}
 }
@@ -1559,13 +1559,13 @@ character_event = {
 
 character_event = {
 	id = cybernetics.10041
-	desc = "EVTDESCCYBERNETICS10041"
+	desc = "EVTDESC_CYBERNETICS_10041"
 	picture = GFX_evt_child_cyborg
 	is_triggered_only = yes
 
 	option = {
 		# Refuse to play with them
-		name = "EVTOPTACYBERNETICS10041"
+		name = "EVTOPT_A_CYBERNETICS_10041"
 		FROM = { character_event = { id = cybernetics.10042 tooltip = "EVTTOOLTIPCYBERNETICS10042" } }
 		ai_chance = {
 			factor = 25
@@ -1598,7 +1598,7 @@ character_event = {
 
 	option = {
 		# Try to persuade them to stop
-		name = "EVTOPTBCYBERNETICS10041"
+		name = "EVTOPT_B_CYBERNETICS_10041"
 		add_trait = friendly
 		FROM = { character_event = { id = cybernetics.10044 tooltip = "EVTTOOLTIPCYBERNETICS10044" } }
 		ai_chance = {
@@ -1625,7 +1625,7 @@ character_event = {
 	option = {
 		# Ask my guardian to make ME a cyborg!
 		trigger = { has_guardian = yes }
-		name = "EVTOPTCCYBERNETICS10041"
+		name = "EVTOPT_C_CYBERNETICS_10041"
 		guardian = { character_event = { id = cybernetics.10047 tooltip = "EVTTOOLTIPCYBERNETICS10047" } }
 		ai_chance = {
 			factor = 25
@@ -1652,7 +1652,7 @@ character_event = {
 
 	option = {
 		# I'll just have to try harder!
-		name = "EVTOPTDCYBERNETICS10041"
+		name = "EVTOPT_D_CYBERNETICS_10041"
 		degrade_mood_effect = yes
 		random = {
 			chance = 20
@@ -1707,13 +1707,13 @@ character_event = {
 # Another child is refusing to play with you
 character_event = {
 	id = cybernetics.10042
-	desc = "EVTDESCCYBERNETICS10042"
+	desc = "EVTDESC_CYBERNETICS_10042"
 	picture = GFX_evt_child_bully
 	is_triggered_only = yes
 
 	option = {
 		# Beat them up!
-		name = "EVTOPTACYBERNETICS10042"
+		name = "EVTOPT_A_CYBERNETICS_10042"
 		add_rival = FROM
 		FROM = {
 			if = {
@@ -1753,7 +1753,7 @@ character_event = {
 
 	option = {
 		# I can deal with it
-		name = "EVTOPTBCYBERNETICS10042"
+		name = "EVTOPT_B_CYBERNETICS_10042"
 		add_trait = introverted
 		ai_chance = {
 			factor = 50
@@ -1764,12 +1764,12 @@ character_event = {
 # The cyborg beat you up!
 character_event = {
 	id = cybernetics.10043
-	desc = "EVTDESCCYBERNETICS10043"
+	desc = "EVTDESC_CYBERNETICS_10043"
 	picture = GFX_evt_child_bully
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10043"
+		name = "EVTOPT_A_CYBERNETICS_10043"
 		inflict_minor_injury_effect = yes
 		add_rival = FROM
 	}
@@ -1778,13 +1778,13 @@ character_event = {
 # Another child has asked you to stop using your implants in games
 character_event = {
 	id = cybernetics.10044
-	desc = "EVTDESCCYBERNETICS10044"
+	desc = "EVTDESC_CYBERNETICS_10044"
 	picture = GFX_evt_child_talking
 	is_triggered_only = yes
 
 	option = {
 		# Okay!
-		name = "EVTOPTACYBERNETICS10044"
+		name = "EVTOPT_A_CYBERNETICS_10044"
 		add_friend = FROM
 		prestige = -100
 		FROM = { character_event = { id = cybernetics.10045 tooltip = "EVTTOOLTIPCYBERNETICS10045" } }
@@ -1818,7 +1818,7 @@ character_event = {
 	}
 	option = {
 		# No way!
-		name = "EVTOPTBCYBERNETICS10044"
+		name = "EVTOPT_B_CYBERNETICS_10044"
 		remove_trait = friendly
 		add_rival = FROM
 		prestige = 100
@@ -1828,30 +1828,30 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.10045
-	desc = "EVTDESCCYBERNETICS10045"
+	desc = "EVTDESC_CYBERNETICS_10045"
 	picture = GFX_evt_child_cyborg
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10045"
+		name = "EVTOPT_A_CYBERNETICS_10045"
 		add_friend = FROM
 	}
 }
 character_event = {
 	id = cybernetics.10046
-	desc = "EVTDESCCYBERNETICS10046"
+	desc = "EVTDESC_CYBERNETICS_10046"
 	picture = GFX_evt_child_bully
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10046"
+		name = "EVTOPT_A_CYBERNETICS_10046"
 		add_rival = FROM
 	}
 }
 # Your ward has asked you to buy them a DNI!
 character_event = {
 	id = cybernetics.10047
-	desc = "EVTDESCCYBERNETICS10047"
+	desc = "EVTDESC_CYBERNETICS_10047"
 	picture = GFX_evt_child
 	is_triggered_only = yes
 
@@ -1870,7 +1870,7 @@ character_event = {
 				}
 			}
 		}
-		name = "EVTOPTACYBERNETICS100"
+		name = "EVTOPT_A_CYBERNETICS_100"
 		wealth = -100
 		FROM = {
 			add_trait = dni
@@ -1954,7 +1954,7 @@ character_event = {
 	}
 	option = {
 		# Not a chance
-		name = "EVTOPTBCYBERNETICS10047"
+		name = "EVTOPT_B_CYBERNETICS_10047"
 		FROM = {
 			opinion = { who = ROOT modifier = opinion_unhappy_with_guardian }
 			hidden_tooltip = { character_event = { id = cybernetics.10050 } }
@@ -1965,47 +1965,47 @@ character_event = {
 
 character_event = {
 	id = cybernetics.10048
-	desc = "EVTDESCCYBERNETICS10048"
+	desc = "EVTDESC_CYBERNETICS_10048"
 	picture = GFX_evt_child_cyborg
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10048"
+		name = "EVTOPT_A_CYBERNETICS_10048"
 		add_trait = dni
 	}
 }
 character_event = {
 	id = cybernetics.10049
-	desc = "EVTDESCCYBERNETICS10049"
+	desc = "EVTDESC_CYBERNETICS_10049"
 	picture = GFX_evt_child_cyborg
 	is_triggered_only = yes
 
-	option = { name = "EVTOPTACYBERNETICS10049" }
+	option = { name = "EVTOPT_A_CYBERNETICS_10049" }
 }
 character_event = {
 	id = cybernetics.10050
-	desc = "EVTDESCCYBERNETICS10050"
+	desc = "EVTDESC_CYBERNETICS_10050"
 	picture = GFX_evt_child
 	is_triggered_only = yes
 
-	option = { name = "EVTOPTACYBERNETICS10050" }
+	option = { name = "EVTOPT_A_CYBERNETICS_10050" }
 }
 
 # Cybernetics damaged
 character_event = {
 	id = cybernetics.10060
-	desc = "EVTDESCCYBERNETICS10060"
+	desc = "EVTDESC_CYBERNETICS_10060"
 	picture = GFX_evt_wounded
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10060"
+		name = "EVTOPT_A_CYBERNETICS_10060"
 	}
 }
 # Cybernetics repaired
 character_event = {
 	id = cybernetics.10061
-	desc = "EVTDESCCYBERNETICS10061"
+	desc = "EVTDESC_CYBERNETICS_10061"
 	picture = GFX_evt_cybernetics
 
 	prisoner = no
@@ -2015,19 +2015,19 @@ character_event = {
 	mean_time_to_happen = { months = 6 }
 
 	option = {
-		name = "EVTOPTACYBERNETICS10061"
+		name = "EVTOPT_A_CYBERNETICS_10061"
 		remove_trait = cybernetics_damaged
 	}
 }
 # Cybernetic Arm Destroyed
 character_event = {
 	id = cybernetics.10062
-	desc = "EVTDESCCYBERNETICS10062"
+	desc = "EVTDESC_CYBERNETICS_10062"
 	picture = GFX_evt_wounded
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10062"
+		name = "EVTOPT_A_CYBERNETICS_10062"
 		remove_trait = cybernetic_limb
 		if = {
 			limit = { has_dlc = "Reapers" }
@@ -2051,14 +2051,14 @@ character_event = {
 # Cybernetic Leg Destroyed
 character_event = {
 	id = cybernetics.10063
-	desc = "EVTDESCCYBERNETICS10063"
+	desc = "EVTDESC_CYBERNETICS_10063"
 	picture = GFX_evt_wounded
 	is_triggered_only = yes
 
 	trigger = { has_dlc = "Reapers" }
 
 	option = {
-		name = "EVTOPTACYBERNETICS10063"
+		name = "EVTOPT_A_CYBERNETICS_10063"
 		remove_trait = cybernetic_leg
 		add_trait = one_legged
 		# Well, there is some good news...
@@ -2075,14 +2075,14 @@ character_event = {
 # Cybernetic Skeleton Destroyed
 character_event = {
 	id = cybernetics.10064
-	desc = "EVTDESCCYBERNETICS10064"
+	desc = "EVTDESC_CYBERNETICS_10064"
 	picture = GFX_evt_wounded
 	is_triggered_only = yes
 
 	trigger = { has_dlc = "Reapers" }
 
 	option = {
-		name = "EVTOPTACYBERNETICS10064"
+		name = "EVTOPT_A_CYBERNETICS_10064"
 		remove_trait = cybernetic_skeleton
 		add_trait = mangled
 		# Well, there is some good news...
@@ -2168,7 +2168,7 @@ character_event = {
 # IAEI
 character_event = {
 	id = cybernetics.10100
-	desc = "EVTDESCCYBERNETICS10100"
+	desc = "EVTDESC_CYBERNETICS_10100"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
@@ -2261,12 +2261,12 @@ character_event = {
 # Beta test ends
 character_event = {
 	id = cybernetics.10101
-	desc = "EVTDESCCYBERNETICS10101"
+	desc = "EVTDESC_CYBERNETICS_10101"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10101"
+		name = "EVTOPT_A_CYBERNETICS_10101"
 		remove_character_modifier = iaei_beta_test
 		change_diplomacy = 2
 	}
@@ -2275,7 +2275,7 @@ character_event = {
 # Beta test has practical applications
 character_event = {
 	id = cybernetics.10102
-	desc = "EVTDESCCYBERNETICS10102"
+	desc = "EVTDESC_CYBERNETICS_10102"
 	picture = GFX_evt_cybernetics
 
 	min_age = 16
@@ -2327,14 +2327,14 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTACYBERNETICS10102"
+		name = "EVTOPT_A_CYBERNETICS_10102"
 		change_diplomacy = 1
 	}
 }
 # Accidentally insult a vassal
 character_event = {
 	id = cybernetics.10103
-	desc = "EVTDESCCYBERNETICS10103"
+	desc = "EVTDESC_CYBERNETICS_10103"
 	picture = GFX_evt_argument
 
 	min_age = 16
@@ -2392,26 +2392,26 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTACYBERNETICS10103"
+		name = "EVTOPT_A_CYBERNETICS_10103"
 		hidden_tooltip = { liege = { character_event = { id = cybernetics.10104 tooltip = "EVTTOOLTIPCYBERNETICS10104" } } }
 	}
 }
 # Oops
 character_event = {
 	id = cybernetics.10104
-	desc = "EVTDESCCYBERNETICS10104"
+	desc = "EVTDESC_CYBERNETICS_10104"
 	picture = GFX_evt_argument
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10104"
+		name = "EVTOPT_A_CYBERNETICS_10104"
 		FROM = { opinion = { modifier = insulted who = ROOT } }
 	}
 }
 # Accidentally insult liege
 character_event = {
 	id = cybernetics.10105
-	desc = "EVTDESCCYBERNETICS10105"
+	desc = "EVTDESC_CYBERNETICS_10105"
 	picture = GFX_evt_argument
 
 	min_age = 16
@@ -2452,7 +2452,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10105"
+		name = "EVTOPT_A_CYBERNETICS_10105"
 		liege = {
 			opinion = { modifier = insulted who = ROOT }
 			hidden_tooltip = { character_event = { id = cybernetics.10106 } }
@@ -2461,16 +2461,16 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.10106
-	desc = "EVTDESCCYBERNETICS10106"
+	desc = "EVTDESC_CYBERNETICS_10106"
 	picture = GFX_evt_argument
 	is_triggered_only = yes
 
-	option = { name = "EVTOPTACYBERNETICS10106" }
+	option = { name = "EVTOPT_A_CYBERNETICS_10106" }
 }
 # Odin
 character_event = {
 	id = cybernetics.10200
-	desc = "EVTDESCCYBERNETICS10200"
+	desc = "EVTDESC_CYBERNETICS_10200"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
@@ -2568,12 +2568,12 @@ character_event = {
 # Beta test ends
 character_event = {
 	id = cybernetics.10201
-	desc = "EVTDESCCYBERNETICS10201"
+	desc = "EVTDESC_CYBERNETICS_10201"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10101"
+		name = "EVTOPT_A_CYBERNETICS_10101"
 		remove_character_modifier = odin_beta_test
 		change_martial = 2
 	}
@@ -2582,7 +2582,7 @@ character_event = {
 # Beta test has practical applications
 character_event = {
 	id = cybernetics.10202
-	desc = "EVTDESCCYBERNETICS10202"
+	desc = "EVTDESC_CYBERNETICS_10202"
 	picture = GFX_evt_cybernetics
 
 	min_age = 16
@@ -2634,7 +2634,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTACYBERNETICS10102"
+		name = "EVTOPT_A_CYBERNETICS_10102"
 		change_martial = 1
 	}
 }
@@ -2643,7 +2643,7 @@ character_event = {
 # This was a really bad time for a glitch
 character_event = {
 	id = cybernetics.10203
-	desc = "EVTDESCCYBERNETICS10203"
+	desc = "EVTDESC_CYBERNETICS_10203"
 	picture = GFX_evt_space_battle
 	is_triggered_only = yes
 
@@ -2665,7 +2665,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10203"
+		name = "EVTOPT_A_CYBERNETICS_10203"
 		troops = -0.1
 		random_list = {
 			65 = { inflict_minor_injury_effect = yes }
@@ -2707,7 +2707,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10204"
+		name = "EVTOPT_A_CYBERNETICS_10204"
 		random_realm_character = {
 			limit = {
 				NOT = { character = ROOT }
@@ -2723,12 +2723,12 @@ character_event = {
 
 character_event = {
 	id = cybernetics.10205
-	desc = "EVTDESCCYBERNETICS10205"
+	desc = "EVTDESC_CYBERNETICS_10205"
 	picture = GFX_evt_space_battle
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10205"
+		name = "EVTOPT_A_CYBERNETICS_10205"
 		troops = -0.1
 		random_list = {
 			65 = { inflict_minor_injury_effect = yes }
@@ -2743,7 +2743,7 @@ character_event = {
 # This was an AWESOME time for a glitch!
 character_event = {
 	id = cybernetics.10206
-	desc = "EVTDESCCYBERNETICS10206"
+	desc = "EVTDESC_CYBERNETICS_10206"
 	picture = GFX_evt_space_battle
 	is_triggered_only = yes
 
@@ -2760,7 +2760,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTACYBERNETICS10206"
+		name = "EVTOPT_A_CYBERNETICS_10206"
 		prestige = 100
 		FROM = { character_event = { id = cybernetics.10207 tooltip = "EVTTOOLTIPCYBERNETICS10207" } }
 	}
@@ -2786,7 +2786,7 @@ character_event = {
 # PCI
 character_event = {
 	id = cybernetics.10300
-	desc = "EVTDESCCYBERNETICS10300"
+	desc = "EVTDESC_CYBERNETICS_10300"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
@@ -2878,12 +2878,12 @@ character_event = {
 # Beta test ends
 character_event = {
 	id = cybernetics.10301
-	desc = "EVTDESCCYBERNETICS10301"
+	desc = "EVTDESC_CYBERNETICS_10301"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10101"
+		name = "EVTOPT_A_CYBERNETICS_10101"
 		remove_character_modifier = pci_beta_test
 		change_stewardship = 2
 	}
@@ -2892,7 +2892,7 @@ character_event = {
 # Beta test has practical applications
 character_event = {
 	id = cybernetics.10302
-	desc = "EVTDESCCYBERNETICS10302"
+	desc = "EVTDESC_CYBERNETICS_10302"
 	picture = GFX_evt_cybernetics
 
 	min_age = 16
@@ -2944,7 +2944,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTACYBERNETICS10102"
+		name = "EVTOPT_A_CYBERNETICS_10102"
 		change_stewardship = 1
 	}
 }
@@ -2952,7 +2952,7 @@ character_event = {
 # Accidentally donated money to charity
 character_event = {
 	id = cybernetics.10303
-	desc = "EVTDESCCYBERNETICS10303"
+	desc = "EVTDESC_CYBERNETICS_10303"
 	picture = GFX_evt_cybernetics
 
 	min_age = 16
@@ -2964,7 +2964,7 @@ character_event = {
 	mean_time_to_happen = { months = 30 }
 
 	option = {
-		name = "EVTOPTACYBERNETICS10303"
+		name = "EVTOPT_A_CYBERNETICS_10303"
 		wealth = -100
 		piety = 50
 	}
@@ -2973,7 +2973,7 @@ character_event = {
 # No, wait, I forgot to carry the two
 character_event = {
 	id = cybernetics.10304
-	desc = "EVTDESCCYBERNETICS10304"
+	desc = "EVTDESC_CYBERNETICS_10304"
 	picture = GFX_evt_council
 
 
@@ -2989,7 +2989,7 @@ character_event = {
 	mean_time_to_happen = { months = 30 }
 
 	option = {
-		name = "EVTOPTACYBERNETICS10304"
+		name = "EVTOPT_A_CYBERNETICS_10304"
 		liege = {
 			opinion = { who = ROOT modifier = opinion_incompetent_treasurer }
 			hidden_tooltip = { character_event = { id = cybernetics.10305 } }
@@ -2998,12 +2998,12 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.10305
-	desc = "EVTDESCCYBERNETICS10305"
+	desc = "EVTDESC_CYBERNETICS_10305"
 	picture = GFX_evt_council
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10305"
+		name = "EVTOPT_A_CYBERNETICS_10305"
 		scaled_wealth = -0.1
 	}
 }
@@ -3011,13 +3011,13 @@ character_event = {
 # Made a bad investment
 character_event = {
 	id = cybernetics.10306
-	desc = "EVTDESCCYBERNETICS10306"
+	desc = "EVTDESC_CYBERNETICS_10306"
 	picture = GFX_evt_cybernetics
 
 	trigger = { has_character_modifier = pci_beta_test }
 	mean_time_to_happen = { months = 30 }
 	option = {
-		name = "EVTOPTACYBERNETICS10305"
+		name = "EVTOPT_A_CYBERNETICS_10305"
 		scaled_wealth = -0.1
 	}
 }
@@ -3025,13 +3025,13 @@ character_event = {
 # Made a surprisingly good investment
 character_event = {
 	id = cybernetics.10307
-	desc = "EVTDESCCYBERNETICS10307"
+	desc = "EVTDESC_CYBERNETICS_10307"
 	picture = GFX_evt_cybernetics
 
 	trigger = { has_character_modifier = pci_beta_test }
 	mean_time_to_happen = { months = 30 }
 	option = {
-		name = "EVTOPTBCYBERNETICS10306"
+		name = "EVTOPT_B_CYBERNETICS_10306"
 		scaled_wealth = 0.1
 	}
 }
@@ -3039,7 +3039,7 @@ character_event = {
 # PLUTO
 character_event = {
 	id = cybernetics.10400
-	desc = "EVTDESCCYBERNETICS10400"
+	desc = "EVTDESC_CYBERNETICS_10400"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
@@ -3131,12 +3131,12 @@ character_event = {
 # Beta test ends
 character_event = {
 	id = cybernetics.10401
-	desc = "EVTDESCCYBERNETICS10401"
+	desc = "EVTDESC_CYBERNETICS_10401"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10101"
+		name = "EVTOPT_A_CYBERNETICS_10101"
 		remove_character_modifier = pluto_beta_test
 		change_intrigue = 2
 	}
@@ -3145,7 +3145,7 @@ character_event = {
 # Beta test has practical applications
 character_event = {
 	id = cybernetics.10402
-	desc = "EVTDESCCYBERNETICS10402"
+	desc = "EVTDESC_CYBERNETICS_10402"
 	picture = GFX_evt_cybernetics
 
 	min_age = 16
@@ -3197,7 +3197,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTACYBERNETICS10102"
+		name = "EVTOPT_A_CYBERNETICS_10102"
 		change_intrigue = 1
 	}
 }
@@ -3205,7 +3205,7 @@ character_event = {
 # Okay, so blabbing about my plot is a BAD idea
 character_event = {
 	id = cybernetics.10403
-	desc = "EVTDESCCYBERNETICS10403"
+	desc = "EVTDESC_CYBERNETICS_10403"
 	picture = GFX_evt_scandal
 
 	min_age = 16
@@ -3224,7 +3224,7 @@ character_event = {
 	mean_time_to_happen = { months = 30 }
 
 	option = {
-		name = "EVTOPTACYBERNETICS10403"
+		name = "EVTOPT_A_CYBERNETICS_10403"
 		reveal_plot = yes
 		plot_target_char = {
 			opinion = { who = ROOT modifier = scheming_bastard }
@@ -3234,16 +3234,16 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.10404
-	desc = "EVTDESCCYBERNETICS10404"
+	desc = "EVTDESC_CYBERNETICS_10404"
 	picture = GFX_evt_scandal
 	is_triggered_only = yes
 
-	option = { name = "EVTOPTACYBERNETICS10404" }
+	option = { name = "EVTOPT_A_CYBERNETICS_10404" }
 }
 # THOTH
 character_event = {
 	id = cybernetics.10500
-	desc = "EVTDESCCYBERNETICS10500"
+	desc = "EVTDESC_CYBERNETICS_10500"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
@@ -3335,12 +3335,12 @@ character_event = {
 # Beta test ends
 character_event = {
 	id = cybernetics.10501
-	desc = "EVTDESCCYBERNETICS10501"
+	desc = "EVTDESC_CYBERNETICS_10501"
 	picture = GFX_evt_cybernetics
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTACYBERNETICS10501"
+		name = "EVTOPT_A_CYBERNETICS_10501"
 		remove_character_modifier = thoth_beta_test
 		change_learning = 2
 	}
@@ -3349,7 +3349,7 @@ character_event = {
 # Beta test has practical applications
 character_event = {
 	id = cybernetics.10502
-	desc = "EVTDESCCYBERNETICS10502"
+	desc = "EVTDESC_CYBERNETICS_10502"
 	picture = GFX_evt_cybernetics
 
 	min_age = 16
@@ -3401,7 +3401,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTACYBERNETICS10102"
+		name = "EVTOPT_A_CYBERNETICS_10102"
 		change_intrigue = 1
 	}
 }

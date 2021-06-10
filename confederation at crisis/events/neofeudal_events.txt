@@ -4,7 +4,7 @@ namespace = neofeudal
 #neofeudal.0-4, Levy Taxation events
 character_event = {
 	id = neofeudal.0
-	desc = "EVTDESCNEOFEUDAL0"
+	desc = "EVTDESC_NEOFEUDAL_0"
 	picture = GFX_evt_office
 	border = GFX_event_normal_frame_economy
 	is_triggered_only = yes
@@ -44,12 +44,12 @@ character_event = {
 
 letter_event = {
 	id = neofeudal.1
-	desc = "EVTDESCNEOFEUDAL1"
+	desc = "EVTDESC_NEOFEUDAL_1"
 	border = GFX_event_letter_frame_economy
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTANEOFEUDAL1" # 10%
+		name = "EVTOPT_A_NEOFEUDAL_1" # 10%
 		tooltip = { transfer_scaled_wealth = { to = FROM value = 0.1 } }
 		FROM = { hidden_tooltip = { letter_event = { id = neofeudal.2 } } } # Inform of response
 		ai_chance = {
@@ -100,7 +100,7 @@ letter_event = {
 
 	option = {
 		trigger = { scaled_wealth = 0.2 }
-		name = "EVTOPTBNEOFEUDAL1" # 20%
+		name = "EVTOPT_B_NEOFEUDAL_1" # 20%
 		tooltip = { transfer_scaled_wealth = { to = FROM value = 0.2 } }
 		FROM = {
 			opinion = { who = ROOT modifier = opinion_moderate_budget }
@@ -178,7 +178,7 @@ letter_event = {
 
 	option = {
 		trigger = { scaled_wealth = 0.3 }
-		name = "EVTOPTCNEOFEUDAL1" # 30%
+		name = "EVTOPT_C_NEOFEUDAL_1" # 30%
 		tooltip = { transfer_scaled_wealth = { to = FROM value = 0.3 } }
 		FROM = {
 			opinion = { who = ROOT modifier = opinion_large_budget }
@@ -280,7 +280,7 @@ letter_event = {
 
 	option = {
 		# Send nothing
-		name = "EVTOPTDNEOFEUDAL1"
+		name = "EVTOPT_D_NEOFEUDAL1"
 		FROM = {
 			opinion = { who = ROOT modifier = opinion_no_budget }
 		}
@@ -382,11 +382,11 @@ character_event = {
 	id = neofeudal.5
 	desc = {
 		trigger = { independent = no }
-		text = "EVTDESCNEOFEUDAL5"
+		text = "EVTDESC_NEOFEUDAL_5"
 	}
 	desc = {
 		trigger = { independent = yes }
-		text = "EVTDESCNEOFEUDAL5_ALT"
+		text = "EVTDESC_NEOFEUDAL_5_ALT"
 	}
 	picture = GFX_evt_space_battle
 	border = GFX_event_normal_frame_war
@@ -410,7 +410,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTANEOFEUDAL5"
+		name = "EVTOPT_A_NEOFEUDAL_5"
 		add_trait = knight
 		hidden_tooltip = {
 			set_variable = { which = martial_deeds value = 0 }
@@ -420,7 +420,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.6
-	desc = "EVTDESCNEOFEUDAL6"
+	desc = "EVTDESC_NEOFEUDAL_6"
 	picture = GFX_evt_space_battle
 	border = GFX_event_normal_frame_war
 
@@ -444,7 +444,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTANEOFEUDAL6"
+		name = "EVTOPT_A_NEOFEUDAL_6"
 		remove_trait = knight
 		add_trait = gallant
 	}
@@ -452,7 +452,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.7
-	desc = "EVTDESCNEOFEUDAL7"
+	desc = "EVTDESC_NEOFEUDAL_7"
 	picture = GFX_evt_space_battle
 	border = GFX_event_normal_frame_war
 
@@ -475,7 +475,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPTANEOFEUDAL7"
+		name = "EVTOPT_A_NEOFEUDAL_7"
 		remove_trait = gallant
 		add_trait = worthy
 		add_trait = proud
@@ -484,7 +484,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTBNEOFEUDAL7"
+		name = "EVTOPT_B_NEOFEUDAL_7"
 		remove_trait = gallant
 		add_trait = worthy
 		add_trait = humble
@@ -522,7 +522,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.9
-	desc = EVTDESCNEOFEUDAL9
+	desc = EVTDESC_NEOFEUDAL_9
 
 	picture = GFX_evt_office
 	border = GFX_event_normal_frame_religion
@@ -530,25 +530,25 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTANEOFEUDAL9
+		name = EVTOPT_A_NEOFEUDAL_9
 		set_character_flag = flag_studying_classics_shakespeare
 		custom_tooltip = { text = tooltipt_neofeudal9_A }
 		ai_chance = { factor = 0 }
 	}
 	option = {
-		name = EVTOPTBNEOFEUDAL9
+		name = EVTOPT_B_NEOFEUDAL_9
 		set_character_flag = flag_studying_military_tolkien
 		custom_tooltip = { text = tooltipt_neofeudal9_B }
 		ai_chance = { factor = 0 }
 	}
 	option = {
-		name = EVTOPTCNEOFEUDAL9
+		name = EVTOPT_C_NEOFEUDAL_9
 		set_character_flag = flag_studying_classics_beowulf
 		custom_tooltip = { text = tooltipt_neofeudal9_C }
 		ai_chance = { factor = 0 }
 	}
 	option = {
-		name = EVTOPTDNEOFEUDAL9
+		name = EVTOPT_D_NEOFEUDAL9
 		set_character_flag = flag_studying_classics_monarchy
 		custom_tooltip = { text = tooltipt_neofeudal9_D }
 		ai_chance = { factor = 100 } #Already unlikely to happen for the AI, so pick the one meaningful choice.
@@ -651,7 +651,7 @@ character_event = {
 #Study ended in failure.
 character_event = {
 	id = neofeudal.10
-	desc = EVTDESCNEOFEUDAL10
+	desc = EVTDESC_NEOFEUDAL_10
 
 	picture = GFX_evt_office
 	border = GFX_event_normal_frame_religion
@@ -659,7 +659,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTANEOFEUDAL10
+		name = EVTOPT_A_NEOFEUDAL_10
 		ai_chance = { factor = 100 }
 	}
 }
@@ -728,7 +728,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.11
-	desc = EVTDESCNEOFEUDAL11
+	desc = EVTDESC_NEOFEUDAL_11
 
 	picture = GFX_evt_office
 	border = GFX_event_normal_frame_religion
@@ -736,7 +736,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTANEOFEUDAL11
+		name = EVTOPT_A_NEOFEUDAL_11
 		add_character_modifier = {
 			name = shakespeares_insight
 			duration = -1
@@ -747,7 +747,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.12
-	desc = EVTDESCNEOFEUDAL12
+	desc = EVTDESC_NEOFEUDAL_12
 
 	picture = GFX_evt_office
 	border = GFX_event_normal_frame_religion
@@ -755,7 +755,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTANEOFEUDAL11
+		name = EVTOPT_A_NEOFEUDAL_11
 		add_character_modifier = {
 			name = noldors_insight
 			duration = -1
@@ -766,7 +766,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.13
-	desc = EVTDESCNEOFEUDAL13
+	desc = EVTDESC_NEOFEUDAL_13
 
 	picture = GFX_evt_office
 	border = GFX_event_normal_frame_religion
@@ -774,7 +774,7 @@ character_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTANEOFEUDAL11
+		name = EVTOPT_A_NEOFEUDAL_11
 		add_character_modifier = {
 			name = beowulfs_insight
 			duration = -1
@@ -787,7 +787,7 @@ character_event = {
 
 character_event = {
 	id = neofeudal.15
-	desc = EVTDESC_coronation_15
+	desc = EVTDESC_NEOFEUDAL_15
 	picture = GFX_evt_magnificent_castle
 
 	trigger = {
@@ -814,7 +814,7 @@ character_event = {
 	}
 
 	option = {
-	    name = OPT_A_coronation_15
+	    name = EVTOPT_A_NEOFEUDAL_15
 		add_trait = neofeudal_uncrowned
 		prestige = -10
 	}
@@ -826,13 +826,13 @@ character_event = {
 		trigger = {
 			war = no
 		}
-		text = EVTDESC_coronation_A_16
+		text = EVTDESC_NEOFEUDAL_A_16
 	}
 	desc = {
 		trigger = {
 			war = yes
 		}
-		text = EVTDESC_coronation_B_16
+		text = EVTDESC_NEOFEUDAL_B_16
 	}
 
 	picture = GFX_evt_magnificent_castle
@@ -854,7 +854,7 @@ character_event = {
 	}
 
 	option = {
-		name = OPT_A_coronation_16
+		name = EVTOPT_A_NEOFEUDAL_16
 		trigger = { war = no }
 		set_character_flag = flag_extravagant_coronation
 		if = { 
@@ -893,7 +893,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = OPT_B_coronation_16
+		name = EVTOPT_B_NEOFEUDAL_16
 		trigger = { war = no }
 		set_character_flag = flag_regular_coronation
 		hidden_tooltip = {
@@ -933,13 +933,13 @@ character_event = {
 	}
 	option = {
 		name = {
-			text = OPT_C_coronation_16
+			text = EVTOPT_C_NEOFEUDAL_16
 			trigger = {
 				war = no
 			}
 		}
 		name = {
-			text = OPT_D_coronation_16
+			text = EVTOPT_D_NEOFEUDAL_16
 			trigger = {
 				war = yes
 			}
@@ -981,28 +981,28 @@ character_event = {
 			has_character_flag = flag_extravagant_coronation 
 			war = no
 		}
-		text = EVTDESC_coronation_A_17
+		text = EVTDESC_NEOFEUDAL_A_17
 	}
 	desc = {
 		trigger = {
 			has_character_flag = flag_regular_coronation
 			war = no
 		}
-		text = EVTDESC_coronation_B_17
+		text = EVTDESC_NEOFEUDAL_B_17
 	}
 	desc = {
 		trigger = {
 			has_character_flag = flag_secluded_coronation
 			war = no
 		}
-		text = EVTDESC_coronation_C_17
+		text = EVTDESC_NEOFEUDAL_C_17
 	}
 
 	desc = {
 		trigger = {
 			war = yes
 		}
-		text = EVTDESC_coronation_D_17
+		text = EVTDESC_NEOFEUDAL_D_17
 	}
 
 	picture = GFX_evt_magnificent_castle
@@ -1016,14 +1016,14 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = OPT_A_coronation_17
+		name = EVTOPT_A_NEOFEUDAL_17
 		hidden_tooltip = { character_event = { id = neofeudal.18 days = 32 } } #THE CORONATION ITSELF
 	}
 }
 
 character_event = {
 	id = neofeudal.18
-	title = TITLE_coronation_18
+	title = EVTTITLE_NEOFEUDAL_18
 	desc = {
 		trigger = {
 			ROOT = { 
@@ -1032,7 +1032,7 @@ character_event = {
 				age = 18
 			}
 		}
-		text = EVTDESC_coronation_A_18		# Localization for any adult ruler neofeudal_crowned by a Bishop or Priest (not in a barn).
+		text = EVTDESC_NEOFEUDAL_A_18		# Localization for any adult ruler neofeudal_crowned by a Bishop or Priest (not in a barn).
 		picture = GFX_evt_a_crowning_ceremony
 	}
 	desc = {
@@ -1043,7 +1043,7 @@ character_event = {
 				NOT = { age = 18 }
 			}
 		}
-		text = EVTDESC_coronation_B_18		# Localization for any child ruler neofeudal_crowned by a Bishop or Priest (not in a barn).
+		text = EVTDESC_NEOFEUDAL_B_18		# Localization for any child ruler neofeudal_crowned by a Bishop or Priest (not in a barn).
 		picture = GFX_evt_a_crowning_ceremony
 	}
 	desc = {
@@ -1053,7 +1053,7 @@ character_event = {
 				has_character_flag = flag_secluded_coronation
 			}
 		}
-		text = EVTDESC_coronation_C_18		# Localization for any ruler neofeudal_crowned by a Bishop or Priest in a barn.
+		text = EVTDESC_NEOFEUDAL_C_18		# Localization for any ruler neofeudal_crowned by a Bishop or Priest in a barn.
 		picture = GFX_evt_a_crowning_ceremony
 	}
 	desc = {
@@ -1062,7 +1062,7 @@ character_event = {
 				war = yes
 			}
 		}
-		text = EVTDESC_coronation_D_18		# War Coronation description.
+		text = EVTDESC_NEOFEUDAL_D_18		# War Coronation description.
 		picture = GFX_evt_space_battle
 	}
 
@@ -1101,7 +1101,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = OPT_A_coronation_18
+		name = EVTOPT_A_NEOFEUDAL_18
 		#Assign proper trait.
 		hidden_tooltip = {
 			remove_trait = neofeudal_uncrowned

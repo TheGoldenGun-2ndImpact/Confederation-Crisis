@@ -129,9 +129,16 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\\city.dds"
 		allwaystransparent = yes
 	}
+	
 	spriteType = {
 		name = "GFX_evt_govplaceholder"
 		texturefile = "gfx\\event_pictures\\stone_church.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_evt_mushroom_cloud"
+		texturefile = "gfx\\event_pictures\\mushroom_cloud.dds"
 		allwaystransparent = yes
 	}
 }

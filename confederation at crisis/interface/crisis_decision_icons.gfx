@@ -42,6 +42,10 @@ spriteTypes = {
 		name = "GFX_call_senate_elections"
 		texturefile = "gfx\\interface\\decisions\\call_senate_elections.dds"
 	}
+	spriteType = {
+		name = "GFX_authorize_bombardment_decision"
+		texturefile = "gfx\\interface\\decisions\\authorize_bombardment_decision.dds"
+	}
 
 # Employment Decisions
 
@@ -76,6 +80,10 @@ spriteTypes = {
 
 # Cybernetic Decisions
 
+	spriteType = {
+		name = "GFX_get_dni_decision"
+		texturefile = "gfx\\interface\\decisions\\get_dni_decision.dds"
+	}
 	spriteType = {
 		name = "GFX_get_cybernetic_skeleton_decision"
 		texturefile = "gfx\\interface\\decisions\\get_cybernetic_skeleton_decision.dds"
@@ -290,10 +298,6 @@ spriteTypes = {
 		name = "GFX_found_witchhead_nebula_empire"
 		texturefile = "gfx\\interface\\decisions\\found_witchhead_nebula_empire.dds"
 	}
-	spriteType = {
-		name = "GFX_form_bhaarat"
-		texturefile = "gfx\\interface\\decisions\\form_bhaarat.dds"
-	}
 
 # Neofeudal Decisions
 
@@ -308,25 +312,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_english_classics_decision"
 		texturefile = "gfx\\interface\\decisions\\english_classics_decision.dds"
-	}
-
-# Eternal Way Decisions
-
-	spriteType = {
-		name = "GFX_EW_visit_shrine"
-		texturefile = "gfx\\interface\\decisions\\EW_visit_shrine.dds"
-	}
-	spriteType = {
-		name = "GFX_EW_coronation"
-		texturefile = "gfx\\interface\\decisions\\EW_coronation.dds"
-	}
-	spriteType = {
-		name = "GFX_EW_prepare_dharmayuddh"
-		texturefile = "gfx\\interface\\decisions\\EW_prepare_dharmayuddh.dds"
-	}
-	spriteType = {
-		name = "GFX_EW_cancel_dharmayuddh"
-		texturefile = "gfx\\interface\\decisions\\EW_cancel_dharmayuddh.dds"
 	}
 
 }

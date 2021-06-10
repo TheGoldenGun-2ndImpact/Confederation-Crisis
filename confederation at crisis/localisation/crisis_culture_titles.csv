@@ -913,8 +913,6 @@ pirate_republic_job_treasurer;Chief Quartermaster;;;;;;;;;;;;;x
 pirate_republic_job_spymaster;Spymaster;;;;;;;;;;;;;x
 pirate_republic_job_spiritual;Chief Engineer;;;;;;;;;;;;;x
 
-
-
 civil_barony_of;Planet;Planète;Planet;;Planeta;;;;;;;;;x
 civil_barony;Planet;Planète;Planet;;Planeta;;;;;;;;;x
 civil_baronies;Planets;Planètes;Planeten;;Planetas;;;;;;;;;x
@@ -924,3 +922,341 @@ military_baronies;Bases;Planètes;Planeten;;Planetas;;;;;;;;;x
 rectorate_barony_of;Institute;Planète;Planet;;Planeta;;;;;;;;;x
 rectorate_barony;Institute;Planète;Planet;;Planeta;;;;;;;;;x
 rectorate_baronies;Institutes;Planètes;Planeten;;Planetas;;;;;;;;;x
+
+## Bhaaratiya Ruler Titles
+
+# Generic (Republic?) Bhaaratiya Ruler Titles
+
+emperor_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+emperor_female_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+emperor_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+emperor_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+empire_of_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+empire_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+empires_crisis_indian_group;Antariksh Deshs;Antariksh Deshs;Antariksh Deshs;;Antariksh Deshs;;;;;;;;;x
+
+king_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+king_female_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+king_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+king_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+kingdom_of_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+kingdom_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+kingdoms_crisis_indian_group;Antariksh Raashtras;Antariksh Raashtras;Antariksh Raashtras;;Antariksh Raashtras;;;;;;;;;x
+
+duke_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+duke_female_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+duke_foa_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+duke_foa_female_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+baron_crisis_indian_group;Nagarpati;Nagarpati;Nagarpati;;Nagarpati;;;;;;;;;x
+baron_female_crisis_indian_group;Nagareshwari;Nagareshwari;Nagareshwari;;Nagareshwari;;;;;;;;;x
+baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+barony_of_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+barony_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+baronies_crisis_indian_group;Mahaanagars;Mahaanagars;Mahaanagars;;Mahaanagars;;;;;;;;;x
+
+# Neo-Feudal Bhaaratiya Ruler Titles
+
+monarchy_emperor_crisis_indian_group;Raajaadhiraaj;Raajaadhiraaj;Raajaadhiraaj;;Raajaadhiraaj;;;;;;;;;x
+monarchy_emperor_female_crisis_indian_group;Raajaadhiraajani;Raajaadhiraajani;Raajaadhiraajani;;Raajaadhiraajani;;;;;;;;;x
+monarchy_emperor_foa_crisis_indian_group;O King of Kings;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+monarchy_emperor_foa_female_crisis_indian_group;O Queen of Queens;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+monarchy_empire_of_crisis_indian_group;Antariksh Saamraajya;Antariksh Saamraajya;Antariksh Saamraajya;;Antariksh Saamraajya;;;;;;;;;x
+monarchy_empire_crisis_indian_group;Antariksh Saamraajya;Antariksh Saamraajya;Antariksh Saamraajya;;Antariksh Saamraajya;;;;;;;;;x
+monarchy_empires_crisis_indian_group;Antariksh Saamraajyas;Antariksh Saamraajyas;Antariksh Saamraajyas;;Antariksh Saamraajyas;;;;;;;;;x
+
+monarchy_king_crisis_indian_group;Maharaaj;Maharaaj;Maharaaj;;Maharaaj;;;;;;;;;x
+monarchy_king_female_crisis_indian_group;Maharaani;Maharaani;Maharaani;;Maharaani;;;;;;;;;x
+monarchy_king_foa_crisis_indian_group;O Great King;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+monarchy_king_foa_female_crisis_indian_group;O Great Queen;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+monarchy_kingdom_of_crisis_indian_group;Antariksh Raajya;Antariksh Raajya;Antariksh Raajya;;Antariksh Raajya;;;;;;;;;x
+monarchy_kingdom_crisis_indian_group;Antariksh Raajya;Antariksh Raajya;Antariksh Raajya;;Antariksh Raajya;;;;;;;;;x
+monarchy_kingdoms_crisis_indian_group;Antariksh Raajyas;Antariksh Raajyas;Antariksh Raajyas;;Antariksh Raajyas;;;;;;;;;x
+
+monarchy_duke_crisis_indian_group;Raajaa;Raajaa;Raajaa;;Raajaa;;;;;;;;;x
+monarchy_duke_female_crisis_indian_group;Raani;Raani;Raani;;Raani;;;;;;;;;x
+monarchy_duke_foa_crisis_indian_group;O King;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+monarchy_duke_foa_female_crisis_indian_group;O Queen;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+monarchy_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+monarchy_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+monarchy_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+monarchy_count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+monarchy_count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+monarchy_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+monarchy_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+monarchy_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+monarchy_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+monarchy_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+monarchy_baron_crisis_indian_group;Grahapati;Grahapati;Grahapati;;Grahapati;;;;;;;;;x
+monarchy_baron_female_crisis_indian_group;Graheshwari;Graheshwari;Graheshwari;;Graheshwari;;;;;;;;;x
+monarchy_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+monarchy_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+monarchy_barony_of_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+monarchy_barony_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+monarchy_baronies_crisis_indian_group;Grahas;Grahas;Grahas;;Grahas;;;;;;;;;x
+
+# Civil Bhaaratiya Ruler Titles
+
+civil_emperor_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+civil_emperor_female_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+civil_emperor_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+civil_emperor_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+civil_empire_of_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+civil_empire_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+civil_empires_crisis_indian_group;Antariksh Deshs;Antariksh Deshs;Antariksh Deshs;;Antariksh Deshs;;;;;;;;;x
+
+civil_king_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+civil_king_female_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+civil_king_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+civil_king_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+civil_kingdom_of_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+civil_kingdom_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+civil_kingdoms_crisis_indian_group;Antariksh Raashtras;Antariksh Raashtras;Antariksh Raashtras;;Antariksh Raashtras;;;;;;;;;x
+
+civil_duke_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+civil_duke_female_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+civil_duke_foa_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+civil_duke_foa_female_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+civil_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+civil_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+civil_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+civil_count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+civil_count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+civil_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+civil_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+civil_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+civil_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+civil_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+civil_baron_crisis_indian_group;Nagarpati;Nagarpati;Nagarpati;;Nagarpati;;;;;;;;;x
+civil_baron_female_crisis_indian_group;Nagareshwari;Nagareshwari;Nagareshwari;;Nagareshwari;;;;;;;;;x
+civil_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+civil_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+civil_barony_of_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+civil_barony_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+civil_baronies_crisis_indian_group;Mahaanagars;Mahaanagars;Mahaanagars;;Mahaanagars;;;;;;;;;x
+
+# Technocratic Bhaaratiya Ruler Titles
+
+technocratic_emperor_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+technocratic_emperor_female_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+technocratic_emperor_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+technocratic_emperor_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+technocratic_empire_of_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+technocratic_empire_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+technocratic_empires_crisis_indian_group;Antariksh Deshs;Antariksh Deshs;Antariksh Deshs;;Antariksh Deshs;;;;;;;;;x
+
+technocratic_king_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+technocratic_king_female_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+technocratic_king_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+technocratic_king_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+technocratic_kingdom_of_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+technocratic_kingdom_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+technocratic_kingdoms_crisis_indian_group;Antariksh Raashtras;Antariksh Raashtras;Antariksh Raashtras;;Antariksh Raashtras;;;;;;;;;x
+
+technocratic_duke_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+technocratic_duke_female_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+technocratic_duke_foa_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+technocratic_duke_foa_female_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+technocratic_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+technocratic_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+technocratic_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+technocratic_count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+technocratic_count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+technocratic_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+technocratic_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+technocratic_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+technocratic_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+technocratic_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+technocratic_baron_crisis_indian_group;Nagarpati;Nagarpati;Nagarpati;;Nagarpati;;;;;;;;;x
+technocratic_baron_female_crisis_indian_group;Nagareshwari;Nagareshwari;Nagareshwari;;Nagareshwari;;;;;;;;;x
+technocratic_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+technocratic_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+technocratic_barony_of_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+technocratic_barony_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+technocratic_baronies_crisis_indian_group;Mahaanagars;Mahaanagars;Mahaanagars;;Mahaanagars;;;;;;;;;x
+
+# Military Bhaaratiya Ruler Titles
+
+military_emperor_crisis_indian_group;Adhinaayak;Adhinaayak;Adhinaayak;;Adhinaayak;;;;;;;;;x
+military_emperor_female_crisis_indian_group;Adhinaayak;Adhinaayaki;Adhinaayaki;;Adhinaayaki;;;;;;;;;x
+military_emperor_foa_crisis_indian_group;Esteemed Adhinaayak;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+military_emperor_foa_female_crisis_indian_group;Esteemed Adhinaayak;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+military_empire_of_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+military_empire_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+military_empires_crisis_indian_group;Antariksh Deshs;Antariksh Deshs;Antariksh Deshs;;Antariksh Deshs;;;;;;;;;x
+
+military_king_crisis_indian_group;Mahaasenaapati;Mahaasenaapati;Mahaasenaapati;;Mahaasenaapati;;;;;;;;;x
+military_king_female_crisis_indian_group;Mahaasenaapati;Mahaasenaapati;Mahaasenaapati;;Mahaasenaapati;;;;;;;;;x
+military_king_foa_crisis_indian_group;Esteemed Senaapati;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+military_king_foa_female_crisis_indian_group;Esteemed Senaapati;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+military_kingdom_of_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+military_kingdom_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+military_kingdoms_crisis_indian_group;Antariksh Raashtras;Antariksh Raashtras;Antariksh Raashtras;;Antariksh Raashtras;;;;;;;;;x
+
+military_duke_crisis_indian_group;Senaapati;Senaapati;Senaapati;;Senaapati;;;;;;;;;x
+military_duke_female_crisis_indian_group;Senaapati;Senaapati;Senaapati;;Senaapati;;;;;;;;;x
+military_duke_foa_crisis_indian_group;Esteemed Senaapati;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+military_duke_foa_female_crisis_indian_group;Esteemed Senaapati;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+military_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+military_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+military_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+military_count_crisis_indian_group;Shaasak;Shaasak;Shaasak;;Shaasak;;;;;;;;;x
+military_count_female_crisis_indian_group;Shaasaki;Shaasaki;Shaasaki;;Shaasaki;;;;;;;;;x
+military_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+military_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+military_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+military_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+military_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+military_baron_crisis_indian_group;Grahapati;Grahapati;Grahapati;;Grahapati;;;;;;;;;x
+military_baron_female_crisis_indian_group;Graheshwari;Graheshwari;Graheshwari;;Graheshwari;;;;;;;;;x
+military_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+military_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+military_barony_of_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+military_barony_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+military_baronies_crisis_indian_group;Grahas;Grahas;Grahas;;Grahas;;;;;;;;;x
+
+# Pirate Kingdom Bhaaratiya Ruler Titles
+
+pirate_kingdom_emperor_crisis_indian_group;Raajaadhiraaj;Raajaadhiraaj;Raajaadhiraaj;;Raajaadhiraaj;;;;;;;;;x
+pirate_kingdom_emperor_female_crisis_indian_group;Raajaadhiraajani;Raajaadhiraajani;Raajaadhiraajani;;Raajaadhiraajani;;;;;;;;;x
+pirate_kingdom_emperor_foa_crisis_indian_group;O King of Kings;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+pirate_kingdom_emperor_foa_female_crisis_indian_group;O Queen of Queens;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+pirate_kingdom_empire_of_crisis_indian_group;Antariksh Saamraajya;Antariksh Saamraajya;Antariksh Saamraajya;;Antariksh Saamraajya;;;;;;;;;x
+pirate_kingdom_empire_crisis_indian_group;Antariksh Saamraajya;Antariksh Saamraajya;Antariksh Saamraajya;;Antariksh Saamraajya;;;;;;;;;x
+pirate_kingdom_empires_crisis_indian_group;Antariksh Saamraajyas;Antariksh Saamraajyas;Antariksh Saamraajyas;;Antariksh Saamraajyas;;;;;;;;;x
+
+pirate_kingdom_king_crisis_indian_group;Maharaaj;Maharaaj;Maharaaj;;Maharaaj;;;;;;;;;x
+pirate_kingdom_king_female_crisis_indian_group;Maharaani;Maharaani;Maharaani;;Maharaani;;;;;;;;;x
+pirate_kingdom_king_foa_crisis_indian_group;O Great King;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+pirate_kingdom_king_foa_female_crisis_indian_group;O Great Queen;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+pirate_kingdom_kingdom_of_crisis_indian_group;Antariksh Raajya;Antariksh Raajya;Antariksh Raajya;;Antariksh Raajya;;;;;;;;;x
+pirate_kingdom_kingdom_crisis_indian_group;Antariksh Raajya;Antariksh Raajya;Antariksh Raajya;;Antariksh Raajya;;;;;;;;;x
+pirate_kingdom_kingdoms_crisis_indian_group;Antariksh Raajyas;Antariksh Raajyas;Antariksh Raajyas;;Antariksh Raajyas;;;;;;;;;x
+
+pirate_kingdom_duke_crisis_indian_group;Raajaa;Raajaa;Raajaa;;Raajaa;;;;;;;;;x
+pirate_kingdom_duke_female_crisis_indian_group;Raani;Raani;Raani;;Raani;;;;;;;;;x
+pirate_kingdom_duke_foa_crisis_indian_group;O King;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+pirate_kingdom_duke_foa_female_crisis_indian_group;O Queen;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+pirate_kingdom_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+pirate_kingdom_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+pirate_kingdom_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+pirate_kingdom_count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+pirate_kingdom_count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+pirate_kingdom_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+pirate_kingdom_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+pirate_kingdom_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+pirate_kingdom_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+pirate_kingdom_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+pirate_kingdom_baron_crisis_indian_group;Grahapati;Grahapati;Grahapati;;Grahapati;;;;;;;;;x
+pirate_kingdom_baron_female_crisis_indian_group;Graheshwari;Graheshwari;Graheshwari;;Graheshwari;;;;;;;;;x
+pirate_kingdom_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+pirate_kingdom_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+pirate_kingdom_barony_of_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+pirate_kingdom_barony_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+pirate_kingdom_baronies_crisis_indian_group;Grahas;Grahas;Grahas;;Grahas;;;;;;;;;x
+
+# Pirate Republic Bhaaratiya Ruler Titles
+
+pirate_republic_emperor_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+pirate_republic_emperor_female_crisis_indian_group;Pradhaan Mantri;Pradhaan Mantri;Pradhaan Mantri;;Pradhaan Mantri;;;;;;;;;x
+pirate_republic_emperor_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+pirate_republic_emperor_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+pirate_republic_empire_of_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+pirate_republic_empire_crisis_indian_group;Antariksh Desh;Antariksh Desh;Antariksh Desh;;Antariksh Desh;;;;;;;;;x
+pirate_republic_empires_crisis_indian_group;Antariksh Deshs;Antariksh Deshs;Antariksh Deshs;;Antariksh Deshs;;;;;;;;;x
+
+pirate_republic_king_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+pirate_republic_king_female_crisis_indian_group;Mukhyamantri;Mukhyamantri;Mukhyamantri;;Mukhyamantri;;;;;;;;;x
+pirate_republic_king_foa_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+pirate_republic_king_foa_female_crisis_indian_group;Esteemed Mantri;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+pirate_republic_kingdom_of_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+pirate_republic_kingdom_crisis_indian_group;Antariksh Raashtra;Antariksh Raashtra;Antariksh Raashtra;;Antariksh Raashtra;;;;;;;;;x
+pirate_republic_kingdoms_crisis_indian_group;Antariksh Raashtras;Antariksh Raashtras;Antariksh Raashtras;;Antariksh Raashtras;;;;;;;;;x
+
+pirate_republic_duke_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+pirate_republic_duke_female_crisis_indian_group;Mantri;Mantri;Mantri;;Mantri;;;;;;;;;x
+pirate_republic_duke_foa_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+pirate_republic_duke_foa_female_crisis_indian_group;Esteemed Mantri;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+pirate_republic_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+pirate_republic_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+pirate_republic_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+pirate_republic_count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+pirate_republic_count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+pirate_republic_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+pirate_republic_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+pirate_republic_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+pirate_republic_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+pirate_republic_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+pirate_republic_baron_crisis_indian_group;Nagarpati;Nagarpati;Nagarpati;;Nagarpati;;;;;;;;;x
+pirate_republic_baron_female_crisis_indian_group;Nagareshwari;Nagareshwari;Nagareshwari;;Nagareshwari;;;;;;;;;x
+pirate_republic_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+pirate_republic_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+pirate_republic_barony_of_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+pirate_republic_barony_crisis_indian_group;Mahaanagar;Mahaanagar;Mahaanagar;;Mahaanagar;;;;;;;;;x
+pirate_republic_baronies_crisis_indian_group;Mahaanagars;Mahaanagars;Mahaanagars;;Mahaanagars;;;;;;;;;x
+
+# Tribal Bhaaratiya Ruler Titles
+
+tribal_emperor_crisis_indian_group;Raajaadhiraaj;Raajaadhiraaj;Raajaadhiraaj;;Raajaadhiraaj;;;;;;;;;x
+tribal_emperor_female_crisis_indian_group;Raajaadhiraajani;Raajaadhiraajani;Raajaadhiraajani;;Raajaadhiraajani;;;;;;;;;x
+tribal_emperor_foa_crisis_indian_group;O King of Kings;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+tribal_emperor_foa_female_crisis_indian_group;O Queen of Queens;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
+tribal_empire_of_crisis_indian_group;Antariksh Saamraajya;Antariksh Saamraajya;Antariksh Saamraajya;;Antariksh Saamraajya;;;;;;;;;x
+tribal_empire_crisis_indian_group;Antariksh Saamraajya;Antariksh Saamraajya;Antariksh Saamraajya;;Antariksh Saamraajya;;;;;;;;;x
+tribal_empires_crisis_indian_group;Antariksh Saamraajyas;Antariksh Saamraajyas;Antariksh Saamraajyas;;Antariksh Saamraajyas;;;;;;;;;x
+
+tribal_king_crisis_indian_group;Maharaaj;Maharaaj;Maharaaj;;Maharaaj;;;;;;;;;x
+tribal_king_female_crisis_indian_group;Maharaani;Maharaani;Maharaani;;Maharaani;;;;;;;;;x
+tribal_king_foa_crisis_indian_group;O Great King;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+tribal_king_foa_female_crisis_indian_group;O Great Queen;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
+tribal_kingdom_of_crisis_indian_group;Antariksh Raajya;Antariksh Raajya;Antariksh Raajya;;Antariksh Raajya;;;;;;;;;x
+tribal_kingdom_crisis_indian_group;Antariksh Raajya;Antariksh Raajya;Antariksh Raajya;;Antariksh Raajya;;;;;;;;;x
+tribal_kingdoms_crisis_indian_group;Antariksh Raajyas;Antariksh Raajyas;Antariksh Raajyas;;Antariksh Raajyas;;;;;;;;;x
+
+tribal_duke_crisis_indian_group;Raajaa;Raajaa;Raajaa;;Raajaa;;;;;;;;;x
+tribal_duke_female_crisis_indian_group;Raani;Raani;Raani;;Raani;;;;;;;;;x
+tribal_duke_foa_crisis_indian_group;O King;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+tribal_duke_foa_female_crisis_indian_group;O Queen;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
+tribal_duchy_of_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+tribal_duchy_crisis_indian_group;Mandal;Mandal;Mandal;;Mandal;;;;;;;;;x
+tribal_duchies_crisis_indian_group;Mandals;Mandals;Mandals;;Mandals;;;;;;;;;x
+
+tribal_count_crisis_indian_group;Nakshatrapati;Nakshatrapati;Nakshatrapati;;Nakshatrapati;;;;;;;;;x
+tribal_count_female_crisis_indian_group;Nakshatreshwari;Nakshatreshwari;Nakshatreshwari;;Nakshatreshwari;;;;;;;;;x
+tribal_count_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+tribal_count_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+tribal_county_of_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+tribal_county_crisis_indian_group;Nakshatra;Nakshatra;Nakshatra;;Nakshatra;;;;;;;;;x
+tribal_counties_crisis_indian_group;Nakshatras;Nakshatras;Nakshatras;;Nakshatras;;;;;;;;;x
+
+tribal_baron_crisis_indian_group;Grahapati;Grahapati;Grahapati;;Grahapati;;;;;;;;;x
+tribal_baron_female_crisis_indian_group;Graheshwari;Graheshwari;Graheshwari;;Graheshwari;;;;;;;;;x
+tribal_baron_foa_crisis_indian_group;O Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+tribal_baron_foa_female_crisis_indian_group;O Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+tribal_barony_of_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+tribal_barony_crisis_indian_group;Graha;Graha;Graha;;Graha;;;;;;;;;x
+tribal_baronies_crisis_indian_group;Grahas;Grahas;Grahas;;Grahas;;;;;;;;;x

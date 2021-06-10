@@ -2,7 +2,7 @@ namespace = cybernetics
 # DNI
 character_event = {
 	id = cybernetics.5000
-	desc = "EVTDESCCYBERNETICS5000"
+	desc = "EVTDESC_CYBERNETICS_5000"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -17,7 +17,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5002
-	desc = "EVTDESCCYBERNETICS5002"
+	desc = "EVTDESC_CYBERNETICS_5002"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -26,7 +26,7 @@ character_event = {
 # IAEI
 character_event = {
 	id = cybernetics.5010
-	desc = "EVTDESCCYBERNETICS5010"
+	desc = "EVTDESC_CYBERNETICS_5010"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -41,7 +41,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5012
-	desc = "EVTDESCCYBERNETICS5012"
+	desc = "EVTDESC_CYBERNETICS_5012"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -50,7 +50,7 @@ character_event = {
 # ODIN
 character_event = {
 	id = cybernetics.5020
-	desc = "EVTDESCCYBERNETICS5020"
+	desc = "EVTDESC_CYBERNETICS_5020"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -65,7 +65,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5022
-	desc = "EVTDESCCYBERNETICS5022"
+	desc = "EVTDESC_CYBERNETICS_5022"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -74,7 +74,7 @@ character_event = {
 # PCI
 character_event = {
 	id = cybernetics.5030
-	desc = "EVTDESCCYBERNETICS5030"
+	desc = "EVTDESC_CYBERNETICS_5030"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -89,7 +89,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5032
-	desc = "EVTDESCCYBERNETICS5032"
+	desc = "EVTDESC_CYBERNETICS_5032"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -98,7 +98,7 @@ character_event = {
 # PLUTO
 character_event = {
 	id = cybernetics.5040
-	desc = "EVTDESCCYBERNETICS5040"
+	desc = "EVTDESC_CYBERNETICS_5040"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -113,7 +113,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5042
-	desc = "EVTDESCCYBERNETICS5042"
+	desc = "EVTDESC_CYBERNETICS_5042"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -122,7 +122,7 @@ character_event = {
 # THOTH
 character_event = {
 	id = cybernetics.5050
-	desc = "EVTDESCCYBERNETICS5050"
+	desc = "EVTDESC_CYBERNETICS_5050"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -137,7 +137,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5052
-	desc = "EVTDESCCYBERNETICS5052"
+	desc = "EVTDESC_CYBERNETICS_5052"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -146,7 +146,7 @@ character_event = {
 # Cybernetic Limb
 character_event = {
 	id = cybernetics.5060
-	desc = "EVTDESCCYBERNETICS5060"
+	desc = "EVTDESC_CYBERNETICS_5060"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -161,7 +161,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5062
-	desc = "EVTDESCCYBERNETICS5062"
+	desc = "EVTDESC_CYBERNETICS_5062"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -170,7 +170,7 @@ character_event = {
 # Cybernetic Leg
 character_event = {
 	id = cybernetics.5070
-	desc = "EVTDESCCYBERNETICS5070"
+	desc = "EVTDESC_CYBERNETICS_5070"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -185,7 +185,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5072
-	desc = "EVTDESCCYBERNETICS5072"
+	desc = "EVTDESC_CYBERNETICS_5072"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -194,7 +194,7 @@ character_event = {
 # Cybernetic Skeleton
 character_event = {
 	id = cybernetics.5080
-	desc = "EVTDESCCYBERNETICS5080"
+	desc = "EVTDESC_CYBERNETICS_5080"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
@@ -209,7 +209,7 @@ character_event = {
 }
 character_event = {
 	id = cybernetics.5082
-	desc = "EVTDESCCYBERNETICS5082"
+	desc = "EVTDESC_CYBERNETICS_5082"
 	picture = GFX_evt_cyber_surgery
 	is_triggered_only = yes
 	
