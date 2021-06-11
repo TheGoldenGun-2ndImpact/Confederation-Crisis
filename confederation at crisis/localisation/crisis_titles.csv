@@ -40,8 +40,8 @@ found_orion_reach_empire;Found Empire of the Reach;;;;;;;;;;;;x
 found_orion_reach_empire_desc;The Orion Reach is ascendant, a great empire among the stars. It is as powerful a nation as the old Confederation ever was, and now is the time to proclaim that to the galaxy.;;;;;;;;;;;;x
 found_paraiso_empire;Found Paraisan Empire;;;;;;;;;;;;x
 found_paraiso_empire_desc;Paraiso is ascendant, a great empire among the stars. It is as powerful a nation as the old Confederation ever was, and now is the time to proclaim that to the galaxy.;;;;;;;;;;;;x
-found_mukta_duniya_empire;Found Mukta Empire;;;;;;;;;;;;x
-found_mukta_duniya_empire_desc;Mukta Duniyeh is ascendant, a great empire among the stars. It is as powerful a nation as the old Confederation ever was, and now is the time to proclaim that to the galaxy.;;;;;;;;;;;;x
+found_mukta_duniya_empire;Found Aazaad Empire;;;;;;;;;;;;x
+found_mukta_duniya_empire_desc;Aazaad Duniyã is ascendant, a great empire among the stars. It is as powerful a nation as the old Confederation ever was, and now is the time to proclaim that to the galaxy.;;;;;;;;;;;;x
 found_tarka_empire;Found Tarkan Empire;;;;;;;;;;;;x
 found_tarka_empire_desc;Tarka is ascendant, a great empire among the stars. It is as powerful a nation as the old Confederation ever was, and now is the time to proclaim that to the galaxy.;;;;;;;;;;;;x
 found_avalon_empire;Found Avalonian Empire;;;;;;;;;;;;x
@@ -3738,36 +3738,36 @@ b_haidel_station_beta;Haidel Station Beta;;;;;;;;;;;;;x
 b_haidel_station_beta_adj;Haidel Betan;;;;;;;;;;;;;x
 b_haidel_station_gamma;Haidel Station Gamma;;;;;;;;;;;;;x
 b_haidel_station_gamma_adj;Haidel Gamman;;;;;;;;;;;;;x
-k_mukta_duniya;Mukta Duniyeh;;;;;;;;;;;;;x
-k_mukta_duniya_adj;Mukta Duniyehn;;;;;;;;;;;;;x
-d_mukta_duniya_fleet;Mukta Duniyeh Peacekeepers;;;;;;;;;;;;;x
-d_mukta_duniya_fleet_adj;Mukta Duniyeh Military;;;;;;;;;;;;;x
-d_nai_dunya;Nai Dunya;;;;;;;;;;;;;x
-d_nai_dunya_adj;Nai Dunyan;;;;;;;;;;;;;x
-c_nai_dunya;Nai Dunya;;;;;;;;;;;;;x
-c_nai_dunya_adj;Nai Dunyan;;;;;;;;;;;;;x
-b_nai_dunya_iii;Nai Dunya III;;;;;;;;;;;;;x
-b_nai_dunya_iii_adj;Nai Dunya III;;;;;;;;;;;;;x
-b_nai_dunya_iii_b;Nai Dunya III-B;;;;;;;;;;;;;x
-b_nai_dunya_iii_b_adj;Nai Dunya III-B;;;;;;;;;;;;;x
-b_nai_dunya_vii_b;Nai Dunya VII-B;;;;;;;;;;;;;x
-b_nai_dunya_vii_b_adj;Nai Dunya VII-B;;;;;;;;;;;;;x
-b_nai_dunya_vii_c;Nai Dunya VII-C;;;;;;;;;;;;;x
-b_nai_dunya_vii_c_adj;Nai Dunya VII-C;;;;;;;;;;;;;x
-b_nai_dunya_vii_d;Nai Dunya VII-D;;;;;;;;;;;;;x
-b_nai_dunya_vii_d_adj;Nai Dunya VII-D;;;;;;;;;;;;;x
-b_nai_dunya_vii_e;Nai Dunya VII-E;;;;;;;;;;;;;x
-b_nai_dunya_vii_e_adj;Nai Dunya VII-E;;;;;;;;;;;;;x
-c_nai_haidarabada;Nai Haidarabada;;;;;;;;;;;;;x
-c_nai_haidarabada_adj;Nai Haidarabadan;;;;;;;;;;;;;x
-b_nai_haidarabada_prime;Haidarabada Prime;;;;;;;;;;;;;x
-b_nai_haidarabada_prime_adj;Haidarabada Prime;;;;;;;;;;;;;x
-b_nai_haidarabada_ii;Haidarabada II;;;;;;;;;;;;;x
-b_nai_haidarabada_ii_adj;Haidarabada II;;;;;;;;;;;;;x
-b_nai_haidarabada_iii;Haidarabada III;;;;;;;;;;;;;x
-b_nai_haidarabada_iii_adj;Haidarabada III;;;;;;;;;;;;;x
-b_nai_haidarabada_iv;Haidarabada IV;;;;;;;;;;;;;x
-b_nai_haidarabada_iv_adj;Haidarabada IV;;;;;;;;;;;;;x
+k_mukta_duniya;Aazaad Duniyã;;;;;;;;;;;;;x
+k_mukta_duniya_adj;Aazaad;;;;;;;;;;;;;x
+d_mukta_duniya_fleet;Aazaad Duniyã Peacekeepers;;;;;;;;;;;;;x
+d_mukta_duniya_fleet_adj;Aazaad Duniyã Military;;;;;;;;;;;;;x
+d_nai_dunya;Nai Duniya;;;;;;;;;;;;;x
+d_nai_dunya_adj;Nai Duniyan;;;;;;;;;;;;;x
+c_nai_dunya;Nai Duniya;;;;;;;;;;;;;x
+c_nai_dunya_adj;Nai Duniyan;;;;;;;;;;;;;x
+b_nai_dunya_iii;Nai Duniya III;;;;;;;;;;;;;x
+b_nai_dunya_iii_adj;Nai Duniya III;;;;;;;;;;;;;x
+b_nai_dunya_iii_b;Nai Duniya III-B;;;;;;;;;;;;;x
+b_nai_dunya_iii_b_adj;Nai Duniya III-B;;;;;;;;;;;;;x
+b_nai_dunya_vii_b;Nai Duniya VII-B;;;;;;;;;;;;;x
+b_nai_dunya_vii_b_adj;Nai Duniya VII-B;;;;;;;;;;;;;x
+b_nai_dunya_vii_c;Nai Duniya VII-C;;;;;;;;;;;;;x
+b_nai_dunya_vii_c_adj;Nai Duniya VII-C;;;;;;;;;;;;;x
+b_nai_dunya_vii_d;Nai Duniya VII-D;;;;;;;;;;;;;x
+b_nai_dunya_vii_d_adj;Nai Duniya VII-D;;;;;;;;;;;;;x
+b_nai_dunya_vii_e;Nai Duniya VII-E;;;;;;;;;;;;;x
+b_nai_dunya_vii_e_adj;Nai Duniya VII-E;;;;;;;;;;;;;x
+c_nai_haidarabada;Nai Hyderabad;;;;;;;;;;;;;x
+c_nai_haidarabada_adj;Nai Hyderabadi;;;;;;;;;;;;;x
+b_nai_haidarabada_prime;Hyderabad Prime;;;;;;;;;;;;;x
+b_nai_haidarabada_prime_adj;Hyderabad Prime;;;;;;;;;;;;;x
+b_nai_haidarabada_ii;Hyderabad II;;;;;;;;;;;;;x
+b_nai_haidarabada_ii_adj;Hyderabad II;;;;;;;;;;;;;x
+b_nai_haidarabada_iii;Hyderabad III;;;;;;;;;;;;;x
+b_nai_haidarabada_iii_adj;Hyderabad III;;;;;;;;;;;;;x
+b_nai_haidarabada_iv;Hyderabad IV;;;;;;;;;;;;;x
+b_nai_haidarabada_iv_adj;Hyderabad IV;;;;;;;;;;;;;x
 c_nai_varanasi;Nai Varanasi;;;;;;;;;;;;;x
 c_nai_varanasi_adj;Nai Varanasi;;;;;;;;;;;;;x
 b_nai_varanasi_waystation;Varanasi Waystation;;;;;;;;;;;;;x
@@ -3778,8 +3778,8 @@ b_nai_varanasi_station_alpha;Varanasi Station Alpha;;;;;;;;;;;;;x
 b_nai_varanasi_station_alpha_adj;Varanasi Station Alpha;;;;;;;;;;;;;x
 b_nai_varanasi_station_beta;Varanasi Station Beta;;;;;;;;;;;;;x
 b_nai_varanasi_station_beta_adj;Varanasi Station Beta;;;;;;;;;;;;;x
-c_vikrama_ke_graha;Vikrama ke Graha;;;;;;;;;;;;;x
-c_nai_vikrama_ke_graha_adj;Vikraman;;;;;;;;;;;;;x
+c_vikrama_ke_graha;Vikrampur;;;;;;;;;;;;;x
+c_vikrama_ke_graha_adj;Vikrampuran;;;;;;;;;;;;;x
 b_vikrama_vi_b;Vikrama VI-B;;;;;;;;;;;;;x
 b_vikrama_vi_b_adj;Vikrama VI-B;;;;;;;;;;;;;x
 b_vikrama_vi_c;Vikrama VI-C;;;;;;;;;;;;;x
@@ -3936,20 +3936,20 @@ b_pradana_iv;Pradana IV;;;;;;;;;;;;;x
 b_pradana_iv_adj;Pradana IV;;;;;;;;;;;;;x
 b_pradana_iv_b;Pradana IV-B;;;;;;;;;;;;;x
 b_pradana_iv_b_adj;Pradana IV-B;;;;;;;;;;;;;x
-d_ghandi;Ghandi;;;;;;;;;;;;;x
-d_ghandi_adj;Ghandian;;;;;;;;;;;;;x
-c_ghandi;Ghandi;;;;;;;;;;;;;x
-c_ghandi_adj;Ghandian;;;;;;;;;;;;;x
-b_ghandi_iii;Ghandi III;;;;;;;;;;;;;x
-b_ghandi_iii_adj;Ghandi III;;;;;;;;;;;;;x
-b_ghandi_iii_b;Ghandi III-B;;;;;;;;;;;;;x
-b_ghandi_iii_b_adj;Ghandi III-B;;;;;;;;;;;;;x
-b_ghandi_iv;Ghandi IV;;;;;;;;;;;;;x
-b_ghandi_iv_adj;Ghandi IV;;;;;;;;;;;;;x
-b_ghandi_iv_b;Ghandi IV-B;;;;;;;;;;;;;x
-b_ghandi_iv_b_adj;Ghandi IV-B;;;;;;;;;;;;;x
-b_ghandi_v;Ghandi V;;;;;;;;;;;;;x
-b_ghandi_v_adj;Ghandi V;;;;;;;;;;;;;x
+d_ghandi;Gandhi;;;;;;;;;;;;;x
+d_ghandi_adj;Gandhian;;;;;;;;;;;;;x
+c_ghandi;Gandhi;;;;;;;;;;;;;x
+c_ghandi_adj;Gandhian;;;;;;;;;;;;;x
+b_ghandi_iii;Gandhi III;;;;;;;;;;;;;x
+b_ghandi_iii_adj;Gandhi III;;;;;;;;;;;;;x
+b_ghandi_iii_b;Gandhi III-B;;;;;;;;;;;;;x
+b_ghandi_iii_b_adj;Gandhi III-B;;;;;;;;;;;;;x
+b_ghandi_iv;Gandhi IV;;;;;;;;;;;;;x
+b_ghandi_iv_adj;Gandhi IV;;;;;;;;;;;;;x
+b_ghandi_iv_b;Gandhi IV-B;;;;;;;;;;;;;x
+b_ghandi_iv_b_adj;Gandhi IV-B;;;;;;;;;;;;;x
+b_ghandi_v;Gandhi V;;;;;;;;;;;;;x
+b_ghandi_v_adj;Gandhi V;;;;;;;;;;;;;x
 c_maathai;Maathai;;;;;;;;;;;;;x
 c_maathai_adj;Maathai;;;;;;;;;;;;;x
 b_maathai_ii;Maathai II;;;;;;;;;;;;;x
@@ -4085,7 +4085,7 @@ b_sulaha_viii_d_ADJ;Sulaha VIII-D;;;;;;;;;;;;;x
 b_sulaha_viii_e;Sulaha VIII-E;;;;;;;;;;;;;x
 b_sulaha_viii_e_ADJ;Sulaha VIII-E;;;;;;;;;;;;;x
 c_vishnu;Vishnu;;;;;;;;;;;;;x
-c_vishnu_ADJ;Vishnan;;;;;;;;;;;;;x
+c_vishnu_ADJ;Vishnuvan;;;;;;;;;;;;;x
 b_vishnu_iii;Vishnu III;;;;;;;;;;;;;x
 b_vishnu_iii_ADJ;Vishnu III;;;;;;;;;;;;;x
 b_vishnu_iii_b;Vishnu III-B;;;;;;;;;;;;;x
@@ -4224,20 +4224,20 @@ d_paraiso_fourth_fleet;Fourth Paraisan Fleet;;;;;;;;;;;;;x
 d_paraiso_fourth_fleet_adj;Fourth Paraisan Fleet;;;;;;;;;;;;;x
 d_paraiso_fifth_fleet;Fifth Paraisan Fleet;;;;;;;;;;;;;x
 d_paraiso_fifth_fleet_adj;Fifth Paraisan Fleet;;;;;;;;;;;;;x
-e_mukta_duniya;Mukta Duniyeh;;;;;;;;;;;;;x
-e_mukta_duniya_adj;Mukta;;;;;;;;;;;;;x
-k_mukta_duniya_navy;Mukta Navy;;;;;;;;;;;;;x
-k_mukta_duniya_navy_adj;Mukta Naval;;;;;;;;;;;;;x
-d_mukta_duniya_first_fleet;First Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_first_fleet_adj;First Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_second_fleet;Second Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_second_fleet_adj;Second Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_third_fleet;Third Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_third_fleet_adj;Third Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_fourth_fleet;Fourth Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_fourth_fleet_adj;Fourth Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_fifth_fleet;Fifth Mukta Fleet;;;;;;;;;;;;;x
-d_mukta_duniya_fifth_fleet_adj;Fifth Mukta Fleet;;;;;;;;;;;;;x
+e_mukta_duniya;Aazaad Duniyã;;;;;;;;;;;;;x
+e_mukta_duniya_adj;Aazaad;;;;;;;;;;;;;x
+k_mukta_duniya_navy;Aazaad Navy;;;;;;;;;;;;;x
+k_mukta_duniya_navy_adj;Aazaad Naval;;;;;;;;;;;;;x
+d_mukta_duniya_first_fleet;First Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_first_fleet_adj;First Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_second_fleet;Second Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_second_fleet_adj;Second Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_third_fleet;Third Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_third_fleet_adj;Third Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_fourth_fleet;Fourth Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_fourth_fleet_adj;Fourth Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_fifth_fleet;Fifth Aazaad Fleet;;;;;;;;;;;;;x
+d_mukta_duniya_fifth_fleet_adj;Fifth Aazaad Fleet;;;;;;;;;;;;;x
 d_tarka_first_fleet;First Tarkan Fleet;;;;;;;;;;;;;x
 d_tarka_first_fleet_adj;First Tarkan Fleet;;;;;;;;;;;;;x
 d_tarka_second_fleet;Second Tarkan Fleet;;;;;;;;;;;;;x
@@ -4622,7 +4622,7 @@ b_muzhestvo_viii_b;Muzhestvo VIII-B;;;;;;;;;;;;;x
 b_muzhestvo_viii_c;Muzhestvo VIII-C;;;;;;;;;;;;;x
 b_muzhestvo_viii_d;Muzhestvo VIII-D;;;;;;;;;;;;;x
 b_muzhestvo_viii_e;Muzhestvo VIII-E;;;;;;;;;;;;;x
-b_nai_haidarabada_prime_b;Nai Haidarabada Prime-B;;;;;;;;;;;;;x
+b_nai_haidarabada_prime_b;Nai Hyderabad Prime-B;;;;;;;;;;;;;x
 b_nanchong_i;Nanchong I;;;;;;;;;;;;;x
 b_nanchong_ii;Nanchong II;;;;;;;;;;;;;x
 b_nanchong_iii;Nanchong III;;;;;;;;;;;;;x

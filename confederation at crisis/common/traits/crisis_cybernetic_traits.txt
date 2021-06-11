@@ -3,7 +3,12 @@
 # for enabling stat-enhancing implants
 dni = {
 	#cached = yes # Helpfully marks characters whose brains have an internet connection.
-	health = 2
+	#health = 2 # This used to add health for some reason. Replaced it with a bunch of attribute buffs.
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
 }
 
 # Stat-enhancing implants
@@ -297,12 +302,16 @@ thoth_mk_v = {
 cybernetic_limb = { # Generic limb in vanilla, arm with Reaper's Due
 	is_health = yes
 	health = 1
+	cyberneticist_opinion = 2
+	machine_cultist_opinion = 5
 	opposites = { one_handed }
 	combat_rating = 10
 }
 cybernetic_leg = {
 	is_health = yes
 	health = 1
+	cyberneticist_opinion = 2
+	machine_cultist_opinion = 5
 	potential = { has_dlc = "Reapers" }
 	opposites = { one_legged }
 	combat_rating = 5
@@ -310,6 +319,8 @@ cybernetic_leg = {
 cybernetic_skeleton = {
 	is_health = yes
 	health = 1
+	cyberneticist_opinion = 2
+	machine_cultist_opinion = 5
 	potential = { has_dlc = "Reapers" }
 	opposites = { mangled }
 }
@@ -335,6 +346,8 @@ full_cybernetic_conversion = {
 	immortal = yes
 	health = 100 # A hack because immortal apparently doesn't actually work! This makes you EFFECTIVELY immortal.
 	general_opinion = -50 # Creeepy
+	cyberneticist_opinion = 25
+	machine_cultist_opinion = 65 # They love it
 	same_opinion = 25 # Not quite so creepy
 	fertility = -10000
 	ruler_designer_cost = 20 # The game apparently severely undervalues "no fertility" relative to "lives forever."

@@ -406,6 +406,7 @@ clubfooted = {
 		agile
 	}
 
+	bio_directionist_opinion = -5
 	sex_appeal_opinion = -10
 	same_opinion = 5
 
@@ -424,6 +425,7 @@ harelip = { #49
 	birth = 25
 	inherit_chance = 25
 
+	bio_directionist_opinion = -5
 	sex_appeal_opinion = -10
 	vassal_opinion = -10
 	diplomacy = -2
@@ -437,8 +439,8 @@ hunchback = {
 	birth = 25
 	inherit_chance = 15
 
+	bio_directionist_opinion = -5
 	sex_appeal_opinion = -20
-
 	vassal_opinion = -10
 
 	martial = -2
@@ -452,6 +454,7 @@ lisp = { #51
 	birth = 25
 	inherit_chance = 15
 
+	bio_directionist_opinion = -5
 	sex_appeal_opinion = -10
 	diplomacy = -2
 
@@ -465,6 +468,7 @@ stutter = {
 	birth = 25
 	inherit_chance = 15
 
+	bio_directionist_opinion = -5
 	diplomacy = -2
 	vassal_opinion = -10
 
@@ -481,6 +485,7 @@ fair = {
 		wrymouth
 	}
 
+	bio_directionist_opinion = 2
 	sex_appeal_opinion = 30
 	diplomacy = 1
 	fertility = 0.1
@@ -506,6 +511,7 @@ ugly = {
 		fair
 	}
 
+	bio_directionist_opinion = -10
 	sex_appeal_opinion = -30
 	diplomacy = -1
 	fertility = -0.1
@@ -533,6 +539,7 @@ dwarf = {
 		tall
 	}
 
+	bio_directionist_opinion = -10
 	sex_appeal_opinion = -20
 	same_opinion = 10
 	martial = -2
@@ -571,6 +578,7 @@ genius = {
 
 	ai_rationality = 30
 
+	bio_directionist_opinion = 4
 	vassal_opinion = 5
 
 	male_compliment = COMPL_GENIUS
@@ -605,6 +613,7 @@ quick = {
 	learning = 3
 	ai_rationality = 15
 
+	bio_directionist_opinion = 2
 
 	is_visible = {
 		OR = {
@@ -624,8 +633,10 @@ slow = {
 		perceptive
 	}
 
+	bio_directionist_opinion = -5
 	sex_appeal_opinion = -10
 	vassal_opinion = -10
+	
 	diplomacy = -3
 	intrigue = -3
 	stewardship = -3
@@ -659,12 +670,13 @@ imbecile = {
 		shrewd
 	}
 
+	bio_directionist_opinion = -10
+
 	diplomacy = -8
 	intrigue = -8
 	stewardship = -8
 	martial = -8
 	learning = -8
-
 
 	ai_rationality = -30
 
@@ -698,6 +710,7 @@ inbred = {
 	martial = -5
 	learning = -5
 
+	bio_directionist_opinion = -10
 	vassal_opinion = -10
 
 	male_insult = INSULT_ABOMINATION
@@ -720,6 +733,7 @@ strong = {
 	health = 1.5
 	fertility = 0.1
 
+	bio_directionist_opinion = 4
 	sex_appeal_opinion = 5
 	vassal_opinion = 5
 	tribal_opinion = 10
@@ -749,6 +763,7 @@ weak = {
 	martial = -2
 	fertility = -0.1
 
+	bio_directionist_opinion = -10
 	sex_appeal_opinion = -5
 	vassal_opinion = -5
 	tribal_opinion = -10

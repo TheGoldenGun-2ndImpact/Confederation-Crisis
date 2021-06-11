@@ -153,12 +153,12 @@ assign_new_frontier_fleet_command;Assign Fleet Command;;;;;;;;;;;;x
 assign_new_frontier_fleet_command_desc;Grant [Root.GetFullName] command of the first available New Frontier fleet.;;;;;;;;;;;;x
 assign_command_new_frontier_fleet;Give Command of the New Frontier Rangers;;;;;;;;;;;;x
 assign_command_new_frontier_fleet_desc;The New Frontier Rangers lack an autonomous commander. [This.GetFullName], currently serving as [This.GetTitle] of the [This.PrimaryTitle.GetFullName], would make a fine candidate.;;;;;;;;;;;;x
-assign_command_mukta_duniya_navy;Give Command of the Mukta Navy;;;;;;;;;;;;x
-assign_command_mukta_duniya_navy_desc;The Mukta Navy lacks an autonomous commander. [This.GetFullName], currently serving as [This.GetTitle] of the [This.PrimaryTitle.GetFullName], would make a fine candidate.;;;;;;;;;;;;x
+assign_command_mukta_duniya_navy;Give Command of the Aazaad Navy;;;;;;;;;;;;x
+assign_command_mukta_duniya_navy_desc;The Aazaad Navy lacks an autonomous commander. [This.GetFullName], currently serving as [This.GetTitle] of the [This.PrimaryTitle.GetFullName], would make a fine candidate.;;;;;;;;;;;;x
 assign_mukta_duniya_fleet_command;Assign Fleet Command;;;;;;;;;;;;x
-assign_mukta_duniya_fleet_command_desc;Grant [Root.GetFullName] command of the first available Mukta fleet.;;;;;;;;;;;;x
-assign_command_mukta_duniya_fleet;Give Command of the Mukta Duniyeh Peacekeepers;;;;;;;;;;;;x
-assign_command_mukta_duniya_fleet_desc;The Mukta Duniyeh Peacekeepers lack an autonomous commander. [This.GetFullName], currently serving as [This.GetTitle] of the [This.PrimaryTitle.GetFullName], would make a fine candidate.;;;;;;;;;;;;x
+assign_mukta_duniya_fleet_command_desc;Grant [Root.GetFullName] command of the first available Aazaad fleet.;;;;;;;;;;;;x
+assign_command_mukta_duniya_fleet;Give Command of the Aazaad Duniyã Peacekeepers;;;;;;;;;;;;x
+assign_command_mukta_duniya_fleet_desc;The Aazaad Duniyã Peacekeepers lack an autonomous commander. [This.GetFullName], currently serving as [This.GetTitle] of the [This.PrimaryTitle.GetFullName], would make a fine candidate.;;;;;;;;;;;;x
 assign_command_veil_nebula_navy;Give Command of the Veil Navy;;;;;;;;;;;;x
 assign_command_veil_nebula_navy_desc;The Veil Navy lacks an autonomous commander. [This.GetFullName], currently serving as [This.GetTitle] of the [This.PrimaryTitle.GetFullName], would make a fine candidate.;;;;;;;;;;;;x
 assign_veil_nebula_fleet_command;Assign Fleet Command;;;;;;;;;;;;x

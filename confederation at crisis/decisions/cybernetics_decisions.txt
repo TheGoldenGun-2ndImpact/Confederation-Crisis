@@ -34,15 +34,40 @@ decisions = {
 					}
 				}
 			}
-			OR = {
-				wealth = 2000
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
+			
+			# Base cost is 4000.
+			# The cost is halved at Cybernetic Tech Level 6
+			# The cost is halved at Cybernetic Tech Level 7
+			# The cost is divided by 4 if transhumanist
+			# All of the above can stack
+			
+			trigger_if = {
+				limit = { location = { TECH_CYBERNETICS = 7 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 250
+				}
+				trigger_else = {
 					wealth = 1000
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 7 }
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 6 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
 					wealth = 500
+				}
+				trigger_else = {
+					wealth = 2000
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 1000
+				}
+				trigger_else = {
+					wealth = 4000
 				}
 			}
 			OR = {
@@ -53,21 +78,33 @@ decisions = {
 		}
 		effect = {
 			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 6 } } }
-				wealth = -2000
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 6
-						NOT = { TECH_CYBERNETICS = 7 }
-					}
-				}
-				wealth = -1000
-			}
-			if = {
 				limit = { location = { TECH_CYBERNETICS = 7 } }
-				wealth = -500
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 250
+				}
+				else = {
+					wealth = 1000
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 6 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 500
+				}
+				else = {
+					wealth = 2000
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 1000
+				}
+				else = {
+					wealth = 4000
+				}
 			}
 			# Remove Health Traits
 			if = {
@@ -4257,31 +4294,84 @@ decisions = {
 		}
 		allow = {
 			NOT = { has_character_flag = flag_busy }
-			OR = {
-				wealth = 500
-				AND = {
-					location = { TECH_CYBERNETICS = 1 }
+			
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
+			trigger_if = {
+				limit = {
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
+					}
+				}
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 17
+				}
+				trigger_else = {
+					wealth = 68
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 34
+				}
+				trigger_else = {
+					wealth = 125
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 68
+				}
+				trigger_else = {
 					wealth = 250
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 2 }
-					wealth = 100
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 125
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 3 }
-					wealth = 50
+				trigger_else = {
+					wealth = 500
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 4 }
-					wealth = 25
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 250
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 5 }
-					wealth = 10
+				trigger_else = {
+					wealth = 1000
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
-					wealth = 5
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 500
+				}
+				trigger_else = {
+					wealth = 2000
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 1000
+				}
+				trigger_else = {
+					wealth = 4000
 				}
 			}
 			OR = {
@@ -4291,59 +4381,86 @@ decisions = {
 			}
 		}
 		effect = {
-			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 1 } } }
-				wealth = -500
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 1
-						NOT = { TECH_CYBERNETICS = 2 }
-					}
-				}
-				wealth = -250
-			}
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
 			if = {
 				limit = {
-					location = {
-						TECH_CYBERNETICS = 2
-						NOT = { TECH_CYBERNETICS = 3 }
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
 					}
 				}
-				wealth = -100
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 3
-						NOT = { TECH_CYBERNETICS = 4 }
-					}
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -17
 				}
-				wealth = -50
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 4
-						NOT = { TECH_CYBERNETICS = 5 }
-					}
+				else = {
+					wealth = -68
 				}
-				wealth = -25
 			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 5
-						NOT = { TECH_CYBERNETICS = 6 }
-					}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -34
 				}
-				wealth = -10
+				else = {
+					wealth = -125
+				}
 			}
-			if = {
-				limit = { location = { TECH_CYBERNETICS = 6 } }
-				wealth = -5
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -68
+				}
+				else = {
+					wealth = -250
+				}
 			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -125
+				}
+				else = {
+					wealth = -500
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -250
+				}
+				else = {
+					wealth = -1000
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -500
+				}
+				else = {
+					wealth = -2000
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -1000
+				}
+				else = {
+					wealth = -4000
+				}
+			}
+			
 			if = {
 				limit = { trait = wounded }
 				remove_trait = wounded
@@ -4468,33 +4585,87 @@ decisions = {
 		}
 		allow = {
 			NOT = { has_character_flag = flag_busy }
-			OR = {
-				wealth = 500
-				AND = {
-					location = { TECH_CYBERNETICS = 1 }
-					wealth = 250
+			
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
+			trigger_if = {
+				limit = {
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
+					}
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 2 }
-					wealth = 100
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 17
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 3 }
-					wealth = 50
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 4 }
-					wealth = 25
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 5 }
-					wealth = 10
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
-					wealth = 5
+				trigger_else = {
+					wealth = 68
 				}
 			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 34
+				}
+				trigger_else = {
+					wealth = 125
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 68
+				}
+				trigger_else = {
+					wealth = 250
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 125
+				}
+				trigger_else = {
+					wealth = 500
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 250
+				}
+				trigger_else = {
+					wealth = 1000
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 500
+				}
+				trigger_else = {
+					wealth = 2000
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 1000
+				}
+				trigger_else = {
+					wealth = 4000
+				}
+			}
+			
 			OR = {
 				NOT = { religion_group = religious_group }
 				trait = pragmatic
@@ -4502,59 +4673,86 @@ decisions = {
 			}
 		}
 		effect = {
-			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 1 } } }
-				wealth = -500
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 1
-						NOT = { TECH_CYBERNETICS = 2 }
-					}
-				}
-				wealth = -250
-			}
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
 			if = {
 				limit = {
-					location = {
-						TECH_CYBERNETICS = 2
-						NOT = { TECH_CYBERNETICS = 3 }
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
 					}
 				}
-				wealth = -100
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 3
-						NOT = { TECH_CYBERNETICS = 4 }
-					}
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -17
 				}
-				wealth = -50
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 4
-						NOT = { TECH_CYBERNETICS = 5 }
-					}
+				else = {
+					wealth = -68
 				}
-				wealth = -25
 			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 5
-						NOT = { TECH_CYBERNETICS = 6 }
-					}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -34
 				}
-				wealth = -10
+				else = {
+					wealth = -125
+				}
 			}
-			if = {
-				limit = { location = { TECH_CYBERNETICS = 6 } }
-				wealth = -5
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -68
+				}
+				else = {
+					wealth = -250
+				}
 			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -125
+				}
+				else = {
+					wealth = -500
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -250
+				}
+				else = {
+					wealth = -1000
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -500
+				}
+				else = {
+					wealth = -2000
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -1000
+				}
+				else = {
+					wealth = -4000
+				}
+			}
+
 			if = {
 				limit = { trait = wounded }
 				remove_trait = wounded
@@ -4664,32 +4862,87 @@ decisions = {
 		}
 		allow = {
 			NOT = { has_character_flag = flag_busy }
-			OR = {
-				AND = {
-					location = { TECH_CYBERNETICS = 3 }
-					wealth = 500
+			
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
+			trigger_if = {
+				limit = {
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
+					}
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 4 }
-					wealth = 250
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 17
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 5 }
-					wealth = 100
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
-					wealth = 50
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 7 }
-					wealth = 25
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 8 }
-					wealth = 10
+				trigger_else = {
+					wealth = 68
 				}
 			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 34
+				}
+				trigger_else = {
+					wealth = 125
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 68
+				}
+				trigger_else = {
+					wealth = 250
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 125
+				}
+				trigger_else = {
+					wealth = 500
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 250
+				}
+				trigger_else = {
+					wealth = 1000
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 500
+				}
+				trigger_else = {
+					wealth = 2000
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = 1000
+				}
+				trigger_else = {
+					wealth = 4000
+				}
+			}
+			
 			OR = {
 				NOT = { religion_group = religious_group }
 				trait = pragmatic
@@ -4697,50 +4950,86 @@ decisions = {
 			}
 		}
 		effect = {
-			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 4 } } }
-				wealth = -500
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 4
-						NOT = { TECH_CYBERNETICS = 5 }
-					}
-				}
-				wealth = -250
-			}
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
 			if = {
 				limit = {
-					location = {
-						TECH_CYBERNETICS = 5
-						NOT = { TECH_CYBERNETICS = 6 }
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
 					}
 				}
-				wealth = -100
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 6
-						NOT = { TECH_CYBERNETICS = 7 }
-					}
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -17
 				}
-				wealth = -50
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 7
-						NOT = { TECH_CYBERNETICS = 8 }
-					}
+				else = {
+					wealth = -68
 				}
-				wealth = -25
 			}
-			if = {
-				limit = { location = { TECH_CYBERNETICS = 8 } }
-				wealth = -10
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -34
+				}
+				else = {
+					wealth = -125
+				}
 			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -68
+				}
+				else = {
+					wealth = -250
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -125
+				}
+				else = {
+					wealth = -500
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -250
+				}
+				else = {
+					wealth = -1000
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -500
+				}
+				else = {
+					wealth = -2000
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					wealth = -1000
+				}
+				else = {
+					wealth = -4000
+				}
+			}
+			
 			if = {
 				limit = { trait = wounded }
 				remove_trait = wounded
@@ -5096,33 +5385,87 @@ targetted_decisions = {
 				}
 				trait = one_handed
 			}
-			OR = {
-				FROM = { wealth = 500 }
-				AND = {
-					location = { TECH_CYBERNETICS = 1 }
-					FROM = { wealth = 250 }
+
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
+			trigger_if = {
+				limit = {
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
+					}
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 2 }
-					FROM = { wealth = 100 }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 17 }
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 3 }
-					FROM = { wealth = 50 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 4 }
-					FROM = { wealth = 25 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 5 }
-					FROM = { wealth = 10 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
-					FROM = { wealth = 5 }
+				trigger_else = {
+					FROM = { wealth = 68 }
 				}
 			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 34 }
+				}
+				trigger_else = {
+					FROM = { wealth = 125 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 68 }
+				}
+				trigger_else = {
+					FROM = { wealth = 250 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 125 }
+				}
+				trigger_else = {
+					FROM = { wealth = 500 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 250 }
+				}
+				trigger_else = {
+					FROM = { wealth = 1000 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 500 }
+				}
+				trigger_else = {
+					FROM = { wealth = 2000 }
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 1000 }
+				}
+				trigger_else = {
+					FROM = { wealth = 4000 }
+				}
+			}
+			
 			FROM = {
 				OR = {
 					NOT = { religion_group = religious_group }
@@ -5184,59 +5527,87 @@ targetted_decisions = {
 				opinion = { who = FROM modifier = opinion_never_asked_for_this }
 			}
 			hidden_tooltip = { character_event = { id = cybernetics.5061 } }
-			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 1 } } }
-				FROM = { wealth = -500 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 1
-						NOT = { TECH_CYBERNETICS = 2 }
-					}
-				}
-				FROM = { wealth = -250 }
-			}
+
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
 			if = {
 				limit = {
-					location = {
-						TECH_CYBERNETICS = 2
-						NOT = { TECH_CYBERNETICS = 3 }
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
 					}
 				}
-				FROM = { wealth = -100 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 3
-						NOT = { TECH_CYBERNETICS = 4 }
-					}
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -17 }
 				}
-				FROM = { wealth = -50 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 4
-						NOT = { TECH_CYBERNETICS = 5 }
-					}
+				else = {
+					FROM = { wealth = -68 }
 				}
-				FROM = { wealth = -25 }
 			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 5
-						NOT = { TECH_CYBERNETICS = 6 }
-					}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -34 }
 				}
-				FROM = { wealth = -10 }
+				else = {
+					FROM = { wealth = -125 }
+				}
 			}
-			if = {
-				limit = { location = { TECH_CYBERNETICS = 6 } }
-				FROM = { wealth = -5 }
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -68 }
+				}
+				else = {
+					FROM = { wealth = -250 }
+				}
 			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -125 }
+				}
+				else = {
+					FROM = { wealth = -500 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -250 }
+				}
+				else = {
+					FROM = { wealth = -1000 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -500 }
+				}
+				else = {
+					FROM = { wealth = -2000 }
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -1000 }
+				}
+				else = {
+					FROM = { wealth = -4000 }
+				}
+			}
+			
 			FROM = {
 				if = {
 					limit = {
@@ -5416,33 +5787,87 @@ targetted_decisions = {
 			NOT = { FROM = { has_character_flag = flag_busy } }
 			NOT = { has_character_flag = flag_busy }
 			trait = one_legged
-			OR = {
-				FROM = { wealth = 500 }
-				AND = {
-					location = { TECH_CYBERNETICS = 1 }
-					FROM = { wealth = 250 }
+			
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
+			trigger_if = {
+				limit = {
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
+					}
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 2 }
-					FROM = { wealth = 100 }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 17 }
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 3 }
-					FROM = { wealth = 50 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 4 }
-					FROM = { wealth = 25 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 5 }
-					FROM = { wealth = 10 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
-					FROM = { wealth = 5 }
+				trigger_else = {
+					FROM = { wealth = 68 }
 				}
 			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 34 }
+				}
+				trigger_else = {
+					FROM = { wealth = 125 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 68 }
+				}
+				trigger_else = {
+					FROM = { wealth = 250 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 125 }
+				}
+				trigger_else = {
+					FROM = { wealth = 500 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 250 }
+				}
+				trigger_else = {
+					FROM = { wealth = 1000 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 500 }
+				}
+				trigger_else = {
+					FROM = { wealth = 2000 }
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 1000 }
+				}
+				trigger_else = {
+					FROM = { wealth = 4000 }
+				}
+			}
+			
 			FROM = {
 				OR = {
 					NOT = { religion_group = religious_group }
@@ -5504,59 +5929,87 @@ targetted_decisions = {
 				opinion = { who = FROM modifier = opinion_never_asked_for_this }
 			}
 			hidden_tooltip = { character_event = { id = cybernetics.5071 } }
-			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 1 } } }
-				FROM = { wealth = -500 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 1
-						NOT = { TECH_CYBERNETICS = 2 }
-					}
-				}
-				FROM = { wealth = -250 }
-			}
+
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
 			if = {
 				limit = {
-					location = {
-						TECH_CYBERNETICS = 2
-						NOT = { TECH_CYBERNETICS = 3 }
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
 					}
 				}
-				FROM = { wealth = -100 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 3
-						NOT = { TECH_CYBERNETICS = 4 }
-					}
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -17 }
 				}
-				FROM = { wealth = -50 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 4
-						NOT = { TECH_CYBERNETICS = 5 }
-					}
+				else = {
+					FROM = { wealth = -68 }
 				}
-				FROM = { wealth = -25 }
 			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 5
-						NOT = { TECH_CYBERNETICS = 6 }
-					}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -34 }
 				}
-				FROM = { wealth = -10 }
+				else = {
+					FROM = { wealth = -125 }
+				}
 			}
-			if = {
-				limit = { location = { TECH_CYBERNETICS = 6 } }
-				FROM = { wealth = -5 }
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -68 }
+				}
+				else = {
+					FROM = { wealth = -250 }
+				}
 			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -125 }
+				}
+				else = {
+					FROM = { wealth = -500 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -250 }
+				}
+				else = {
+					FROM = { wealth = -1000 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -500 }
+				}
+				else = {
+					FROM = { wealth = -2000 }
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -1000 }
+				}
+				else = {
+					FROM = { wealth = -4000 }
+				}
+			}
+			
 			FROM = {
 				if = {
 					limit = {
@@ -5730,32 +6183,87 @@ targetted_decisions = {
 			NOT = { FROM = { has_character_flag = flag_busy } }
 			NOT = { has_character_flag = flag_busy }
 			trait = mangled
-			OR = {
-				AND = {
-					location = { TECH_CYBERNETICS = 3 }
-					FROM = { wealth = 500 }
+			
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
+			trigger_if = {
+				limit = {
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
+					}
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 4 }
-					FROM = { wealth = 250 }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 17 }
 				}
-				AND = {
-					location = { TECH_CYBERNETICS = 5 }
-					FROM = { wealth = 100 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 6 }
-					FROM = { wealth = 50 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 7 }
-					FROM = { wealth = 25 }
-				}
-				AND = {
-					location = { TECH_CYBERNETICS = 8 }
-					FROM = { wealth = 10 }
+				trigger_else = {
+					FROM = { wealth = 68 }
 				}
 			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 34 }
+				}
+				trigger_else = {
+					FROM = { wealth = 125 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 68 }
+				}
+				trigger_else = {
+					FROM = { wealth = 250 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 125 }
+				}
+				trigger_else = {
+					FROM = { wealth = 500 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 250 }
+				}
+				trigger_else = {
+					FROM = { wealth = 1000 }
+				}
+			}
+			trigger_else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 500 }
+				}
+				trigger_else = {
+					FROM = { wealth = 2000 }
+				}
+			}
+			trigger_else = {
+				trigger_if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = 1000 }
+				}
+				trigger_else = {
+					FROM = { wealth = 4000 }
+				}
+			}
+			
 			FROM = {
 				OR = {
 					NOT = { religion_group = religious_group }
@@ -5817,54 +6325,87 @@ targetted_decisions = {
 				opinion = { who = FROM modifier = opinion_never_asked_for_this }
 			}
 			hidden_tooltip = { character_event = { id = cybernetics.5071 } }
-			if = {
-				limit = { location = { NOT = { TECH_CYBERNETICS = 4 } } }
-				FROM = { wealth = -500 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 4
-						NOT = { TECH_CYBERNETICS = 5 }
-					}
-				}
-				FROM = { wealth = -250 }
-			}
+
+			# Base cost is 4000.
+			# Cost is halved at each Cybernetic Tech Level, upto Level 6.
+			# Cost is further divided by 4 if Transhumanist.
+			
 			if = {
 				limit = {
-					location = {
-						TECH_CYBERNETICS = 5
-						NOT = { TECH_CYBERNETICS = 6 }
+					OR = {
+						location = { TECH_CYBERNETICS = 6 }
+						location = { TECH_CYBERNETICS = 7 }
+						location = { TECH_CYBERNETICS = 8 }
 					}
 				}
-				FROM = { wealth = -100 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 6
-						NOT = { TECH_CYBERNETICS = 7 }
-					}
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -17 }
 				}
-				FROM = { wealth = -50 }
-			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 7
-						NOT = { TECH_CYBERNETICS = 8 }
-					}
+				else = {
+					FROM = { wealth = -68 }
 				}
-				FROM = { wealth = -25 }
 			}
-			if = {
-				limit = {
-					location = {
-						TECH_CYBERNETICS = 8
-					}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 5 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -34 }
 				}
-				FROM = { wealth = -10 }
+				else = {
+					FROM = { wealth = -125 }
+				}
 			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 4 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -68 }
+				}
+				else = {
+					FROM = { wealth = -250 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 3 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -125 }
+				}
+				else = {
+					FROM = { wealth = -500 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 2 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -250 }
+				}
+				else = {
+					FROM = { wealth = -1000 }
+				}
+			}
+			else_if = {
+				limit = { location = { TECH_CYBERNETICS = 1 } }
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -500 }
+				}
+				else = {
+					FROM = { wealth = -2000 }
+				}
+			}
+			else = {
+				if = {
+					limit = { religion_group = transhumanist_group }
+					FROM = { wealth = -1000 }
+				}
+				else = {
+					FROM = { wealth = -4000 }
+				}
+			}
+			
 			FROM = {
 				if = {
 					limit = {

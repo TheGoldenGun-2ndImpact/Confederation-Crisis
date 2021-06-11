@@ -341,14 +341,14 @@ PROV339;Sarabhai;Sarabhai;Sarabhai;;Sarabhai;;;;;;;;;x
 PROV340;Chandrasekhar;Chandrasekhar;Chandrasekhar;;Chandrasekhar;;;;;;;;;x
 PROV341;Maathai;Maathai;Maathai;;Maathai;;;;;;;;;x
 PROV342;Ebadi;Ebadi;Ebadi;;Ebadi;;;;;;;;;x
-PROV343;Ghandi;Ghandi;Ghandi;;Ghandi;;;;;;;;;x
+PROV343;Gandhi;Gandhi;Gandhi;;Gandhi;;;;;;;;;x
 PROV344;Kanade;Kanade;Kanade;;Kanade;;;;;;;;;x
 PROV345;Batra;Batra;Batra;;Batra;;;;;;;;;x
-PROV346;Nai Haidarabada;Nai Haidarabada;Nai Haidarabada;;Nai Haidarabada;;;;;;;;;x
+PROV346;Nai Hyderabad;Nai Hyderabad;Nai Hyderabad;;Nai Hyderabad;;;;;;;;;x
 PROV347;Nai Varanasi;Nai Varanasi;Nai Varanasi;;Nai Varanasi;;;;;;;;;x
-PROV348;Nai Dunya;Nai Dunya;Nai Dunya;;Nai Dunya;;;;;;;;;x
+PROV348;Nai Duniya;Nai Duniya;Nai Duniya;;Nai Duniya;;;;;;;;;x
 PROV349;Yathesta Bhumi;Yathesta Bhumi;Yathesta Bhumi;;Yathesta Bhumi;;;;;;;;;x
-PROV350;Vikrama ke Graha;Vikrama ke Graha;Vikrama ke Graha;;Vikrama ke Graha;;;;;;;;;x
+PROV350;Vikrampur;Vikrampur;Vikrampur;;Vikrampur;;;;;;;;;x
 PROV351;Abhayaranya;Abhayaranya;Abhayaranya;;Abhayaranya;;;;;;;;;x
 PROV352;Nae Bangladesa;Nae Bangladesa;Nae Bangladesa;;Nae Bangladesa;;;;;;;;;x
 PROV353;Cauraha;Cauraha;Cauraha;;Cauraha;;;;;;;;;x
@@ -1030,9 +1030,9 @@ PROV1028;Sector al-Bawwaaba;Sector al-Bawwaaba;Sector al-Bawwaaba;;Sector al-Baw
 PROV1029;Sector al-Hadd;Sector al-Hadd;Sector al-Hadd;;Sector al-Hadd;;;;;;;;;x
 PROV1030;The Remote;The Remote;The Remote;;The Remote;;;;;;;;;x
 PROV1031;Outer Veil;Outer Veil;Outer Veil;;Outer Veil;;;;;;;;;x
-PROV1032;Sector Ghandi;Sector Ghandi;Sector Ghandi;;Sector Ghandi;;;;;;;;;x
+PROV1032;Sector Gandhi;Sector Gandhi;Sector Gandhi;;Sector Gandhi;;;;;;;;;x
 PROV1033;Sector Chandrasekhar;Sector Chandrasekhar;Sector Chandrasekhar;;Sector Chandrasekhar;;;;;;;;;x
-PROV1034;Sector Nai Dunya;Sector Nai Dunya;Sector Nai Dunya;;Sector Nai Dunya;;;;;;;;;x
+PROV1034;Sector Nai Duniya;Sector Nai Duniya;Sector Nai Duniya;;Sector Nai Duniya;;;;;;;;;x
 PROV1035;Sector Nae Bangladesa;Sector Nae Bangladesa;Sector Nae Bangladesa;;Sector Nae Bangladesa;;;;;;;;;x
 PROV1036;Sector Darius;Sector Darius;Sector Darius;;Sector Darius;;;;;;;;;x
 PROV1037;Sector Paraiso;Sector Paraiso;Sector Paraiso;;Sector Paraiso;;;;;;;;;x
@@ -1520,7 +1520,7 @@ world_periphery_orion_flame;The Flame Nebula;;;;;;;;;;;;;x
 world_periphery_orion_horsehead;The Horsehead Nebula;;;;;;;;;;;;;x
 world_periphery_east;The Free Worlds;;;;;;;;;;;;;x
 world_periphery_east_tarka;Tarka;;;;;;;;;;;;;x
-world_periphery_east_duniya;Mukta Duniyeh;;;;;;;;;;;;;x
+world_periphery_east_duniya;Aazaad Duniyã;;;;;;;;;;;;;x
 world_periphery_east_paraiso;Paraiso;;;;;;;;;;;;;x
 world_periphery_east_veil;The Veil Nebula;;;;;;;;;;;;;x
 world_periphery_northwest;The Spinward Colonies;;;;;;;;;;;;;x

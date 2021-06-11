@@ -128,21 +128,8 @@ camel_cavalry_morale = {
 	max_decimals = 2
 }
 
-neo_feudal_opinion = {
-	show_as_percent = no
-	is_good = yes
-	is_monthly = no
-	is_hidden = no
-	max_decimals = 0
-}
-
-astrist_opinion = {
-	show_as_percent = no
-	is_good = yes
-	is_monthly = no
-	is_hidden = no
-	max_decimals = 0
-}
+# Opinion modifiers toward specific culture groups
+# TODO: Add opinion modifiers for all cultures and culture groups
 
 terran_group_opinion = {
 	show_as_percent = no
@@ -161,6 +148,24 @@ avalonian_group_opinion = {
 }
 
 orion_group_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+# Opinion modifiers toward specific ideologies/religions
+
+neo_feudal_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+astrist_opinion = {
 	show_as_percent = no
 	is_good = yes
 	is_monthly = no
@@ -200,7 +205,127 @@ terran_imperial_opinion = {
 	max_decimals = 0
 }
 
-#opinion modifiers toward specific religion groups
+neo_socialist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+pilgrim_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+orthodox_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+solar_cultist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+solarian_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+xenoterran_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+adoptionist_cultist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+adoptionist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+imperial_cult_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+cyberneticist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+machine_cultist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+hiver_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+bio_directionist_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+space_pirate_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+looter_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+
+# Opinion modifiers toward specific ideology/religion groups
 political_terran_group_opinion = {
 	show_as_percent = no
 	is_good = yes

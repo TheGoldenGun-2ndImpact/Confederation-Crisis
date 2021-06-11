@@ -99,6 +99,7 @@ transhumanist_group = {
 
         character_modifier = {
             religious_group_opinion = 10
+			machine_cultist_opinion = -10 # The flesh is sinful after all. Offset by positive opinion modifiers from Cybernetic Enhancements.
         }
     }
     hiver = {

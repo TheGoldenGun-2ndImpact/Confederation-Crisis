@@ -4,13 +4,41 @@ opinion_criminal_treason;Committed Treason;;;;;;;;;;;;;x
 opinion_criminal_murder;Committed Murder;;;;;;;;;;;;;x
 opinion_criminal_theft;Committed Theft;;;;;;;;;;;;;x
 opinion_criminal_crimes_against_humanity;Committed Crimes Against Humanity;;;;;;;;;;;;;x
-religious_group_opinion;Religious Group Opinion;;;;;;;;;;;;;;x
-neo_feudal_opinion;Neo-Feudal Opinion;;;;;;;;;;;;;;x
-astrist_opinion;Astrist Opinion;;;;;;;;;;;;;;x
+
 terran_group_opinion;Terran Opinion;;;;;;;;;;;;;;x
 avalonian_group_opinion;Avalonian Opinion;;;;;;;;;;;;;;x
 orion_group_opinion;Orion Opinion;;;;;;;;;;;;;;x
+
+# Ideology/Religion Group Opinions
+
+political_terran_group_opinion;Pro-Terra Political Opinion;;;;;;;;;;;;;;x
+political_group_opinion;Political Opinion;;;;;;;;;;;;;;x
+religious_terran_group_opinion;Pro-Terra Religious Opinion;;;;;;;;;;;;;;x
+religious_group_opinion;Religious Opinion;;;;;;;;;;;;;;x
+transhumanist_group_opinion;Transhumanist Opinion;;;;;;;;;;;;;;x
+outlaw_group_opinion;Outlaw Opinion;;;;;;;;;;;;;;x
+
+# Ideology/Religion Opinions
+
+neo_feudal_opinion;Neo-Feudal Opinion;;;;;;;;;;;;;;x
+astrist_opinion;Astrist Opinion;;;;;;;;;;;;;;x
 colonial_separatist_opinion;Colonial Separatist Opinion;;;;;;;;;;;;;;x
 terran_republican_opinion;Terran Republican Opinion;;;;;;;;;;;;;;x
 terran_federalist_opinion;Terran Federalist Opinion;;;;;;;;;;;;;;x
 terran_imperial_opinion;Terran Imperialist Opinion;;;;;;;;;;;;;;x
+neo_socialist_opinion;Neo-Socialist Opinion;;;;;;;;;;;;;;x
+pilgrim_opinion;Pilgrim Opinion;;;;;;;;;;;;;;x
+orthodox_opinion;Terran Orthodox Opinion;;;;;;;;;;;;;;x
+solar_cultist_opinion;Solar Cultist Opinion;;;;;;;;;;;;;;x
+solarian_opinion;Solarian Opinion;;;;;;;;;;;;;;x
+xenoterran_opinion;Xenoterran Opinion;;;;;;;;;;;;;;x
+adoptionist_cultist_opinion;Sect Adoptionist Opinion;;;;;;;;;;;;;;x
+adoptionist_opinion;Adoptionist Opinion;;;;;;;;;;;;;;x
+imperial_cult_opinion;Imperial Cultist Opinion;;;;;;;;;;;;;x
+cyberneticist_opinion;Cyberneticist Opinion;;;;;;;;;;;;;;x
+machine_cultist_opinion;Machine Cultist Opinion;;;;;;;;;;;;;;x
+hiver_opinion;Hiver Opinion;;;;;;;;;;;;;;x
+bio_directionist_opinion;Bio-Directionist Opinion;;;;;;;;;;;;;;x
+space_pirate_opinion;Space Pirate Opinion;;;;;;;;;;;;;x
+looter_opinion;Looter Opinion;;;;;;;;;;;;;x
+
