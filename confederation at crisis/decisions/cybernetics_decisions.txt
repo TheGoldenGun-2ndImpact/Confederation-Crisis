@@ -77,33 +77,40 @@ decisions = {
 			}
 		}
 		effect = {
+		
+			# Base cost is 4000.
+			# The cost is halved at Cybernetic Tech Level 6
+			# The cost is halved at Cybernetic Tech Level 7
+			# The cost is divided by 4 if transhumanist
+			# All of the above can stack
+			
 			if = {
 				limit = { location = { TECH_CYBERNETICS = 7 } }
 				if = {
 					limit = { religion_group = transhumanist_group }
-					wealth = 250
+					wealth = -250
 				}
 				else = {
-					wealth = 1000
+					wealth = -1000
 				}
 			}
 			else_if = {
 				limit = { location = { TECH_CYBERNETICS = 6 } }
 				if = {
 					limit = { religion_group = transhumanist_group }
-					wealth = 500
+					wealth = -500
 				}
 				else = {
-					wealth = 2000
+					wealth = -2000
 				}
 			}
 			else = {
 				if = {
 					limit = { religion_group = transhumanist_group }
-					wealth = 1000
+					wealth = -1000
 				}
 				else = {
-					wealth = 4000
+					wealth = -4000
 				}
 			}
 			# Remove Health Traits

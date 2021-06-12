@@ -5956,12 +5956,12 @@ muslim_invasion = { #COTC Ideological Invasion
 
 	on_add = {
 		ROOT = {
-			trigger_if = {
+			if = {
 				limit = { ai = no }
 				piety = -1000
 				prestige = -1000
 			}
-			trigger_else = {
+			else = {
 				piety = -750
 			}
 		}
