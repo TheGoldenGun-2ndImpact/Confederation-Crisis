@@ -1,7 +1,7 @@
 #New Events for Neofeudals
 namespace = neofeudal
 
-#neofeudal.100-199, Levy Taxation events
+# neofeudal.100-199, Levy Taxation events
 
 character_event = {
 	id = neofeudal.100
@@ -377,7 +377,7 @@ character_event = {
 	}
 }
 
-#neofeudal.200-299, Gallant-Knight-Worthy trait events
+# neofeudal.200-299, Gallant-Knight-Worthy trait events
 
 character_event = {
 	id = neofeudal.200
@@ -421,7 +421,33 @@ character_event = {
 
 character_event = {
 	id = neofeudal.201
-	desc = "EVTDESC_NEOFEUDAL_201"
+
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		OR = {
+			trait = knight
+			trait = gallant
+			trait = worthy #Like Sea King, going even further beyond will create a bloodline, when I add it.
+		}
+		religion = neo_feudal
+		FROM = { always = yes }
+	}
+
+	immediate = {
+		change_variable = { which = martial_deeds value = 2 }
+	}
+}
+
+character_event = {
+	id = neofeudal.210
+	desc = "EVTDESC_NEOFEUDAL_210"
 	picture = GFX_evt_space_battle
 	border = GFX_event_normal_frame_war
 
@@ -445,15 +471,15 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPT_A_NEOFEUDAL_201"
+		name = "EVTOPT_A_NEOFEUDAL_210"
 		remove_trait = knight
 		add_trait = gallant
 	}
 }
 
 character_event = {
-	id = neofeudal.202
-	desc = "EVTDESC_NEOFEUDAL_202"
+	id = neofeudal.211
+	desc = "EVTDESC_NEOFEUDAL_211"
 	picture = GFX_evt_space_battle
 	border = GFX_event_normal_frame_war
 
@@ -476,7 +502,7 @@ character_event = {
 	}
 
 	option = {
-		name = "EVTOPT_A_NEOFEUDAL_202"
+		name = "EVTOPT_A_NEOFEUDAL_211"
 		remove_trait = gallant
 		add_trait = worthy
 		add_trait = proud
@@ -485,7 +511,7 @@ character_event = {
 		}
 	}
 	option = {
-		name = "EVTOPT_B_NEOFEUDAL_202"
+		name = "EVTOPT_B_NEOFEUDAL_211"
 		remove_trait = gallant
 		add_trait = worthy
 		add_trait = humble
@@ -496,28 +522,48 @@ character_event = {
 }
 
 character_event = {
-	id = neofeudal.203
+	id = neofeudal.212
+	desc = "EVTDESC_NEOFEUDAL_212"
+	picture = GFX_evt_space_battle
+	border = GFX_event_normal_frame_war
 
-	hide_window = yes
+	hide_from = yes
 
 	is_triggered_only = yes
-
+	has_dlc = "Holy Fury"
 	min_age = 16
 	capable_only = yes
 	prisoner = no
 
 	trigger = {
-		OR = {
-			trait = knight
-			trait = gallant
-			trait = worthy #Like Sea King, going even further beyond will create a bloodline, when I add it.
-		}
+		trait = worthy
 		religion = neo_feudal
+		check_variable = { which = martial_deeds value = 100 }
+		NOT = {
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_the_ideal
+			}
+		}
 		FROM = { always = yes }
 	}
 
-	immediate = {
-		change_variable = { which = martial_deeds value = 2 }
+	option = {
+		name = "EVTOPT_A_NEOFEUDAL_212"
+		create_bloodline = { type = the_ideal }
+		prestige = 500
+		add_trait = proud
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "EVTOPT_B_NEOFEUDAL_212"
+		create_bloodline = { type = the_ideal }
+		prestige = 500
+		add_trait = humble
+		ai_chance = {
+			factor = 50
+		}
 	}
 }
 

@@ -23,12 +23,16 @@ EVTDESC_NEOFEUDAL_200;Your deeds in the latest engagement have not gone unnotice
 EVTDESC_NEOFEUDAL_200_ALT;Your deeds in the latest engagement have won acclaim from the lords, knights, and men-at-arms of the [Root.PrimaryTitle.GetAdjective] fleet, with those assembled proclaiming you Knight-[Root.GetTitle]. It seems the concept of the warrior-sovereign is not so archaic as once thought.;;;;;;;;;;;;x
 EVTOPT_A_NEOFEUDAL_200;Indeed.;;;;;;;;;;;;x
 
-EVTDESC_NEOFEUDAL_201;With each martial exploit, the star of your fame climbs higher and higher. This reputation is not limited to just the home stars, with enemy captains and pilots across known space either dreading your presence or relishing a chance to put your reputation to the test. Perhaps in time, you will be counted among the greatest knights in human history.;;;;;;;;;;;;x
-EVTOPT_A_NEOFEUDAL_201;Perhaps.;;;;;;;;;;;;x
+EVTDESC_NEOFEUDAL_210;With each martial exploit, the star of your fame climbs higher and higher. This reputation is not limited to just the home stars, with enemy captains and pilots across known space either dreading your presence or relishing a chance to put your reputation to the test. Perhaps in time, you will be counted among the greatest knights in human history.;;;;;;;;;;;;x
+EVTOPT_A_NEOFEUDAL_210;Perhaps.;;;;;;;;;;;;x
 
-EVTDESC_NEOFEUDAL_202;The foes of the realm tremble at the mere possibility of your presence in battle, and your life has become the stuff of songs and poetry. Every return home is greeted with a parade, and you have won more medals than you know what to do with. Some even compare you to the most noble of Terra's ancient heroes: the Nine Worthies. Few, alive or dead, could even think of claiming this honour.;;;;;;;;;;;;x
-EVTOPT_A_NEOFEUDAL_202;Truly, I am without equal.;;;;;;;;;;;;x
-EVTOPT_B_NEOFEUDAL_202;I have fulfilled my duties, and nothing more.;;;;;;;;;;;;x
+EVTDESC_NEOFEUDAL_211;The foes of the realm tremble at the mere possibility of your presence in battle, and your life has become the stuff of songs and poetry. Every return home is greeted with a parade, and you have won more medals than you know what to do with. Some even compare you to the most noble of Terra's ancient heroes: the Nine Worthies. Few, alive or dead, could even think of claiming this honour.;;;;;;;;;;;;x
+EVTOPT_A_NEOFEUDAL_211;Truly, I am without equal.;;;;;;;;;;;;x
+EVTOPT_B_NEOFEUDAL_211;I have fulfilled my duties, and nothing more.;;;;;;;;;;;;x
+
+EVTDESC_NEOFEUDAL_212;Your prowess in battle is truly unmatched, and your renown has reached legendary levels. Many consider would consider you an equal of, if not superior to, the Nine Worthies. You could rightfully be called the Tenth Worthy.;;;;;;;;;;;;x
+EVTOPT_A_NEOFEUDAL_212;I am the greatest of all.;;;;;;;;;;;;x
+EVTOPT_B_NEOFEUDAL_212;I am sure there are many who are better than me.;;;;;;;;;;;;x
 
 EVTDESC_NEOFEUDAL_300;The Kingdom of Avalon is young, but its heritage is ancient and great. So as to maintain this cultural continuity, efforts have been made to collect the great works of the old English in the Royal Archives. I should delve into this collection, that I may learn from those who came before.;;;;;;;;;;;;x
 EVTOPT_A_NEOFEUDAL_300;The Comedies, Histories, and Tragedies of the Bard sound most fascinating.;;;;;;;;;;;;x

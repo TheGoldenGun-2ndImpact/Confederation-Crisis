@@ -669,9 +669,10 @@ on_battle_won = {
 		10 = 261 # Soldier Distinguish himself.
 	}
 	events = {
-		neofeudal.201 # Knight becomes a Gallant
-		neofeudal.202 # Gallant becomes a Worthy
-		neofeudal.203 # Scoring event
+		neofeudal.210 # Knight becomes a Gallant
+		neofeudal.211 # Gallant becomes a Worthy
+		neofeudal.212 # Worthy gains a bloodline
+		neofeudal.201 # Scoring event
 		battle.1006
 	}
 }
@@ -690,9 +691,10 @@ on_battle_won_leader = {
 		50 = neofeudal.200 # Neofeudal Commander wins a knighthood
 	}
 	events = {
-		neofeudal.201 # Knight becomes a Gallant
-		neofeudal.202 # Gallant becomes a Worthy
-		neofeudal.203 # Scoring event
+		neofeudal.210 # Knight becomes a Gallant
+		neofeudal.211 # Gallant becomes a Worthy
+		neofeudal.212 # Worthy gains a bloodline
+		neofeudal.201 # Scoring event
 		battle.1004
 	}
 }

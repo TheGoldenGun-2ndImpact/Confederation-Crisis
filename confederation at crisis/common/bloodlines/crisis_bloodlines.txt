@@ -130,6 +130,17 @@ legacy_of_armageddon = {
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_war # Placeholder
 }
+the_ideal = { 
+	martial = 3
+	neo_feudal_opinion = 5
+	monthly_character_prestige = 0.25
+	bloodline_effect_battle_survivor = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_war_knight
+	flags = { created_bloodline battle_survivor_bloodline bloodline_the_ideal }
+	active = { religion = neo_feudal }
+}
 child_of_destiny = {
 	vassal_opinion = 5
 	combat_rating = 10
