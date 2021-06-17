@@ -1,0 +1,502 @@
+
+namespace = neo_socialist_flavor
+
+narrative_event = {
+    id = neo_socialist_flavor.100
+    desc = EVTDESC_neo_socialist_flavor_100
+    title = TITLE_neo_socialist_flavor_100
+    picture = GFX_evt_large_army
+    border = GFX_event_narrative_frame_religion
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+    trigger = {
+    	religion = neo_socialist
+    }
+
+    option = {
+        name = OPT_A_neo_socialist_flavor_100
+        trigger = {
+        	religion_group = FROM
+        }
+    }
+
+    option = {
+    	name = OPT_B_neo_socialist_flavor_100
+    	trigger = {
+    		NOT = {
+    			religion_group = FROM
+    		}
+    	}
+    }
+}
+
+## Monthly / Bi-monthly Dharmayuddh Preparations Events
+character_event = {
+    id = neo_socialist_flavor.110
+    hide_window = yes
+	is_triggered_only = yes
+    has_dlc = "Holy Fury"
+	
+    trigger = {
+		religion = neo_socialist
+    	has_character_flag = flag_spread_revolution_active
+    	NOR = {
+			has_character_flag = flag_spread_revolution_declared
+			has_character_flag = flag_spread_revolution_prepared
+		}
+    }
+	
+    immediate = {
+    	random_list = {
+    		# Gain troops
+    		55 = { character_event = { id = neo_socialist_flavor.111 } }
+			
+    		# Come across a great Commander to lead your troops
+    		35 = { character_event = { id = neo_socialist_flavor.112 } }
+			
+    		# Boats
+    		10 = { character_event = { id = neo_socialist_flavor.113 } }
+    	}
+    }
+
+    after = {
+    	character_event = { id = neo_socialist_flavor.110 days = 30 random = 15 }
+    }
+}
+
+# Dharmayuddh Preparation Event - Gain troops
+character_event = {
+    id = neo_socialist_flavor.111
+    desc = EVTDESC_neo_socialist_flavor_111
+    picture = GFX_evt_large_army
+    border = GFX_event_normal_frame_religion
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+
+    # Invest some gold 
+    option = {
+        name = OPT_A_neo_socialist_flavor_111
+		
+        scaled_wealth = { value = -0.25 min = -25 max = -250 }
+        custom_tooltip = {
+        	text = trained_troops_TT
+	        spawn_unit = {
+	            province = capital_scope
+	            home = capital_scope
+	            owner = ROOT
+	            troops = {
+	                light_infantry = { 300 300 }
+                    archers = { 300 300 }
+                }
+                earmark = spread_revolution_event_troops
+                attrition = 1
+                maintenance_multiplier = 0
+                reinforces = no
+            }
+		}
+	}
+    # Invest a crazy amount of gold
+    option = {
+    	name = OPT_B_neo_socialist_flavor_111
+    	scaled_wealth = { value = -1 min = -100 max = -1000 }
+    	custom_tooltip = {
+        	text = trained_troops_TT
+	        spawn_unit = {
+	            province = capital_scope
+	            home = capital_scope
+	            owner = ROOT
+	            troops = {
+                    heavy_infantry = { 350 350 }
+                    archers = { 350 350 }
+                }
+                earmark = spread_revolution_event_troops_elite
+                attrition = 1
+                maintenance_multiplier = 0
+                reinforces = no
+            }
+		}
+	}
+    # Invest no gold and hope things work out
+    option = {
+    	name = OPT_C_neo_socialist_flavor_111
+    	prestige = -25
+    	custom_tooltip = {
+        	text = trained_troops_TT
+	        spawn_unit = {
+	            province = capital_scope
+	            home = capital_scope
+	            owner = ROOT
+	            troops = {
+	                light_infantry = { 450 450 }
+                }
+                earmark = spread_revolution_event_troops_rabble
+                attrition = 1
+                maintenance_multiplier = 0
+                reinforces = no
+            }
+		}
+    }
+}
+
+# Dharmayuddh Preparation Event - Great Commander ahoy!
+character_event = {
+    id = neo_socialist_flavor.112
+    desc = EVTDESC_neo_socialist_flavor_112
+    picture = GFX_evt_dueling_knights_hf
+    border = GFX_event_normal_frame_religion
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+    trigger = {
+    
+    }
+
+    immediate = {
+    	hidden_tooltip = {
+    		create_character = {
+    			dynasty = random
+    			culture = ROOT
+    			religion = ROOT
+    			health = 5
+    			attributes = {
+    				martial = 4
+    				diplomacy = 0
+    				stewardship = 2
+    				intrigue = 0
+    				learning = 0
+    			}
+    		}
+
+    		new_character = {
+    			save_event_target_as = new_commander
+    			opinion = {
+    				modifier = opinion_loyal_servant
+    				who = ROOT
+    			}
+
+    			add_trait = brilliant_strategist
+    			# Some sort of huge
+    			random_list = {
+    				1 = {
+    					add_trait = strong
+    				}
+    				1 = {
+    					add_trait = robust
+    				}
+    			}
+    			# Some sort of lifestyle
+    			random_list = {
+    				1 = {
+    					add_trait = strategist
+    				}
+    				1 = {
+    					add_trait = duelist
+    				}
+    				1 = {
+    					add_trait = hunter
+    				}
+    			}
+    			# Some sort of good trait
+    			random_list = {
+    				1 = {
+    					add_trait = patient
+    				}
+    				1 = {
+    					add_trait = diligent 
+    				}
+    			}
+    			# Some sort of bad trait 
+    			random_list = {
+    				1 = {
+    					add_trait = proud
+    				}
+    				1 = {
+    					add_trait = envious
+    				}
+    			}
+    			# Some potential traits
+    			random = {
+    				chance = 40
+    				add_trait = ambitious
+    			}
+    			random = {
+    				chance = 40
+    				add_trait = brave
+    			}
+    			random = {
+    				chance = 40 
+    				add_trait = radical
+    			}
+    			# One Commander trait 
+    			add_random_commander_trait_effect = yes
+    		}
+    	}
+    }
+
+    option = {      
+        name = OPT_A_neo_socialist_flavor_112
+    }
+    option = {      
+        name = OPT_B_neo_socialist_flavor_112
+
+        trigger = {
+			NOT = { #There are no valid vassal candidates that can be commanders.
+				any_vassal = {
+					higher_real_tier_than = BARON
+					NOT = { 
+						primary_title = { temporary = yes } 
+					}
+					OR = {
+						AND = {
+							OR = {
+								male_can_hold_minor_title_trigger = yes
+								female_can_hold_minor_commander_title_trigger = yes
+							}
+							is_adult = yes
+						}
+						has_character_flag = special_marshal
+					}
+			
+					prisoner = no
+					NOT = { trait = incapable }
+					NOT = { is_inaccessible_trigger = yes }
+					NOT = { has_character_flag = guru }
+					NOT = { has_character_modifier = refusing_to_lead }
+					NOR = {
+						has_job_title = job_chancellor
+						has_job_title = job_marshal
+						has_job_title = job_treasurer
+						has_job_title = job_spymaster
+						has_job_title = job_spiritual
+						has_minor_title = title_commander
+					}
+				} 
+			}
+        	OR = {
+				AND = {
+					tier = COUNT
+					NOT = {
+						any_realm_character = {
+							count = 2
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = DUKE
+					NOT = {
+						any_realm_character = {
+							count = 4
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = KING
+					is_nomadic = no
+					NOT = {
+						any_realm_character = {
+							count = 6
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = EMPEROR
+					is_nomadic = no
+					NOT = {
+						any_realm_character = {
+							count = 8
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = KING
+					is_nomadic = yes
+					NOT = {
+						any_realm_character = {
+							count = 2
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+				AND = {
+					tier = EMPEROR
+					is_nomadic = yes
+					NOT = {
+						any_realm_character = {
+							count = 4
+							liege = { character = ROOT }
+							has_minor_title = title_commander
+						}
+					}
+				}
+			}
+        }
+
+        event_target:new_commander = {
+        	give_minor_title = title_commander
+        }
+    }
+    option = {
+    	name = OPT_C_neo_socialist_flavor_112 
+    	hidden_tooltip = {
+			event_target:new_commander = { 
+				death = {
+					death_reason = death_missing
+				}
+			}
+		}
+    }
+}
+
+# Dharmayuddh Preparation Event - Tunnelers!?
+character_event = {
+    id = neo_socialist_flavor.113
+    desc = EVTDESC_neo_socialist_flavor_113
+    picture = GFX_evt_large_army
+    border = GFX_event_normal_frame_religion
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+
+    option = {
+        name = OPT_A_neo_socialist_flavor_113
+        scaled_wealth = { value = -0.3 min = -30 max = -300 }
+        spawn_fleet = {
+	       	province = closest
+	        owner = ROOT
+	       	earmark = spread_revolution_event_ships
+	        troops = { galleys = { 20 20 } }
+	    }
+    }
+    option = {
+    	name = OPT_C_neo_socialist_flavor_113
+    }
+}
+
+# Dharmayuddh preparation finished
+character_event = {
+    id = neo_socialist_flavor.120
+    desc = EVTDESC_neo_socialist_flavor_120
+    picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+    has_dlc = "Holy Fury"
+	
+    trigger = {
+		religion = neo_socialist
+		has_character_flag = flag_spread_revolution_active
+		NOR = {
+			has_character_flag = flag_spread_revolution_declared
+			has_character_flag = flag_spread_revolution_prepared
+		}
+    }
+
+    immediate = {
+    	set_character_flag = flag_spread_revolution_prepared
+    }
+
+    option = {      
+        name = OPT_A_neo_socialist_flavor_120
+    }
+}
+
+#Dharmayuddh won
+narrative_event = {
+    id = neo_socialist_flavor.130
+    desc = EVTDESC_neo_socialist_flavor_130
+    title = TITLE_neo_socialist_flavor_130
+    picture = GFX_evt_large_army
+    border = GFX_event_narrative_frame_religion
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+    trigger = {
+    	religion = neo_socialist
+    }
+
+    immediate = {
+    	character_event = { id = neo_socialist_flavor.141 }
+    }
+
+    option = {
+        name = OPT_A_neo_socialist_flavor_130
+		add_trait = ideological_warrior
+		prestige = 100
+    }
+}
+
+#Dharmayuddh lost
+narrative_event = {
+    id = neo_socialist_flavor.131
+    desc = EVTDESC_neo_socialist_flavor_131
+    title = TITLE_neo_socialist_flavor_131
+    picture = GFX_evt_large_army
+    border = GFX_event_narrative_frame_religion
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+    trigger = {
+    	religion = neo_socialist
+    }
+
+    immediate = {
+    	character_event = { id = neo_socialist_flavor.141 }
+    }
+
+    option = {
+        name = OPT_A_neo_socialist_flavor_131
+		prestige = -100
+    }
+}
+
+# Dharmayuddh expires
+character_event = {
+    id = neo_socialist_flavor.140
+    desc = EVTDESC_neo_socialist_flavor_140
+    picture = GFX_evt_large_army
+	border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
+    has_dlc = "Holy Fury"
+	
+    trigger = {
+		religion = neo_socialist
+		has_character_flag = flag_spread_revolution_active
+		NOT = { has_character_flag = flag_spread_revolution_declared }
+    }
+
+    immediate = {
+    	character_event = { id = neo_socialist_flavor.141 }
+    }
+
+    option = {      
+        name = OPT_A_neo_socialist_flavor_140
+    }
+}
+
+# Clean up event post-Dharmayuddh
+character_event = {
+    id = neo_socialist_flavor.141
+   	hide_window = yes
+    is_triggered_only = yes
+    has_dlc = "Holy Fury"
+    trigger = {
+		OR = {
+			has_character_flag = flag_spread_revolution_active
+			has_character_flag = flag_spread_revolution_declared
+		}
+    }
+
+    immediate = {
+    	clr_character_flag = flag_spread_revolution_active
+		clr_character_flag = flag_spread_revolution_declared
+		clr_character_flag = flag_spread_revolution_prepared
+    	disband_event_forces = spread_revolution_event_ships
+		disband_event_forces = spread_revolution_event_troops
+		disband_event_forces = spread_revolution_event_troops_elite
+    	disband_event_forces = spread_revolution_event_troops_rabble
+    }
+}

@@ -5987,6 +5987,7 @@ muslim_invasion = { #COTC Ideological Invasion
 				religion = bio_directionist
 				religion = machine_cultist
 			}
+			NOT = { religion = neo_socialist }
 			# These use 'tribal_invasion' instead:
 			NOR = {
 				is_nomadic = yes

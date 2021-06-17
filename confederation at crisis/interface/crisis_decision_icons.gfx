@@ -314,4 +314,14 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decisions\\english_classics_decision.dds"
 	}
 
+# Neo-Socialist Decisions
+
+	spriteType = {
+		name = "GFX_spread_revolution_decision"
+		texturefile = "gfx\\interface\\decisions\\spread_revolution_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_cancel_spread_revolution_decision"
+		texturefile = "gfx\\interface\\decisions\\cancel_spread_revolution_decision.dds"
+	}
 }

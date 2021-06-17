@@ -1,0 +1,69 @@
+decisions = {
+
+	spread_revolution_decision = {
+		is_high_prio = yes
+		only_playable = yes
+
+		potential = {
+			ai = no
+			has_dlc = "Holy Fury"
+			is_landed = yes
+			independent = yes
+			any_demesne_title = { higher_tier_than = COUNT }
+			religion = neo_socialist
+			any_neighbor_independent_ruler = {
+				NOT = { religion = neo_socialist }
+			}
+			NOR = {
+				has_character_flag = flag_already_spread_revolution
+				has_character_flag = flag_spread_revolution_declared
+				has_character_flag = flag_spread_revolution_active
+			}
+		}
+
+		allow = {
+			is_adult = yes
+			war = no
+			prisoner = no
+			wealth = 150
+			piety = 500
+			custom_tooltip = {
+				text = tooltip_not_already_spread_revolution
+				NOT = { has_character_flag = flag_already_spread_revolution }
+			}
+		}
+
+		effect  = {
+			wealth = -150
+			piety = -500
+			custom_tooltip = {
+				text = tooltip_start_spread_revolution
+				ROOT = {
+					set_character_flag = flag_spread_revolution_active
+					narrative_event = { id = neo_socialist_flavor.100 }
+					character_event = { id = neo_socialist_flavor.110 days = 30 }
+					character_event = { id = neo_socialist_flavor.120 days = 547 }
+					character_event = { id = neo_socialist_flavor.140 days = 730 }
+				}
+			}
+		}
+	}
+	cancel_spread_revolution_decision = {
+		is_high_prio = yes
+		only_playable = yes
+
+		potential = {
+			ai = no
+			has_dlc = "Holy Fury"
+			religion = neo_socialist
+			has_character_flag = flag_spread_revolution_active
+		}
+
+		allow = { }
+
+		effect  = {
+			piety = 300
+			ROOT = { character_event = { id = neo_socialist_flavor.140 } }
+		}
+	}
+} # decisions bracket. Do not mess with this.
