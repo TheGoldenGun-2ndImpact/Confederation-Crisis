@@ -92,7 +92,7 @@
 	religion = "neo_feudal"
 }
 20040 = {
-	name = "Hauking"
+	name = "Auking"
 	culture = "anglo_frontiersman"
 	religion = "neo_feudal"
 }
@@ -107,7 +107,7 @@
 	religion = "neo_feudal"
 }
 20043 = {
-	name = "Daivis"
+	name = "Zaivis"
 	culture = "anglo_frontiersman"
 	religion = "neo_feudal"
 }
@@ -122,7 +122,7 @@
 	religion = "neo_feudal"
 }
 20046 = {
-	name = "Batlar"
+	name = "Vatlar"
 	culture = "anglo_frontiersman"
 	religion = "neo_feudal"
 }
@@ -192,7 +192,7 @@
 	religion = "neo_feudal"
 }
 20060 = {
-	name = "Havlauk"
+	name = "Avlauk"
 	culture = "anglo_frontiersman"
 	religion = "neo_feudal"
 }

@@ -3,7 +3,7 @@
 12000100 = {
 	# President of the New Frontier
 	name = "Mary"
-	dynasty = 20040 # Hauking
+	dynasty = 20040 # Auking
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -57,7 +57,7 @@
 12000103 = {
 	# Governor of Sector Adams
 	name = "Saufia"
-	dynasty = 20043 # Daivis
+	dynasty = 20043 # Zaivis
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -116,7 +116,7 @@
 12000106 = {
 	# Governor of Sector Deadwood
 	name = "Jiauf"
-	dynasty = 20046 # Batlar
+	dynasty = 20046 # Vatlar
 	female = no
 	
 	culture = anglo_frontiersman
@@ -370,7 +370,7 @@
 12000120 = {
 	# Governor of Roosevelt
 	name = "Samantha"
-	dynasty = 20060 # Havlauk
+	dynasty = 20060 # Avlauk
 	female = yes
 	
 	culture = anglo_frontiersman

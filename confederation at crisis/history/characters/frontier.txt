@@ -150,7 +150,7 @@
 
 1101479 = {
 	# Governor of Lincoln
-	name = "Chals"
+	name = "Karlaus"
 	dynasty = 280 # Krisaum
 	female = no
 	
