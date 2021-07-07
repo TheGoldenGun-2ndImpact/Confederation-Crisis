@@ -927,159 +927,58 @@ rectorate_baronies;Institutes;Planètes;Planeten;;Planetas;;;;;;;;;x
 
 # Generic (Republic?) Anglo-Frontiersman Ruler Titles
 
-emperor_anglo_frontiersman;Arch-Praisizant;Président;Präsident;;Presidente;;;;;;;;;x
-emperor_female_anglo_frontiersman;Arch-Praisizant;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
-emperor_foa_anglo_frontiersman;Mistar Praisizant;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
-emperor_foa_female_anglo_frontiersman;Mazam Praisizant;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
-emperor_title_ruler_consort_anglo_frontiersman;Farst Man;Epoux;;;;;;;;;;;x
-emperor_title_ruler_consort_female_anglo_frontiersman;Farst Laizy;Première dame;;;;;;;;;;;;x
-empire_of_anglo_frontiersman;Grandripavlik auf;Confédération de;Bund;;Confederación de;;;;;;;;;x
-empire_anglo_frontiersman;Grandripavlik;Confédération;Bund;;Confederación;;;;;;;;;x
-empires_anglo_frontiersman;Grandripavliks;Confédérations;Bunds;;Confederaciónes;;;;;;;;;x
+emperor_anglo_frontiersman;Arch-President;Président;Präsident;;Presidente;;;;;;;;;x
+emperor_female_anglo_frontiersman;Arch-President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+emperor_foa_anglo_frontiersman;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+emperor_foa_female_anglo_frontiersman;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+emperor_title_ruler_consort_anglo_frontiersman;First Man;Epoux;;;;;;;;;;;x
+emperor_title_ruler_consort_female_anglo_frontiersman;First Lady;Première dame;;;;;;;;;;;;x
+empire_of_anglo_frontiersman;Archrepublic of;Confédération de;Bund;;Confederación de;;;;;;;;;x
+empire_anglo_frontiersman;Archrepublic;Confédération;Bund;;Confederación;;;;;;;;;x
+empires_anglo_frontiersman;Archrepublics;Confédérations;Bunds;;Confederaciónes;;;;;;;;;x
 
-king_anglo_frontiersman;Praisizant;Président;Präsident;;Presidente;;;;;;;;;x
-king_female_anglo_frontiersman;Praisizant;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
-king_foa_anglo_frontiersman;Mistar Praisizant;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
-king_foa_female_anglo_frontiersman;Mazam Praisizant;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
-king_title_ruler_consort_anglo_frontiersman;Praisizant's Aispaus;Epoux;;;;;;;;;;;x
-king_title_ruler_consort_female_anglo_frontiersman;Praisizant's Aispaus;Première dame;;;;;;;;;;;;x
-kingdom_of_anglo_frontiersman;Ripavlik auf;République de;Republik;;Republica de;;;;;;;;;x
-kingdom_anglo_frontiersman;Ripavlik;République;Republik;;República;;;;;;;;;x
-kingdoms_anglo_frontiersman;Ripavliks;Républiques;Republiken;;Repúblicas;;;;;;;;;x
-
-duke_anglo_frontiersman;Saiktarman;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
-duke_female_anglo_frontiersman;Saiktarwuman;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
-duke_foa_anglo_frontiersman;Mistar Saiktarman;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
-duke_foa_female_anglo_frontiersman;Mazam Saiktarwuman;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
-duke_title_ruler_consort_anglo_frontiersman;Saiktarman's Aispaus;Epoux;;;;;;;;;;;x
-duke_title_ruler_consort_female_anglo_frontiersman;Saiktarwuman's Aispaus;Dame;;;;;;;;;;;;x
-duchy_of_anglo_frontiersman;Saiktar auf;Secteur;Sektor;;Sector;;;;;;;;;x
-duchy_anglo_frontiersman;Saiktar;Secteur;Sektor;;Sector;;;;;;;;;x
-duchies_anglo_frontiersman;Saiktars;Secteurs;Sektorin;;Sectores;;;;;;;;;x
-
-count_anglo_frontiersman;Aistarman;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-count_female_anglo_frontiersman;Aistarwuman;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-count_foa_anglo_frontiersman;Mistar Aistarman;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
-count_foa_female_anglo_frontiersman;Mazam Aistarwuman;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
-count_title_ruler_consort_anglo_frontiersman;Aistarman's Aispaus;Epoux;;;;;;;;;;;x
-count_title_ruler_consort_female_anglo_frontiersman;Aistarwuman's Aispaus;Dame;;;;;;;;;;;;x
-county_of_anglo_frontiersman;Aistar Systam;Système stellaire;Sterne-System;;Sistema Estelar;;;;;;;;;x
-county_anglo_frontiersman;Systam;Système;System;;Sistema;;;;;;;;;x
-counties_anglo_frontiersman;Systams;Systèmes;Systeme;;Sistemas;;;;;;;;;x
-
-baron_anglo_frontiersman;Gavnator;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-baron_female_anglo_frontiersman;Gavnator;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-baron_foa_anglo_frontiersman;Mistar Gavnator;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
-baron_foa_female_anglo_frontiersman;Mazam Gavnator;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
-baron_title_ruler_consort_anglo_frontiersman;Gavnator's Aispaus;Epoux;;;;;;;;;;;x
-baron_title_ruler_consort_female_anglo_frontiersman;Gavnator's Aispaus;Dame;;;;;;;;;;;;x
-barony_of_anglo_frontiersman;Planat auf;Planète;Planet;;Planeta;;;;;;;;;x
-barony_anglo_frontiersman;Planat;Planète;Planet;;Planeta;;;;;;;;;x
-baronies_anglo_frontiersman;Planats;Planètes;Planeten;;Planetas;;;;;;;;;x
+duke_anglo_frontiersman;Sector-Governor;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_female_anglo_frontiersman;Sector-Governor;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+duke_foa_anglo_frontiersman;Mister Governor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+duke_foa_female_anglo_frontiersman;Mister Governor;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+duke_title_ruler_consort_anglo_frontiersman;Sector-Governor's Spouse;Epoux;;;;;;;;;;;x
+duke_title_ruler_consort_female_anglo_frontiersman;Sector-Governor's Spouse;Dame;;;;;;;;;;;;x
 
 # Neo-Feudal Anglo-Frontiersman Ruler Titles
 
-monarchy_emperor_anglo_frontiersman;Aimperaur;Empereur;Kaiser;;Emperador;;;;;;;;;x
-monarchy_emperor_female_anglo_frontiersman;Aimperatis;Impératrice;Kaiserin;;Emperatriz;;;;;;;;;x
-monarchy_emperor_title_ruler_consort_anglo_frontiersman;Aimperial Kansaurt;Empereur;Kaiser;;Emperador;;;;;;;;;x
-monarchy_emperor_title_ruler_consort_female_anglo_frontiersman;Aimperial Kansaurt;Impératrice;Kaiserin;;Emperatriz;;;;;;;;;x
-monarchy_emperor_foa_anglo_frontiersman;Yaurs Machasty;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
-monarchy_emperor_foa_female_anglo_frontiersman;Yaurs Machasty;Votre Majesté Impériale;Eure Kaiserliche Majestät;;Su Majestad Imperial;;;;;;;;;x
-monarchy_empire_of_anglo_frontiersman;Aistaraimpair auf;Empire Stellaire de;Sternenreich von;;Imperio Estelar de;;;;;;;;;x
-monarchy_empire_anglo_frontiersman;Aistaraimpaiar;Empire;Reich;;Imperio;;;;;;;;;x
-monarchy_empires_anglo_frontiersman;Aistaraimpaiars;Empires;Reiche;;Imperios;;;;;;;;;x
+monarchy_count_anglo_frontiersman;Lord;Comte;Graf;;Conde;;;;;;;;;x
+monarchy_count_female_anglo_frontiersman;Lady;Comtesse;Gräfin;;Condesa;;;;;;;;;x
+monarchy_count_title_ruler_consort_anglo_frontiersman;Consort;Comte;Graf;;Conde;;;;;;;;;x
+monarchy_count_title_ruler_consort_female_anglo_frontiersman;Consort;Comtesse;Gräfin;;Condesa;;;;;;;;;x
+monarchy_count_foa_anglo_frontiersman;My Lord;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
+monarchy_count_foa_female_anglo_frontiersman;My Lady;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
+monarchy_county_of_anglo_frontiersman;Lordship of;Royaume stellaire de;Sternenkönigreich von;;Reino Estelar;;;;;;;;;x
+monarchy_county_anglo_frontiersman;Lordship;Royaume;Königreich;;Reino;;;;;;;;;x
+monarchy_counties_anglo_frontiersman;Lordships;Royaumes;Königreiche;;Reinos;;;;;;;;;x
 
-monarchy_king_anglo_frontiersman;King;Roi;König;;Rey;;;;;;;;;x
-monarchy_king_female_anglo_frontiersman;Kuin;Reine;Königin;;Reina;;;;;;;;;x
-monarchy_king_title_ruler_consort_anglo_frontiersman;King-Kansaurt;Roi;König;;Rey;;;;;;;;;x
-monarchy_king_title_ruler_consort_female_anglo_frontiersman;Kuin-Kansaurt;Reine;Königin;;Reina;;;;;;;;;x
-monarchy_king_foa_anglo_frontiersman;Yaurs Machasty;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
-monarchy_king_foa_female_anglo_frontiersman;Yaurs Machasty;Votre Majesté;Eure Majestät;;Su Majestad;;;;;;;;;x
-monarchy_kingdom_of_anglo_frontiersman;Aistarkingzaum of;Royaume stellaire de;Sternenkönigreich von;;Reino Estelar;;;;;;;;;x
-monarchy_kingdom_anglo_frontiersman;Aistarkingzaum;Royaume;Königreich;;Reino;;;;;;;;;x
-monarchy_kingdoms_anglo_frontiersman;Aistarkingzaums;Royaumes;Königreiche;;Reinos;;;;;;;;;x
-
-monarchy_duke_anglo_frontiersman;Duk;Duc;Herzog;;Duque;;;;;;;;;x
-monarchy_duke_female_anglo_frontiersman;Dukais;Duchesse;Herzogin;;Duquesa;;;;;;;;;x
-monarchy_duke_title_ruler_consort_anglo_frontiersman;Duk-Kansaurt;Duc;Herzog;;Duque;;;;;;;;;x
-monarchy_duke_title_ruler_consort_female_anglo_frontiersman;Dukais-Kansaurt;Duchesse;Herzogin;;Duquesa;;;;;;;;;x
-monarchy_duke_foa_anglo_frontiersman;Yaurs Grais;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
-monarchy_duke_foa_female_anglo_frontiersman;Yaurs Grais;Votre Grâce;Euer Gnaden;;Su Gracia;;;;;;;;;x
-monarchy_duchy_of_anglo_frontiersman;Aistarduky of;Royaume stellaire de;Sternenkönigreich von;;Reino Estelar;;;;;;;;;x
-monarchy_duchy_anglo_frontiersman;Aistarduky;Royaume;Königreich;;Reino;;;;;;;;;x
-monarchy_duchies_anglo_frontiersman;Aistardukys;Royaumes;Königreiche;;Reinos;;;;;;;;;x
-
-monarchy_count_anglo_frontiersman;Laur;Comte;Graf;;Conde;;;;;;;;;x
-monarchy_count_female_anglo_frontiersman;Laiz;Comtesse;Gräfin;;Condesa;;;;;;;;;x
-monarchy_count_title_ruler_consort_anglo_frontiersman;Laur-Kansaurt;Comte;Graf;;Conde;;;;;;;;;x
-monarchy_count_title_ruler_consort_female_anglo_frontiersman;Laiz-Kansaurt;Comtesse;Gräfin;;Condesa;;;;;;;;;x
-monarchy_count_foa_anglo_frontiersman;Maiyn Laur;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
-monarchy_count_foa_female_anglo_frontiersman;Maiyn Laiz;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
-monarchy_county_of_anglo_frontiersman;Laurship auf;Royaume stellaire de;Sternenkönigreich von;;Reino Estelar;;;;;;;;;x
-monarchy_county_anglo_frontiersman;Laurship;Royaume;Königreich;;Reino;;;;;;;;;x
-monarchy_counties_anglo_frontiersman;Laurships;Royaumes;Königreiche;;Reinos;;;;;;;;;x
-
-monarchy_baron_anglo_frontiersman;Planathaulzar;Baron;Baron;;Barón;;;;;;;;;x
-monarchy_baron_female_anglo_frontiersman;Planathaulzar;Baronne;Baroness;;Baronesa;;;;;;;;;x
-monarchy_baron_title_ruler_consort_anglo_frontiersman;Planathaulzar-Kansaurt;Baron;Baron;;Barón;;;;;;;;;x
-monarchy_baron_title_ruler_consort_female_anglo_frontiersman;Planathaulzar-Kansaurt;Baronne;Baroness;;Baronesa;;;;;;;;;x
-monarchy_baron_foa_anglo_frontiersman;Maiyn Planathaulzar;Monseigneur;Mein Fürst;;Mi Señor;;;;;;;;;x
-monarchy_baron_foa_female_anglo_frontiersman;Maiyn Planathaulzar;Madame;Meine Fürstin;;Mi Señora;;;;;;;;;x
-monarchy_barony_of_anglo_frontiersman;Planat auf;Royaume stellaire de;Sternenkönigreich von;;Reino Estelar;;;;;;;;;x
-monarchy_barony_anglo_frontiersman;Planat;Royaume;Königreich;;Reino;;;;;;;;;x
-monarchy_baronies_anglo_frontiersman;Planats;Royaumes;Königreiche;;Reinos;;;;;;;;;x
+monarchy_baron_anglo_frontiersman;Planetholder;Baron;Baron;;Barón;;;;;;;;;x
+monarchy_baron_female_anglo_frontiersman;Planetholder;Baronne;Baroness;;Baronesa;;;;;;;;;x
+monarchy_baron_title_ruler_consort_anglo_frontiersman;Consort;Baron;Baron;;Barón;;;;;;;;;x
+monarchy_baron_title_ruler_consort_female_anglo_frontiersman;Consort;Baronne;Baroness;;Baronesa;;;;;;;;;x
 
 # Civil Anglo-Frontiersman Ruler Titles
 
-civil_emperor_anglo_frontiersman;Arch-Praisizant;Président;Präsident;;Presidente;;;;;;;;;x
-civil_emperor_female_anglo_frontiersman;Arch-Praisizant;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
-civil_emperor_foa_anglo_frontiersman;Mistar Praisizant;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
-civil_emperor_foa_female_anglo_frontiersman;Mazam Praisizant;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
-civil_emperor_title_ruler_consort_anglo_frontiersman;Farst Man;Epoux;;;;;;;;;;;x
-civil_emperor_title_ruler_consort_female_anglo_frontiersman;Farst Laizy;Première dame;;;;;;;;;;;;x
-civil_empire_of_anglo_frontiersman;Grandripavlik auf;Confédération de;Bund;;Confederación de;;;;;;;;;x
-civil_empire_anglo_frontiersman;Grandripavlik;Confédération;Bund;;Confederación;;;;;;;;;x
-civil_empires_anglo_frontiersman;Grandripavliks;Confédérations;Bunds;;Confederaciónes;;;;;;;;;x
+civil_emperor_anglo_frontiersman;Arch-President;Président;Präsident;;Presidente;;;;;;;;;x
+civil_emperor_female_anglo_frontiersman;Arch-President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+civil_emperor_foa_anglo_frontiersman;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+civil_emperor_foa_female_anglo_frontiersman;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+civil_emperor_title_ruler_consort_anglo_frontiersman;First Man;Epoux;;;;;;;;;;;x
+civil_emperor_title_ruler_consort_female_anglo_frontiersman;First Lady;Première dame;;;;;;;;;;;;x
+civil_empire_of_anglo_frontiersman;Archrepublic of;Confédération de;Bund;;Confederación de;;;;;;;;;x
+civil_empire_anglo_frontiersman;Archrepublic;Confédération;Bund;;Confederación;;;;;;;;;x
+civil_empires_anglo_frontiersman;Archrepublics;Confédérations;Bunds;;Confederaciónes;;;;;;;;;x
 
-civil_king_anglo_frontiersman;Praisizant;Président;Präsident;;Presidente;;;;;;;;;x
-civil_king_female_anglo_frontiersman;Praisizant;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
-civil_king_foa_anglo_frontiersman;Mistar Praisizant;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
-civil_king_foa_female_anglo_frontiersman;Mazam Praisizant;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
-civil_king_title_ruler_consort_anglo_frontiersman;Praisizant's Aispaus;Epoux;;;;;;;;;;;x
-civil_king_title_ruler_consort_female_anglo_frontiersman;Praisizant's Aispaus;Première dame;;;;;;;;;;;;x
-civil_kingdom_of_anglo_frontiersman;Ripavlik auf;République de;Republik;;Republica de;;;;;;;;;x
-civil_kingdom_anglo_frontiersman;Ripavlik;République;Republik;;República;;;;;;;;;x
-civil_kingdoms_anglo_frontiersman;Ripavliks;Républiques;Republiken;;Repúblicas;;;;;;;;;x
-
-civil_duke_anglo_frontiersman;Saiktarman;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
-civil_duke_female_anglo_frontiersman;Saiktarwuman;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
-civil_duke_foa_anglo_frontiersman;Mistar Saiktarman;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
-civil_duke_foa_female_anglo_frontiersman;Mazam Saiktarwuman;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
-civil_duke_title_ruler_consort_anglo_frontiersman;Saiktarman's Aispaus;Epoux;;;;;;;;;;;x
-civil_duke_title_ruler_consort_female_anglo_frontiersman;Saiktarwuman's Aispaus;Dame;;;;;;;;;;;;x
-civil_duchy_of_anglo_frontiersman;Saiktar auf;Secteur;Sektor;;Sector;;;;;;;;;x
-civil_duchy_anglo_frontiersman;Saiktar;Secteur;Sektor;;Sector;;;;;;;;;x
-civil_duchies_anglo_frontiersman;Saiktars;Secteurs;Sektorin;;Sectores;;;;;;;;;x
-
-civil_count_anglo_frontiersman;Aistarman;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-civil_count_female_anglo_frontiersman;Aistarwuman;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-civil_count_foa_anglo_frontiersman;Mistar Aistarman;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
-civil_count_foa_female_anglo_frontiersman;Mazam Aistarwuman;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
-civil_count_title_ruler_consort_anglo_frontiersman;Aistarman's Aispaus;Epoux;;;;;;;;;;;x
-civil_count_title_ruler_consort_female_anglo_frontiersman;Aistarwuman's Aispaus;Dame;;;;;;;;;;;;x
-civil_county_of_anglo_frontiersman;Aistar Systam;Système stellaire;Sterne-System;;Sistema Estelar;;;;;;;;;x
-civil_county_anglo_frontiersman;Systam;Système;System;;Sistema;;;;;;;;;x
-civil_counties_anglo_frontiersman;Systams;Systèmes;Systeme;;Sistemas;;;;;;;;;x
-
-civil_baron_anglo_frontiersman;Gavnatar;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-civil_baron_female_anglo_frontiersman;Gavnatar;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
-civil_baron_foa_anglo_frontiersman;Mistar Gavnatar;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
-civil_baron_foa_female_anglo_frontiersman;Mazam Gavnatar;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
-civil_baron_title_ruler_consort_anglo_frontiersman;Gavnatar's Aispaus;Epoux;;;;;;;;;;;x
-civil_baron_title_ruler_consort_female_anglo_frontiersman;Gavnatar's Aispaus;Dame;;;;;;;;;;;;x
-civil_barony_of_anglo_frontiersman;Planat auf;Planète;Planet;;Planeta;;;;;;;;;x
-civil_barony_anglo_frontiersman;Planat;Planète;Planet;;Planeta;;;;;;;;;x
-civil_baronies_anglo_frontiersman;Planats;Planètes;Planeten;;Planetas;;;;;;;;;x
+civil_duke_anglo_frontiersman;Sector-Governor;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+civil_duke_female_anglo_frontiersman;Sector-Governor;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+civil_duke_foa_anglo_frontiersman;Mister Governor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+civil_duke_foa_female_anglo_frontiersman;Madam Governor;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+civil_duke_title_ruler_consort_anglo_frontiersman;Sector-Governor's Spouse;Epoux;;;;;;;;;;;x
+civil_duke_title_ruler_consort_female_anglo_frontiersman;Sector-Governor's Spouse;Dame;;;;;;;;;;;;x
 
 ## Bhaaratiya Ruler Titles
 

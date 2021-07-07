@@ -99,8 +99,6 @@ e_terran_confederation = {
 
 		capital = 202 # Sol
 
-		anglo_frontiersman = "Ardhan Naivy"
-
 		d_terran_first_fleet = {
 			landless = yes
 			can_be_claimed = no
@@ -172,13 +170,12 @@ e_terran_confederation = {
 			capital = 202
 		}
 	}
+
 	k_terran_commonwealth = {
 		color = { 0 128 192 }
 		color2 = { 192 192 192 }
 
 		capital = 202
-
-		anglo_frontiersman = "Ardhanstait"
 
 		# If Earth falls, reclaim it IMMEDIATELY
 		terran_federalist = 1000
@@ -214,15 +211,11 @@ e_terran_confederation = {
 
 			capital = 202
 
-			anglo_frontiersman = "Ardhsan Saiktor"
-
 			c_sol = {
 				color = { 0 64 128 }
 				color2 = { 192 192 192 }
 				top_de_jure_capital = yes
 				used_for_dynasty_names = no
-
-				anglo_frontiersman = "Ardhsan"
 
 				b_earth = {
 					religious_terran_group = 1000 # Crusade target weight
@@ -230,9 +223,6 @@ e_terran_confederation = {
 					terran_imperial_cult = 10000 # Crusade target weight
 					used_for_dynasty_names = no
 					purple_born_heirs = yes
-					
-					anglo_frontiersman = "Ardh"
-					
 					# Earth is a holy site for TONNES of
 					# ideologies
 					holy_site = terran_imperial_cult
@@ -250,8 +240,6 @@ e_terran_confederation = {
 					short_name = yes
 					used_for_dynasty_names = no
 					purple_born_heirs = yes
-					
-					anglo_frontiersman = "Mun"
 				}
 				b_mars = {
 					used_for_dynasty_names = no
@@ -415,6 +403,7 @@ e_terran_confederation = {
 			}
 		}
 	}
+
 	k_xingjie = {
 		color = { 128 0 0 }
 		color2 = { 200 200 0 }
@@ -652,13 +641,12 @@ e_terran_confederation = {
 			}
 		}
 	}
+
 	k_tierra_celeste = {
 		color = { 128 128 0 }
 		color2 = { 255 255 255 }
 
 		capital = 70 # Encrucijada
-
-		anglo_frontiersman = "Sailastialstait"
 
 		d_tierra_celeste_fleet = {
 			landless = yes
@@ -953,13 +941,13 @@ e_terran_confederation = {
 			}
 		}
 	}
+
 	k_al_samawat = {
 		color = { 0 64 0 }
 		color2 = { 255 255 255 }
 
 		capital = 307 # Makkat al-Jadiida
 
-		anglo_frontiersman = "Samauatistait"
 		arab_samawati = "As-Samaawaat"
 		arab_terran = "As-Samaawaat"
 
@@ -1228,13 +1216,12 @@ e_terran_confederation = {
 			}
 		}
 	}
+
 	k_zenye_nyota_angani = {
 		color = { 200 200 200 }
 		color2 = { 10 10 10 }
 
 		capital = 289 # Mpya ya Zanzibar
-
-		anglo_frontiersman = "Angany"
 
 		d_zenye_nyota_angani_fleet = {
 			landless = yes
@@ -1480,13 +1467,12 @@ e_terran_confederation = {
 			}
 		}
 	}
+
 	k_frontier = {
 		color = { 0 0 255 }
 		color2 = { 255 255 0 }
 
 		capital = 87 # Armstrong
-
-		anglo_frontiersman = "Frauntiastait"
 
 		d_frontier_fleet = {
 			landless = yes
@@ -1749,8 +1735,6 @@ e_terran_confederation = {
 
 		capital = 206 # Gagarin
 
-		anglo_frontiersman = "Saintauristait"
-
 		d_centauri_reach_fleet = {
 			landless = yes
 			can_be_claimed = no
@@ -1888,8 +1872,6 @@ e_terran_confederation = {
 
 		capital = 102 # Eye of God
 
-		anglo_frontiersman = "Iliks Naivula"
-
 		d_helix_fleet = {
 			landless = yes
 			can_be_claimed = no
@@ -2008,2537 +1990,2527 @@ e_terran_confederation = {
 	}
 }
 
-	k_xin_zizhiqu = {
-		color = { 200 200 0 }
+k_xin_zizhiqu = {
+	color = { 200 200 0 }
+	color2 = { 255 0 0 }
+
+	capital = 263 # Xin Qin
+
+	culture = sino_bianjiangese
+
+	d_xin_zizhiqu_fleet = {
+		landless = yes
+		can_be_claimed = no
+		can_be_usurped = no
+		color = { 100 100 0 }
+		color2 = { 255 0 0 }
+		short_name = yes
+		allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+		title = "FLEETADMIRAL"
+		title_female = "FLEETADMIRAL_female"
+		foa = "FLEETADMIRALFOA"
+		#foa_female = "FLEETADMIRALFOA_female"
+		capital = 263
+		#
+	}
+
+	d_xin_qin = {
+		color = { 150 200 0 }
 		color2 = { 255 0 0 }
 
 		capital = 263 # Xin Qin
 
-		culture = sino_bianjiangese
-
-		d_xin_zizhiqu_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
-			color = { 100 100 0 }
+		c_xin_qin = {
+			color = { 150 200 50 }
 			color2 = { 255 0 0 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 263
-			#
+			used_for_dynasty_names = no
+			b_xin_qin_iii = { used_for_dynasty_names = no }
+			b_xin_qin_iii_b = { used_for_dynasty_names = no }
+			b_xin_qin_iv = { used_for_dynasty_names = no }
+			b_xin_qin_iv_b = { used_for_dynasty_names = no }
+			b_xin_qin_vi_b = { used_for_dynasty_names = no }
+			b_xin_qin_vi_c = { used_for_dynasty_names = no }
+			b_xin_qin_vi_d = { used_for_dynasty_names = no }
 		}
-
-		d_xin_qin = {
-			color = { 150 200 0 }
+		c_hexi = {
+			color = { 150 200 75 }
 			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
 
-			capital = 263 # Xin Qin
-
-			c_xin_qin = {
-				color = { 150 200 50 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-				b_xin_qin_iii = { used_for_dynasty_names = no }
-				b_xin_qin_iii_b = { used_for_dynasty_names = no }
-				b_xin_qin_iv = { used_for_dynasty_names = no }
-				b_xin_qin_iv_b = { used_for_dynasty_names = no }
-				b_xin_qin_vi_b = { used_for_dynasty_names = no }
-				b_xin_qin_vi_c = { used_for_dynasty_names = no }
-				b_xin_qin_vi_d = { used_for_dynasty_names = no }
-			}
-			c_hexi = {
-				color = { 150 200 75 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_hexi_iii = { used_for_dynasty_names = no }
-				b_hexi_iv = { used_for_dynasty_names = no }
-				b_hexi_iv_b = { used_for_dynasty_names = no }
-				b_hexi_iv_c = { used_for_dynasty_names = no }
-			}
-			c_xueyuan = {
-				color = { 150 200 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_xueyuan_ii = { used_for_dynasty_names = no }
-				b_xueyuan_ii_b = { used_for_dynasty_names = no }
-				b_xueyuan_iii = { used_for_dynasty_names = no }
-				b_xueyuan_iii_b = { used_for_dynasty_names = no }
-			}
-			c_yang_wenli = {
-				color = { 150 200 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_yang_wenli_prime = { used_for_dynasty_names = no }
-				b_yang_wenli_prime_b = { used_for_dynasty_names = no }
-				b_yang_wenli_iii = { used_for_dynasty_names = no }
-				b_yang_wenli_iv = { used_for_dynasty_names = no }
-			}
-			c_chi_tianliang = {
-				color = { 150 200 150 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_chi_tianliang_prime = { used_for_dynasty_names = no }
-				b_chi_tianliang_prime_b = { used_for_dynasty_names = no }
-				b_chi_tianliang_iii = { used_for_dynasty_names = no }
-				b_chi_tianliang_iv = { used_for_dynasty_names = no }
-			}
+			b_hexi_iii = { used_for_dynasty_names = no }
+			b_hexi_iv = { used_for_dynasty_names = no }
+			b_hexi_iv_b = { used_for_dynasty_names = no }
+			b_hexi_iv_c = { used_for_dynasty_names = no }
 		}
-
-		d_wu_ren_zhi_ah = {
-			color = { 200 150 0 }
+		c_xueyuan = {
+			color = { 150 200 100 }
 			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
 
-			capital = 232 # Anquan Gang
-
-			c_anquan_gang = {
-				color = { 200 150 75 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_anquan_gang = { used_for_dynasty_names = no }
-				b_anquan_gang_b = { used_for_dynasty_names = no }
-				b_anquan_gang_c = { used_for_dynasty_names = no }
-				b_anquan_gang_iv = { used_for_dynasty_names = no }
-			}
-			c_chen_pingyuan = {
-				color = { 200 150 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_chen_pingyuan = { used_for_dynasty_names = no }
-				b_chen_pingyuan_b = { used_for_dynasty_names = no }
-				b_chen_pingyuan_c = { used_for_dynasty_names = no }
-				b_chen_pingyuan_iv = { used_for_dynasty_names = no }
-			}
-			c_yonghengde_anbian = {
-				color = { 200 150 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_yonghende_anbian = { used_for_dynasty_names = no }
-				b_yonghende_anbian_iii = { used_for_dynasty_names = no }
-				b_yonghende_anbian_iv = { used_for_dynasty_names = no }
-				b_yonghende_anbian_v = { used_for_dynasty_names = no }
-			}
-			c_da_dianhai = {
-				color = { 200 150 150 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_da_dianhai_waystation = { used_for_dynasty_names = no }
-				b_da_dianhai_observatory = { used_for_dynasty_names = no }
-				b_da_dianhai_starport = { used_for_dynasty_names = no }
-				b_da_dianhai_prime = { used_for_dynasty_names = no }
-			}
+			b_xueyuan_ii = { used_for_dynasty_names = no }
+			b_xueyuan_ii_b = { used_for_dynasty_names = no }
+			b_xueyuan_iii = { used_for_dynasty_names = no }
+			b_xueyuan_iii_b = { used_for_dynasty_names = no }
 		}
-
-		d_macau = {
-			color = { 255 200 0 }
+		c_yang_wenli = {
+			color = { 150 200 125 }
 			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
 
-			capital = 234 # Macau
-
-			c_macau = {
-				color = { 255 200 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_macau_station = { used_for_dynasty_names = no }
-				b_macau_prime = { used_for_dynasty_names = no }
-				b_macau_prime_b = { used_for_dynasty_names = no }
-				b_macau_iii = { used_for_dynasty_names = no }
-				b_macau_iv = { used_for_dynasty_names = no }
-			}
-			c_pu_erh = {
-				color = { 255 200 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_pu_erh = { used_for_dynasty_names = no }
-				b_pu_erh_b = { used_for_dynasty_names = no }
-				b_pu_erh_orbital = { used_for_dynasty_names = no }
-				b_pu_erh_v = { used_for_dynasty_names = no }
-			}
-			c_kantebolei = {
-				color = { 255 200 150 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_kantebolei_iii = { used_for_dynasty_names = no }
-				b_kantebolei_iii_b = { used_for_dynasty_names = no }
-				b_kantebolei_iv = { used_for_dynasty_names = no }
-				b_kantebolei_v = { used_for_dynasty_names = no }
-			}
+			b_yang_wenli_prime = { used_for_dynasty_names = no }
+			b_yang_wenli_prime_b = { used_for_dynasty_names = no }
+			b_yang_wenli_iii = { used_for_dynasty_names = no }
+			b_yang_wenli_iv = { used_for_dynasty_names = no }
 		}
-
-		d_tian_yuan = {
-			color = { 200 255 0 }
+		c_chi_tianliang = {
+			color = { 150 200 150 }
 			color2 = { 255 0 0 }
-			capital = 240 # Tian Yuan
+			used_for_dynasty_names = no
 
-			c_tian_yuan = {
-				color = { 200 255 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_tian_yuan_iv_b = { used_for_dynasty_names = no }
-				b_tian_yuan_iv = { used_for_dynasty_names = no }
-				b_tian_yuan_v = { used_for_dynasty_names = no }
-				b_tian_yuan_v_b = { used_for_dynasty_names = no }
-			}
-			c_lasa = {
-				color = { 200 255 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_lasa_prime = { used_for_dynasty_names = no }
-				b_lasa_ii = { used_for_dynasty_names = no }
-				b_lasa_iii = { used_for_dynasty_names = no }
-				b_lasa_iv = { used_for_dynasty_names = no }
-			}
-			c_yulin = {
-				color = { 200 255 150 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_yulin_ii = { used_for_dynasty_names = no }
-				b_yulin_ii_b = { used_for_dynasty_names = no }
-				b_yulin_iii = { used_for_dynasty_names = no }
-				b_yulin_iv = { used_for_dynasty_names = no }
-			}
-			c_yesushan = {
-				color = { 200 255 175 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_yesushan = { used_for_dynasty_names = no }
-				b_yesushan_b = { used_for_dynasty_names = no }
-				b_yesushan_c = { used_for_dynasty_names = no }
-				b_yesushan_iv = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_hua = {
-			color = { 150 255 0 }
-			color2 = { 255 0 0 }
-			capital = 241 # Hua
-
-			c_hua = {
-				color = { 150 255 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_hua_prime = { used_for_dynasty_names = no }
-				b_hua_prime_c = { used_for_dynasty_names = no }
-				b_hua_prime_f = { used_for_dynasty_names = no }
-				b_hua_prime_g = { used_for_dynasty_names = no }
-				b_hua_prime_orbital_a = { used_for_dynasty_names = no }
-				b_hua_prime_orbital_b = { used_for_dynasty_names = no }
-			}
-			c_fanxing_hai = {
-				color = { 150 255 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_fanxing_hai_viii = { used_for_dynasty_names = no }
-				b_fanxing_hai_orbital = { used_for_dynasty_names = no }
-			}
-			c_wanguan = {
-				color = { 150 255 150 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_wanguan_ii = { used_for_dynasty_names = no }
-				b_wanguan_orbital_a = { used_for_dynasty_names = no }
-				b_wanguan_orbital_b = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_yingshi = {
-			color = { 255 150 0 }
-			color2 = { 255 0 0 }
-			capital = 244 # Yingshi
-
-			c_yingshi = {
-				color = { 255 150 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_ying_shi_viii = { used_for_dynasty_names = no }
-				b_ying_shi_viii_orbital = { used_for_dynasty_names = no }
-				b_ying_shi_xii = { used_for_dynasty_names = no }
-				b_ying_shi_xii_orbital = { used_for_dynasty_names = no }
-				b_ying_shi_xx = { used_for_dynasty_names = no }
-			}
-			c_ghuanghai = {
-				color = { 255 150 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_ghuanghai_inner_belt = { used_for_dynasty_names = no }
-				b_ghuanghai_vii = { used_for_dynasty_names = no }
-				b_ghuanghai_ii = { used_for_dynasty_names = no }
-				b_ghuanghai_outer_belt = { used_for_dynasty_names = no }
-			}
-			c_youfeng = {
-				color = { 255 150 150 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_youfeng_vi_a = { used_for_dynasty_names = no }
-				b_youfeng_vi_orbital = { used_for_dynasty_names = no }
-				b_youfeng_inner_belt_a = { used_for_dynasty_names = no }
-				b_youfeng_inner_belt_b = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_hang_seng = {
-			color = { 150 150 0 }
-			color2 = { 255 0 0 }
-			capital = 248 # Xianggang Xin
-
-			c_xianggang_xin = {
-				color = { 125 150 0 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_xianggang_xin = { used_for_dynasty_names = no }
-				b_xianggang_xin_b = { used_for_dynasty_names = no }
-				b_xianggang_xin_orbital = { used_for_dynasty_names = no }
-				b_xianggang_xin_vii_b = { used_for_dynasty_names = no }
-				b_xianggang_xin_vii_c = { used_for_dynasty_names = no }
-				b_xianggang_xin_vii_d = { used_for_dynasty_names = no }
-			}
-			c_tiantiang = {
-				color = { 150 125 0 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_tiantiang_ii = { used_for_dynasty_names = no }
-				b_tiantiang_iv = { used_for_dynasty_names = no }
-				b_tiantiang_vi_b = { used_for_dynasty_names = no }
-				b_tiantiang_iv_orbital = { used_for_dynasty_names = no }
-			}
-			c_leyuan = {
-				color = { 175 150 0 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_leyuan_ii = { used_for_dynasty_names = no }
-				b_leyuan_v = { used_for_dynasty_names = no }
-				b_leyuan_vii = { used_for_dynasty_names = no }
-				b_leyuan_vii_a = { used_for_dynasty_names = no }
-				b_leyuan_vii_c = { used_for_dynasty_names = no }
-			}
-			c_jiayuan = {
-				color = { 150 175 0 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_jiayuan_prime = { used_for_dynasty_names = no }
-				b_jiayuan_prime_a = { used_for_dynasty_names = no }
-				b_jiayuan_prime_e = { used_for_dynasty_names = no }
-				b_jiayuan_orbital = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_qiangying = {
-			color = { 100 100 0 }
-			color2 = { 255 0 0 }
-			capital = 253 # Qiangying
-
-			c_qiangying = {
-				color = { 100 100 25 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_qiangying_vii = { used_for_dynasty_names = no }
-				b_qianyging_station = { used_for_dynasty_names = no }
-				b_qiangying_vii_a = { used_for_dynasty_names = no }
-				b_qiangying_v = { used_for_dynasty_names = no }
-			}
-			c_liuyang = {
-				color = { 100 100 50 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_liuyang_iii = { used_for_dynasty_names = no }
-				b_liuyang_iv = { used_for_dynasty_names = no }
-				b_liuyang_iii_b = { used_for_dynasty_names = no }
-				b_liuyang_vi = { used_for_dynasty_names = no }
-			}
-			c_youli = {
-				color = { 100 100 75 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_youli_prime = { used_for_dynasty_names = no }
-				b_youli_prime_b = { used_for_dynasty_names = no }
-				b_youli_ii = { used_for_dynasty_names = no }
-				b_youli_ii_c = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_deng_biao = {
-			color = { 225 225 0 }
-			color2 = { 255 0 0 }
-			capital = 255 # Deng Biao
-
-			c_deng_biao = {
-				color = { 255 225 0 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_deng_biao_v_b = { used_for_dynasty_names = no }
-				b_deng_biao_v_c = { used_for_dynasty_names = no }
-				b_deng_biao_v_d = { used_for_dynasty_names = no }
-				b_deng_biao_v_e = { used_for_dynasty_names = no }
-			}
-			c_niu_cunlan = {
-				color = { 225 255 0 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_niu_cunlan_prime = { used_for_dynasty_names = no }
-				b_niu_cunlan_prime_b = { used_for_dynasty_names = no }
-				b_niu_cunlan_prime_c = { used_for_dynasty_names = no }
-				b_niu_cunlan_prime_d = { used_for_dynasty_names = no }
-			}
-			c_gaoda_de_shan = {
-				color = { 225 225 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_gaoda_de_shan_iii = { used_for_dynasty_names = no }
-				b_gaoda_de_shan_iv = { used_for_dynasty_names = no }
-				b_gaoda_de_shan_iii_b = { used_for_dynasty_names = no }
-				b_gaoda_de_shan_iii_refinery = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_wei = {
-			color = { 255 150 0 }
-			color2 = { 255 0 0 }
-
-			capital = 258 # Wei
-
-			c_wei = {
-				color = { 255 150 100 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-				holy_site = astrist
-
-				b_wei_iii = { used_for_dynasty_names = no }
-				b_wei_iii_b = { used_for_dynasty_names = no }
-				b_wei_iii_c = { used_for_dynasty_names = no }
-				b_wei_iv = { used_for_dynasty_names = no }
-			}
-
-			c_jiu_wanguan = {
-				color = { 255 150 125 }
-				color2 = { 255 0 0 }
-				used_for_dynasty_names = no
-
-				b_jiu_wanguan_xi = { used_for_dynasty_names = no }
-				b_jiu_wanguan_xi_orbital_a = { used_for_dynasty_names = no }
-				b_jiu_wanguan_xi_orbital_b = { used_for_dynasty_names = no }
-				b_jiu_wanguan_xi_orbital_c = { used_for_dynasty_names = no }
-			}
+			b_chi_tianliang_prime = { used_for_dynasty_names = no }
+			b_chi_tianliang_prime_b = { used_for_dynasty_names = no }
+			b_chi_tianliang_iii = { used_for_dynasty_names = no }
+			b_chi_tianliang_iv = { used_for_dynasty_names = no }
 		}
 	}
-	k_novyy_edem = {
-		color = { 120 200 0 }
+
+	d_wu_ren_zhi_ah = {
+		color = { 200 150 0 }
+		color2 = { 255 0 0 }
+
+		capital = 232 # Anquan Gang
+
+		c_anquan_gang = {
+			color = { 200 150 75 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_anquan_gang = { used_for_dynasty_names = no }
+			b_anquan_gang_b = { used_for_dynasty_names = no }
+			b_anquan_gang_c = { used_for_dynasty_names = no }
+			b_anquan_gang_iv = { used_for_dynasty_names = no }
+		}
+		c_chen_pingyuan = {
+			color = { 200 150 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_chen_pingyuan = { used_for_dynasty_names = no }
+			b_chen_pingyuan_b = { used_for_dynasty_names = no }
+			b_chen_pingyuan_c = { used_for_dynasty_names = no }
+			b_chen_pingyuan_iv = { used_for_dynasty_names = no }
+		}
+		c_yonghengde_anbian = {
+			color = { 200 150 125 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_yonghende_anbian = { used_for_dynasty_names = no }
+			b_yonghende_anbian_iii = { used_for_dynasty_names = no }
+			b_yonghende_anbian_iv = { used_for_dynasty_names = no }
+			b_yonghende_anbian_v = { used_for_dynasty_names = no }
+		}
+		c_da_dianhai = {
+			color = { 200 150 150 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_da_dianhai_waystation = { used_for_dynasty_names = no }
+			b_da_dianhai_observatory = { used_for_dynasty_names = no }
+			b_da_dianhai_starport = { used_for_dynasty_names = no }
+			b_da_dianhai_prime = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_macau = {
+		color = { 255 200 0 }
+		color2 = { 255 0 0 }
+
+		capital = 234 # Macau
+
+		c_macau = {
+			color = { 255 200 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_macau_station = { used_for_dynasty_names = no }
+			b_macau_prime = { used_for_dynasty_names = no }
+			b_macau_prime_b = { used_for_dynasty_names = no }
+			b_macau_iii = { used_for_dynasty_names = no }
+			b_macau_iv = { used_for_dynasty_names = no }
+		}
+		c_pu_erh = {
+			color = { 255 200 125 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_pu_erh = { used_for_dynasty_names = no }
+			b_pu_erh_b = { used_for_dynasty_names = no }
+			b_pu_erh_orbital = { used_for_dynasty_names = no }
+			b_pu_erh_v = { used_for_dynasty_names = no }
+		}
+		c_kantebolei = {
+			color = { 255 200 150 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_kantebolei_iii = { used_for_dynasty_names = no }
+			b_kantebolei_iii_b = { used_for_dynasty_names = no }
+			b_kantebolei_iv = { used_for_dynasty_names = no }
+			b_kantebolei_v = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_tian_yuan = {
+		color = { 200 255 0 }
+		color2 = { 255 0 0 }
+		capital = 240 # Tian Yuan
+
+		c_tian_yuan = {
+			color = { 200 255 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_tian_yuan_iv_b = { used_for_dynasty_names = no }
+			b_tian_yuan_iv = { used_for_dynasty_names = no }
+			b_tian_yuan_v = { used_for_dynasty_names = no }
+			b_tian_yuan_v_b = { used_for_dynasty_names = no }
+		}
+		c_lasa = {
+			color = { 200 255 125 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_lasa_prime = { used_for_dynasty_names = no }
+			b_lasa_ii = { used_for_dynasty_names = no }
+			b_lasa_iii = { used_for_dynasty_names = no }
+			b_lasa_iv = { used_for_dynasty_names = no }
+		}
+		c_yulin = {
+			color = { 200 255 150 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_yulin_ii = { used_for_dynasty_names = no }
+			b_yulin_ii_b = { used_for_dynasty_names = no }
+			b_yulin_iii = { used_for_dynasty_names = no }
+			b_yulin_iv = { used_for_dynasty_names = no }
+		}
+		c_yesushan = {
+			color = { 200 255 175 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_yesushan = { used_for_dynasty_names = no }
+			b_yesushan_b = { used_for_dynasty_names = no }
+			b_yesushan_c = { used_for_dynasty_names = no }
+			b_yesushan_iv = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_hua = {
+		color = { 150 255 0 }
+		color2 = { 255 0 0 }
+		capital = 241 # Hua
+
+		c_hua = {
+			color = { 150 255 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_hua_prime = { used_for_dynasty_names = no }
+			b_hua_prime_c = { used_for_dynasty_names = no }
+			b_hua_prime_f = { used_for_dynasty_names = no }
+			b_hua_prime_g = { used_for_dynasty_names = no }
+			b_hua_prime_orbital_a = { used_for_dynasty_names = no }
+			b_hua_prime_orbital_b = { used_for_dynasty_names = no }
+		}
+		c_fanxing_hai = {
+			color = { 150 255 125 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_fanxing_hai_viii = { used_for_dynasty_names = no }
+			b_fanxing_hai_orbital = { used_for_dynasty_names = no }
+		}
+		c_wanguan = {
+			color = { 150 255 150 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_wanguan_ii = { used_for_dynasty_names = no }
+			b_wanguan_orbital_a = { used_for_dynasty_names = no }
+			b_wanguan_orbital_b = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_yingshi = {
+		color = { 255 150 0 }
+		color2 = { 255 0 0 }
+		capital = 244 # Yingshi
+
+		c_yingshi = {
+			color = { 255 150 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_ying_shi_viii = { used_for_dynasty_names = no }
+			b_ying_shi_viii_orbital = { used_for_dynasty_names = no }
+			b_ying_shi_xii = { used_for_dynasty_names = no }
+			b_ying_shi_xii_orbital = { used_for_dynasty_names = no }
+			b_ying_shi_xx = { used_for_dynasty_names = no }
+		}
+		c_ghuanghai = {
+			color = { 255 150 125 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_ghuanghai_inner_belt = { used_for_dynasty_names = no }
+			b_ghuanghai_vii = { used_for_dynasty_names = no }
+			b_ghuanghai_ii = { used_for_dynasty_names = no }
+			b_ghuanghai_outer_belt = { used_for_dynasty_names = no }
+		}
+		c_youfeng = {
+			color = { 255 150 150 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_youfeng_vi_a = { used_for_dynasty_names = no }
+			b_youfeng_vi_orbital = { used_for_dynasty_names = no }
+			b_youfeng_inner_belt_a = { used_for_dynasty_names = no }
+			b_youfeng_inner_belt_b = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_hang_seng = {
+		color = { 150 150 0 }
+		color2 = { 255 0 0 }
+		capital = 248 # Xianggang Xin
+
+		c_xianggang_xin = {
+			color = { 125 150 0 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_xianggang_xin = { used_for_dynasty_names = no }
+			b_xianggang_xin_b = { used_for_dynasty_names = no }
+			b_xianggang_xin_orbital = { used_for_dynasty_names = no }
+			b_xianggang_xin_vii_b = { used_for_dynasty_names = no }
+			b_xianggang_xin_vii_c = { used_for_dynasty_names = no }
+			b_xianggang_xin_vii_d = { used_for_dynasty_names = no }
+		}
+		c_tiantiang = {
+			color = { 150 125 0 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_tiantiang_ii = { used_for_dynasty_names = no }
+			b_tiantiang_iv = { used_for_dynasty_names = no }
+			b_tiantiang_vi_b = { used_for_dynasty_names = no }
+			b_tiantiang_iv_orbital = { used_for_dynasty_names = no }
+		}
+		c_leyuan = {
+			color = { 175 150 0 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_leyuan_ii = { used_for_dynasty_names = no }
+			b_leyuan_v = { used_for_dynasty_names = no }
+			b_leyuan_vii = { used_for_dynasty_names = no }
+			b_leyuan_vii_a = { used_for_dynasty_names = no }
+			b_leyuan_vii_c = { used_for_dynasty_names = no }
+		}
+		c_jiayuan = {
+			color = { 150 175 0 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_jiayuan_prime = { used_for_dynasty_names = no }
+			b_jiayuan_prime_a = { used_for_dynasty_names = no }
+			b_jiayuan_prime_e = { used_for_dynasty_names = no }
+			b_jiayuan_orbital = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_qiangying = {
+		color = { 100 100 0 }
+		color2 = { 255 0 0 }
+		capital = 253 # Qiangying
+
+		c_qiangying = {
+			color = { 100 100 25 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_qiangying_vii = { used_for_dynasty_names = no }
+			b_qianyging_station = { used_for_dynasty_names = no }
+			b_qiangying_vii_a = { used_for_dynasty_names = no }
+			b_qiangying_v = { used_for_dynasty_names = no }
+		}
+		c_liuyang = {
+			color = { 100 100 50 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_liuyang_iii = { used_for_dynasty_names = no }
+			b_liuyang_iv = { used_for_dynasty_names = no }
+			b_liuyang_iii_b = { used_for_dynasty_names = no }
+			b_liuyang_vi = { used_for_dynasty_names = no }
+		}
+		c_youli = {
+			color = { 100 100 75 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_youli_prime = { used_for_dynasty_names = no }
+			b_youli_prime_b = { used_for_dynasty_names = no }
+			b_youli_ii = { used_for_dynasty_names = no }
+			b_youli_ii_c = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_deng_biao = {
+		color = { 225 225 0 }
+		color2 = { 255 0 0 }
+		capital = 255 # Deng Biao
+
+		c_deng_biao = {
+			color = { 255 225 0 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_deng_biao_v_b = { used_for_dynasty_names = no }
+			b_deng_biao_v_c = { used_for_dynasty_names = no }
+			b_deng_biao_v_d = { used_for_dynasty_names = no }
+			b_deng_biao_v_e = { used_for_dynasty_names = no }
+		}
+		c_niu_cunlan = {
+			color = { 225 255 0 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_niu_cunlan_prime = { used_for_dynasty_names = no }
+			b_niu_cunlan_prime_b = { used_for_dynasty_names = no }
+			b_niu_cunlan_prime_c = { used_for_dynasty_names = no }
+			b_niu_cunlan_prime_d = { used_for_dynasty_names = no }
+		}
+		c_gaoda_de_shan = {
+			color = { 225 225 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_gaoda_de_shan_iii = { used_for_dynasty_names = no }
+			b_gaoda_de_shan_iv = { used_for_dynasty_names = no }
+			b_gaoda_de_shan_iii_b = { used_for_dynasty_names = no }
+			b_gaoda_de_shan_iii_refinery = { used_for_dynasty_names = no }
+		}
+	}
+
+	d_wei = {
+		color = { 255 150 0 }
+		color2 = { 255 0 0 }
+
+		capital = 258 # Wei
+
+		c_wei = {
+			color = { 255 150 100 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+			holy_site = astrist
+
+			b_wei_iii = { used_for_dynasty_names = no }
+			b_wei_iii_b = { used_for_dynasty_names = no }
+			b_wei_iii_c = { used_for_dynasty_names = no }
+			b_wei_iv = { used_for_dynasty_names = no }
+		}
+
+		c_jiu_wanguan = {
+			color = { 255 150 125 }
+			color2 = { 255 0 0 }
+			used_for_dynasty_names = no
+
+			b_jiu_wanguan_xi = { used_for_dynasty_names = no }
+			b_jiu_wanguan_xi_orbital_a = { used_for_dynasty_names = no }
+			b_jiu_wanguan_xi_orbital_b = { used_for_dynasty_names = no }
+			b_jiu_wanguan_xi_orbital_c = { used_for_dynasty_names = no }
+		}
+	}
+}
+k_novyy_edem = {
+	color = { 120 200 0 }
+	color2 = { 20 20 20 }
+
+	capital = 162 # Novyy Edem
+
+	culture = russo_edemite
+
+	d_novyy_edem_fleet = {
+		landless = yes
+		can_be_claimed = no
+		can_be_usurped = no
+		color = { 100 180 0 }
+		color2 = { 20 20 20 }
+		short_name = yes
+		allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+		title = "FLEETADMIRAL"
+		title_female = "FLEETADMIRAL_female"
+		foa = "FLEETADMIRALFOA"
+		#foa_female = "FLEETADMIRALFOA_female"
+		capital = 162
+		#
+	}
+
+	d_novyy_edem = {
+		color = { 132 200 0 }
 		color2 = { 20 20 20 }
 
-		capital = 162 # Novyy Edem
+		capital = 162
 
-		culture = russo_edemite
-		
-		anglo_frontiersman = "Ni Aidan"
-
-		d_novyy_edem_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
-			color = { 100 180 0 }
+		c_novyy_edem = {
+			color = { 132 200 16 }
 			color2 = { 20 20 20 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 162
-			#
+			used_for_dynasty_names = no
+			holy_site = astrist
+			holy_site = neo_feudal
+			holy_site = space_pirate
+
+			b_novyy_edem_prime = { used_for_dynasty_names = no }
+			b_novyy_edem_prime_b = { used_for_dynasty_names = no }
+			b_novyy_edem_prime_orbital = { used_for_dynasty_names = no }
+			b_novyy_edem_ii = { used_for_dynasty_names = no }
+			b_novyy_edem_iii = { used_for_dynasty_names = no }
+			b_novyy_edem_iv = { used_for_dynasty_names = no }
 		}
-
-		d_novyy_edem = {
-			color = { 132 200 0 }
+		c_loyalnost = {
+			color = { 132 200 32 }
 			color2 = { 20 20 20 }
+			used_for_dynasty_names = no
 
-			capital = 162
-
-			c_novyy_edem = {
-				color = { 132 200 16 }
-				color2 = { 20 20 20 }
-				used_for_dynasty_names = no
-				holy_site = astrist
-				holy_site = neo_feudal
-				holy_site = space_pirate
-
-				b_novyy_edem_prime = { used_for_dynasty_names = no }
-				b_novyy_edem_prime_b = { used_for_dynasty_names = no }
-				b_novyy_edem_prime_orbital = { used_for_dynasty_names = no }
-				b_novyy_edem_ii = { used_for_dynasty_names = no }
-				b_novyy_edem_iii = { used_for_dynasty_names = no }
-				b_novyy_edem_iv = { used_for_dynasty_names = no }
-			}
-			c_loyalnost = {
-				color = { 132 200 32 }
-				color2 = { 20 20 20 }
-				used_for_dynasty_names = no
-
-				b_loyalnost_ii = { used_for_dynasty_names = no }
-				b_loyalnost_iii = { used_for_dynasty_names = no }
-				b_loyalnost_iii_b = { used_for_dynasty_names = no }
-				b_loyalnost_iv = { used_for_dynasty_names = no }
-			}
-			c_muzhestvo = {
-				color = { 132 200 48 }
-				color2 = { 20 20 20 }
-				used_for_dynasty_names = no
-
-				b_muzhestvo_viii_b = { used_for_dynasty_names = no }
-				b_muzhestvo_viii_c = { used_for_dynasty_names = no }
-				b_muzhestvo_viii_d = { used_for_dynasty_names = no }
-				b_muzhestvo_viii_e = { used_for_dynasty_names = no }
-			}
-			c_distsiplina = {
-				color = { 132 200 64 }
-				color2 = { 20 20 20 }
-				used_for_dynasty_names = no
-
-				b_distsiplina_ii = { used_for_dynasty_names = no }
-				b_distsiplina_ii_b = { used_for_dynasty_names = no }
-				b_distsiplina_ii_c = { used_for_dynasty_names = no }
-				b_distsiplina_iii = { used_for_dynasty_names = no }
-			}
+			b_loyalnost_ii = { used_for_dynasty_names = no }
+			b_loyalnost_iii = { used_for_dynasty_names = no }
+			b_loyalnost_iii_b = { used_for_dynasty_names = no }
+			b_loyalnost_iv = { used_for_dynasty_names = no }
 		}
-
-		d_prochnost = {
-			color = { 144 200 0 }
+		c_muzhestvo = {
+			color = { 132 200 48 }
 			color2 = { 20 20 20 }
+			used_for_dynasty_names = no
 
-			capital = 167 # Prochnost'
-
-					c_prochnost = {
-						color = { 144 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_prochnost_iii = { used_for_dynasty_names = no }
-						b_prochnost_iv = { used_for_dynasty_names = no }
-						b_prochnost_iv_b = { used_for_dynasty_names = no }
-						b_prochnost_v = { used_for_dynasty_names = no }
-						b_prochnost_v_b = { used_for_dynasty_names = no }
-					}
-					c_vernost = {
-						color = { 144 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_vernost_iii = { used_for_dynasty_names = no }
-						b_vernost_iii_b = { used_for_dynasty_names = no }
-						b_vernost_iv = { used_for_dynasty_names = no }
-						b_vernost_iv_b = { used_for_dynasty_names = no }
-					}
-					c_ostorozhnost = {
-						color = { 144 200 48 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_ostorozhnost_iii = { used_for_dynasty_names = no }
-						b_ostorozhnost_iv = { used_for_dynasty_names = no }
-						b_ostorozhnost_iv_b = { used_for_dynasty_names = no }
-						b_ostorozhnost_iv_c = { used_for_dynasty_names = no }
-					}
-					c_stabilnost = {
-						color = { 144 200 64 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_stabilnost_ii = { used_for_dynasty_names = no }
-						b_stabilnost_ii_b = { used_for_dynasty_names = no }
-						b_stabilnost_iii = { used_for_dynasty_names = no }
-						b_stabilnost_station = { used_for_dynasty_names = no }
-					}
-				}
-
-				d_sovershenstvo = {
-					color = { 156 200 0 }
-					color2 = { 20 20 20 }
-
-					capital = 175 # Sovershentsvo
-
-					c_sovershenstvo = {
-						color = { 156 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_sovershenstvo_prime = { used_for_dynasty_names = no }
-						b_sovershenstvo_prime_b = { used_for_dynasty_names = no }
-						b_sovershenstvo_ii = { used_for_dynasty_names = no }
-						b_sovershenstvo_iii = { used_for_dynasty_names = no }
-						b_sovershenstvo_iii_b = { used_for_dynasty_names = no }
-					}
-					c_ad = {
-						color = { 156 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_ad_iii = { used_for_dynasty_names = no }
-						b_ad_iii_b = { used_for_dynasty_names = no }
-						b_ad_waystation = { used_for_dynasty_names = no }
-						b_ad_iv = { used_for_dynasty_names = no }
-					}
-					c_sashi_zvezdy = {
-						color = { 156 200 48 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_sashi_zvezdy_ii = { used_for_dynasty_names = no }
-						b_sashi_zvezdy_iii = { used_for_dynasty_names = no }
-						b_sashi_zvezdy_iv = { used_for_dynasty_names = no }
-						b_sashi_zvezdy_iv_b = { used_for_dynasty_names = no }
-					}
-					c_vozneseniye = {
-						color = { 156 200 64 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_vozneseniye_prime = { used_for_dynasty_names = no }
-						b_vozneseniye_prime_b = { used_for_dynasty_names = no }
-						b_vozneseniye_prime_c = { used_for_dynasty_names = no }
-						b_vozneseniye_iii = { used_for_dynasty_names = no }
-						b_vozeneseniye_iii_b = { used_for_dynasty_names = no }
-					}
-				}
-
-				d_shen_yan = {
-					color = { 168 200 0 }
-					color2 = { 20 20 20 }
-
-					capital = 172 # Shen Yan
-
-					c_shen_yan = {
-						color = { 168 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_shen_yan_iii = { used_for_dynasty_names = no }
-						b_shen_yan_iii_orbital = { used_for_dynasty_names = no }
-						b_shen_yan_iii_b = { used_for_dynasty_names = no }
-						b_shen_yan_iv = { used_for_dynasty_names = no }
-						b_shen_yan_v = { used_for_dynasty_names = no }
-					}
-					c_glaz_boga = {
-						color = { 168 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_glaz_boga_ii = { used_for_dynasty_names = no }
-						b_glaz_boga_iii = { used_for_dynasty_names = no }
-						b_glaz_boga_iv = { used_for_dynasty_names = no }
-						b_glaz_boga_iv_b = { used_for_dynasty_names = no }
-					}
-					c_luoxuan = {
-						color = { 168 200 48 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_luoxuan_ii = { used_for_dynasty_names = no }
-						b_luoxuan_ii_b = { used_for_dynasty_names = no }
-						b_luoxuan_iii = { used_for_dynasty_names = no }
-						b_luoxuan_iv = { used_for_dynasty_names = no }
-					}
-				}
-
-				d_almaz = {
-					color = { 108 200 0 }
-					color2 = { 20 20 20 }
-
-					capital = 153 # Almaz
-
-					c_almaz = {
-						color = { 108 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_almaz_iii = { used_for_dynasty_names = no }
-						b_almaz_iii_b = { used_for_dynasty_names = no }
-						b_almaz_iii_c = { used_for_dynasty_names = no }
-						b_almaz_iii_d = { used_for_dynasty_names = no }
-					}
-					c_zhemchuzhina = {
-						color = { 108 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_zhemchuzhina_vi_b = { used_for_dynasty_names = no }
-						b_zhemchuzhina_vi_c = { used_for_dynasty_names = no }
-						b_zhemchuzhina_vii_b = { used_for_dynasty_names = no }
-						b_zhemchuzhina_vii_c = { used_for_dynasty_names = no }
-					}
-				}
-
-				d_maoxian = {
-					color = { 96 200 0 }
-					color2 = { 20 20 20 }
-
-					capital = 155 # Maoxian
-
-					c_maoxian = {
-						color = { 96 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_maoxian_iii = { used_for_dynasty_names = no }
-						b_maoxian_iii_b = { used_for_dynasty_names = no }
-						b_maoxian_iii_orbital = { used_for_dynasty_names = no }
-						b_maoxian_waystation = { used_for_dynasty_names = no }
-						b_maoxian_vi_b = { used_for_dynasty_names = no }
-						b_maoxian_vi_c = { used_for_dynasty_names = no }
-					}
-					c_pei_cheng = {
-						color = { 96 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_pei_cheng_waystation = { used_for_dynasty_names = no }
-						b_pei_cheng_observatory = { used_for_dynasty_names = no }
-						b_pei_cheng_prime = { used_for_dynasty_names = no }
-						b_pei_cheng_prime_b = { used_for_dynasty_names = no }
-					}
-				}
-
-				d_mir = {
-					color = { 84 200 0 }
-					color2 = { 20 20 20 }
-
-					capital = 157 # Mir
-
-					c_mir = {
-						color = { 84 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_mir_citadel = { used_for_dynasty_names = no }
-						b_mir_iii = { used_for_dynasty_names = no }
-						b_mir_iii_b = { used_for_dynasty_names = no }
-						b_mir_iv = { used_for_dynasty_names = no }
-						b_mir_iv_b = { used_for_dynasty_names = no }
-					}
-					c_vynoslivost = {
-						color = { 84 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_vynoslivost_waystation = { used_for_dynasty_names = no }
-						b_vynoslivost_vi_b = { used_for_dynasty_names = no }
-						b_vynoslivost_vi_c = { used_for_dynasty_names = no }
-						b_vynoslivost_vi_d = { used_for_dynasty_names = no }
-					}
-				}
-
-				d_probeda = {
-					color = { 72 200 0 }
-					color2 = { 20 20 20 }
-
-					capital = 163 # Probeda
-
-					c_probeda = {
-						color = { 72 200 16 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_probeda_prime = { used_for_dynasty_names = no }
-						b_probeda_orbital_alpha = { used_for_dynasty_names = no }
-						b_probeda_orbital_beta = { used_for_dynasty_names = no }
-						b_probeda_iii = { used_for_dynasty_names = no }
-						b_probeda_iii_b = { used_for_dynasty_names = no }
-					}
-					c_tselostnost = {
-						color = { 72 200 32 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_tselostnost_ii = { used_for_dynasty_names = no }
-						b_tselostnost_iii = { used_for_dynasty_names = no }
-						b_tselostnost_iv = { used_for_dynasty_names = no }
-					}
-					c_vera = {
-						color = { 72 200 48 }
-						color2 = { 20 20 20 }
-						used_for_dynasty_names = no
-
-						b_vera_ii = { used_for_dynasty_names = no }
-						b_vera_ii_b = { used_for_dynasty_names = no }
-						b_vera_iii = { used_for_dynasty_names = no }
-						b_vera_iii_b = { used_for_dynasty_names = no }
-					}
-				}
-			}
-	k_witchhead_nebula = {
-		color = { 128 128 255 }
-		color2 = { 128 0 128 }
-
-		capital = 215 # Fukuoka
-
-		anglo_frontiersman = "Uichaiz Naivula"
-
-		d_witchhead_nebula_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
-			color = { 64 64 128 }
-			color2 = { 20 20 20 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 215
-			#
+			b_muzhestvo_viii_b = { used_for_dynasty_names = no }
+			b_muzhestvo_viii_c = { used_for_dynasty_names = no }
+			b_muzhestvo_viii_d = { used_for_dynasty_names = no }
+			b_muzhestvo_viii_e = { used_for_dynasty_names = no }
 		}
+		c_distsiplina = {
+			color = { 132 200 64 }
+			color2 = { 20 20 20 }
+			used_for_dynasty_names = no
 
-		d_upper_witchhead = {
-			color = { 144 128 255 }
-			color2 = { 128 0 128 }
+			b_distsiplina_ii = { used_for_dynasty_names = no }
+			b_distsiplina_ii_b = { used_for_dynasty_names = no }
+			b_distsiplina_ii_c = { used_for_dynasty_names = no }
+			b_distsiplina_iii = { used_for_dynasty_names = no }
+		}
+	}
 
-			capital = 224 # Alpha Sagitarii
+	d_prochnost = {
+		color = { 144 200 0 }
+		color2 = { 20 20 20 }
 
-			c_alpha_sagitarii = {
-				color = { 144 128 240 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
+		capital = 167 # Prochnost'
 
-				b_alpha_sagitarii_prime = { used_for_dynasty_names = no }
-				b_alpha_sagitarii_prime_b = { used_for_dynasty_names = no }
+				c_prochnost = {
+					color = { 144 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_prochnost_iii = { used_for_dynasty_names = no }
+					b_prochnost_iv = { used_for_dynasty_names = no }
+					b_prochnost_iv_b = { used_for_dynasty_names = no }
+					b_prochnost_v = { used_for_dynasty_names = no }
+					b_prochnost_v_b = { used_for_dynasty_names = no }
+				}
+				c_vernost = {
+					color = { 144 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_vernost_iii = { used_for_dynasty_names = no }
+					b_vernost_iii_b = { used_for_dynasty_names = no }
+					b_vernost_iv = { used_for_dynasty_names = no }
+					b_vernost_iv_b = { used_for_dynasty_names = no }
+				}
+				c_ostorozhnost = {
+					color = { 144 200 48 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_ostorozhnost_iii = { used_for_dynasty_names = no }
+					b_ostorozhnost_iv = { used_for_dynasty_names = no }
+					b_ostorozhnost_iv_b = { used_for_dynasty_names = no }
+					b_ostorozhnost_iv_c = { used_for_dynasty_names = no }
+				}
+				c_stabilnost = {
+					color = { 144 200 64 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_stabilnost_ii = { used_for_dynasty_names = no }
+					b_stabilnost_ii_b = { used_for_dynasty_names = no }
+					b_stabilnost_iii = { used_for_dynasty_names = no }
+					b_stabilnost_station = { used_for_dynasty_names = no }
+				}
 			}
-			c_napata = {
-				color = { 144 128 224 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_napata_prime = { used_for_dynasty_names = no }
-				b_napata_observatory = { used_for_dynasty_names = no }
+			d_sovershenstvo = {
+				color = { 156 200 0 }
+				color2 = { 20 20 20 }
+
+				capital = 175 # Sovershentsvo
+
+				c_sovershenstvo = {
+					color = { 156 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_sovershenstvo_prime = { used_for_dynasty_names = no }
+					b_sovershenstvo_prime_b = { used_for_dynasty_names = no }
+					b_sovershenstvo_ii = { used_for_dynasty_names = no }
+					b_sovershenstvo_iii = { used_for_dynasty_names = no }
+					b_sovershenstvo_iii_b = { used_for_dynasty_names = no }
+				}
+				c_ad = {
+					color = { 156 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_ad_iii = { used_for_dynasty_names = no }
+					b_ad_iii_b = { used_for_dynasty_names = no }
+					b_ad_waystation = { used_for_dynasty_names = no }
+					b_ad_iv = { used_for_dynasty_names = no }
+				}
+				c_sashi_zvezdy = {
+					color = { 156 200 48 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_sashi_zvezdy_ii = { used_for_dynasty_names = no }
+					b_sashi_zvezdy_iii = { used_for_dynasty_names = no }
+					b_sashi_zvezdy_iv = { used_for_dynasty_names = no }
+					b_sashi_zvezdy_iv_b = { used_for_dynasty_names = no }
+				}
+				c_vozneseniye = {
+					color = { 156 200 64 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_vozneseniye_prime = { used_for_dynasty_names = no }
+					b_vozneseniye_prime_b = { used_for_dynasty_names = no }
+					b_vozneseniye_prime_c = { used_for_dynasty_names = no }
+					b_vozneseniye_iii = { used_for_dynasty_names = no }
+					b_vozeneseniye_iii_b = { used_for_dynasty_names = no }
+				}
 			}
-			c_wh_998 = {
-				color = { 144 128 208 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_wh_998_station_alpha = { used_for_dynasty_names = no }
-				b_wh_998_station_beta = { used_for_dynasty_names = no }
-				b_wh_998_station_gamma = { used_for_dynasty_names = no }
-				b_wh_998_station_delta = { used_for_dynasty_names = no }
+			d_shen_yan = {
+				color = { 168 200 0 }
+				color2 = { 20 20 20 }
+
+				capital = 172 # Shen Yan
+
+				c_shen_yan = {
+					color = { 168 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_shen_yan_iii = { used_for_dynasty_names = no }
+					b_shen_yan_iii_orbital = { used_for_dynasty_names = no }
+					b_shen_yan_iii_b = { used_for_dynasty_names = no }
+					b_shen_yan_iv = { used_for_dynasty_names = no }
+					b_shen_yan_v = { used_for_dynasty_names = no }
+				}
+				c_glaz_boga = {
+					color = { 168 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_glaz_boga_ii = { used_for_dynasty_names = no }
+					b_glaz_boga_iii = { used_for_dynasty_names = no }
+					b_glaz_boga_iv = { used_for_dynasty_names = no }
+					b_glaz_boga_iv_b = { used_for_dynasty_names = no }
+				}
+				c_luoxuan = {
+					color = { 168 200 48 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_luoxuan_ii = { used_for_dynasty_names = no }
+					b_luoxuan_ii_b = { used_for_dynasty_names = no }
+					b_luoxuan_iii = { used_for_dynasty_names = no }
+					b_luoxuan_iv = { used_for_dynasty_names = no }
+				}
 			}
-			c_wh_229 = {
-				color = { 144 128 192 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_wh_229_station_alpha = { used_for_dynasty_names = no }
-				b_wh_229_station_beta = { used_for_dynasty_names = no }
-				b_wh_229_station_gamma = { used_for_dynasty_names = no }
-				b_wh_229_station_delta = { used_for_dynasty_names = no }
+			d_almaz = {
+				color = { 108 200 0 }
+				color2 = { 20 20 20 }
+
+				capital = 153 # Almaz
+
+				c_almaz = {
+					color = { 108 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_almaz_iii = { used_for_dynasty_names = no }
+					b_almaz_iii_b = { used_for_dynasty_names = no }
+					b_almaz_iii_c = { used_for_dynasty_names = no }
+					b_almaz_iii_d = { used_for_dynasty_names = no }
+				}
+				c_zhemchuzhina = {
+					color = { 108 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_zhemchuzhina_vi_b = { used_for_dynasty_names = no }
+					b_zhemchuzhina_vi_c = { used_for_dynasty_names = no }
+					b_zhemchuzhina_vii_b = { used_for_dynasty_names = no }
+					b_zhemchuzhina_vii_c = { used_for_dynasty_names = no }
+				}
 			}
-			c_wh_253 = {
-				color = { 144 128 176 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_wh_253_station_alpha = { used_for_dynasty_names = no }
-				b_wh_253_station_beta = { used_for_dynasty_names = no }
-				b_wh_253_station_gamma = { used_for_dynasty_names = no }
-				b_wh_253_station_delta = { used_for_dynasty_names = no }
+			d_maoxian = {
+				color = { 96 200 0 }
+				color2 = { 20 20 20 }
+
+				capital = 155 # Maoxian
+
+				c_maoxian = {
+					color = { 96 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_maoxian_iii = { used_for_dynasty_names = no }
+					b_maoxian_iii_b = { used_for_dynasty_names = no }
+					b_maoxian_iii_orbital = { used_for_dynasty_names = no }
+					b_maoxian_waystation = { used_for_dynasty_names = no }
+					b_maoxian_vi_b = { used_for_dynasty_names = no }
+					b_maoxian_vi_c = { used_for_dynasty_names = no }
+				}
+				c_pei_cheng = {
+					color = { 96 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_pei_cheng_waystation = { used_for_dynasty_names = no }
+					b_pei_cheng_observatory = { used_for_dynasty_names = no }
+					b_pei_cheng_prime = { used_for_dynasty_names = no }
+					b_pei_cheng_prime_b = { used_for_dynasty_names = no }
+				}
 			}
-			c_wh_064 = {
-				color = { 144 128 160 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_wh_064_station_alpha = { used_for_dynasty_names = no }
-				b_wh_064_station_beta = { used_for_dynasty_names = no }
-				b_wh_064_station_gamma = { used_for_dynasty_names = no }
-				b_wh_064_station_delta = { used_for_dynasty_names = no }
+			d_mir = {
+				color = { 84 200 0 }
+				color2 = { 20 20 20 }
+
+				capital = 157 # Mir
+
+				c_mir = {
+					color = { 84 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_mir_citadel = { used_for_dynasty_names = no }
+					b_mir_iii = { used_for_dynasty_names = no }
+					b_mir_iii_b = { used_for_dynasty_names = no }
+					b_mir_iv = { used_for_dynasty_names = no }
+					b_mir_iv_b = { used_for_dynasty_names = no }
+				}
+				c_vynoslivost = {
+					color = { 84 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_vynoslivost_waystation = { used_for_dynasty_names = no }
+					b_vynoslivost_vi_b = { used_for_dynasty_names = no }
+					b_vynoslivost_vi_c = { used_for_dynasty_names = no }
+					b_vynoslivost_vi_d = { used_for_dynasty_names = no }
+				}
 			}
-			c_wh_021 = {
-				color = { 144 128 144 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_wh_021_station_alpha = { used_for_dynasty_names = no }
-				b_wh_021_station_beta = { used_for_dynasty_names = no }
-				b_wh_021_station_gamma = { used_for_dynasty_names = no }
-				b_wh_021_station_delta = { used_for_dynasty_names = no }
+			d_probeda = {
+				color = { 72 200 0 }
+				color2 = { 20 20 20 }
+
+				capital = 163 # Probeda
+
+				c_probeda = {
+					color = { 72 200 16 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_probeda_prime = { used_for_dynasty_names = no }
+					b_probeda_orbital_alpha = { used_for_dynasty_names = no }
+					b_probeda_orbital_beta = { used_for_dynasty_names = no }
+					b_probeda_iii = { used_for_dynasty_names = no }
+					b_probeda_iii_b = { used_for_dynasty_names = no }
+				}
+				c_tselostnost = {
+					color = { 72 200 32 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_tselostnost_ii = { used_for_dynasty_names = no }
+					b_tselostnost_iii = { used_for_dynasty_names = no }
+					b_tselostnost_iv = { used_for_dynasty_names = no }
+				}
+				c_vera = {
+					color = { 72 200 48 }
+					color2 = { 20 20 20 }
+					used_for_dynasty_names = no
+
+					b_vera_ii = { used_for_dynasty_names = no }
+					b_vera_ii_b = { used_for_dynasty_names = no }
+					b_vera_iii = { used_for_dynasty_names = no }
+					b_vera_iii_b = { used_for_dynasty_names = no }
+				}
 			}
 		}
-		d_core_witchhead = {
-			color = { 128 144 255 }
+		k_witchhead_nebula = {
+			color = { 128 128 255 }
 			color2 = { 128 0 128 }
 
 			capital = 215 # Fukuoka
 
-			c_fukuoka = {
-				color = { 128 144 240 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
-				holy_site = space_pirate
-
-				# Asteroid, temple
-				b_fukuoka_prime = { used_for_dynasty_names = no }
-				# Pirate bases
-				b_fukuoka_station_alpha = { used_for_dynasty_names = no }
-				b_fukuoka_station_beta = { used_for_dynasty_names = no }
-				b_fukuoka_station_gamma = { used_for_dynasty_names = no }
+			d_witchhead_nebula_fleet = {
+				landless = yes
+				can_be_claimed = no
+				can_be_usurped = no
+				color = { 64 64 128 }
+				color2 = { 20 20 20 }
+				short_name = yes
+				allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+				title = "FLEETADMIRAL"
+				title_female = "FLEETADMIRAL_female"
+				foa = "FLEETADMIRALFOA"
+				#foa_female = "FLEETADMIRALFOA_female"
+				capital = 215
+				#
 			}
-			c_trigorin = {
-				color = { 128 144 224 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_freeport_trigorin = { used_for_dynasty_names = no }
-				b_trigorin_ii = { used_for_dynasty_names = no }
+			d_upper_witchhead = {
+				color = { 144 128 255 }
+				color2 = { 128 0 128 }
+
+				capital = 224 # Alpha Sagitarii
+
+				c_alpha_sagitarii = {
+					color = { 144 128 240 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_alpha_sagitarii_prime = { used_for_dynasty_names = no }
+					b_alpha_sagitarii_prime_b = { used_for_dynasty_names = no }
+				}
+				c_napata = {
+					color = { 144 128 224 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_napata_prime = { used_for_dynasty_names = no }
+					b_napata_observatory = { used_for_dynasty_names = no }
+				}
+				c_wh_998 = {
+					color = { 144 128 208 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_998_station_alpha = { used_for_dynasty_names = no }
+					b_wh_998_station_beta = { used_for_dynasty_names = no }
+					b_wh_998_station_gamma = { used_for_dynasty_names = no }
+					b_wh_998_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_229 = {
+					color = { 144 128 192 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_229_station_alpha = { used_for_dynasty_names = no }
+					b_wh_229_station_beta = { used_for_dynasty_names = no }
+					b_wh_229_station_gamma = { used_for_dynasty_names = no }
+					b_wh_229_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_253 = {
+					color = { 144 128 176 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_253_station_alpha = { used_for_dynasty_names = no }
+					b_wh_253_station_beta = { used_for_dynasty_names = no }
+					b_wh_253_station_gamma = { used_for_dynasty_names = no }
+					b_wh_253_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_064 = {
+					color = { 144 128 160 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_064_station_alpha = { used_for_dynasty_names = no }
+					b_wh_064_station_beta = { used_for_dynasty_names = no }
+					b_wh_064_station_gamma = { used_for_dynasty_names = no }
+					b_wh_064_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_021 = {
+					color = { 144 128 144 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_021_station_alpha = { used_for_dynasty_names = no }
+					b_wh_021_station_beta = { used_for_dynasty_names = no }
+					b_wh_021_station_gamma = { used_for_dynasty_names = no }
+					b_wh_021_station_delta = { used_for_dynasty_names = no }
+				}
 			}
-			c_ariadne = {
-				color = { 128 144 208 }
+			d_core_witchhead = {
+				color = { 128 144 255 }
 				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_port_ariadne = { used_for_dynasty_names = no }
-				# Temples
-				b_ariadne_ii = { used_for_dynasty_names = no }
-				b_ariadne_iii = { used_for_dynasty_names = no }
+				capital = 215 # Fukuoka
+
+				c_fukuoka = {
+					color = { 128 144 240 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+					holy_site = space_pirate
+
+					# Asteroid, temple
+					b_fukuoka_prime = { used_for_dynasty_names = no }
+					# Pirate bases
+					b_fukuoka_station_alpha = { used_for_dynasty_names = no }
+					b_fukuoka_station_beta = { used_for_dynasty_names = no }
+					b_fukuoka_station_gamma = { used_for_dynasty_names = no }
+				}
+				c_trigorin = {
+					color = { 128 144 224 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_freeport_trigorin = { used_for_dynasty_names = no }
+					b_trigorin_ii = { used_for_dynasty_names = no }
+				}
+				c_ariadne = {
+					color = { 128 144 208 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_port_ariadne = { used_for_dynasty_names = no }
+					# Temples
+					b_ariadne_ii = { used_for_dynasty_names = no }
+					b_ariadne_iii = { used_for_dynasty_names = no }
+				}
+				c_wh_732 = {
+					color = { 128 144 192 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_732_station_alpha = { used_for_dynasty_names = no }
+					b_wh_732_station_beta = { used_for_dynasty_names = no }
+					b_wh_732_station_gamma = { used_for_dynasty_names = no }
+					b_wh_732_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_835 = {
+					color = { 128 144 176 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_835_station_alpha = { used_for_dynasty_names = no }
+					b_wh_835_station_beta = { used_for_dynasty_names = no }
+					b_wh_835_station_gamma = { used_for_dynasty_names = no }
+					b_wh_835_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_367 = {
+					color = { 128 144 160 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_367_drift = { used_for_dynasty_names = no } # Independent asteroid trade port, frequent target of pirate raids
+					b_wh_367_station_alpha = { used_for_dynasty_names = no }
+					b_wh_367_station_beta = { used_for_dynasty_names = no }
+					b_wh_367_station_gamma = { used_for_dynasty_names = no }
+					b_wh_367_station_delta = { used_for_dynasty_names = no }
+				}
 			}
-			c_wh_732 = {
-				color = { 128 144 192 }
+			d_lower_witchhead = {
+				color = { 144 144 255 }
 				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
 
-				b_wh_732_station_alpha = { used_for_dynasty_names = no }
-				b_wh_732_station_beta = { used_for_dynasty_names = no }
-				b_wh_732_station_gamma = { used_for_dynasty_names = no }
-				b_wh_732_station_delta = { used_for_dynasty_names = no }
-			}
-			c_wh_835 = {
-				color = { 128 144 176 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
+				capital = 222 # WH-930
 
-				b_wh_835_station_alpha = { used_for_dynasty_names = no }
-				b_wh_835_station_beta = { used_for_dynasty_names = no }
-				b_wh_835_station_gamma = { used_for_dynasty_names = no }
-				b_wh_835_station_delta = { used_for_dynasty_names = no }
-			}
-			c_wh_367 = {
-				color = { 128 144 160 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
+				c_wh_930 = {
+					color = { 144 144 240 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
 
-				b_wh_367_drift = { used_for_dynasty_names = no } # Independent asteroid trade port, frequent target of pirate raids
-				b_wh_367_station_alpha = { used_for_dynasty_names = no }
-				b_wh_367_station_beta = { used_for_dynasty_names = no }
-				b_wh_367_station_gamma = { used_for_dynasty_names = no }
-				b_wh_367_station_delta = { used_for_dynasty_names = no }
+					b_wh_930_station_alpha = { used_for_dynasty_names = no }
+					b_wh_930_station_beta = { used_for_dynasty_names = no }
+					b_wh_930_station_gamma = { used_for_dynasty_names = no }
+					b_wh_930_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_178 = {
+					color = { 144 144 224 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_178_station_alpha = { used_for_dynasty_names = no }
+					b_wh_178_station_beta = { used_for_dynasty_names = no }
+					b_wh_178_station_gamma = { used_for_dynasty_names = no }
+					b_wh_178_station_delta = { used_for_dynasty_names = no }
+				}
+				c_wh_336 = {
+					color = { 144 144 208 }
+					color2 = { 128 0 128 }
+					used_for_dynasty_names = no
+
+					b_wh_336_station_alpha = { used_for_dynasty_names = no }
+					b_wh_336_station_beta = { used_for_dynasty_names = no }
+					b_wh_336_station_gamma = { used_for_dynasty_names = no }
+					b_wh_336_station_delta = { used_for_dynasty_names = no }
+				}
 			}
 		}
-		d_lower_witchhead = {
-			color = { 144 144 255 }
-			color2 = { 128 0 128 }
-
-			capital = 222 # WH-930
-
-			c_wh_930 = {
-				color = { 144 144 240 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
-
-				b_wh_930_station_alpha = { used_for_dynasty_names = no }
-				b_wh_930_station_beta = { used_for_dynasty_names = no }
-				b_wh_930_station_gamma = { used_for_dynasty_names = no }
-				b_wh_930_station_delta = { used_for_dynasty_names = no }
-			}
-			c_wh_178 = {
-				color = { 144 144 224 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
-
-				b_wh_178_station_alpha = { used_for_dynasty_names = no }
-				b_wh_178_station_beta = { used_for_dynasty_names = no }
-				b_wh_178_station_gamma = { used_for_dynasty_names = no }
-				b_wh_178_station_delta = { used_for_dynasty_names = no }
-			}
-			c_wh_336 = {
-				color = { 144 144 208 }
-				color2 = { 128 0 128 }
-				used_for_dynasty_names = no
-
-				b_wh_336_station_alpha = { used_for_dynasty_names = no }
-				b_wh_336_station_beta = { used_for_dynasty_names = no }
-				b_wh_336_station_gamma = { used_for_dynasty_names = no }
-				b_wh_336_station_delta = { used_for_dynasty_names = no }
-			}
-		}
-	}
-	k_avalon = {
-		color = { 128 0 0 }
-		color2 = { 200 200 200 }
-
-		capital = 25 # Avalon
-
-		anglo_frontiersman = "Avalaunia"
-
-		d_avalon_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
-			color = { 100 0 0 }
-			color2 = { 200 200 200 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 25
-			#
-		}
-
-		d_avalon = {
-			color = { 128 16 0 }
-			color2 = { 200 200 200 }
-
-			capital = 25
-
-			c_avalon = {
-				color = { 128 16 16 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-				holy_site = bio_directionist
-				holy_site = neo_feudal
-
-				b_avalon_iii = { used_for_dynasty_names = no }
-				b_avalon_iii_orbital = { used_for_dynasty_names = no }
-				b_avalon_iii_b = { used_for_dynasty_names = no }
-				b_avalon_vi_b = { used_for_dynasty_names = no }
-				b_avalon_vi_c = { used_for_dynasty_names = no }
-				b_avalon_vi_d = { used_for_dynasty_names = no }
-			}
-			c_merlin = {
-				color = { 128 16 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_merlin_ii = { used_for_dynasty_names = no }
-				b_nimue = { used_for_dynasty_names = no } # Moon of Merlin II
-				b_merlin_iii = { used_for_dynasty_names = no }
-				b_merlin_iv = { used_for_dynasty_names = no }
-			}
-			c_camelot = {
-				color = { 128 16 48 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_new_camelot = { used_for_dynasty_names = no }
-				b_new_camelot_orbital = { used_for_dynasty_names = no }
-				b_new_camelot_b = { used_for_dynasty_names = no }
-				b_camelot_iii = { used_for_dynasty_names = no }
-			}
-			c_paladin = {
-				color = { 128 16 64 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_paladin_ii = { used_for_dynasty_names = no }
-				b_paladin_ii_b = { used_for_dynasty_names = no }
-				b_paladin_iii = { used_for_dynasty_names = no }
-				b_paladin_iii_b = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_victoria = {
-			color = { 128 32 0 }
-			color2 = { 200 200 200 }
-
-			capital = 44 # Victoria
-
-			c_victoria = {
-				color = { 128 32 16 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-				holy_site = bio_directionist
-
-				b_victoria_iii = { used_for_dynasty_names = no }
-				b_victoria_iii_orbital = { used_for_dynasty_names = no }
-				b_victoria_iii_b = { used_for_dynasty_names = no }
-				b_victoria_iii_c = { used_for_dynasty_names = no }
-				b_victoria_iv = { used_for_dynasty_names = no }
-			}
-			c_hawkwood = {
-				color = { 128 32 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_hawkwood_ii = { used_for_dynasty_names = no }
-				b_hawkwood_iii = { used_for_dynasty_names = no }
-				b_hawkwood_iii_b = { used_for_dynasty_names = no }
-				b_hawkwood_iv = { used_for_dynasty_names = no }
-			}
-			c_garrison = {
-				color = { 128 32 48 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_garrison_viii_b = { used_for_dynasty_names = no }
-				b_garrison_viii_c = { used_for_dynasty_names = no }
-				b_garrison_viii_d = { used_for_dynasty_names = no }
-				b_garrison_viii_e = { used_for_dynasty_names = no }
-				b_garrison_viii_f = { used_for_dynasty_names = no }
-			}
-			c_endeavour = { # Yes, using the Commonwealth spelling
-				color = { 128 32 64 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_endeavour_prime = { used_for_dynasty_names = no }
-				b_endeavour_ii = { used_for_dynasty_names = no }
-				b_endeavour_ii_b = { used_for_dynasty_names = no }
-				b_endeavour_ii_c = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_nelson = {
-			color = { 128 48 0 }
-
+		k_avalon = {
+			color = { 128 0 0 }
 			color2 = { 200 200 200 }
 
-			capital = 40 # Nelson
+			capital = 25 # Avalon
 
-			c_nelson = {
-				color = { 128 48 16 }
+			d_avalon_fleet = {
+				landless = yes
+				can_be_claimed = no
+				can_be_usurped = no
+				color = { 100 0 0 }
 				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_nelson_ii = { used_for_dynasty_names = no }
-				b_nelson_ii_b = { used_for_dynasty_names = no }
-				b_nelson_iii = { used_for_dynasty_names = no }
-				b_nelson_iv = { used_for_dynasty_names = no }
-				b_nelson_v = { used_for_dynasty_names = no }
+				short_name = yes
+				allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+				title = "FLEETADMIRAL"
+				title_female = "FLEETADMIRAL_female"
+				foa = "FLEETADMIRALFOA"
+				#foa_female = "FLEETADMIRALFOA_female"
+				capital = 25
+				#
 			}
-			c_sherwood = {
-				color = { 128 48 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
 
-				b_sherwood_citadel = { used_for_dynasty_names = no }
-				b_sherwood_iii = { used_for_dynasty_names = no }
-				b_sherwood_iii_b = { used_for_dynasty_names = no }
-				b_sherwood_iv = { used_for_dynasty_names = no }
+			d_avalon = {
+				color = { 128 16 0 }
+				color2 = { 200 200 200 }
+
+				capital = 25
+
+				c_avalon = {
+					color = { 128 16 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+					holy_site = bio_directionist
+					holy_site = neo_feudal
+
+					b_avalon_iii = { used_for_dynasty_names = no }
+					b_avalon_iii_orbital = { used_for_dynasty_names = no }
+					b_avalon_iii_b = { used_for_dynasty_names = no }
+					b_avalon_vi_b = { used_for_dynasty_names = no }
+					b_avalon_vi_c = { used_for_dynasty_names = no }
+					b_avalon_vi_d = { used_for_dynasty_names = no }
+				}
+				c_merlin = {
+					color = { 128 16 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_merlin_ii = { used_for_dynasty_names = no }
+					b_nimue = { used_for_dynasty_names = no } # Moon of Merlin II
+					b_merlin_iii = { used_for_dynasty_names = no }
+					b_merlin_iv = { used_for_dynasty_names = no }
+				}
+				c_camelot = {
+					color = { 128 16 48 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_new_camelot = { used_for_dynasty_names = no }
+					b_new_camelot_orbital = { used_for_dynasty_names = no }
+					b_new_camelot_b = { used_for_dynasty_names = no }
+					b_camelot_iii = { used_for_dynasty_names = no }
+				}
+				c_paladin = {
+					color = { 128 16 64 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_paladin_ii = { used_for_dynasty_names = no }
+					b_paladin_ii_b = { used_for_dynasty_names = no }
+					b_paladin_iii = { used_for_dynasty_names = no }
+					b_paladin_iii_b = { used_for_dynasty_names = no }
+				}
 			}
-			c_chalice = {
-				color = { 128 48 48 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
 
-				b_chalice_prime = { used_for_dynasty_names = no }
-				b_chalice_ii = { used_for_dynasty_names = no }
-				b_chalice_iii = { used_for_dynasty_names = no }
-				b_chalice_iv = { used_for_dynasty_names = no }
+			d_victoria = {
+				color = { 128 32 0 }
+				color2 = { 200 200 200 }
+
+				capital = 44 # Victoria
+
+				c_victoria = {
+					color = { 128 32 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+					holy_site = bio_directionist
+
+					b_victoria_iii = { used_for_dynasty_names = no }
+					b_victoria_iii_orbital = { used_for_dynasty_names = no }
+					b_victoria_iii_b = { used_for_dynasty_names = no }
+					b_victoria_iii_c = { used_for_dynasty_names = no }
+					b_victoria_iv = { used_for_dynasty_names = no }
+				}
+				c_hawkwood = {
+					color = { 128 32 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_hawkwood_ii = { used_for_dynasty_names = no }
+					b_hawkwood_iii = { used_for_dynasty_names = no }
+					b_hawkwood_iii_b = { used_for_dynasty_names = no }
+					b_hawkwood_iv = { used_for_dynasty_names = no }
+				}
+				c_garrison = {
+					color = { 128 32 48 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_garrison_viii_b = { used_for_dynasty_names = no }
+					b_garrison_viii_c = { used_for_dynasty_names = no }
+					b_garrison_viii_d = { used_for_dynasty_names = no }
+					b_garrison_viii_e = { used_for_dynasty_names = no }
+					b_garrison_viii_f = { used_for_dynasty_names = no }
+				}
+				c_endeavour = { # Yes, using the Commonwealth spelling
+					color = { 128 32 64 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_endeavour_prime = { used_for_dynasty_names = no }
+					b_endeavour_ii = { used_for_dynasty_names = no }
+					b_endeavour_ii_b = { used_for_dynasty_names = no }
+					b_endeavour_ii_c = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_nelson = {
+				color = { 128 48 0 }
+
+				color2 = { 200 200 200 }
+
+				capital = 40 # Nelson
+
+				c_nelson = {
+					color = { 128 48 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_nelson_ii = { used_for_dynasty_names = no }
+					b_nelson_ii_b = { used_for_dynasty_names = no }
+					b_nelson_iii = { used_for_dynasty_names = no }
+					b_nelson_iv = { used_for_dynasty_names = no }
+					b_nelson_v = { used_for_dynasty_names = no }
+				}
+				c_sherwood = {
+					color = { 128 48 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_sherwood_citadel = { used_for_dynasty_names = no }
+					b_sherwood_iii = { used_for_dynasty_names = no }
+					b_sherwood_iii_b = { used_for_dynasty_names = no }
+					b_sherwood_iv = { used_for_dynasty_names = no }
+				}
+				c_chalice = {
+					color = { 128 48 48 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_chalice_prime = { used_for_dynasty_names = no }
+					b_chalice_ii = { used_for_dynasty_names = no }
+					b_chalice_iii = { used_for_dynasty_names = no }
+					b_chalice_iv = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_caliburn = {
+				color = { 128 64 0 }
+				color2 = { 200 200 200 }
+
+				capital = 29 # Caliburn
+
+				c_caliburn = {
+					color = { 128 64 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_caliburn_iii = { used_for_dynasty_names = no }
+					b_caliburn_iii_b = { used_for_dynasty_names = no }
+					b_caliburn_iii_orbital = { used_for_dynasty_names = no }
+					b_caliburn_iv = { used_for_dynasty_names = no }
+					b_caliburn_v = { used_for_dynasty_names = no }
+				}
+				c_greywood = {
+					color = { 128 64 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_greywood_iii = { used_for_dynasty_names = no }
+					b_greywood_iv = { used_for_dynasty_names = no }
+					b_greywood_iv_b = { used_for_dynasty_names = no }
+					b_greywood_iv_c = { used_for_dynasty_names = no }
+				}
+				c_marys_star = {
+					color = { 128 64 48 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_marys_star_vi_b = { used_for_dynasty_names = no }
+					b_marys_star_vi_c = { used_for_dynasty_names = no }
+					b_marys_star_vi_d = { used_for_dynasty_names = no }
+					b_marys_star_vi_e = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_galahad = {
+				color = { 128 80 0 }
+				color2 = { 200 200 200 }
+
+				capital = 32 # Galahad
+
+				c_galahad = {
+					color = { 128 80 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+					holy_site = neo_feudal
+
+					b_galahad_citadel = { used_for_dynasty_names = no }
+					b_galahad_iii = { used_for_dynasty_names = no }
+					b_galahad_iii_b = { used_for_dynasty_names = no }
+					b_galahad_iv = { used_for_dynasty_names = no }
+					b_galahad_vii_b = { used_for_dynasty_names = no }
+					b_galahad_vii_c = { used_for_dynasty_names = no }
+				}
+				c_shiverlight = {
+					color = { 128 80 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_shiverlight_prime = { used_for_dynasty_names = no }
+					b_shiverlight_prime_b = { used_for_dynasty_names = no }
+					b_shiverlight_ii = { used_for_dynasty_names = no }
+					b_shiverlight_ii_b = { used_for_dynasty_names = no }
+				}
+				c_virtue = {
+					color = { 128 80 48 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_virtue_iv = { used_for_dynasty_names = no }
+					b_virtue_iv_b = { used_for_dynasty_names = no }
+					b_virtue_iv_c = { used_for_dynasty_names = no }
+					b_virtue_iv_d = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_lancelot = {
+				color = { 128 96 0 }
+				color2 = { 200 200 200 }
+
+				capital = 36 # Lancelot
+
+				c_lancelot = {
+					color = { 128 80 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_lancelot_iii = { used_for_dynasty_names = no }
+					b_lancelot_iii_b = { used_for_dynasty_names = no }
+					b_lancelot_iii_c = { used_for_dynasty_names = no }
+					b_lancelot_iv = { used_for_dynasty_names = no }
+					b_lancelot_v = { used_for_dynasty_names = no }
+				}
+				c_numenor = {
+					color = { 128 80 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_numenor_ii = { used_for_dynasty_names = no }
+					b_numenor_iii = { used_for_dynasty_names = no }
+					b_numenor_iv = { used_for_dynasty_names = no }
+					b_numenor_v = { used_for_dynasty_names = no }
+				}
+				c_henrys_star = {
+					color = { 128 80 48 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_henrys_star_waystation = { used_for_dynasty_names = no }
+					b_henrys_star_iii = { used_for_dynasty_names = no }
+					b_henrys_star_iv = { used_for_dynasty_names = no }
+					b_henrys_star_v = { used_for_dynasty_names = no }
+				}
+				c_robinson = {
+					color = { 128 80 64 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_robinson_ii = { used_for_dynasty_names = no }
+					b_robinson_ii_orbital = { used_for_dynasty_names = no }
+					b_robinson_iii = { used_for_dynasty_names = no }
+					b_robinson_iii_b = { used_for_dynasty_names = no }
+					b_robinson_iv = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_alfred = {
+				color = { 128 112 0 }
+				color2 = { 200 200 200 }
+
+				capital = 23 # Alfred
+
+				c_alfred = {
+					color = { 128 112 16 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_alfred_prime = { used_for_dynasty_names = no }
+					b_alfred_prime_b = { used_for_dynasty_names = no }
+					b_alfred_prime_c = { used_for_dynasty_names = no }
+					b_alfred_ii = { used_for_dynasty_names = no }
+					b_alfred_iii = { used_for_dynasty_names = no }
+				}
+				c_etherland = {
+					color = { 128 112 32 }
+					color2 = { 200 200 200 }
+					used_for_dynasty_names = no
+
+					b_etherland_prime_b = { used_for_dynasty_names = no }
+					b_etherland_prime_c = { used_for_dynasty_names = no }
+					b_etherland_prime_d = { used_for_dynasty_names = no }
+					b_etherland_prime_e = { used_for_dynasty_names = no }
+				}
 			}
 		}
-
-		d_caliburn = {
-			color = { 128 64 0 }
-			color2 = { 200 200 200 }
-
-			capital = 29 # Caliburn
-
-			c_caliburn = {
-				color = { 128 64 16 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_caliburn_iii = { used_for_dynasty_names = no }
-				b_caliburn_iii_b = { used_for_dynasty_names = no }
-				b_caliburn_iii_orbital = { used_for_dynasty_names = no }
-				b_caliburn_iv = { used_for_dynasty_names = no }
-				b_caliburn_v = { used_for_dynasty_names = no }
-			}
-			c_greywood = {
-				color = { 128 64 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_greywood_iii = { used_for_dynasty_names = no }
-				b_greywood_iv = { used_for_dynasty_names = no }
-				b_greywood_iv_b = { used_for_dynasty_names = no }
-				b_greywood_iv_c = { used_for_dynasty_names = no }
-			}
-			c_marys_star = {
-				color = { 128 64 48 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_marys_star_vi_b = { used_for_dynasty_names = no }
-				b_marys_star_vi_c = { used_for_dynasty_names = no }
-				b_marys_star_vi_d = { used_for_dynasty_names = no }
-				b_marys_star_vi_e = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_galahad = {
-			color = { 128 80 0 }
-			color2 = { 200 200 200 }
-
-			capital = 32 # Galahad
-
-			c_galahad = {
-				color = { 128 80 16 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-				holy_site = neo_feudal
-
-				b_galahad_citadel = { used_for_dynasty_names = no }
-				b_galahad_iii = { used_for_dynasty_names = no }
-				b_galahad_iii_b = { used_for_dynasty_names = no }
-				b_galahad_iv = { used_for_dynasty_names = no }
-				b_galahad_vii_b = { used_for_dynasty_names = no }
-				b_galahad_vii_c = { used_for_dynasty_names = no }
-			}
-			c_shiverlight = {
-				color = { 128 80 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_shiverlight_prime = { used_for_dynasty_names = no }
-				b_shiverlight_prime_b = { used_for_dynasty_names = no }
-				b_shiverlight_ii = { used_for_dynasty_names = no }
-				b_shiverlight_ii_b = { used_for_dynasty_names = no }
-			}
-			c_virtue = {
-				color = { 128 80 48 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_virtue_iv = { used_for_dynasty_names = no }
-				b_virtue_iv_b = { used_for_dynasty_names = no }
-				b_virtue_iv_c = { used_for_dynasty_names = no }
-				b_virtue_iv_d = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_lancelot = {
-			color = { 128 96 0 }
-			color2 = { 200 200 200 }
-
-			capital = 36 # Lancelot
-
-			c_lancelot = {
-				color = { 128 80 16 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_lancelot_iii = { used_for_dynasty_names = no }
-				b_lancelot_iii_b = { used_for_dynasty_names = no }
-				b_lancelot_iii_c = { used_for_dynasty_names = no }
-				b_lancelot_iv = { used_for_dynasty_names = no }
-				b_lancelot_v = { used_for_dynasty_names = no }
-			}
-			c_numenor = {
-				color = { 128 80 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_numenor_ii = { used_for_dynasty_names = no }
-				b_numenor_iii = { used_for_dynasty_names = no }
-				b_numenor_iv = { used_for_dynasty_names = no }
-				b_numenor_v = { used_for_dynasty_names = no }
-			}
-			c_henrys_star = {
-				color = { 128 80 48 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_henrys_star_waystation = { used_for_dynasty_names = no }
-				b_henrys_star_iii = { used_for_dynasty_names = no }
-				b_henrys_star_iv = { used_for_dynasty_names = no }
-				b_henrys_star_v = { used_for_dynasty_names = no }
-			}
-			c_robinson = {
-				color = { 128 80 64 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_robinson_ii = { used_for_dynasty_names = no }
-				b_robinson_ii_orbital = { used_for_dynasty_names = no }
-				b_robinson_iii = { used_for_dynasty_names = no }
-				b_robinson_iii_b = { used_for_dynasty_names = no }
-				b_robinson_iv = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_alfred = {
-			color = { 128 112 0 }
-			color2 = { 200 200 200 }
-
-			capital = 23 # Alfred
-
-			c_alfred = {
-				color = { 128 112 16 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_alfred_prime = { used_for_dynasty_names = no }
-				b_alfred_prime_b = { used_for_dynasty_names = no }
-				b_alfred_prime_c = { used_for_dynasty_names = no }
-				b_alfred_ii = { used_for_dynasty_names = no }
-				b_alfred_iii = { used_for_dynasty_names = no }
-			}
-			c_etherland = {
-				color = { 128 112 32 }
-				color2 = { 200 200 200 }
-				used_for_dynasty_names = no
-
-				b_etherland_prime_b = { used_for_dynasty_names = no }
-				b_etherland_prime_c = { used_for_dynasty_names = no }
-				b_etherland_prime_d = { used_for_dynasty_names = no }
-				b_etherland_prime_e = { used_for_dynasty_names = no }
-			}
-		}
-	}
-	k_jion = {
-		color = { 72 124 16 }
-		color2 = { 128 0 0 }
-
-		capital = 126 # Jion
-
-		d_jion_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
+		k_jion = {
 			color = { 72 124 16 }
-			color2 = { 200 200 200 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 126
-			#
-		}
-
-		d_jion = {
-			color = { 80 124 16 }
 			color2 = { 128 0 0 }
 
 			capital = 126 # Jion
 
-			c_jion = {
-				color = { 80 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-				holy_site = colonial_separatist
-				holy_site = astrist
-				holy_site = space_pirate
-				holy_site = neo_socialist
-
-				b_jion_iii = { used_for_dynasty_names = no }
-				b_jion_iii_orbital_alpha = { used_for_dynasty_names = no }
-				b_jion_iii_orbital_beta = { used_for_dynasty_names = no }
-				b_jion_iii_orbital_gamma = { used_for_dynasty_names = no }
-				b_jion_iii_b = { used_for_dynasty_names = no }
+			d_jion_fleet = {
+				landless = yes
+				can_be_claimed = no
+				can_be_usurped = no
+				color = { 72 124 16 }
+				color2 = { 200 200 200 }
+				short_name = yes
+				allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+				title = "FLEETADMIRAL"
+				title_female = "FLEETADMIRAL_female"
+				foa = "FLEETADMIRALFOA"
+				#foa_female = "FLEETADMIRALFOA_female"
+				capital = 126
+				#
 			}
 
-			c_kojo = {
-				color = { 80 124 32 }
+			d_jion = {
+				color = { 80 124 16 }
 				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
 
-				b_kojo_iii = { used_for_dynasty_names = no }
-				b_kojo_iii_b = { used_for_dynasty_names = no }
-				b_kojo_vii_b = { used_for_dynasty_names = no }
-				b_kojo_vii_c = { used_for_dynasty_names = no }
+				capital = 126 # Jion
+
+				c_jion = {
+					color = { 80 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+					holy_site = colonial_separatist
+					holy_site = astrist
+					holy_site = space_pirate
+					holy_site = neo_socialist
+
+					b_jion_iii = { used_for_dynasty_names = no }
+					b_jion_iii_orbital_alpha = { used_for_dynasty_names = no }
+					b_jion_iii_orbital_beta = { used_for_dynasty_names = no }
+					b_jion_iii_orbital_gamma = { used_for_dynasty_names = no }
+					b_jion_iii_b = { used_for_dynasty_names = no }
+				}
+
+				c_kojo = {
+					color = { 80 124 32 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_kojo_iii = { used_for_dynasty_names = no }
+					b_kojo_iii_b = { used_for_dynasty_names = no }
+					b_kojo_vii_b = { used_for_dynasty_names = no }
+					b_kojo_vii_c = { used_for_dynasty_names = no }
+				}
+
+				c_uminoasa = {
+					color = { 80 124 40 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_uminoasa_ii = { used_for_dynasty_names = no }
+					b_uminoasa_ii_b = { used_for_dynasty_names = no }
+					b_uminoasa_iii = { used_for_dynasty_names = no }
+					b_uminoasa_iv = { used_for_dynasty_names = no }
+				}
+
+				c_akasei = {
+					color = { 80 124 48 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_akasei_prime = { used_for_dynasty_names = no }
+					b_akasei_ii = { used_for_dynasty_names = no }
+					b_akasei_iii = { used_for_dynasty_names = no }
+					b_akasei_iv = { used_for_dynasty_names = no }
+				}
 			}
 
-			c_uminoasa = {
-				color = { 80 124 40 }
+			d_hiyokuoka = {
+				color = { 88 124 16 }
 				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
 
-				b_uminoasa_ii = { used_for_dynasty_names = no }
-				b_uminoasa_ii_b = { used_for_dynasty_names = no }
-				b_uminoasa_iii = { used_for_dynasty_names = no }
-				b_uminoasa_iv = { used_for_dynasty_names = no }
+				capital = 112 # Hiyokuoka
+
+				c_hiyokuoka = {
+					color = { 88 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_hiyokuna_oka = { used_for_dynasty_names = no }
+					b_hiyokuna_oka_b = { used_for_dynasty_names = no }
+					b_hiyokuna_oka_c = { used_for_dynasty_names = no }
+					b_hiyokuoka_iv = { used_for_dynasty_names = no }
+					b_hiyokuoka_iv_b = { used_for_dynasty_names = no }
+					b_hiyokuoka_v = { used_for_dynasty_names = no }
+				}
+
+				c_takagi = {
+					color = { 88 124 32 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_takagi_iii = { used_for_dynasty_names = no }
+					b_takagi_iii_b = { used_for_dynasty_names = no }
+					b_takagi_iv = { used_for_dynasty_names = no }
+					b_takagi_iv_b = { used_for_dynasty_names = no }
+				}
+
+				c_sen_eisei = {
+					color = { 88 124 40 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_sen_eisei_b = { used_for_dynasty_names = no }
+					b_sen_eisei_c = { used_for_dynasty_names = no }
+					b_sen_eisei_d = { used_for_dynasty_names = no }
+					b_sen_eisei_e = { used_for_dynasty_names = no }
+					b_sen_eisei_f = { used_for_dynasty_names = no }
+					b_sen_eisei_g = { used_for_dynasty_names = no }
+				}
 			}
 
-			c_akasei = {
-				color = { 80 124 48 }
+			d_sumitomo = {
+				color = { 96 124 16 }
 				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
 
-				b_akasei_prime = { used_for_dynasty_names = no }
-				b_akasei_ii = { used_for_dynasty_names = no }
-				b_akasei_iii = { used_for_dynasty_names = no }
-				b_akasei_iv = { used_for_dynasty_names = no }
+				capital = 113 # Sumitomo
+
+				c_sumitomo = {
+					color = { 96 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_sumitomo_ii = { used_for_dynasty_names = no }
+					b_sumitomo_ii_b = { used_for_dynasty_names = no }
+					b_sumitomo_iii = { used_for_dynasty_names = no }
+					b_sumitomo_iii_b = { used_for_dynasty_names = no }
+				}
+
+				c_saber = {
+					color = { 96 124 32 }
+					used_for_dynasty_names = no
+
+					b_saber_iii = { used_for_dynasty_names = no }
+					b_saber_iii_b = { used_for_dynasty_names = no }
+					b_saber_defense_station = { used_for_dynasty_names = no }
+					b_saber_observatory = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_okyoto_nara = {
+				color = { 104 124 16 }
+				color2 = { 128 0 0 }
+
+				capital = 117 # Okyoto
+
+				c_okyoto = {
+					color = { 104 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_okyoto_ii = { used_for_dynasty_names = no }
+					b_okyoto_ii_b = { used_for_dynasty_names = no }
+					b_okyoto_iii = { used_for_dynasty_names = no }
+					b_okyoto_iii_b = { used_for_dynasty_names = no }
+				}
+
+				c_shiga = {
+					color = { 104 124 32 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_shiga = { used_for_dynasty_names = no }
+					b_shiga_orbital_alpha = { used_for_dynasty_names = no }
+					b_shiga_orbital_beta = { used_for_dynasty_names = no }
+					b_shiga_orbital_gamma = { used_for_dynasty_names = no }
+				}
+
+				c_sabashi = {
+					color = { 104 124 40 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_sabashi_iii = { used_for_dynasty_names = no }
+					b_sabashi_iii_b = { used_for_dynasty_names = no }
+					b_sabashi_iii_c = { used_for_dynasty_names = no }
+					b_sabashi_iv = { used_for_dynasty_names = no }
+				}
+
+				c_mie = {
+					color = { 104 124 48 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_mie_vi_b = { used_for_dynasty_names = no }
+					b_mie_vi_c = { used_for_dynasty_names = no }
+					b_mie_vi_d = { used_for_dynasty_names = no }
+					b_mie_vi_e = { used_for_dynasty_names = no }
+				}
+
+				c_nara = {
+					color = { 104 124 56 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_nara_iii = { used_for_dynasty_names = no }
+					b_nara_iii_b = { used_for_dynasty_names = no }
+					b_nara_iv = { used_for_dynasty_names = no }
+					b_nara_v = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_iogi = {
+				color = { 122 124 16 }
+				color2 = { 128 0 0 }
+
+				capital = 122 # Iogi
+
+				c_iogi = {
+					color = { 122 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_iogi_prime = { used_for_dynasty_names = no }
+					b_iogi_ii = { used_for_dynasty_names = no }
+					b_iogi_iii = { used_for_dynasty_names = no }
+					b_iogi_iv = { used_for_dynasty_names = no }
+				}
+
+				c_fuyuki = {
+					color = { 122 124 32 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_fuyuki_iii = { used_for_dynasty_names = no }
+					b_fuyuki_iii_b = { used_for_dynasty_names = no }
+					b_fuyuki_iii_c = { used_for_dynasty_names = no }
+					b_fuyuki_iv = { used_for_dynasty_names = no }
+				}
+
+				c_odayakanaumi = {
+					color = { 122 124 40 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_odayakanaumi_b = { used_for_dynasty_names = no }
+					b_odayakanaumi_c = { used_for_dynasty_names = no }
+					b_odayakanaumi_d = { used_for_dynasty_names = no }
+					b_odayakanaumi_e = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_taikun = {
+				color = { 130 124 16 }
+				color2 = { 128 0 0 }
+
+				capital = 129 # Taikun
+
+				c_taikun = {
+					color = { 130 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_taikun_ii = { used_for_dynasty_names = no }
+					b_taikun_ii_b = { used_for_dynasty_names = no }
+					b_taikun_ii_orbital = { used_for_dynasty_names = no }
+					b_taikun_iii = { used_for_dynasty_names = no }
+					b_taikun_iii_orbital = { used_for_dynasty_names = no }
+				}
+
+				c_moegara = {
+					color = { 130 124 24 }
+					color2 = { 128 0 0 }
+					used_for_dynasty_names = no
+
+					b_moegara_vi_b = { used_for_dynasty_names = no }
+					b_moegara_vi_c = { used_for_dynasty_names = no }
+					b_moegara_vi_d = { used_for_dynasty_names = no }
+					b_moegara_vi_e = { used_for_dynasty_names = no }
+				}
+
+				c_rasen = {
+					color = { 200 0 0 } # Yes, this is another Mobile Suit Gundam meta-joke
+					color2 = { 200 0 0 }
+					used_for_dynasty_names = no
+
+					b_rasen_prime = { used_for_dynasty_names = no }
+					b_rasen_ii = { used_for_dynasty_names = no }
+					b_rasen_iii = { used_for_dynasty_names = no }
+					b_rasen_iv = { used_for_dynasty_names = no }
+				}
 			}
 		}
-
-		d_hiyokuoka = {
-			color = { 88 124 16 }
-			color2 = { 128 0 0 }
-
-			capital = 112 # Hiyokuoka
-
-			c_hiyokuoka = {
-				color = { 88 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_hiyokuna_oka = { used_for_dynasty_names = no }
-				b_hiyokuna_oka_b = { used_for_dynasty_names = no }
-				b_hiyokuna_oka_c = { used_for_dynasty_names = no }
-				b_hiyokuoka_iv = { used_for_dynasty_names = no }
-				b_hiyokuoka_iv_b = { used_for_dynasty_names = no }
-				b_hiyokuoka_v = { used_for_dynasty_names = no }
-			}
-
-			c_takagi = {
-				color = { 88 124 32 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_takagi_iii = { used_for_dynasty_names = no }
-				b_takagi_iii_b = { used_for_dynasty_names = no }
-				b_takagi_iv = { used_for_dynasty_names = no }
-				b_takagi_iv_b = { used_for_dynasty_names = no }
-			}
-
-			c_sen_eisei = {
-				color = { 88 124 40 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_sen_eisei_b = { used_for_dynasty_names = no }
-				b_sen_eisei_c = { used_for_dynasty_names = no }
-				b_sen_eisei_d = { used_for_dynasty_names = no }
-				b_sen_eisei_e = { used_for_dynasty_names = no }
-				b_sen_eisei_f = { used_for_dynasty_names = no }
-				b_sen_eisei_g = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_sumitomo = {
-			color = { 96 124 16 }
-			color2 = { 128 0 0 }
-
-			capital = 113 # Sumitomo
-
-			c_sumitomo = {
-				color = { 96 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_sumitomo_ii = { used_for_dynasty_names = no }
-				b_sumitomo_ii_b = { used_for_dynasty_names = no }
-				b_sumitomo_iii = { used_for_dynasty_names = no }
-				b_sumitomo_iii_b = { used_for_dynasty_names = no }
-			}
-
-			c_saber = {
-				color = { 96 124 32 }
-				used_for_dynasty_names = no
-
-				b_saber_iii = { used_for_dynasty_names = no }
-				b_saber_iii_b = { used_for_dynasty_names = no }
-				b_saber_defense_station = { used_for_dynasty_names = no }
-				b_saber_observatory = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_okyoto_nara = {
-			color = { 104 124 16 }
-			color2 = { 128 0 0 }
-
-			capital = 117 # Okyoto
-
-			c_okyoto = {
-				color = { 104 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_okyoto_ii = { used_for_dynasty_names = no }
-				b_okyoto_ii_b = { used_for_dynasty_names = no }
-				b_okyoto_iii = { used_for_dynasty_names = no }
-				b_okyoto_iii_b = { used_for_dynasty_names = no }
-			}
-
-			c_shiga = {
-				color = { 104 124 32 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_shiga = { used_for_dynasty_names = no }
-				b_shiga_orbital_alpha = { used_for_dynasty_names = no }
-				b_shiga_orbital_beta = { used_for_dynasty_names = no }
-				b_shiga_orbital_gamma = { used_for_dynasty_names = no }
-			}
-
-			c_sabashi = {
-				color = { 104 124 40 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_sabashi_iii = { used_for_dynasty_names = no }
-				b_sabashi_iii_b = { used_for_dynasty_names = no }
-				b_sabashi_iii_c = { used_for_dynasty_names = no }
-				b_sabashi_iv = { used_for_dynasty_names = no }
-			}
-
-			c_mie = {
-				color = { 104 124 48 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_mie_vi_b = { used_for_dynasty_names = no }
-				b_mie_vi_c = { used_for_dynasty_names = no }
-				b_mie_vi_d = { used_for_dynasty_names = no }
-				b_mie_vi_e = { used_for_dynasty_names = no }
-			}
-
-			c_nara = {
-				color = { 104 124 56 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_nara_iii = { used_for_dynasty_names = no }
-				b_nara_iii_b = { used_for_dynasty_names = no }
-				b_nara_iv = { used_for_dynasty_names = no }
-				b_nara_v = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_iogi = {
-			color = { 122 124 16 }
-			color2 = { 128 0 0 }
-
-			capital = 122 # Iogi
-
-			c_iogi = {
-				color = { 122 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_iogi_prime = { used_for_dynasty_names = no }
-				b_iogi_ii = { used_for_dynasty_names = no }
-				b_iogi_iii = { used_for_dynasty_names = no }
-				b_iogi_iv = { used_for_dynasty_names = no }
-			}
-
-			c_fuyuki = {
-				color = { 122 124 32 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_fuyuki_iii = { used_for_dynasty_names = no }
-				b_fuyuki_iii_b = { used_for_dynasty_names = no }
-				b_fuyuki_iii_c = { used_for_dynasty_names = no }
-				b_fuyuki_iv = { used_for_dynasty_names = no }
-			}
-
-			c_odayakanaumi = {
-				color = { 122 124 40 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_odayakanaumi_b = { used_for_dynasty_names = no }
-				b_odayakanaumi_c = { used_for_dynasty_names = no }
-				b_odayakanaumi_d = { used_for_dynasty_names = no }
-				b_odayakanaumi_e = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_taikun = {
-			color = { 130 124 16 }
-			color2 = { 128 0 0 }
-
-			capital = 129 # Taikun
-
-			c_taikun = {
-				color = { 130 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_taikun_ii = { used_for_dynasty_names = no }
-				b_taikun_ii_b = { used_for_dynasty_names = no }
-				b_taikun_ii_orbital = { used_for_dynasty_names = no }
-				b_taikun_iii = { used_for_dynasty_names = no }
-				b_taikun_iii_orbital = { used_for_dynasty_names = no }
-			}
-
-			c_moegara = {
-				color = { 130 124 24 }
-				color2 = { 128 0 0 }
-				used_for_dynasty_names = no
-
-				b_moegara_vi_b = { used_for_dynasty_names = no }
-				b_moegara_vi_c = { used_for_dynasty_names = no }
-				b_moegara_vi_d = { used_for_dynasty_names = no }
-				b_moegara_vi_e = { used_for_dynasty_names = no }
-			}
-
-			c_rasen = {
-				color = { 200 0 0 } # Yes, this is another Mobile Suit Gundam meta-joke
-				color2 = { 200 0 0 }
-				used_for_dynasty_names = no
-
-				b_rasen_prime = { used_for_dynasty_names = no }
-				b_rasen_ii = { used_for_dynasty_names = no }
-				b_rasen_iii = { used_for_dynasty_names = no }
-				b_rasen_iv = { used_for_dynasty_names = no }
-			}
-		}
-	}
-	k_orion_reach = {
-		color = { 200 200 200 }
-		color2 = { 255 255 0 }
-
-		capital = 404 # Meissa
-
-		anglo_frontiersman = "Auraynstait"
-
-		d_orion_reach_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
+		k_orion_reach = {
 			color = { 200 200 200 }
-			color2 = { 0 0 0 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 404
-			#
-		}
-
-		d_meissa = {
-			color = { 216 200 200 }
 			color2 = { 255 255 0 }
+
 			capital = 404 # Meissa
 
-			c_meissa = {
-				color = { 216 216 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-				# Due to its role in the Crisis, has significance
-				# to both the Imperials and Separatists
-				holy_site = colonial_separatist
-				holy_site = terran_imperial
-				holy_site = space_pirate
-				b_meissa_ii = { used_for_dynasty_names = no }
-				b_meissa_ii_b = { used_for_dynasty_names = no }
-				b_meissa_ii_c = { used_for_dynasty_names = no }
-				b_meissa_iii = { used_for_dynasty_names = no }
-				b_meissa_iii_b = { used_for_dynasty_names = no }
+			d_orion_reach_fleet = {
+				landless = yes
+				can_be_claimed = no
+				can_be_usurped = no
+				color = { 200 200 200 }
+				color2 = { 0 0 0 }
+				short_name = yes
+				allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+				title = "FLEETADMIRAL"
+				title_female = "FLEETADMIRAL_female"
+				foa = "FLEETADMIRALFOA"
+				#foa_female = "FLEETADMIRALFOA_female"
+				capital = 404
+				#
 			}
 
-			c_cisne = {
-				color = { 216 216 216 }
+			d_meissa = {
+				color = { 216 200 200 }
 				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
+				capital = 404 # Meissa
 
-				b_cisne_iii = { used_for_dynasty_names = no }
-				b_cisne_iii_b = { used_for_dynasty_names = no }
-				b_cisne_citadel = { used_for_dynasty_names = no holy_site = terran_imperial_cult }
-				b_cisne_vi_b = { used_for_dynasty_names = no }
-				b_cisne_vi_c = { used_for_dynasty_names = no }
-				b_cisne_vi_d = { used_for_dynasty_names = no }
-				b_cisne_vi_e = { used_for_dynasty_names = no }
+				c_meissa = {
+					color = { 216 216 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+					# Due to its role in the Crisis, has significance
+					# to both the Imperials and Separatists
+					holy_site = colonial_separatist
+					holy_site = terran_imperial
+					holy_site = space_pirate
+					b_meissa_ii = { used_for_dynasty_names = no }
+					b_meissa_ii_b = { used_for_dynasty_names = no }
+					b_meissa_ii_c = { used_for_dynasty_names = no }
+					b_meissa_iii = { used_for_dynasty_names = no }
+					b_meissa_iii_b = { used_for_dynasty_names = no }
+				}
+
+				c_cisne = {
+					color = { 216 216 216 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_cisne_iii = { used_for_dynasty_names = no }
+					b_cisne_iii_b = { used_for_dynasty_names = no }
+					b_cisne_citadel = { used_for_dynasty_names = no holy_site = terran_imperial_cult }
+					b_cisne_vi_b = { used_for_dynasty_names = no }
+					b_cisne_vi_c = { used_for_dynasty_names = no }
+					b_cisne_vi_d = { used_for_dynasty_names = no }
+					b_cisne_vi_e = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_ortega_gaona = {
+				color = { 184 200 200 }
+				color2 = { 255 255 0 }
+				capital = 394 # Nueva Galicia
+
+				c_nueva_galicia = {
+					color = { 184 184 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_nueva_galicia = { used_for_dynasty_names = no }
+					b_nueva_galicia_station = { used_for_dynasty_names = no }
+					b_nueva_galicia_b = { used_for_dynasty_names = no }
+					b_nueva_galicia_c = { used_for_dynasty_names = no }
+				}
+				c_nueva_valencia = {
+					color = { 184 184 184 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_nueva_valencia = { used_for_dynasty_names = no }
+					b_nueva_valencia_b = { used_for_dynasty_names = no }
+					b_nueva_valencia_c = { used_for_dynasty_names = no }
+					b_nueva_valencia_d = { used_for_dynasty_names = no }
+				}
+				c_suerte = {
+					color = { 184 200 184 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_suerte_iii = { used_for_dynasty_names = no }
+					b_suerte_iii_b = { used_for_dynasty_names = no }
+					b_suerte_iv = { used_for_dynasty_names = no }
+					b_suerte_iv_b = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_santiago = {
+				color = { 232 200 200 }
+
+				color2 = { 255 255 0 }
+
+				capital = 397 # Santiago
+
+				c_santiago = {
+					color = { 232 232 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_santiago_ii = { used_for_dynasty_names = no }
+					b_santiago_ii_b = { used_for_dynasty_names = no }
+					b_santiago_iii = { used_for_dynasty_names = no }
+					b_santiago_iii_b = { used_for_dynasty_names = no }
+					b_santiago_iv = { used_for_dynasty_names = no }
+					b_santiago_iv_b = { used_for_dynasty_names = no }
+				}
+
+				c_barrayar = {
+					color = { 232 232 232 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_barrayar_iii = { used_for_dynasty_names = no }
+					b_barrayar_iii_b = { used_for_dynasty_names = no }
+					b_barrayar_iii_c = { used_for_dynasty_names = no }
+					b_barrayar_iii_orbital_alpha = { used_for_dynasty_names = no }
+					b_barrayar_iii_orbital_beta = { used_for_dynasty_names = no }
+				}
+
+				c_el_didal = {
+					color = { 232 200 232 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_el_didal = { used_for_dynasty_names = no }
+				}
+
+				c_komarr = {
+					color = { 232 216 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_komarr_prime = { used_for_dynasty_names = no }
+					b_komarr_prime_b = { used_for_dynasty_names = no }
+					b_komarr_prime_orbital_alpha = { used_for_dynasty_names = no }
+					b_komarr_prime_orbital_beta = { used_for_dynasty_names = no }
+				}
+
+				c_sergyar = {
+					color = { 232 216 216 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_sergyar_iii = { used_for_dynasty_names = no }
+					b_sergyar_iii_observatory = { used_for_dynasty_names = no }
+					b_sergyar_iv = { used_for_dynasty_names = no }
+					b_sergyar_iv_b = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_bellatrix = {
+				color = { 168 200 200 }
+				color2 = { 255 255 0 }
+
+				capital = 402 # Bellatrix
+
+				c_bellatrix = {
+					color = { 168 168 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_bellatrix_iii = { used_for_dynasty_names = no }
+					b_bellatrix_iii_b = { used_for_dynasty_names = no }
+					b_bellatrix_iii_c = { used_for_dynasty_names = no }
+					b_bellatrix_iv = { used_for_dynasty_names = no }
+				}
+
+				c_hailu = {
+					color = { 168 168 168 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_hailu_iv = { used_for_dynasty_names = no }
+					b_hailu_v = { used_for_dynasty_names = no }
+					b_hailu_v_b = { used_for_dynasty_names = no }
+					b_hailu_v_c = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_betelgeuse = {
+				color = { 248 200 200 }
+				color2 = { 255 255 0 }
+
+				capital = 407 # Betelgeuse
+
+				c_betelgeuse = {
+					color = { 248 248 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_betelgeuse_prime = { used_for_dynasty_names = no }
+					b_betelgeuse_ii = { used_for_dynasty_names = no }
+					b_betelgeuse_iii = { used_for_dynasty_names = no }
+					b_betelgeuse_iv = { used_for_dynasty_names = no }
+					b_betelgeuse_v = { used_for_dynasty_names = no }
+				}
+
+				c_reposo_del_alcazar = {
+					color = { 248 248 248 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_alcazar_security_station = { used_for_dynasty_names = no }
+					b_reposo_del_alcazar = { used_for_dynasty_names = no }
+					b_alcazar_waystation = { used_for_dynasty_names = no }
+				}
+
+				c_estrella_del_anciano = {
+					color = { 248 200 248 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+					b_estrella_del_anciano_prime = { used_for_dynasty_names = no }
+					b_estrella_del_anciano_ii = { used_for_dynasty_names = no }
+					b_estrella_del_anciano_observatory = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_paulet = {
+				color = { 152 200 200 }
+				color2 = { 255 255 0 }
+
+				capital = 412 # Paulet
+
+				c_paulet = {
+					color = { 152 152 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_paulet_iii = { used_for_dynasty_names = no }
+					b_paulet_iii_b = { used_for_dynasty_names = no }
+					b_paulet_observatory = { used_for_dynasty_names = no }
+					b_paulet_iv = { used_for_dynasty_names = no }
+					b_paulet_iv_b = { used_for_dynasty_names = no }
+				}
+				c_ramon_y_cajal = {
+					color = { 152 152 152 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_ramon_y_cajal_iii = { used_for_dynasty_names = no }
+					b_ramon_y_cajal_iii_b = { used_for_dynasty_names = no }
+					b_ramon_y_cajal_iv = { used_for_dynasty_names = no }
+					b_ramon_y_cajal_iv_b = { used_for_dynasty_names = no }
+				}
+				c_warshawski = {
+					color = { 152 200 152 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_warshawski_iii = { used_for_dynasty_names = no }
+					b_warshawski_iii_b = { used_for_dynasty_names = no }
+					b_warshawski_iii_c = { used_for_dynasty_names = no }
+					b_warshawski_iii_d = { used_for_dynasty_names = no }
+				}
+				c_seldon = {
+					color = { 200 152 152 }
+					color2 = { 255 255 0 }
+
+					b_termino = { used_for_dynasty_names = no }
+					b_seldon_observatory = { used_for_dynasty_names = no }
+					b_seldon_iv = { used_for_dynasty_names = no }
+					b_seldon_v = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_rigel = {
+				color = { 255 200 200 }
+				color2 = { 255 255 0 }
+
+				capital = 418 # Rigel
+
+				c_rigel = {
+					color = { 255 255 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_rigel_iii = { used_for_dynasty_names = no }
+					b_rigel_iii_b = { used_for_dynasty_names = no }
+					b_rigel_iv = { used_for_dynasty_names = no }
+					b_rigel_iv_b = { used_for_dynasty_names = no }
+					b_rigel_v = { used_for_dynasty_names = no }
+				}
+				c_mintaka = {
+					color = { 255 255 255 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_mintaka_prime = { used_for_dynasty_names = no }
+					b_mintaka_ii = { used_for_dynasty_names = no }
+					b_mintaka_iii = { used_for_dynasty_names = no }
+					b_mintaka_iv = { used_for_dynasty_names = no }
+				}
+				c_genciana = {
+					color = { 255 200 255 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_genciana_vii_b = { used_for_dynasty_names = no }
+					b_genciana_vii_c = { used_for_dynasty_names = no }
+					b_genciana_vii_d = { used_for_dynasty_names = no }
+					b_genciana_vii_e = { used_for_dynasty_names = no }
+				}
+				c_saiph = {
+					color = { 200 255 255 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_saiph_prime = { used_for_dynasty_names = no }
+					b_saiph_prime_b = { used_for_dynasty_names = no }
+					b_saiph_waystation = { used_for_dynasty_names = no }
+					b_saiph_iii = { used_for_dynasty_names = no }
+				}
+				c_dorter = {
+					color = { 200 255 200 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_dorter_ii_b = { used_for_dynasty_names = no }
+					b_dorter_ii_c = { used_for_dynasty_names = no }
+					b_dorter_ii_d = { used_for_dynasty_names = no }
+					b_dorter_observatory = { used_for_dynasty_names = no }
+				}
+				c_anilam = {
+					color = { 200 200 255 }
+					color2 = { 255 255 0 }
+					used_for_dynasty_names = no
+
+					b_anilam_vi_b = { used_for_dynasty_names = no }
+					b_anilam_vi_c = { used_for_dynasty_names = no }
+					b_anilam_vi_d = { used_for_dynasty_names = no }
+					b_anilam_vi_e = { used_for_dynasty_names = no }
+				}
 			}
 		}
-
-		d_ortega_gaona = {
-			color = { 184 200 200 }
-			color2 = { 255 255 0 }
-			capital = 394 # Nueva Galicia
-
-			c_nueva_galicia = {
-				color = { 184 184 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_nueva_galicia = { used_for_dynasty_names = no }
-				b_nueva_galicia_station = { used_for_dynasty_names = no }
-				b_nueva_galicia_b = { used_for_dynasty_names = no }
-				b_nueva_galicia_c = { used_for_dynasty_names = no }
-			}
-			c_nueva_valencia = {
-				color = { 184 184 184 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_nueva_valencia = { used_for_dynasty_names = no }
-				b_nueva_valencia_b = { used_for_dynasty_names = no }
-				b_nueva_valencia_c = { used_for_dynasty_names = no }
-				b_nueva_valencia_d = { used_for_dynasty_names = no }
-			}
-			c_suerte = {
-				color = { 184 200 184 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_suerte_iii = { used_for_dynasty_names = no }
-				b_suerte_iii_b = { used_for_dynasty_names = no }
-				b_suerte_iv = { used_for_dynasty_names = no }
-				b_suerte_iv_b = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_santiago = {
-			color = { 232 200 200 }
-
-			color2 = { 255 255 0 }
-
-			capital = 397 # Santiago
-
-			c_santiago = {
-				color = { 232 232 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_santiago_ii = { used_for_dynasty_names = no }
-				b_santiago_ii_b = { used_for_dynasty_names = no }
-				b_santiago_iii = { used_for_dynasty_names = no }
-				b_santiago_iii_b = { used_for_dynasty_names = no }
-				b_santiago_iv = { used_for_dynasty_names = no }
-				b_santiago_iv_b = { used_for_dynasty_names = no }
-			}
-
-			c_barrayar = {
-				color = { 232 232 232 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_barrayar_iii = { used_for_dynasty_names = no }
-				b_barrayar_iii_b = { used_for_dynasty_names = no }
-				b_barrayar_iii_c = { used_for_dynasty_names = no }
-				b_barrayar_iii_orbital_alpha = { used_for_dynasty_names = no }
-				b_barrayar_iii_orbital_beta = { used_for_dynasty_names = no }
-			}
-
-			c_el_didal = {
-				color = { 232 200 232 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_el_didal = { used_for_dynasty_names = no }
-			}
-
-			c_komarr = {
-				color = { 232 216 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_komarr_prime = { used_for_dynasty_names = no }
-				b_komarr_prime_b = { used_for_dynasty_names = no }
-				b_komarr_prime_orbital_alpha = { used_for_dynasty_names = no }
-				b_komarr_prime_orbital_beta = { used_for_dynasty_names = no }
-			}
-
-			c_sergyar = {
-				color = { 232 216 216 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_sergyar_iii = { used_for_dynasty_names = no }
-				b_sergyar_iii_observatory = { used_for_dynasty_names = no }
-				b_sergyar_iv = { used_for_dynasty_names = no }
-				b_sergyar_iv_b = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_bellatrix = {
-			color = { 168 200 200 }
-			color2 = { 255 255 0 }
-
-			capital = 402 # Bellatrix
-
-			c_bellatrix = {
-				color = { 168 168 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_bellatrix_iii = { used_for_dynasty_names = no }
-				b_bellatrix_iii_b = { used_for_dynasty_names = no }
-				b_bellatrix_iii_c = { used_for_dynasty_names = no }
-				b_bellatrix_iv = { used_for_dynasty_names = no }
-			}
-
-			c_hailu = {
-				color = { 168 168 168 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_hailu_iv = { used_for_dynasty_names = no }
-				b_hailu_v = { used_for_dynasty_names = no }
-				b_hailu_v_b = { used_for_dynasty_names = no }
-				b_hailu_v_c = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_betelgeuse = {
-			color = { 248 200 200 }
-			color2 = { 255 255 0 }
-
-			capital = 407 # Betelgeuse
-
-			c_betelgeuse = {
-				color = { 248 248 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_betelgeuse_prime = { used_for_dynasty_names = no }
-				b_betelgeuse_ii = { used_for_dynasty_names = no }
-				b_betelgeuse_iii = { used_for_dynasty_names = no }
-				b_betelgeuse_iv = { used_for_dynasty_names = no }
-				b_betelgeuse_v = { used_for_dynasty_names = no }
-			}
-
-			c_reposo_del_alcazar = {
-				color = { 248 248 248 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_alcazar_security_station = { used_for_dynasty_names = no }
-				b_reposo_del_alcazar = { used_for_dynasty_names = no }
-				b_alcazar_waystation = { used_for_dynasty_names = no }
-			}
-
-			c_estrella_del_anciano = {
-				color = { 248 200 248 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-				b_estrella_del_anciano_prime = { used_for_dynasty_names = no }
-				b_estrella_del_anciano_ii = { used_for_dynasty_names = no }
-				b_estrella_del_anciano_observatory = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_paulet = {
-			color = { 152 200 200 }
-			color2 = { 255 255 0 }
-
-			capital = 412 # Paulet
-
-			c_paulet = {
-				color = { 152 152 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_paulet_iii = { used_for_dynasty_names = no }
-				b_paulet_iii_b = { used_for_dynasty_names = no }
-				b_paulet_observatory = { used_for_dynasty_names = no }
-				b_paulet_iv = { used_for_dynasty_names = no }
-				b_paulet_iv_b = { used_for_dynasty_names = no }
-			}
-			c_ramon_y_cajal = {
-				color = { 152 152 152 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_ramon_y_cajal_iii = { used_for_dynasty_names = no }
-				b_ramon_y_cajal_iii_b = { used_for_dynasty_names = no }
-				b_ramon_y_cajal_iv = { used_for_dynasty_names = no }
-				b_ramon_y_cajal_iv_b = { used_for_dynasty_names = no }
-			}
-			c_warshawski = {
-				color = { 152 200 152 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_warshawski_iii = { used_for_dynasty_names = no }
-				b_warshawski_iii_b = { used_for_dynasty_names = no }
-				b_warshawski_iii_c = { used_for_dynasty_names = no }
-				b_warshawski_iii_d = { used_for_dynasty_names = no }
-			}
-			c_seldon = {
-				color = { 200 152 152 }
-				color2 = { 255 255 0 }
-
-				b_termino = { used_for_dynasty_names = no }
-				b_seldon_observatory = { used_for_dynasty_names = no }
-				b_seldon_iv = { used_for_dynasty_names = no }
-				b_seldon_v = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_rigel = {
-			color = { 255 200 200 }
-			color2 = { 255 255 0 }
-
-			capital = 418 # Rigel
-
-			c_rigel = {
-				color = { 255 255 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_rigel_iii = { used_for_dynasty_names = no }
-				b_rigel_iii_b = { used_for_dynasty_names = no }
-				b_rigel_iv = { used_for_dynasty_names = no }
-				b_rigel_iv_b = { used_for_dynasty_names = no }
-				b_rigel_v = { used_for_dynasty_names = no }
-			}
-			c_mintaka = {
-				color = { 255 255 255 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_mintaka_prime = { used_for_dynasty_names = no }
-				b_mintaka_ii = { used_for_dynasty_names = no }
-				b_mintaka_iii = { used_for_dynasty_names = no }
-				b_mintaka_iv = { used_for_dynasty_names = no }
-			}
-			c_genciana = {
-				color = { 255 200 255 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_genciana_vii_b = { used_for_dynasty_names = no }
-				b_genciana_vii_c = { used_for_dynasty_names = no }
-				b_genciana_vii_d = { used_for_dynasty_names = no }
-				b_genciana_vii_e = { used_for_dynasty_names = no }
-			}
-			c_saiph = {
-				color = { 200 255 255 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_saiph_prime = { used_for_dynasty_names = no }
-				b_saiph_prime_b = { used_for_dynasty_names = no }
-				b_saiph_waystation = { used_for_dynasty_names = no }
-				b_saiph_iii = { used_for_dynasty_names = no }
-			}
-			c_dorter = {
-				color = { 200 255 200 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_dorter_ii_b = { used_for_dynasty_names = no }
-				b_dorter_ii_c = { used_for_dynasty_names = no }
-				b_dorter_ii_d = { used_for_dynasty_names = no }
-				b_dorter_observatory = { used_for_dynasty_names = no }
-			}
-			c_anilam = {
-				color = { 200 200 255 }
-				color2 = { 255 255 0 }
-				used_for_dynasty_names = no
-
-				b_anilam_vi_b = { used_for_dynasty_names = no }
-				b_anilam_vi_c = { used_for_dynasty_names = no }
-				b_anilam_vi_d = { used_for_dynasty_names = no }
-				b_anilam_vi_e = { used_for_dynasty_names = no }
-			}
-		}
-	}
-	k_strugatsky = {
-		color = { 100 0 0 }
-		color2 = { 100 100 0 }
-
-		culture = russo_strugatskite
-
-		capital = 185 # Novyy Sol
-
-		d_strugatsky_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
-			color = { 50 0 0 }
-			color2 = { 0 0 0 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 185
-			#
-		}
-
-		d_novyy_sol = {
-			color = { 100 16 0 }
+		k_strugatsky = {
+			color = { 100 0 0 }
 			color2 = { 100 100 0 }
+
+			culture = russo_strugatskite
 
 			capital = 185 # Novyy Sol
 
-			c_novyy_sol = {
-				color = { 100 16 16 }
-				color2 = { 100 100 0 }
-				holy_site = neo_socialist
-				holy_site = bio_directionist
-				holy_site = solar_cultist
-				holy_site = solarian
-
-				b_novyy_sol_i = { used_for_dynasty_names = no }
-				b_novyy_sol_ii = { used_for_dynasty_names = no holy_site = terran_imperial_cult }
-				b_novyy_sol_iii = { used_for_dynasty_names = no }
-				b_novyy_sol_iv = { used_for_dynasty_names = no }
-				b_novyy_sol_v = { used_for_dynasty_names = no }
-				b_novyy_sol_vi = { used_for_dynasty_names = no }
-				b_novyy_sol_vii = { used_for_dynasty_names = no }
+			d_strugatsky_fleet = {
+				landless = yes
+				can_be_claimed = no
+				can_be_usurped = no
+				color = { 50 0 0 }
+				color2 = { 0 0 0 }
+				short_name = yes
+				allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+				title = "FLEETADMIRAL"
+				title_female = "FLEETADMIRAL_female"
+				foa = "FLEETADMIRALFOA"
+				#foa_female = "FLEETADMIRALFOA_female"
+				capital = 185
+				#
 			}
-			c_vladislava = {
-				color = { 100 16 32 }
+
+			d_novyy_sol = {
+				color = { 100 16 0 }
 				color2 = { 100 100 0 }
 
-				b_vladislava_i = { used_for_dynasty_names = no }
-				b_vladislava_ii = { used_for_dynasty_names = no }
-				b_vladislava_iii = { used_for_dynasty_names = no }
-				b_vladislava_iv = { used_for_dynasty_names = no }
+				capital = 185 # Novyy Sol
+
+				c_novyy_sol = {
+					color = { 100 16 16 }
+					color2 = { 100 100 0 }
+					holy_site = neo_socialist
+					holy_site = bio_directionist
+					holy_site = solar_cultist
+					holy_site = solarian
+
+					b_novyy_sol_i = { used_for_dynasty_names = no }
+					b_novyy_sol_ii = { used_for_dynasty_names = no holy_site = terran_imperial_cult }
+					b_novyy_sol_iii = { used_for_dynasty_names = no }
+					b_novyy_sol_iv = { used_for_dynasty_names = no }
+					b_novyy_sol_v = { used_for_dynasty_names = no }
+					b_novyy_sol_vi = { used_for_dynasty_names = no }
+					b_novyy_sol_vii = { used_for_dynasty_names = no }
+				}
+				c_vladislava = {
+					color = { 100 16 32 }
+					color2 = { 100 100 0 }
+
+					b_vladislava_i = { used_for_dynasty_names = no }
+					b_vladislava_ii = { used_for_dynasty_names = no }
+					b_vladislava_iii = { used_for_dynasty_names = no }
+					b_vladislava_iv = { used_for_dynasty_names = no }
+				}
+				c_nadezhda = {
+					color = { 100 16 48 }
+					color2 = { 100 100 0 }
+
+					b_nadezhda_i = { used_for_dynasty_names = no }
+					b_nadezhda_ii = { used_for_dynasty_names = no }
+					b_nadezhda_iii = { used_for_dynasty_names = no }
+					b_nadezhda_iv = { used_for_dynasty_names = no }
+				}
 			}
-			c_nadezhda = {
-				color = { 100 16 48 }
+
+			d_raduga = {
+				color = { 100 32 0 }
 				color2 = { 100 100 0 }
 
-				b_nadezhda_i = { used_for_dynasty_names = no }
-				b_nadezhda_ii = { used_for_dynasty_names = no }
-				b_nadezhda_iii = { used_for_dynasty_names = no }
-				b_nadezhda_iv = { used_for_dynasty_names = no }
+				capital = 190 # Raduga
+
+				c_raduga = {
+					color = { 100 32 16 }
+					color2 = { 100 100 0 }
+
+					b_raduga_i = { used_for_dynasty_names = no }
+					b_raduga_ii = { used_for_dynasty_names = no }
+					b_raduga_iii = { used_for_dynasty_names = no }
+					b_raduga_iv = { used_for_dynasty_names = no }
+					b_raduga_v = { used_for_dynasty_names = no }
+					b_raduga_vi = { used_for_dynasty_names = no }
+				}
+				c_granat = {
+					color = { 100 32 32 }
+					color2 = { 100 100 0 }
+
+					b_granat_i = { used_for_dynasty_names = no }
+					b_granat_ii = { used_for_dynasty_names = no }
+					b_granat_iii = { used_for_dynasty_names = no }
+					b_granat_iv = { used_for_dynasty_names = no }
+				}
+				c_luch = {
+					color = { 100 32 48 }
+					color2 = { 100 100 0 }
+
+					b_luch_i = { used_for_dynasty_names = no }
+					b_luch_ii = { used_for_dynasty_names = no }
+					b_luch_iii = { used_for_dynasty_names = no }
+					b_luch_iv = { used_for_dynasty_names = no }
+				}
+				c_kristal = {
+					color = { 100 32 64 }
+					color2 = { 100 100 0 }
+
+					b_kristal_i = { used_for_dynasty_names = no }
+					b_kristal_ii = { used_for_dynasty_names = no }
+					b_kristal_iii = { used_for_dynasty_names = no }
+					b_kristal_iv = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_arkanar = {
+				color = { 100 48 0 }
+				color2 = { 100 100 0 }
+
+				capital = 177 # Arkanar
+
+				c_arkanar = {
+					color = { 100 48 16 }
+					color2 = { 100 100 0 }
+
+					b_arkanar_i = { used_for_dynasty_names = no }
+					b_arkanar_ii = { used_for_dynasty_names = no }
+					b_arkanar_iii = { used_for_dynasty_names = no }
+					b_arkanar_iv = { used_for_dynasty_names = no }
+					b_arkanar_v = { used_for_dynasty_names = no }
+					b_arkanar_vi = { used_for_dynasty_names = no }
+				}
+				c_pandora = {
+					color = { 100 48 32 }
+					color2 = { 100 100 0 }
+
+					b_pandora_i = { used_for_dynasty_names = no }
+					b_pandora_ii = { used_for_dynasty_names = no }
+					b_pandora_iii = { used_for_dynasty_names = no }
+					b_pandora_iv = { used_for_dynasty_names = no }
+				}
+				c_ruzhena = {
+					color = { 100 48 48 }
+					color2 = { 100 100 0 }
+
+					b_ruzhena_i = { used_for_dynasty_names = no }
+					b_ruzhena_ii = { used_for_dynasty_names = no }
+					b_ruzhena_iii = { used_for_dynasty_names = no }
+					b_ruzhena_iv = { used_for_dynasty_names = no }
+				}
+				c_yaila = {
+					color = { 100 48 64 }
+					color2 = { 100 100 0 }
+
+					b_yaila_i = { used_for_dynasty_names = no }
+					b_yaila_ii = { used_for_dynasty_names = no }
+					b_yaila_iii = { used_for_dynasty_names = no }
+					b_yaila_iv = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_kovcheg = {
+				color = { 100 64 0 }
+				color2 = { 100 100 0 }
+
+				capital = 183 #Kovcheg
+
+				c_kovcheg = {
+					color = { 100 64 16 }
+					color2 = { 100 100 0 }
+
+					b_kovcheg_i = { used_for_dynasty_names = no }
+					b_kovcheg_ii = { used_for_dynasty_names = no }
+					b_kovcheg_iii = { used_for_dynasty_names = no }
+					b_kovcheg_iv = { used_for_dynasty_names = no }
+					b_kovcheg_v = { used_for_dynasty_names = no }
+				}
+				c_migdal = {
+					color = { 100 64 32 }
+					color2 = { 100 100 0 }
+
+					b_migdal_i = { used_for_dynasty_names = no }
+					b_migdal_ii = { used_for_dynasty_names = no }
+					b_migdal_iii = { used_for_dynasty_names = no }
+					b_migdal_iv = { used_for_dynasty_names = no }
+				}
+				c_katerin_vselennaya = {
+					color = { 100 64 48 }
+					color2 = { 100 100 0 }
+
+					b_katerin_vselennaya_i = { used_for_dynasty_names = no }
+					b_katerin_vselennaya_ii = { used_for_dynasty_names = no }
+					b_katerin_vselennaya_iii = { used_for_dynasty_names = no }
+					b_katerin_vselennaya_iv = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_saula = {
+				color = { 100 80 0 }
+				color2 = { 100 100 0 }
+
+				capital = 192 #Saula
+
+				c_saula = {
+					color = { 100 80 16 }
+					color2 = { 100 100 0 }
+
+					b_saula_i = { used_for_dynasty_names = no }
+					b_saula_ii = { used_for_dynasty_names = no }
+					b_saula_iii = { used_for_dynasty_names = no }
+					b_saula_iv = { used_for_dynasty_names = no }
+					b_saula_v = { used_for_dynasty_names = no }
+				}
+				c_solonichenko_pas = {
+					color = { 100 80 32 }
+					color2 = { 100 100 0 }
+
+					b_solonichenko_pas_i = { used_for_dynasty_names = no }
+					b_solonichenko_pas_ii = { used_for_dynasty_names = no }
+					b_solonichenko_pas_iii = { used_for_dynasty_names = no }
+					b_solonichenko_pas_iv = { used_for_dynasty_names = no }
+				}
 			}
 		}
-
-		d_raduga = {
-			color = { 100 32 0 }
-			color2 = { 100 100 0 }
-
-			capital = 190 # Raduga
-
-			c_raduga = {
-				color = { 100 32 16 }
-				color2 = { 100 100 0 }
-
-				b_raduga_i = { used_for_dynasty_names = no }
-				b_raduga_ii = { used_for_dynasty_names = no }
-				b_raduga_iii = { used_for_dynasty_names = no }
-				b_raduga_iv = { used_for_dynasty_names = no }
-				b_raduga_v = { used_for_dynasty_names = no }
-				b_raduga_vi = { used_for_dynasty_names = no }
-			}
-			c_granat = {
-				color = { 100 32 32 }
-				color2 = { 100 100 0 }
-
-				b_granat_i = { used_for_dynasty_names = no }
-				b_granat_ii = { used_for_dynasty_names = no }
-				b_granat_iii = { used_for_dynasty_names = no }
-				b_granat_iv = { used_for_dynasty_names = no }
-			}
-			c_luch = {
-				color = { 100 32 48 }
-				color2 = { 100 100 0 }
-
-				b_luch_i = { used_for_dynasty_names = no }
-				b_luch_ii = { used_for_dynasty_names = no }
-				b_luch_iii = { used_for_dynasty_names = no }
-				b_luch_iv = { used_for_dynasty_names = no }
-			}
-			c_kristal = {
-				color = { 100 32 64 }
-				color2 = { 100 100 0 }
-
-				b_kristal_i = { used_for_dynasty_names = no }
-				b_kristal_ii = { used_for_dynasty_names = no }
-				b_kristal_iii = { used_for_dynasty_names = no }
-				b_kristal_iv = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_arkanar = {
-			color = { 100 48 0 }
-			color2 = { 100 100 0 }
-
-			capital = 177 # Arkanar
-
-			c_arkanar = {
-				color = { 100 48 16 }
-				color2 = { 100 100 0 }
-
-				b_arkanar_i = { used_for_dynasty_names = no }
-				b_arkanar_ii = { used_for_dynasty_names = no }
-				b_arkanar_iii = { used_for_dynasty_names = no }
-				b_arkanar_iv = { used_for_dynasty_names = no }
-				b_arkanar_v = { used_for_dynasty_names = no }
-				b_arkanar_vi = { used_for_dynasty_names = no }
-			}
-			c_pandora = {
-				color = { 100 48 32 }
-				color2 = { 100 100 0 }
-
-				b_pandora_i = { used_for_dynasty_names = no }
-				b_pandora_ii = { used_for_dynasty_names = no }
-				b_pandora_iii = { used_for_dynasty_names = no }
-				b_pandora_iv = { used_for_dynasty_names = no }
-			}
-			c_ruzhena = {
-				color = { 100 48 48 }
-				color2 = { 100 100 0 }
-
-				b_ruzhena_i = { used_for_dynasty_names = no }
-				b_ruzhena_ii = { used_for_dynasty_names = no }
-				b_ruzhena_iii = { used_for_dynasty_names = no }
-				b_ruzhena_iv = { used_for_dynasty_names = no }
-			}
-			c_yaila = {
-				color = { 100 48 64 }
-				color2 = { 100 100 0 }
-
-				b_yaila_i = { used_for_dynasty_names = no }
-				b_yaila_ii = { used_for_dynasty_names = no }
-				b_yaila_iii = { used_for_dynasty_names = no }
-				b_yaila_iv = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_kovcheg = {
-			color = { 100 64 0 }
-			color2 = { 100 100 0 }
-
-			capital = 183 #Kovcheg
-
-			c_kovcheg = {
-				color = { 100 64 16 }
-				color2 = { 100 100 0 }
-
-				b_kovcheg_i = { used_for_dynasty_names = no }
-				b_kovcheg_ii = { used_for_dynasty_names = no }
-				b_kovcheg_iii = { used_for_dynasty_names = no }
-				b_kovcheg_iv = { used_for_dynasty_names = no }
-				b_kovcheg_v = { used_for_dynasty_names = no }
-			}
-			c_migdal = {
-				color = { 100 64 32 }
-				color2 = { 100 100 0 }
-
-				b_migdal_i = { used_for_dynasty_names = no }
-				b_migdal_ii = { used_for_dynasty_names = no }
-				b_migdal_iii = { used_for_dynasty_names = no }
-				b_migdal_iv = { used_for_dynasty_names = no }
-			}
-			c_katerin_vselennaya = {
-				color = { 100 64 48 }
-				color2 = { 100 100 0 }
-
-				b_katerin_vselennaya_i = { used_for_dynasty_names = no }
-				b_katerin_vselennaya_ii = { used_for_dynasty_names = no }
-				b_katerin_vselennaya_iii = { used_for_dynasty_names = no }
-				b_katerin_vselennaya_iv = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_saula = {
-			color = { 100 80 0 }
-			color2 = { 100 100 0 }
-
-			capital = 192 #Saula
-
-			c_saula = {
-				color = { 100 80 16 }
-				color2 = { 100 100 0 }
-
-				b_saula_i = { used_for_dynasty_names = no }
-				b_saula_ii = { used_for_dynasty_names = no }
-				b_saula_iii = { used_for_dynasty_names = no }
-				b_saula_iv = { used_for_dynasty_names = no }
-				b_saula_v = { used_for_dynasty_names = no }
-			}
-			c_solonichenko_pas = {
-				color = { 100 80 32 }
-				color2 = { 100 100 0 }
-
-				b_solonichenko_pas_i = { used_for_dynasty_names = no }
-				b_solonichenko_pas_ii = { used_for_dynasty_names = no }
-				b_solonichenko_pas_iii = { used_for_dynasty_names = no }
-				b_solonichenko_pas_iv = { used_for_dynasty_names = no }
-			}
-		}
-	}
-	k_tarka = {
-		color = { 100 100 100 }
-		color2 = { 255 255 255 }
-
-		religion = cyberneticist
-		culture = indo_tarkan
-
-		capital = 10 # Tarka
-
-		anglo_frontiersman = "Tarkastait"
-
-		d_tarka_fleet = {
-			landless = yes
-			can_be_claimed = no
-			can_be_usurped = no
-			color = { 50 50 50 }
+		k_tarka = {
+			color = { 100 100 100 }
 			color2 = { 255 255 255 }
-			short_name = yes
-			allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
-			title = "FLEETADMIRAL"
-			title_female = "FLEETADMIRAL_female"
-			foa = "FLEETADMIRALFOA"
-			#foa_female = "FLEETADMIRALFOA_female"
-			capital = 10
-			#
-		}
 
-		d_tarka = {
-			color = { 116 100 100 }
-			color2 = { 255 255 255 }
+			religion = cyberneticist
+			culture = indo_tarkan
 
 			capital = 10 # Tarka
 
-			c_tarka = {
-				color = { 116 100 116 }
+			d_tarka_fleet = {
+				landless = yes
+				can_be_claimed = no
+				can_be_usurped = no
+				color = { 50 50 50 }
 				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-				holy_site = cyberneticist
-				holy_site = hiver
-				holy_site = machine_cultist
-
-				b_tarka_iii = { used_for_dynasty_names = no }
-				b_tarka_iii_b = { used_for_dynasty_names = no }
-				b_tarka_iv = { used_for_dynasty_names = no }
-				b_tarka_iv_b = { used_for_dynasty_names = no }
-				b_tarka_iv_c = { used_for_dynasty_names = no }
-				b_tarka_vii_b = { used_for_dynasty_names = no }
+				short_name = yes
+				allow = { may_create_duchy_trigger = yes is_military_trigger = yes }
+				title = "FLEETADMIRAL"
+				title_female = "FLEETADMIRAL_female"
+				foa = "FLEETADMIRALFOA"
+				#foa_female = "FLEETADMIRALFOA_female"
+				capital = 10
+				#
 			}
 
-			c_marrakesh_al_jadiida = {
-				color = { 116 100 132 }
+			d_tarka = {
+				color = { 116 100 100 }
 				color2 = { 255 255 255 }
 
-				used_for_dynasty_names = no
+				capital = 10 # Tarka
 
-				b_marrakesh_al_jadiida_iv = { used_for_dynasty_names = no }
-				b_marrakesh_al_jadiida_iv_b = { used_for_dynasty_names = no }
-				b_marrakesh_al_jadiida_iv_c = { used_for_dynasty_names = no }
-				b_marrakesh_al_jadiida_v = { used_for_dynasty_names = no }
+				c_tarka = {
+					color = { 116 100 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+					holy_site = cyberneticist
+					holy_site = hiver
+					holy_site = machine_cultist
+
+					b_tarka_iii = { used_for_dynasty_names = no }
+					b_tarka_iii_b = { used_for_dynasty_names = no }
+					b_tarka_iv = { used_for_dynasty_names = no }
+					b_tarka_iv_b = { used_for_dynasty_names = no }
+					b_tarka_iv_c = { used_for_dynasty_names = no }
+					b_tarka_vii_b = { used_for_dynasty_names = no }
+				}
+
+				c_marrakesh_al_jadiida = {
+					color = { 116 100 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_marrakesh_al_jadiida_iv = { used_for_dynasty_names = no }
+					b_marrakesh_al_jadiida_iv_b = { used_for_dynasty_names = no }
+					b_marrakesh_al_jadiida_iv_c = { used_for_dynasty_names = no }
+					b_marrakesh_al_jadiida_v = { used_for_dynasty_names = no }
+				}
+
+				c_al_dabaran = {
+					color = { 116 100 148 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_al_dabaran_prime = { used_for_dynasty_names = no }
+					b_al_dabaran_ii = { used_for_dynasty_names = no }
+					b_al_dabaran_iii = { used_for_dynasty_names = no }
+					b_al_dabaran_iv = { used_for_dynasty_names = no }
+				}
 			}
 
-			c_al_dabaran = {
-				color = { 116 100 148 }
+			d_talon = {
+				color = { 100 116 100 }
 				color2 = { 255 255 255 }
 
-				used_for_dynasty_names = no
+				capital = 3 # Talon
 
-				b_al_dabaran_prime = { used_for_dynasty_names = no }
-				b_al_dabaran_ii = { used_for_dynasty_names = no }
-				b_al_dabaran_iii = { used_for_dynasty_names = no }
-				b_al_dabaran_iv = { used_for_dynasty_names = no }
+				c_talon = {
+					color = { 100 116 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+					holy_site = space_pirate
+
+					b_talon_ii = { used_for_dynasty_names = no }
+					b_talon_ii_b = { used_for_dynasty_names = no }
+					b_talon_iii = { used_for_dynasty_names = no }
+					b_talon_iii_b = { used_for_dynasty_names = no }
+					b_talon_iv = { used_for_dynasty_names = no }
+				}
+
+				c_ksora = {
+					color = { 100 116 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_ksora_vii_b = { used_for_dynasty_names = no }
+					b_ksora_vii_c = { used_for_dynasty_names = no }
+					b_ksora_vii_d = { used_for_dynasty_names = no }
+					b_ksora_vii_e = { used_for_dynasty_names = no }
+				}
+
+				c_oran = {
+					color = { 100 116 148 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_oran_iii = { used_for_dynasty_names = no }
+					b_oran_iii_b = { used_for_dynasty_names = no }
+					b_oran_waystation = { used_for_dynasty_names = no }
+					b_oran_iv = { used_for_dynasty_names = no }
+				}
+
+				c_fezzan = {
+					color = { 100 116 164 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_fezzan_iv = { used_for_dynasty_names = no }
+					b_fezzan_iv_b = { used_for_dynasty_names = no }
+					b_fezzan_v = { used_for_dynasty_names = no }
+					b_fezzan_v_b = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_yeni_istanbul = {
+				color = { 116 116 100 }
+				color2 = { 255 255 255 }
+
+				capital = 9 # Yeni Istanbul
+
+				c_yeni_istanbul = {
+					color = { 116 116 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+					holy_site = cyberneticist
+					holy_site = neo_feudal
+
+					b_yeni_istanbul_viii_b = { used_for_dynasty_names = no }
+					b_yeni_istanbul_viii_c = { used_for_dynasty_names = no }
+					b_yeni_istanbul_viii_d = { used_for_dynasty_names = no }
+					b_yeni_istanbul_viii_e = { used_for_dynasty_names = no }
+					b_yeni_istanbul_viii_f = { used_for_dynasty_names = no }
+					b_yeni_istanbul_viii_g = { used_for_dynasty_names = no }
+				}
+
+				c_madaar_shaadhdh = {
+					color = { 116 116 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_madaar_shaadhdh_prime = { used_for_dynasty_names = no }
+					b_madaar_shaadhdh_ii = { used_for_dynasty_names = no }
+					b_madaar_shaadhdh_iii = { used_for_dynasty_names = no }
+					b_madaar_shaadhdh_iv = { used_for_dynasty_names = no }
+				}
+
+				c_unnati = {
+					color = { 116 116 148 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_unnati_ii = { used_for_dynasty_names = no }
+					b_unnati_ii_b = { used_for_dynasty_names = no }
+					b_unnati_ii_c = { used_for_dynasty_names = no }
+					b_unnati_iii = { used_for_dynasty_names = no }
+				}
+
+				c_porfoad = {
+					color = { 116 116 164 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_porfoad_iii = { used_for_dynasty_names = no }
+					b_porfoad_iii_b = { used_for_dynasty_names = no }
+					b_porfoad_iv = { used_for_dynasty_names = no }
+					b_porfoad_v = { used_for_dynasty_names = no }
+				}
+
+				c_porsaid = {
+					color = { 116 116 180 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_porsaid_iii = { used_for_dynasty_names = no }
+					b_porsaid_iii_b = { used_for_dynasty_names = no }
+					b_porsaid_iv = { used_for_dynasty_names = no }
+					b_porsaid_v = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_qoqnoos = {
+				color = { 132 100 100 }
+				color2 = { 255 255 255 }
+
+				capital = 14 # Qoqnoos
+
+				c_qoqnoos = {
+					color = { 132 100 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_qoqnoos_iv = { used_for_dynasty_names = no }
+					b_qoqnoos_iv_b = { used_for_dynasty_names = no }
+					b_qoqnoos_iv_c = { used_for_dynasty_names = no }
+					b_qoqnoos_v = { used_for_dynasty_names = no }
+					b_qoqnoos_v_b = { used_for_dynasty_names = no }
+				}
+
+				c_omid = {
+					color = { 132 100 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_omid_iii = { used_for_dynasty_names = no }
+					b_omid_iii_b = { used_for_dynasty_names = no }
+					b_omid_station_alpha = { used_for_dynasty_names = no }
+					b_omid_station_beta = { used_for_dynasty_names = no }
+					b_omid_station_gamma = { used_for_dynasty_names = no }
+				}
+
+				c_ushirikiao = {
+					color = { 132 100 148 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_ushirikiao_prime = { used_for_dynasty_names = no }
+					b_ushirikiao_ii = { used_for_dynasty_names = no }
+					b_ushirikiao_iii = { used_for_dynasty_names = no }
+					b_ushirikiao_iv = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_mandela = {
+				color = { 132 116 100 }
+				color2 = { 255 255 255 }
+
+				capital = 17 # Mandela
+
+				c_mandela = {
+					color = { 132 116 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_mandela_iii = { used_for_dynasty_names = no }
+					b_mandela_iii_b = { used_for_dynasty_names = no }
+					b_mandela_iv = { used_for_dynasty_names = no }
+					b_mandela_iv_b = { used_for_dynasty_names = no }
+				}
+				c_mohamud = {
+					color = { 132 116 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_mohamud_iv = { used_for_dynasty_names = no }
+					b_mohamud_iv_b = { used_for_dynasty_names = no }
+					b_mohamud_iv_c = { used_for_dynasty_names = no }
+					b_mohamud_iv_d = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_new_lusaka = {
+				color = { 100 132 100 }
+				color2 = { 255 255 255 }
+
+				capital = 20 # New Lusaka
+
+				c_new_lusaka = {
+					color = { 100 132 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_new_lusaka_iii = { used_for_dynasty_names = no }
+					b_new_lusaka_iii_b = { used_for_dynasty_names = no }
+					b_new_lusaka_iv = { used_for_dynasty_names = no }
+					b_new_lusaka_iv_b = { used_for_dynasty_names = no }
+					b_new_lusaka_v = { used_for_dynasty_names = no }
+				}
+
+				c_madeira_al_jadiida = {
+					color = { 100 132 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_madeira_al_jadiida_ii = { used_for_dynasty_names = no }
+					b_madeira_al_jadiida_ii_b = { used_for_dynasty_names = no }
+					b_madeira_al_jadiida_observatory = { used_for_dynasty_names = no }
+					b_madeira_al_jadiida_iv = { used_for_dynasty_names = no }
+				}
+
+				c_kaksa_ki_vismataem = {
+					color = { 100 132 148 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_kaksa_waystation = { used_for_dynasty_names = no }
+					b_kaksa_observatory = { used_for_dynasty_names = no }
+					b_kaksa_trade_station = { used_for_dynasty_names = no }
+					b_kaksa_prime = { used_for_dynasty_names = no }
+				}
+			}
+
+			d_dhartvir = {
+				color = { 116 132 100 }
+				color2 = { 255 255 255 }
+
+				capital = 21 # Dhartvir
+
+				c_dhartvir = {
+					color = { 116 132 116 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+					holy_site = machine_cultist
+					holy_site = hiver
+
+					b_dhartvir_prime = { used_for_dynasty_names = no }
+					b_dhartvir_prime_b = { used_for_dynasty_names = no }
+					b_dhartvir_ii = { used_for_dynasty_names = no }
+					b_dhartvir_iii = { used_for_dynasty_names = no }
+				}
+
+				c_dharmvir = {
+					color = { 116 132 132 }
+					color2 = { 255 255 255 }
+
+					used_for_dynasty_names = no
+
+					b_dharmvir_waystation = { used_for_dynasty_names = no }
+					b_dharmvir_iii = { used_for_dynasty_names = no }
+					b_dharmvir_iii_b = { used_for_dynasty_names = no }
+					b_dharmvir_iii_c = { used_for_dynasty_names = no }
+				}
 			}
 		}
-
-		d_talon = {
-			color = { 100 116 100 }
-			color2 = { 255 255 255 }
-
-			capital = 3 # Talon
-
-			c_talon = {
-				color = { 100 116 116 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-				holy_site = space_pirate
-
-				b_talon_ii = { used_for_dynasty_names = no }
-				b_talon_ii_b = { used_for_dynasty_names = no }
-				b_talon_iii = { used_for_dynasty_names = no }
-				b_talon_iii_b = { used_for_dynasty_names = no }
-				b_talon_iv = { used_for_dynasty_names = no }
-			}
-
-			c_ksora = {
-				color = { 100 116 132 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_ksora_vii_b = { used_for_dynasty_names = no }
-				b_ksora_vii_c = { used_for_dynasty_names = no }
-				b_ksora_vii_d = { used_for_dynasty_names = no }
-				b_ksora_vii_e = { used_for_dynasty_names = no }
-			}
-
-			c_oran = {
-				color = { 100 116 148 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_oran_iii = { used_for_dynasty_names = no }
-				b_oran_iii_b = { used_for_dynasty_names = no }
-				b_oran_waystation = { used_for_dynasty_names = no }
-				b_oran_iv = { used_for_dynasty_names = no }
-			}
-
-			c_fezzan = {
-				color = { 100 116 164 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_fezzan_iv = { used_for_dynasty_names = no }
-				b_fezzan_iv_b = { used_for_dynasty_names = no }
-				b_fezzan_v = { used_for_dynasty_names = no }
-				b_fezzan_v_b = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_yeni_istanbul = {
-			color = { 116 116 100 }
-			color2 = { 255 255 255 }
-
-			capital = 9 # Yeni Istanbul
-
-			c_yeni_istanbul = {
-				color = { 116 116 116 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-				holy_site = cyberneticist
-				holy_site = neo_feudal
-
-				b_yeni_istanbul_viii_b = { used_for_dynasty_names = no }
-				b_yeni_istanbul_viii_c = { used_for_dynasty_names = no }
-				b_yeni_istanbul_viii_d = { used_for_dynasty_names = no }
-				b_yeni_istanbul_viii_e = { used_for_dynasty_names = no }
-				b_yeni_istanbul_viii_f = { used_for_dynasty_names = no }
-				b_yeni_istanbul_viii_g = { used_for_dynasty_names = no }
-			}
-
-			c_madaar_shaadhdh = {
-				color = { 116 116 132 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_madaar_shaadhdh_prime = { used_for_dynasty_names = no }
-				b_madaar_shaadhdh_ii = { used_for_dynasty_names = no }
-				b_madaar_shaadhdh_iii = { used_for_dynasty_names = no }
-				b_madaar_shaadhdh_iv = { used_for_dynasty_names = no }
-			}
-
-			c_unnati = {
-				color = { 116 116 148 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_unnati_ii = { used_for_dynasty_names = no }
-				b_unnati_ii_b = { used_for_dynasty_names = no }
-				b_unnati_ii_c = { used_for_dynasty_names = no }
-				b_unnati_iii = { used_for_dynasty_names = no }
-			}
-
-			c_porfoad = {
-				color = { 116 116 164 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_porfoad_iii = { used_for_dynasty_names = no }
-				b_porfoad_iii_b = { used_for_dynasty_names = no }
-				b_porfoad_iv = { used_for_dynasty_names = no }
-				b_porfoad_v = { used_for_dynasty_names = no }
-			}
-
-			c_porsaid = {
-				color = { 116 116 180 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_porsaid_iii = { used_for_dynasty_names = no }
-				b_porsaid_iii_b = { used_for_dynasty_names = no }
-				b_porsaid_iv = { used_for_dynasty_names = no }
-				b_porsaid_v = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_qoqnoos = {
-			color = { 132 100 100 }
-			color2 = { 255 255 255 }
-
-			capital = 14 # Qoqnoos
-
-			c_qoqnoos = {
-				color = { 132 100 116 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_qoqnoos_iv = { used_for_dynasty_names = no }
-				b_qoqnoos_iv_b = { used_for_dynasty_names = no }
-				b_qoqnoos_iv_c = { used_for_dynasty_names = no }
-				b_qoqnoos_v = { used_for_dynasty_names = no }
-				b_qoqnoos_v_b = { used_for_dynasty_names = no }
-			}
-
-			c_omid = {
-				color = { 132 100 132 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_omid_iii = { used_for_dynasty_names = no }
-				b_omid_iii_b = { used_for_dynasty_names = no }
-				b_omid_station_alpha = { used_for_dynasty_names = no }
-				b_omid_station_beta = { used_for_dynasty_names = no }
-				b_omid_station_gamma = { used_for_dynasty_names = no }
-			}
-
-			c_ushirikiao = {
-				color = { 132 100 148 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_ushirikiao_prime = { used_for_dynasty_names = no }
-				b_ushirikiao_ii = { used_for_dynasty_names = no }
-				b_ushirikiao_iii = { used_for_dynasty_names = no }
-				b_ushirikiao_iv = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_mandela = {
-			color = { 132 116 100 }
-			color2 = { 255 255 255 }
-
-			capital = 17 # Mandela
-
-			c_mandela = {
-				color = { 132 116 116 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_mandela_iii = { used_for_dynasty_names = no }
-				b_mandela_iii_b = { used_for_dynasty_names = no }
-				b_mandela_iv = { used_for_dynasty_names = no }
-				b_mandela_iv_b = { used_for_dynasty_names = no }
-			}
-			c_mohamud = {
-				color = { 132 116 132 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_mohamud_iv = { used_for_dynasty_names = no }
-				b_mohamud_iv_b = { used_for_dynasty_names = no }
-				b_mohamud_iv_c = { used_for_dynasty_names = no }
-				b_mohamud_iv_d = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_new_lusaka = {
-			color = { 100 132 100 }
-			color2 = { 255 255 255 }
-
-			capital = 20 # New Lusaka
-
-			c_new_lusaka = {
-				color = { 100 132 116 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_new_lusaka_iii = { used_for_dynasty_names = no }
-				b_new_lusaka_iii_b = { used_for_dynasty_names = no }
-				b_new_lusaka_iv = { used_for_dynasty_names = no }
-				b_new_lusaka_iv_b = { used_for_dynasty_names = no }
-				b_new_lusaka_v = { used_for_dynasty_names = no }
-			}
-
-			c_madeira_al_jadiida = {
-				color = { 100 132 132 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_madeira_al_jadiida_ii = { used_for_dynasty_names = no }
-				b_madeira_al_jadiida_ii_b = { used_for_dynasty_names = no }
-				b_madeira_al_jadiida_observatory = { used_for_dynasty_names = no }
-				b_madeira_al_jadiida_iv = { used_for_dynasty_names = no }
-			}
-
-			c_kaksa_ki_vismataem = {
-				color = { 100 132 148 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_kaksa_waystation = { used_for_dynasty_names = no }
-				b_kaksa_observatory = { used_for_dynasty_names = no }
-				b_kaksa_trade_station = { used_for_dynasty_names = no }
-				b_kaksa_prime = { used_for_dynasty_names = no }
-			}
-		}
-
-		d_dhartvir = {
-			color = { 116 132 100 }
-			color2 = { 255 255 255 }
-
-			capital = 21 # Dhartvir
-
-			c_dhartvir = {
-				color = { 116 132 116 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-				holy_site = machine_cultist
-				holy_site = hiver
-
-				b_dhartvir_prime = { used_for_dynasty_names = no }
-				b_dhartvir_prime_b = { used_for_dynasty_names = no }
-				b_dhartvir_ii = { used_for_dynasty_names = no }
-				b_dhartvir_iii = { used_for_dynasty_names = no }
-			}
-
-			c_dharmvir = {
-				color = { 116 132 132 }
-				color2 = { 255 255 255 }
-
-				used_for_dynasty_names = no
-
-				b_dharmvir_waystation = { used_for_dynasty_names = no }
-				b_dharmvir_iii = { used_for_dynasty_names = no }
-				b_dharmvir_iii_b = { used_for_dynasty_names = no }
-				b_dharmvir_iii_c = { used_for_dynasty_names = no }
-			}
-		}
-	}
 	k_bianjiang = {
 		color = { 225 15 100 }
 		color2 = { 200 200 50 }
@@ -4802,8 +4774,6 @@ e_terran_confederation = {
 
 		capital = 331 # VN-381
 
-		anglo_frontiersman = "Vail Naivula"
-
 		d_veil_nebula_fleet = {
 			landless = yes
 			can_be_claimed = no
@@ -4940,8 +4910,6 @@ e_terran_confederation = {
 		color2 = { 150 150 5 }
 
 		capital = 140 # Franklin
-
-		anglo_frontiersman = "Ni Frauntiar"
 
 		d_new_frontier_fleet = {
 			landless = yes
@@ -5316,8 +5284,6 @@ e_terran_confederation = {
 		color2 = { 224 224 96 }
 		capital = 444 # Iserlohn
 
-		anglo_frontiersman = "Fayr Naivula"
-
 		d_flame_nebula_fleet = {
 			landless = yes
 			can_be_claimed = no
@@ -5553,8 +5519,6 @@ e_terran_confederation = {
 
 		capital = 428 # La Forja
 
-		anglo_frontiersman = "Aurayn Naivula"
-
 		d_orion_nebula_fleet = {
 			landless = yes
 			can_be_claimed = no
@@ -5783,8 +5747,6 @@ e_terran_confederation = {
 		color2 = { 192 160 192 }
 
 		capital = 379 # Basilisco
-
-		anglo_frontiersman = "Aursaiz Naivula"
 
 		d_horsehead_nebula_fleet = {
 			landless = yes
@@ -6118,8 +6080,6 @@ e_terran_confederation = {
 		color2 = { 20 150 10 }
 
 		capital = 348 # Nai Dunya
-
-		anglo_frontiersman = "Friwaulztait"
 
 		d_mukta_duniya_fleet = {
 			landless = yes
@@ -6457,8 +6417,6 @@ e_terran_confederation = {
 		color2 = { 255 255 255 }
 
 		capital = 363 # Paraiso
-
-		anglo_frontiersman = "Parazais"
 
 		d_paraiso_fleet = {
 			landless = yes
