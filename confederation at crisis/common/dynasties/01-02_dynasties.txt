@@ -15,1645 +15,2068 @@
 #}
 2 = {
 	name = "Smith"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 3 = {
 	name = "Smith"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 4 = {
 	name = "Smith"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 5 = {
 	name = "Brown"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 6 = {
 	name = "Brown"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 7 = {
 	name = "Brown"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 8 = {
 	name = "Lee"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 9 = {
 	name = "Lee"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 10 = {
 	name = "Lee"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 11 = {
 	name = "Wilson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 12 = {
 	name = "Wilson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 13 = {
 	name = "Wilson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 14 = {
 	name = "Martin"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 15 = {
 	name = "Martin"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 16 = {
 	name = "Martin"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 17 = {
 	name = "Taylor"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 18 = {
 	name = "Taylor"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 19 = {
 	name = "Taylor"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 20 = {
 	name = "Campbell"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 21 = {
 	name = "Campbell"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 22 = {
 	name = "Campbell"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 23 = {
 	name = "Williams"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 24 = {
 	name = "Williams"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 25 = {
 	name = "Williams"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 26 = {
 	name = "Thompson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 27 = {
 	name = "Thompson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 28 = {
 	name = "Thompson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 29 = {
 	name = "Jones"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 30 = {
 	name = "Jones"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 31 = {
 	name = "Jones"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 32 = {
 	name = "Weyland"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
+	used_for_random = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 10
+			texture_internal = 1
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
 }
 33 = {
 	name = "Weyland"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 34 = {
 	name = "Weyland"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 35 = {
 	name = "Johnson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 36 = {
 	name = "Johnson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 37 = {
 	name = "Johnson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 38 = {
 	name = "Miller"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 39 = {
 	name = "Miller"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 40 = {
 	name = "Miller"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 41 = {
 	name = "Davis"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 42 = {
 	name = "Davis"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 43 = {
 	name = "Davis"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 44 = {
 	name = "Anderson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 45 = {
 	name = "Anderson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 46 = {
 	name = "Anderson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 47 = {
 	name = "Thomas"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 48 = {
 	name = "Thomas"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 49 = {
 	name = "Thomas"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 50 = {
 	name = "Moore"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 51 = {
 	name = "Moore"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 52 = {
 	name = "Moore"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 53 = {
 	name = "Jackson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 54 = {
 	name = "Jackson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 55 = {
 	name = "Jackson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 56 = {
 	name = "White"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 57 = {
 	name = "White"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 58 = {
 	name = "White"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 59 = {
 	name = "Harris"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 60 = {
 	name = "Harris"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 61 = {
 	name = "Harris"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 62 = {
 	name = "Clark"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 63 = {
 	name = "Clark"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 64 = {
 	name = "Clark"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 65 = {
 	name = "Lewis"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 66 = {
 	name = "Lewis"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 67 = {
 	name = "Lewis"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 68 = {
 	name = "Robinson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 69 = {
 	name = "Robinson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 70 = {
 	name = "Robinson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 71 = {
 	name = "Walker"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 72 = {
 	name = "Walker"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 73 = {
 	name = "Walker"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 74 = {
 	name = "Hall"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 75 = {
 	name = "Hall"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 76 = {
 	name = "Hall"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 77 = {
 	name = "Young"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 78 = {
 	name = "Young"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 79 = {
 	name = "Young"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 80 = {
 	name = "Allen"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 81 = {
 	name = "Allen"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 82 = {
 	name = "Allen"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 83 = {
 	name = "Wright"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 84 = {
 	name = "Wright"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 85 = {
 	name = "Wright"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 86 = {
 	name = "King"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 87 = {
 	name = "King"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 88 = {
 	name = "King"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 89 = {
 	name = "Scott"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 90 = {
 	name = "Scott"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 91 = {
 	name = "Scott"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 92 = {
 	name = "Green"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 93 = {
 	name = "Green"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 94 = {
 	name = "Green"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 95 = {
 	name = "Baker"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 96 = {
 	name = "Baker"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 97 = {
 	name = "Baker"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 98 = {
 	name = "Adams"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 99 = {
 	name = "Adams"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 100 = {
 	name = "Adams"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 101 = {
 	name = "Nelson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 102 = {
-	name = "Nelson"
-	culture = anglo_frontiersman
+	name = "Nailsaun"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 103 = {
 	name = "Nelson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 104 = {
 	name = "Hill"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 105 = {
 	name = "Hill"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 106 = {
 	name = "Hill"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 107 = {
 	name = "Mitchell"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 108 = {
 	name = "Mitchell"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 109 = {
 	name = "Mitchell"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 110 = {
 	name = "Roberts"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 111 = {
 	name = "Roberts"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 112 = {
 	name = "Roberts"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 113 = {
 	name = "Carter"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 114 = {
 	name = "Carter"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 115 = {
 	name = "Carter"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 116 = {
 	name = "Phillips"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 117 = {
 	name = "Phillips"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 118 = {
 	name = "Phillips"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 119 = {
 	name = "Evans"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 120 = {
 	name = "Evans"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 121 = {
 	name = "Evans"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 122 = {
 	name = "Turner"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 123 = {
 	name = "Turner"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 124 = {
 	name = "Turner"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 125 = {
 	name = "Parker"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 126 = {
 	name = "Parker"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 127 = {
 	name = "Parker"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 128 = {
 	name = "Collins"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 129 = {
 	name = "Collins"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 130 = {
 	name = "Collins"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 131 = {
 	name = "Edwards"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 132 = {
-	name = "Edwards"
-	culture = anglo_frontiersman
+	name = "Aizuars"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 133 = {
 	name = "Edwards"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 134 = {
 	name = "Stewart"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 135 = {
 	name = "Stewart"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 136 = {
 	name = "Stewart"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 137 = {
 	name = "Morris"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 138 = {
 	name = "Morris"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "neo_socialist"
 }
 139 = {
 	name = "Morris"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 140 = {
 	name = "Murphy"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 141 = {
 	name = "Murphy"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 142 = {
 	name = "Murphy"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 143 = {
 	name = "Cook"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 144 = {
 	name = "Cook"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 145 = {
 	name = "Cook"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 146 = {
 	name = "Rogers"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 147 = {
 	name = "Rogers"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 148 = {
 	name = "Rogers"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 149 = {
 	name = "Morgan"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 150 = {
 	name = "Morgan"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 151 = {
 	name = "Morgan"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 152 = {
 	name = "Peterson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 153 = {
 	name = "Peterson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 154 = {
 	name = "Peterson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 155 = {
 	name = "Cooper"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 156 = {
 	name = "Cooper"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 157 = {
 	name = "Cooper"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 158 = {
 	name = "Reed"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 159 = {
 	name = "Reed"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 160 = {
 	name = "Reed"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 161 = {
 	name = "Bailey"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 162 = {
 	name = "Bailey"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 163 = {
 	name = "Bailey"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 164 = {
 	name = "Bell"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 165 = {
 	name = "Bell"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 166 = {
 	name = "Bell"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 167 = {
 	name = "Kelly"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 168 = {
 	name = "Kelly"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 169 = {
 	name = "Kelly"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 170 = {
 	name = "Howard"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 171 = {
 	name = "Howard"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 172 = {
 	name = "Howard"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 173 = {
 	name = "Ward"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 174 = {
 	name = "Ward"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 175 = {
 	name = "Ward"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 176 = {
 	name = "Cox"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 177 = {
 	name = "Cox"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 178 = {
 	name = "Cox"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 179 = {
 	name = "Richardson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 180 = {
 	name = "Richardson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 181 = {
 	name = "Richardson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 182 = {
 	name = "Wood"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 183 = {
 	name = "Wood"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 184 = {
 	name = "Wood"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 185 = {
 	name = "Watson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 186 = {
 	name = "Watson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 187 = {
 	name = "Watson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 188 = {
 	name = "Brooks"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 189 = {
 	name = "Brooks"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 190 = {
 	name = "Brooks"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 191 = {
 	name = "Bennett"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 192 = {
-	name = "Bennett"
-	culture = anglo_frontiersman
+	name = "Vainait"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 193 = {
 	name = "Bennett"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 194 = {
 	name = "Gray"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 195 = {
 	name = "Gray"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 196 = {
 	name = "Gray"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 197 = {
 	name = "James"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 198 = {
 	name = "James"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 199 = {
 	name = "James"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 200 = {
 	name = "Hughes"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 201 = {
 	name = "Hughes"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 202 = {
 	name = "Hughes"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 203 = {
 	name = "Price"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 204 = {
 	name = "Price"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 205 = {
 	name = "Price"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 206 = {
 	name = "Myers"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 207 = {
 	name = "Myers"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 208 = {
 	name = "Myers"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 209 = {
 	name = "Long"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 210 = {
 	name = "Long"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 211 = {
 	name = "Long"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 212 = {
 	name = "Foster"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 213 = {
 	name = "Foster"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 214 = {
 	name = "Foster"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 215 = {
 	name = "Sanders"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 216 = {
 	name = "Sanders"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 217 = {
 	name = "Sanders"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 218 = {
 	name = "Ross"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 219 = {
 	name = "Ross"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 220 = {
 	name = "Ross"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 221 = {
 	name = "Powell"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 222 = {
 	name = "Powell"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 223 = {
 	name = "Powell"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 224 = {
 	name = "Sullivan"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 225 = {
 	name = "Sullivan"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 226 = {
 	name = "Sullivan"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 227 = {
 	name = "Russell"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 228 = {
 	name = "Russell"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 229 = {
 	name = "Russell"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 230 = {
 	name = "Jenkins"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 231 = {
 	name = "Jenkins"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 232 = {
 	name = "Jenkins"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 233 = {
 	name = "Perry"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 234 = {
 	name = "Perry"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 235 = {
 	name = "Perry"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 236 = {
 	name = "Butler"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 237 = {
 	name = "Butler"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 238 = {
 	name = "Butler"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 239 = {
 	name = "Barnes"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 240 = {
 	name = "Barnes"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 241 = {
 	name = "Barnes"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 242 = {
 	name = "Fisher"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 243 = {
-	name = "Fisher"
-	culture = anglo_frontiersman
+	name = "Fishar"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 244 = {
 	name = "Fisher"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 245 = {
 	name = "Davies"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 246 = {
 	name = "Davies"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 247 = {
 	name = "Davies"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 248 = {
 	name = "Mason"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 249 = {
 	name = "Mason"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 250 = {
 	name = "Mason"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 251 = {
 	name = "Rose"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 252 = {
 	name = "Rose"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 253 = {
 	name = "Rose"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 254 = {
 	name = "Alexander"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 255 = {
 	name = "Alexander"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 256 = {
 	name = "Alexander"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 257 = {
 	name = "Ryan"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 258 = {
 	name = "Ryan"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "neo_socialist"
 }
 259 = {
 	name = "Ryan"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 260 = {
 	name = "Harris"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 261 = {
 	name = "Harris"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 262 = {
 	name = "Harris"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 263 = {
 	name = "Archer"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 264 = {
 	name = "Archer"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 265 = {
 	name = "Archer"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 266 = {
 	name = "Blackburn"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 267 = {
 	name = "Blackburn"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 268 = {
 	name = "Blackburn"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 269 = {
 	name = "Bradley"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 270 = {
 	name = "Bradley"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 271 = {
 	name = "Bradley"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 272 = {
 	name = "Bywater"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 273 = {
 	name = "Bywater"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 274 = {
 	name = "Bywater"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 275 = {
 	name = "Carrington"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 276 = {
 	name = "Carrington"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 278 = {
 	name = "Carrington"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 279 = {
 	name = "Chrisholm"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 280 = {
-	name = "Chrisholm"
-	culture = anglo_frontiersman
+	name = "Krisaum"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 281 = {
 	name = "Chrisholm"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 282 = {
 	name = "Cloud"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 283 = {
 	name = "Cloud"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 284 = {
 	name = "Cloud"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 285 = {
 	name = "Davenport"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 286 = {
 	name = "Davenport"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 287 = {
 	name = "Davenport"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 288 = {
 	name = "Dawson"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 289 = {
 	name = "Dawson"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 290 = {
 	name = "Dawson"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 291 = {
 	name = "Dixon"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 292 = {
 	name = "Dixon"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 293 = {
 	name = "Dixon"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 294 = {
 	name = "Firestone"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 295 = {
 	name = "Firestone"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 296 = {
 	name = "Firestone"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 297 = {
 	name = "Fletcher"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 298 = {
 	name = "Fletcher"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 299 = {
 	name = "Fletcher"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 300 = {
 	name = "Graham"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 301 = {
 	name = "Graham"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 302 = {
 	name = "Graham"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 303 = {
 	name = "Havelock"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 304 = {
 	name = "Havelock"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 305 = {
 	name = "Havelock"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 306 = {
 	name = "Hawking"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 307 = {
 	name = "Hawking"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 308 = {
 	name = "Hawking"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 309 = {
 	name = "Locke"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 310 = {
 	name = "Locke"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 311 = {
 	name = "Locke"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 312 = {
 	name = "Quinn"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 313 = {
 	name = "Quinn"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 314 = {
 	name = "Quinn"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 315 = {
 	name = "Sharpe"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 316 = {
 	name = "Sharpe"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 317 = {
 	name = "Sharpe"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 318 = {
 	name = "Shepherd"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 319 = {
 	name = "Shepherd"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 320 = {
 	name = "Shepherd"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 321 = {
 	name = "Shields"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 322 = {
-	name = "Shields"
-	culture = anglo_frontiersman
+	name = "Shilzais"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 323 = {
 	name = "Shields"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 324 = {
 	name = "Warden"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 325 = {
 	name = "Warden"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 326 = {
 	name = "Warden"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 327 = {
 	name = "Avery"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 328 = {
 	name = "Avery"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 329 = {
 	name = "Avery"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 330 = {
 	name = "Gaunt"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 331 = {
 	name = "Gaunt"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 332 = {
 	name = "Gaunt"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 333 = {
 	name = "Beckett"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 334 = {
 	name = "Beckett"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "neo_socialist"
 }
 335 = {
 	name = "Beckett"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 336 = {
 	name = "Talbot"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 337 = {
 	name = "Talbot"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 338 = {
 	name = "Talbot"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 339 = {
 	name = "O'Neill"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 340 = {
 	name = "O'Neill"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 341 = {
 	name = "O'Neill"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 342 = {
 	name = "Murphy"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 343 = {
 	name = "Murphy"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 344 = {
 	name = "Murphy"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 345 = {
 	name = "McLaughlin"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 346 = {
 	name = "McLaughlin"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 347 = {
 	name = "McLaughlin"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 348 = {
 	name = "Hamilton"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 349 = {
 	name = "Hamilton"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 350 = {
 	name = "Hamilton"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 351 = {
 	name = "Murray"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 352 = {
-	name = "Murray"
-	culture = anglo_frontiersman
+	name = "Maray"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 353 = {
 	name = "Murray"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 354 = {
 	name = "MacDonald"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 355 = {
 	name = "MacDonald"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 356 = {
 	name = "MacDonald"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 357 = {
 	name = "Beaton"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 358 = {
 	name = "Beaton"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 359 = {
 	name = "Beaton"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 360 = {
 	name = "Cameron"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 361 = {
 	name = "Cameron"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 362 = {
 	name = "Cameron"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 363 = {
 	name = "Duncan"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 364 = {
-	name = "Duncan"
-	culture = anglo_frontiersman
+	name = "Zankan"
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 365 = {
 	name = "Duncan"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 366 = {
 	name = "MacCrimmon"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 367 = {
 	name = "MacCrimmon"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 368 = {
 	name = "MacCrimmon"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 369 = {
 	name = "MacLeod"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 370 = {
 	name = "MacLeod"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 371 = {
 	name = "MacLeod"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 372 = {
 	name = "MacTavish"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 373 = {
 	name = "MacTavish"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 374 = {
 	name = "MacTavish"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 375 = {
 	name = "McCabe"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 376 = {
 	name = "McCabe"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 377 = {
 	name = "McCabe"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 378 = {
 	name = "McDougall"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 379 = {
 	name = "McDougall"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 380 = {
 	name = "McDougall"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 381 = {
 	name = "McKinley"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 382 = {
 	name = "McKinley"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 383 = {
 	name = "McKinley"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 384 = {
 	name = "Urquhart"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 385 = {
 	name = "Urquhart"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 386 = {
 	name = "Urquhart"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 387 = {
 	name = "Connelly"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 388 = {
 	name = "Connelly"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 389 = {
 	name = "Connelly"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 390 = {
 	name = "Kennedy"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 391 = {
 	name = "Kennedy"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 392 = {
 	name = "Kennedy"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 393 = {
 	name = "Malone"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 394 = {
 	name = "Malone"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 395 = {
 	name = "Malone"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 396 = {
 	name = "Moriarty"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 397 = {
 	name = "Moriarty"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 398 = {
 	name = "Moriarty"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 399 = {
 	name = "O'Brien"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 400 = {
 	name = "O'Brien"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 401 = {
 	name = "O'Brien"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 402 = {
 	name = "O'Connell"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 403 = {
 	name = "O'Connell"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 404 = {
 	name = "O'Connell"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 405 = {
 	name = "O'Reilly"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 406 = {
 	name = "O'Reilly"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 407 = {
 	name = "O'Reilly"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 408 = {
 	name = "O'Malley"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 409 = {
 	name = "O'Malley"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 410 = {
 	name = "O'Malley"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }
 411 = {
 	name = "O'Shae"
-	culture = anglo_terran
+	culture = "anglo_terran" 
+	religion = "terran_republican"
 }
 412 = {
 	name = "O'Shae"
-	culture = anglo_frontiersman
+	culture = "anglo_frontiersman" 
+	religion = "colonial_separatist"
 }
 413 = {
 	name = "O'Shae"
-	culture = anglo_avalonian
+	culture = "anglo_avalonian" 
+	religion = "neo_feudal"
 }

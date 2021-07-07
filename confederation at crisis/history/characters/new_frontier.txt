@@ -3,7 +3,7 @@
 12000100 = {
 	# President of the New Frontier
 	name = "Mary"
-	dynasty = 20040 # Hawking
+	dynasty = 20040 # Hauking
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -20,8 +20,8 @@
 
 12000101 = {
 	# Admiral of the New Frontier Rangers
-	name = "James"
-	dynasty = 20041 # Bullock
+	name = "Chaims"
+	dynasty = 20041 # Vulauk
 	female = no
 	
 	culture = anglo_frontiersman
@@ -38,8 +38,8 @@
 
 12000102 = {
 	# Governor of Sector Washington
-	name = "Christine"
-	dynasty = 20042 # Cameron
+	name = "Kristin"
+	dynasty = 20042 # Kamairan
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -56,8 +56,8 @@
 
 12000103 = {
 	# Governor of Sector Adams
-	name = "Sophia"
-	dynasty = 20043 # Davis
+	name = "Saufia"
+	dynasty = 20043 # Daivis
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -115,8 +115,8 @@
 
 12000106 = {
 	# Governor of Sector Deadwood
-	name = "Geoff"
-	dynasty = 20046 # Butler
+	name = "Jiauf"
+	dynasty = 20046 # Batlar
 	female = no
 	
 	culture = anglo_frontiersman
@@ -135,7 +135,7 @@
 12000107 = {
 	# Governor of Touchdown
 	name = "Martin"
-	dynasty = 20047 # Clifford
+	dynasty = 20047 # Klifar
 	female = no
 	
 	culture = anglo_frontiersman
@@ -152,8 +152,8 @@
 
 12000108 = {
 	# Governor of Delaware
-	name = "Jenna"
-	dynasty = 20048 # Curtis
+	name = "Chaina"
+	dynasty = 20048 # Kartis
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -170,8 +170,8 @@
 
 12000109 = {
 	# Commander of Shadow's Rim
-	name = "Hope"
-	dynasty = 20049 # Draper
+	name = "Aup"
+	dynasty = 20049 # Zaipar
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -188,8 +188,8 @@
 
 12000110 = {
 	# Commander of De Gaulle
-	name = "Alexander"
-	dynasty = 20050 # Elliott
+	name = "Alaiks"
+	dynasty = 20050 # Ailyat
 	female = no
 	
 	culture = anglo_frontiersman
@@ -206,8 +206,8 @@
 
 12000111 = {
 	# Governor of Abigail
-	name = "Janet"
-	dynasty = 20051 # Gardener
+	name = "Chanait"
+	dynasty = 20051 # Garanar
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -242,8 +242,8 @@
 
 12000113 = {
 	# Governor of Eagle
-	name = "Robert"
-	dynasty = 20053 # Foster
+	name = "Rauvairt"
+	dynasty = 20053 # Faustar
 	female = no
 	
 	culture = anglo_frontiersman
@@ -261,7 +261,7 @@
 12000114 = {
 	# Governor of Miracle
 	name = "Lee"
-	dynasty = 20054 # Everett
+	dynasty = 20054 # Evrat
 	female = no
 	
 	culture = anglo_frontiersman
@@ -296,8 +296,8 @@
 
 12000116 = {
 	# Commander of Winterstar
-	name = "Robin"
-	dynasty = 20056 # Fletcher
+	name = "Rauvin"
+	dynasty = 20056 # Flaichar
 	female = no
 	
 	culture = anglo_frontiersman
@@ -314,8 +314,8 @@
 
 12000117 = {
 	# Governor of Farland
-	name = "Vanessa"
-	dynasty = 20057 # Hargrave
+	name = "Vanaisa"
+	dynasty = 20057 # Argraiv
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -332,7 +332,7 @@
 
 12000118 = {
 	# Governor of Overlook
-	name = "Ryan"
+	name = "Rayan"
 	dynasty = 20058 # LeTourneau
 	female = no
 	
@@ -351,8 +351,8 @@
 
 12000119 = {
 	# Commander of Goldenroad
-	name = "Rose"
-	dynasty = 20059 # Josephs
+	name = "Raus"
+	dynasty = 20059 # Chausefs
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -370,7 +370,7 @@
 12000120 = {
 	# Governor of Roosevelt
 	name = "Samantha"
-	dynasty = 20060 # Havelock
+	dynasty = 20060 # Havlauk
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -405,7 +405,7 @@
 
 12000122 = {
 	# Governor of WH-021
-	name = "Josh"
+	name = "Chaush"
 	dynasty = 20062 # Smith
 	female = no
 	

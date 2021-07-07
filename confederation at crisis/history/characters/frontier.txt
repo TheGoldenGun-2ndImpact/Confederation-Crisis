@@ -1,7 +1,7 @@
 110695 = {
 	# President of the Frontier
-	name = "Jessica"
-	dynasty = 132 # Edwards
+	name = "Chaisika"
+	dynasty = 132 # Aizuars
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -15,8 +15,8 @@
 
 111695 = {
 	# Commander of the Frontier Space Command
-	name = "Catherine"
-	dynasty = 132 # Edwards
+	name = "Katharin"
+	dynasty = 132 # Aizuars
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -27,7 +27,7 @@
 	add_trait = ambitious
 	add_trait = proud
 	
-	mother = 110695 # Jessica Edwards
+	mother = 110695 # Jessica Aizuars
 	
 	2978.1.1 = { birth = "2978.1.1" }
 	3008.1.1 = {
@@ -42,8 +42,8 @@
 
 900001 = {
 	# Commander of the Frontier Space Command
-	name = "Jessica"
-	dynasty = 132 # Edwards
+	name = "Chaisika"
+	dynasty = 132 # Aizuars
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -52,15 +52,15 @@
 	add_trait = ambitious
 	add_trait = proud
 	
-	mother = 111695 # Jessica Edwards
+	mother = 111695 # Jessica Aizuars
 	
 	3007.11.11 = { birth = "3007.11.11" }
 }
 
 110823 = {
 	# Governor of Collins
-	name = "Duncan"
-	dynasty = 243 # Fisher
+	name = "Zankan"
+	dynasty = 243 # Fishar
 	female = no
 	
 	culture = anglo_frontiersman
@@ -95,8 +95,8 @@
 
 110535 = {
 	# Governor of Beowulf
-	name = "Alice"
-	dynasty = 102 # Nelson
+	name = "Alis"
+	dynasty = 102 # Nailsaun
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -126,8 +126,8 @@
 
 1101927 = {
 	# Governor of Jemison
-	name = "Chloe"
-	dynasty = 364 # Duncan
+	name = "Klaui"
+	dynasty = 364 # Zankan
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -138,7 +138,7 @@
 
 1101969 = {
 	# Governor-General of Ride
-	name = "Isabella"
+	name = "Isabailla"
 	dynasty = 373 # MacTavish
 	female = yes
 	
@@ -150,8 +150,8 @@
 
 1101479 = {
 	# Governor of Lincoln
-	name = "Charles"
-	dynasty = 280 # Chrisholm
+	name = "Chals"
+	dynasty = 280 # Krisaum
 	female = no
 	
 	culture = anglo_frontiersman
@@ -162,8 +162,8 @@
 
 1101703 = {
 	# Governor of Challenger
-	name = "Emma"
-	dynasty = 322 # Shields
+	name = "Aima"
+	dynasty = 322 # Shilzais
 	female = yes
 	
 	culture = anglo_frontiersman
@@ -184,8 +184,8 @@
 }
 1101863 = {
 	# Commander of Gemini
-	name = "Joseph"
-	dynasty = 352 # Murray
+	name = "Chausef"
+	dynasty = 352 # Maray
 	female = no
 	
 	culture = anglo_frontiersman
@@ -230,8 +230,8 @@
 
 1101015 = {
 	# Governor of John Henry
-	name = "Matthew"
-	dynasty = 192 # Bennett
+	name = "Mathaiu"
+	dynasty = 192 # Vainait
 	female = no
 	
 	culture = anglo_frontiersman

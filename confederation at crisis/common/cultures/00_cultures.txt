@@ -633,25 +633,67 @@ angani_group = {
 }
 frontiersman_group = {
 	graphical_cultures = { anglofrontiergfx }
+	
+	# OLD NAMELIST
+	# Male names
+	#	Alexander_Alexander Andrew_Andrew Adam_Adam Allen_Allen Arthur_Arthur
+	#	Benjamin_Benjamin Christopher_Christopher Albert_Albert Alfred Carter
+	#	Charles_Charles Daniel_Daniel David_David Duncan Edward_Edward Edgar Ethan
+	#	Gabriel_Gabriel Gregory_Gregory George_George Harry Henry_Henry Jack Jacob_Jacob
+	#	James_James John_John Joseph_Joseph Joshua_Joshua Liam Luke_Lucas Lucas_Lucas Logan
+	#	Malcolm Matthew_Matthew Michael_Michael Nathan_Nathan Noah Patrick Philip_Philip Peter_Peter
+	#	Oliver Owen Robert_Robert Richard_Richard Samuel_Samuel Thomas_Thomas Stephen_Stephen
+	#	William_William Wilfred Victor Vincent Zachary
+	# Female names
+	#	Abigail_Abigail Alice Catherine_Catherine Chloe Barbara Dorothy
+	#	Emma Emily_Emily Isabella_Elisabeth Elisabeth_Elisabeth Eliza_Elisabeth Elizabeth_Elizabeth Ellen
+	#	Grace Hannah Jennifer_Jennifer Jessica Lily Lucy Linda Katherine_Catherine
+	#	Mary_Maria Margaret_Margaret Melissa Morgan Patricia_Patricia Ruby Stephany
+	#	Sarah_Sarah Sophia Susan_Susan Zoe Simone
+	
 	anglo_frontiersman = {
 		graphical_cultures = { anglofrontiergfx }
 		color = { 0.0 0.0 1.0 }
+		# Added a few hispanic_orion names to old anglo_frontiersman
+		# namelist and made the following changes, in order of listing:
+		# d -> z, e -> ai, o -> au, c -> s or k depending on pronunciation
+		# h disappears, j and x disappear in hispanic names
+		# j -> ch in anglo names
+		# x -> ks, rz -> r, zr -> z, ph -> f, w -> u, b -> v.
+		# Removed doubled letters (e.g. ll becomes l) and added ai in
+		# front of word initial s when followed by a consonant.
+		# Also shortened some names, modified some to match pronunciation.
+		# Plural words would be formed either with an -s or -ais suffix
+		
 		male_names = {
-			Alexander_Alexander Andrew_Andrew Adam_Adam Allen_Allen Arthur_Arthur
-			Benjamin_Benjamin Christopher_Christopher Albert_Albert Alfred Carter
-			Charles_Charles Daniel_Daniel David_David Duncan Edward_Edward Edgar Ethan
-			Gabriel_Gabriel Gregory_Gregory George_George Harry Henry_Henry Jack Jacob_Jacob
-			James_James John_John Joseph_Joseph Joshua_Joshua Liam Luke_Lucas Lucas_Lucas Logan
-			Malcolm Matthew_Matthew Michael_Michael Nathan_Nathan Noah Patrick Philip_Philip Peter_Peter
-			Oliver Owen Robert_Robert Richard_Richard Samuel_Samuel Thomas_Thomas Stephen_Stephen
-			William_William Wilfred Victor Vincent Zachary
+			Alaiks_Alexander Anzaiu_Andrew Azam_Adam Allain_Allen Arthur_Arthur
+			Vainchamin_Benjamin Kristauf_Christopher Alvairt_Albert Alfraiz Kartair
+			Chals_Charles Zaniail_Daniel Zaiviz_David Zankan Aizuar_Edward Aizgar Aithan
+			Gaivril_Gabriel Graig_Gregory Chaurch_George Arry Ainry_Henry Chak Chakauv_Jacob
+			Chaims_James Chaun_John Chausaf_Josef Chaush_Joshua Liam Luk_Lucas Lukas_Lucas Laugan
+			Malkaum Mathaiu_Matthew Maik_Michael Naithan_Nathan Naua Patrik Filip_Philip Pitar_Peter
+			Aulivair Auain Rauvairt_Robert Richar_Richard Samuail_Samuel Taum_Thomas Aistifan_Stephen
+			Uiliam_William Uilfraiz Viktaur Vinsaint Zakary
+			
+			Azian Agustin Alaianzau_Alexander
+			Vrunau Karlaus_Charles Ziaigau Zylan
+			Aimil Aimilianau_Emiliano
+			Ignasiau Uan_John Uaquin Laiaunarau
+			Maximil_Max Martin Miguail_Michael
+			Rauzigau Pavlau Santiagau Saivastian
 		}
 		female_names = {
-			Abigail_Abigail Alice Catherine_Catherine Chloe Barbara Dorothy
-			Emma Emily_Emily Isabella_Elisabeth Elisabeth_Elisabeth Eliza_Elisabeth Elizabeth_Elizabeth Ellen
-			Grace Hannah Jennifer_Jennifer Jessica Lily Lucy Linda Katherine_Catherine
-			Mary_Maria Margaret_Margaret Melissa Morgan Patricia_Patricia Ruby Stephany
-			Sarah_Sarah Sophia Susan_Susan Zoe Simone
+			Avigail_Abigail Alis Katharin_Catherine Klaui Varvara Zaurathy
+			Aima Aimily_Emily Isavailla_Elisabeth Ailiza_Elisabeth Aillain
+			Grais Anna Chainnifar_Jennifer Chaisika Lily Lusy Linza
+			Mary_Maria Margarait_Margaret Mailissa Maurgan Patrisia_Patricia Ruvy Aistaifany
+			Sara_Sarah Saufia_Sophia Susan_Susan Zaui Simaun
+			
+			Valaintina Valairia Mariana Lusiana
+			Zaniaila_Danielle Viktauria_Victoria Martina Lusia
+			Samantha Katalina Uliaita Aimilia_Emily
+			Natalia Paula Amanza Antaunia Uana
+			Manuaila Agustina Elaina Maria_Maria
 		}
 		dukes_called_kings = yes	
 		pat_grf_name_chance = 40	
@@ -805,6 +847,96 @@ crisis_indian_group = {
 		pat_grm_name_chance = 40	
 		mat_grm_name_chance = 40	
 		mother_name_chance = 0	
+	}
+	indo_duuryaatri = {
+		graphical_cultures = { muktanigfx }
+		color = { 1 0.71 0.75 }
+		male_names = {
+			Aarav Aadi Aditya Abhishek Alok Ajay Akshat Amit Arvind Abhinav
+			Arnav Atharv Anoop Aaryan Arjun Akhil Ayush Andhi Arunachalam
+		    Abhishek Ajith Ananth Anbu Anil Azhagan Arumugam
+			Arun Aruna Ashish Ashok Ashwin Arasan 
+			Bhushan Bala Bhaarath Balaji Balasubramaniam
+			Chandra Chandrasekhar
+			Deepak Devansh Dhruv Dileep Dinesh Durai
+			Gaurav Gokul Ganesh_Ganesh Gopal Ganesan_Ganesh Gautham
+			Gopalakrishna_Gopalakrishna Gopalakrishnan_Gopalakrishna 
+			Hari Harish Hemant
+			Inder Ishan
+			Jeevan Jatin Jaya Jothi Jagadishwara Jayaraj
+			Kartik Kapil Kumar_Kumar Krishna_Krishna Kamal Kannan
+			Karthikeyan Kiran Kishor Kumaran_Kumar Kathiravan
+			Krishnamoorthi Krishnan_Krishna Krishnakumar
+			Lakshman
+			Mohit Manish Manoj Madhu Mahesh Mani Mohan Murali Murugan
+			Manickam Mohanbabu
+			Naveen Nikhil Nitin
+			Nanda Narayan_Narayan Naaraayann_Narayan Naveen Nikhil Nirmal
+			Nagendran Nagesh Nakkeeran Nandini Narendra Nagaraj
+			Narasimha_Narasimha Narasimman_Narasimha
+			Padma Prabhakar Prabhu Pradeep Prakash Prasad Prasanna Prashanth
+			Praveen Prem Palanivel Pandian Puspa
+			Ramesh Ravi Rajesh Raunak Rakesh Rahul Rohit
+			Rahul Raj_Raj Rajeev Raju Ram_Rama Rama_Rama
+			Rashmi Rathna Rajan_Raj Rajarajan Rajendra Rajshekhar_Rajasekaran
+			Rajasekaran_Rajasekaran Rajaselvan Ramanan Ramanathan Ranganathan
+			Rudresh
+			Omkar
+			Sagnik Salman Sahil Shashank Sai Saini Shiv_Shiva Shaurya
+			Sandeep Sanjay Sekar Shankar Shyam Shiva_Shiva Sivan_Shiva Sree
+			Sudarshan Sundar Sunil Suresh Suraj Surya Santosh Subramaniam
+			Saravanan Sathish Sathishkumar Selvam Senthil Senthilkumar
+			Sethupathi Sudharshan Surendiran Siddharth
+			Palash Pranav Pradeep Prashant
+			Tejas Tufani
+			Varun Vivaan Vignesh Vihaan Vishal Vishnu Vivek Vijay
+			Vasu Venkata Vijay Vikram Vimal Vinay
+			Vairamuthu Vaishnav Veerasami Venkatesh Venkatraman
+			Venugopal Vignesh Vigneshwaran Vinothan
+			Yash
+			Zeal	
+		}
+		female_names = {
+			Ananya Aadhya Anika Aradhya Avni Aditi Anjali Anmeha Apoorva
+			Aishwarya Anuradha Arasi Azhagi
+			Aarthi Aishwarya Amala Anjali Aparna Archana Aruna Anitha
+			Bala Bhagwati Bhagirathy
+			Chandra Chandrika Chandini Chithra 
+			Deepa Deepika Devi Divya Durga Devasena Diya
+			Gayatri Gauri Geeta
+			Hema Harini 
+			Indira Indumati
+			Jaya Jayanti Jyoti Jayasree
+			Kala Kali Kalpana Kamala Kamatchi Kanchana Karthika Kasi
+			Kavita Kiran Kalaivani Kalaiarasi Kavya Korravai Khushi Kirti
+			Lakshmi Lalitha Lavanya Leela Leelavati
+			Madhu Meena Meera Manimegalai Meenakshi Miti
+			Nalini Neela Nikitha Nirmala Nisha Nithya Nandini Navya Nishi
+			Nilana
+			Padma Padmini Pallavi Pooja Poornima Praveena Preeti Prema
+			Priya Priyanka Puja Purnima Parvati Priyadarshini Puspa
+			Pari Pihu Priyanka Prachi
+			Rajeshwari Ramani Ramya Revati Radha Radhika Rashmi Rathna
+			Riya Rhea Ridhi Rishika
+			Sandhya Sarala Sita Seethai Shanti Sharmila Sheela Shyamala Sree
+			Sreedevi Sreenivas Sunita Swathi Sangeeta Saraswati Selvi
+			Shruti Sivalogini Suchitra Sumitra Shreya Sana Saanvi Sneha
+			Samaya
+			Thamarai Thamizhselvi Thulasi
+			Uma Usha
+			Vaishnavi Varsha Vidya Vijaya Vimala Veena Vijayalakshmi Vennila
+			Yamuna Yazhini
+		}
+		#dukes_called_kings = yes	
+		from_dynasty_prefix = "na "	
+		pat_grf_name_chance = 40	
+		mat_grf_name_chance = 40	
+		father_name_chance = 0	
+		pat_grm_name_chance = 40	
+		mat_grm_name_chance = 40	
+		mother_name_chance = 0
+		
+		disinherit_from_blinding = yes
 	}
 }
 avalonian_group = {

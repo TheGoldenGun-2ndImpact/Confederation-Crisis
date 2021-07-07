@@ -37,7 +37,7 @@ bm_crisis_of_the_confederation = {
 		}
 	}
 	selectable_character = {
-		id = 111695 # Fleet Adminral Catherine, daughter of President Jessica of The Frontier
+		id = 111695 # Fleet Admiral Katharin, daughter of President Chaisika of The Frontier
 		age = 20
 		name = ERA_CHAR_NAME_111695
 		title = d_frontier_fleet
