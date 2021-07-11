@@ -691,6 +691,10 @@ hive_baron_foa_female;CP;;;;;;;;;;;;;x
 hive_barony_of;CP Network;;;;;;;;;;;;;x
 hive_barony;CP Network;;;;;;;;;;;;;x
 hive_baronies;CP Networks;;;;;;;;;;;;;x
+
+EMPEROR_OF_TERRA;Emperor;;;;;;;;;;;;;;x
+EMPRESS_OF_TERRA;Empress;;;;;;;;;;;;;;x
+
 monarchy_emperor_imperial_cult;God-Emperor;;;;;;;;;;;;;x
 monarchy_emperor_imperial_cult_female;God-Empress;;;;;;;;;;;;;x
 monarchy_emperor_foa_imperial_cult;Your Holiness;;;;;;;;;;;;;x

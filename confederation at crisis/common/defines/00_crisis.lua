@@ -717,6 +717,11 @@ NDefines.NDiplomacy.PREPARE_INVASION_INTERACTION_THRESHOLD_FOR_YES = 0
 NDefines.NDiplomacy.PREPARE_INVASION_INTERACTION_MUST_HAVE_COST = 1				-- Is having prestige/piety >= cost required for this action?
 NDefines.NDiplomacy.PREPARE_INVASION_INTERACTION_ENABLED = 1						-- Should this action be used at all?
 
+NDefines.NDiplomacy.MIN_PREP_INV_TARGET_HOLDINGS = 3							-- The target must control at least this many holdings within the target kingdom to be a valid prepared invasion target
+NDefines.NDiplomacy.MAX_PREP_INV_TARGET_HOLDINGS = 50							-- The target must control at the most this many holdings within the target kingdom to be a valid prepared invasion target
+NDefines.NDiplomacy.MAX_PREP_INV_ATTACKER_HOLDINGS = 50						-- The attacker must have fewer Holdings than this in the realm (disallow Prepared Invasions for rulers who are already very powerful)
+NDefines.NDiplomacy.PREP_INV_REQ_PRESTIGE = 750
+
 NDefines.NDiplomacy.MAKE_CONSORT_INTERACTION_MONEY = 1
 NDefines.NDiplomacy.MAKE_CONSORT_INTERACTION_PIETY = 0
 NDefines.NDiplomacy.MAKE_CONSORT_INTERACTION_PRESTIGE = 10

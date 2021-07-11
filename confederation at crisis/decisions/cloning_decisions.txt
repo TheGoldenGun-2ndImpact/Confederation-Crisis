@@ -29,11 +29,13 @@ targetted_decisions = {
 				}
 			    religion = bio_directionist
 			    trait = clone
-			    AND = {
-				     NOT = { trait = heterosexual }
-					 is_married = no
+			    OR = {
+					AND = {
+						NOT = { trait = heterosexual }
+						is_married = no
+					}
+					any_spouse = { same_sex = FROM }
 				}
-				any_spouse = { same_sex = FROM }
 			}
 		}
 		effect = {
@@ -311,11 +313,13 @@ targetted_decisions = {
 				religion = imperial_cult
 			    trait = clone
 				trait = vat_born
-			    AND = {
-				     NOT = { trait = heterosexual }
-					 is_married = no
+			    OR = {
+					AND = {
+						NOT = { trait = heterosexual }
+						is_married = no
+					}
+					any_spouse = { same_sex = FROM }
 				}
-				any_spouse = { same_sex = FROM }
 			}
 		}
 		effect = {
