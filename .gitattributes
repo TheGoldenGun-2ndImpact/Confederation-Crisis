@@ -1,3 +1,2 @@
-*.csv encoding=cp1252 eol=crlf
-*.txt encoding=cp1252 eol=crlf
-tools export-ignore
+# Auto detect text files and perform LF normalization
+* text=auto

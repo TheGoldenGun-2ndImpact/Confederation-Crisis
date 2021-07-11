@@ -242,3 +242,5 @@ EVTDESCASSASSINATION541;You've made a huge mistake. You set off the alarm almost
 EVTOPTAASSASSINATION541;Well, this could have gone better.;;;;;;;;;;;;;x
 EVTOPTBASSASSINATION541;[target_mastermind.GetCrisisInformalName] isn't going to be happy.;;;;;;;;;;;;;x
 EVTDESCASSASSINATION543;Your morning briefing opens with a shocker - apparently, last night, an assassin made an attempt on the life of your [GetFromRelation], [From.GetCrisisInformalName]. Fortunately, the assassination attempt was thwarted.;;;;;;;;;;;;;x
+plot_kidnapping_short;Abduct;Abduct;Abduct;;Abduct;;;;;;;;;x
+plot_kidnapping_desc;Abduct;Abduct;Abduct;;Abduct;;;;;;;;;x

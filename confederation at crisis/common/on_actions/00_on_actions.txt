@@ -947,14 +947,26 @@ on_exiled = {
 
 #character. Fires every month for characters who are preparing an invasion.
 on_prepared_invasion_monthly = {
+	random_events = {
+		15 = 0
+		15 = 62322 	# A small force flocks to your banner
+		15 = 62320 	# A significant force flocks to your banner
+		2 = 62321 	# A Hero joins your cause with his retinue
+	}
 }
 
 #character. Fires if a prepared invasion becomes invalid.
 on_prepared_invasion_aborts = {
+	events = {
+		62300 # Handle abort
+	}
 }
 
 #character. Fires if a prepared invasion expires.
 on_prepared_invasion_expires = {
+	events = {
+		62310 # Handle expiration
+	}
 }
 
 on_death = {
