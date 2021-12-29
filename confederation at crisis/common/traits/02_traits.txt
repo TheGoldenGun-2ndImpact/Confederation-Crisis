@@ -1337,31 +1337,6 @@ shieldmaiden  = {
 	female_compliment_adj = COMPL_VIKING
 }
 
-physician = {
-
-	diplomacy = 1
-	learning = 2
-	monthly_character_prestige = 0.25
-	health = 0.5
-
-	general_opinion = 5
-
-	customizer = no
-	random = no
-
-	male_compliment = COMPL_SCHOLAR
-	female_compliment = COMPL_SCHOLAR
-	child_compliment = COMPL_SMARTY
-	male_compliment_adj = COMPL_LEARNED
-	female_compliment_adj = COMPL_LEARNED
-	child_compliment_adj = COMPL_CLEVER
-	male_insult = INSULT_BOOKWORM
-	female_insult = INSULT_BOOKWORM
-	child_insult = INSULT_BORE
-	male_insult_adj = INSULT_SQUINTEYED
-	female_insult_adj = INSULT_SQUINTEYED
-}
-
 scurvy = {
 	is_health = yes
 	is_illness = yes

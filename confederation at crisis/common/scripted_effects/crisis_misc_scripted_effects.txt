@@ -1,0 +1,74 @@
+expel_student_effect = {
+	if = {
+		limit = { in_society = university_of_the_confederation }
+		set_character_flag = flag_expelled_university_of_the_confederation
+	}
+	if = {
+		limit = { in_society = university_of_huangjing }
+		set_character_flag = flag_expelled_university_of_huangjing
+	}
+	if = {
+		limit = { in_society = university_of_encrucijada }
+		set_character_flag = flag_expelled_university_of_encrucijada
+	}
+	if = {
+		limit = { in_society = university_of_makkat_al_jadiida }
+		set_character_flag = flag_expelled_university_of_makkat_al_jadiida
+	}
+	if = {
+		limit = { in_society = university_of_nyota_mwisho }
+		set_character_flag = flag_expelled_university_of_nyota_mwisho
+	}
+	if = {
+		limit = { in_society = university_of_armstrong }
+		set_character_flag = flag_expelled_university_of_armstrong
+	}
+	if = {
+		limit = { in_society = university_of_tereshkova }
+		set_character_flag = flag_expelled_university_of_tereshkova
+	}
+	if = {
+		limit = { in_society = university_of_xin_qin }
+		set_character_flag = flag_expelled_university_of_xin_qin
+	}
+	if = {
+		limit = { in_society = university_of_bianjiang }
+		set_character_flag = flag_expelled_university_of_bianjiang
+	}
+	if = {
+		limit = { in_society = university_of_the_reach }
+		set_character_flag = flag_expelled_university_of_the_reach
+	}
+	if = {
+		limit = { in_society = university_of_paraiso }
+		set_character_flag = flag_expelled_university_of_paraiso
+	}
+	if = {
+		limit = { in_society = university_of_cauraha }
+		set_character_flag = flag_expelled_university_of_cauraha
+	}
+	if = {
+		limit = { in_society = university_of_tarka }
+		set_character_flag = flag_expelled_university_of_tarka
+	}
+	if = {
+		limit = { in_society = university_of_avalon }
+		set_character_flag = flag_expelled_university_of_avalon
+	}
+	if = {
+		limit = { in_society = university_of_franklin }
+		set_character_flag = flag_expelled_university_of_franklin
+	}
+	if = {
+		limit = { in_society = university_of_hiyokuoka }
+		set_character_flag = flag_expelled_university_of_hiyokuoka
+	}
+	if = {
+		limit = { in_society = university_of_strugatsky }
+		set_character_flag = flag_expelled_university_of_strugatsky
+	}
+	if = {
+		limit = { in_society = university_of_novyy_edem }
+		set_character_flag = flag_expelled_university_of_novyy_edem
+	}
+}

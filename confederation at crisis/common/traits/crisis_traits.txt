@@ -183,3 +183,109 @@ warlord = {
 
 	religious_group_opinion = -5
 }
+
+
+### Post-Secondary Education Traits ###
+lawyer = {
+	potential = { age = 18 }
+	diplomacy = 3
+	monthly_character_prestige = 0.25
+	vassal_opinion = 10
+}
+fake_lawyer = {
+	is_visible = {
+		OR = {
+			character = FROM
+			has_opinion_modifier = { who = FROM modifier = opinion_known_fraud }
+			FROM = { has_character_flag = flag_exposed_fraud }
+		}
+	}
+	diplomacy = -3
+	intrigue = 3
+	customizer = no
+	random = no
+}
+economist = {
+	potential = { age = 18 }
+	stewardship = 3
+	intrigue = 3
+	same_opinion = 10
+}
+fake_economist = {
+	is_visible = {
+		OR = {
+			character = FROM
+			has_opinion_modifier = { who = FROM modifier = opinion_known_fraud }
+			FROM = { has_character_flag = flag_exposed_fraud }
+		}
+	}
+	stewardship = -3
+	intrigue = 3
+	customizer = no
+	random = no
+}
+scientist = {
+	potential = { age = 18 }
+	learning = 3
+	monthly_character_prestige = 0.1
+	
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	child_compliment = COMPL_SMARTY
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult = INSULT_BOOKWORM
+	female_insult = INSULT_BOOKWORM
+	child_insult = INSULT_BORE
+	male_insult_adj = INSULT_SQUINTEYED
+	female_insult_adj = INSULT_SQUINTEYED
+}
+fake_scientist = {
+	is_visible = {
+		OR = {
+			character = FROM
+			has_opinion_modifier = { who = FROM modifier = opinion_known_fraud }
+			FROM = { has_character_flag = flag_exposed_fraud }
+		}
+	}
+	learning = -3
+	intrigue = 3
+	customizer = no
+	random = no
+}
+physician = {
+	potential = { age = 18 }
+	diplomacy = 1
+	learning = 2
+	monthly_character_prestige = 0.25
+	health = 0.5
+	
+	general_opinion = 5
+	
+	male_compliment = COMPL_SCHOLAR
+	female_compliment = COMPL_SCHOLAR
+	child_compliment = COMPL_SMARTY
+	male_compliment_adj = COMPL_LEARNED
+	female_compliment_adj = COMPL_LEARNED
+	child_compliment_adj = COMPL_CLEVER
+	male_insult = INSULT_BOOKWORM
+	female_insult = INSULT_BOOKWORM
+	child_insult = INSULT_BORE
+	male_insult_adj = INSULT_SQUINTEYED
+	female_insult_adj = INSULT_SQUINTEYED
+}
+fake_physician = {
+	is_visible = {
+		OR = {
+			character = FROM
+			has_opinion_modifier = { who = FROM modifier = opinion_known_fraud }
+			FROM = { has_character_flag = flag_exposed_fraud }
+		}
+	}
+	learning = -2
+	intrigue = 3
+	health = -0.5
+	customizer = no
+	random = no
+}

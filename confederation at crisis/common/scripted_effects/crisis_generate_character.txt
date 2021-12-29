@@ -1299,3 +1299,639 @@ spawn_fantastic_commander_effect = {
 		event_target:target_stupid = { death = { death_reason = death_natural } }
     }
 }
+create_lawyer_effect = {
+	create_character = {
+		culture = ROOT
+	}
+	new_character = {
+		if = {
+			limit = { 
+				culture_group = terran_group 
+			}
+			terran_scrambled_effect = yes
+		}
+		save_event_target_as = target_dummy
+	}
+    random_list = {
+        50 = {
+            create_random_diplomat = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = yes
+                dynasty = actually_culture
+            }
+        }
+        50 = {
+            create_random_diplomat = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = no
+                dynasty = actually_culture
+            }
+        }
+    }
+	new_character = {
+		change_diplomacy = 4
+		add_trait = lawyer
+		random_list = {
+			10 = { }
+			10 = { add_age = 10 }
+			10 = { add_age = 20 }
+			10 = { add_age = 30 }
+		}
+        # Cybernetics
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random_list = {
+                100 = { }
+                25 = { add_trait = cybernetic_limb }
+                25 = {
+                    if = {
+                        limit = { has_dlc = "Reapers" }
+                        add_trait = cybernetic_leg
+                    }
+                    else = { add_trait = cybernetic_limb }
+                }
+            }
+        }
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random = {
+                chance = 20
+                add_trait = dni
+                add_trait = iaei_mk_i
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 2 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = iaei_mk_i
+                add_trait = iaei_mk_ii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 4 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = iaei_mk_i
+                remove_trait = iaei_mk_ii
+                add_trait = iaei_mk_iii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 6 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = iaei_mk_i
+                remove_trait = iaei_mk_ii
+                remove_trait = iaei_mk_iii
+                add_trait = iaei_mk_iv
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 8 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = iaei_mk_i
+                remove_trait = iaei_mk_ii
+                remove_trait = iaei_mk_iii
+                remove_trait = iaei_mk_iv
+                add_trait = iaei_mk_v
+            }
+        }
+        # Biological Traits for specific cultures
+        if = {
+            limit = { any_liege = { trait = spacer_physiology } }
+            random = {
+                chance = 10
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { religion = astrist }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = {
+                religion = astrist
+                top_liege = { trait = spacer_physiology }
+                }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { location = { province_id = 202 } }
+            random = {
+                chance = 66
+                add_trait = born_in_the_purple
+            }
+        }
+        set_dynasty_flag = flag_valid_surname
+		event_target:target_stupid = { banish = yes }
+		event_target:target_stupid = { death = { death_reason = death_natural } }
+	}
+}
+create_economist_effect = {
+	create_character = {
+		culture = ROOT
+	}
+	new_character = {
+		if = {
+			limit = { 
+				culture_group = terran_group 
+			}
+			terran_scrambled_effect = yes
+		}
+		save_event_target_as = target_dummy
+	}
+    random_list = {
+        50 = {
+            create_random_steward = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = yes
+                dynasty = actually_culture
+            }
+        }
+        50 = {
+            create_random_steward = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = no
+                dynasty = actually_culture
+            }
+        }
+    }
+	new_character = {
+		change_stewardship = 4
+		add_trait = economist
+		random_list = {
+			10 = { }
+			10 = { add_age = 10 }
+			10 = { add_age = 20 }
+			10 = { add_age = 30 }
+		}
+        # Cybernetics
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random_list = {
+                100 = { }
+                25 = { add_trait = cybernetic_limb }
+                25 = {
+                    if = {
+                        limit = { has_dlc = "Reapers" }
+                        add_trait = cybernetic_leg
+                    }
+                    else = { add_trait = cybernetic_limb }
+                }
+            }
+        }
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random = {
+                chance = 20
+                add_trait = dni
+                add_trait = pci_mk_i
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 2 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = pci_mk_i
+                add_trait = pci_mk_ii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 4 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = pci_mk_i
+                remove_trait = pci_mk_ii
+                add_trait = pci_mk_iii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 6 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = pci_mk_i
+                remove_trait = pci_mk_ii
+                remove_trait = pci_mk_iii
+                add_trait = pci_mk_iv
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 8 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = pci_mk_i
+                remove_trait = pci_mk_ii
+                remove_trait = pci_mk_iii
+                remove_trait = pci_mk_iv
+                add_trait = pci_mk_v
+            }
+        }
+        # Biological Traits for specific cultures
+        if = {
+            limit = { any_liege = { trait = spacer_physiology } }
+            random = {
+                chance = 10
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { religion = astrist }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = {
+                religion = astrist
+                top_liege = { trait = spacer_physiology }
+                }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { location = { province_id = 202 } }
+            random = {
+                chance = 66
+                add_trait = born_in_the_purple
+            }
+        }
+        set_dynasty_flag = flag_valid_surname
+		event_target:target_stupid = { banish = yes }
+		event_target:target_stupid = { death = { death_reason = death_natural } }
+	}
+}
+create_physician_effect = {
+	create_character = {
+		culture = ROOT
+	}
+	new_character = {
+		if = {
+			limit = { 
+				culture_group = terran_group 
+			}
+			terran_scrambled_effect = yes
+		}
+		save_event_target_as = target_dummy
+	}
+    random_list = {
+        50 = {
+            create_random_priest = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = yes
+                dynasty = actually_culture
+            }
+        }
+        50 = {
+            create_random_priest = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = no
+                dynasty = actually_culture
+            }
+        }
+    }
+	new_character = {
+		change_learning = 4
+		add_trait = physician
+		random_list = {
+			10 = { }
+			10 = { add_age = 10 }
+			10 = { add_age = 20 }
+			10 = { add_age = 30 }
+		}
+        # Cybernetics
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random_list = {
+                100 = { }
+                25 = { add_trait = cybernetic_limb }
+                25 = {
+                    if = {
+                        limit = { has_dlc = "Reapers" }
+                        add_trait = cybernetic_leg
+                    }
+                    else = { add_trait = cybernetic_limb }
+                }
+            }
+        }
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random = {
+                chance = 20
+                add_trait = dni
+                add_trait = thoth_mk_i
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 2 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                add_trait = thoth_mk_ii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 4 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                remove_trait = thoth_mk_ii
+                add_trait = thoth_mk_iii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 6 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                remove_trait = thoth_mk_ii
+                remove_trait = thoth_mk_iii
+                add_trait = thoth_mk_iv
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 8 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                remove_trait = thoth_mk_ii
+                remove_trait = thoth_mk_iii
+                remove_trait = thoth_mk_iv
+                add_trait = thoth_mk_v
+            }
+        }
+        # Biological Traits for specific cultures
+        if = {
+            limit = { any_liege = { trait = spacer_physiology } }
+            random = {
+                chance = 10
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { religion = astrist }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = {
+                religion = astrist
+                top_liege = { trait = spacer_physiology }
+                }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { location = { province_id = 202 } }
+            random = {
+                chance = 66
+                add_trait = born_in_the_purple
+            }
+        }
+        set_dynasty_flag = flag_valid_surname
+		event_target:target_stupid = { banish = yes }
+		event_target:target_stupid = { death = { death_reason = death_natural } }
+	}
+}
+create_scientist_effect = {
+	create_character = {
+		culture = ROOT
+	}
+	new_character = {
+		if = {
+			limit = { 
+				culture_group = terran_group 
+			}
+			terran_scrambled_effect = yes
+		}
+		save_event_target_as = target_dummy
+	}
+    random_list = {
+        50 = {
+            create_random_priest = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = yes
+                dynasty = actually_culture
+            }
+        }
+        50 = {
+            create_random_priest = {
+                random_traits = yes
+                culture = event_target:target_dummy
+                religion = ROOT
+                female = no
+                dynasty = actually_culture
+            }
+        }
+    }
+	new_character = {
+		change_learning = 4
+		add_trait = scientist
+		random_list = {
+			10 = { }
+			10 = { add_age = 10 }
+			10 = { add_age = 20 }
+			10 = { add_age = 30 }
+		}
+        # Cybernetics
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random_list = {
+                100 = { }
+                25 = { add_trait = cybernetic_limb }
+                25 = {
+                    if = {
+                        limit = { has_dlc = "Reapers" }
+                        add_trait = cybernetic_leg
+                    }
+                    else = { add_trait = cybernetic_limb }
+                }
+            }
+        }
+        if = {
+            limit = { NOT = { religion_group = religious_group } }
+            random = {
+                chance = 20
+                add_trait = dni
+                add_trait = thoth_mk_i
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 2 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                add_trait = thoth_mk_ii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 4 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                remove_trait = thoth_mk_ii
+                add_trait = thoth_mk_iii
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 6 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                remove_trait = thoth_mk_ii
+                remove_trait = thoth_mk_iii
+                add_trait = thoth_mk_iv
+            }
+        }
+        if = {
+            limit = {
+                NOT = { religion_group = religious_group }
+                location = { TECH_CYBERNETICS = 8 }
+            }
+            random = {
+                chance = 20
+                add_trait = dni
+                remove_trait = thoth_mk_i
+                remove_trait = thoth_mk_ii
+                remove_trait = thoth_mk_iii
+                remove_trait = thoth_mk_iv
+                add_trait = thoth_mk_v
+            }
+        }
+        # Biological Traits for specific cultures
+        if = {
+            limit = { any_liege = { trait = spacer_physiology } }
+            random = {
+                chance = 10
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { religion = astrist }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = {
+                religion = astrist
+                top_liege = { trait = spacer_physiology }
+                }
+            random = {
+                chance = 25
+                remove_trait = heavy_worlder
+                add_trait = spacer_physiology
+            }
+        }
+        if = {
+            limit = { location = { province_id = 202 } }
+            random = {
+                chance = 66
+                add_trait = born_in_the_purple
+            }
+        }
+        set_dynasty_flag = flag_valid_surname
+		event_target:target_stupid = { banish = yes }
+		event_target:target_stupid = { death = { death_reason = death_natural } }
+	}
+}

@@ -1643,3 +1643,43 @@ is_periphery_culture = {
 	}
 	NOT = { culture = russo_centauri }
 }
+
+# School-related triggers
+is_civilian_school_trigger = {
+	OR = {
+		is_society = university_of_the_confederation
+		is_society = university_of_huangjing
+		is_society = university_of_encrucijada
+		is_society = university_of_makkat_al_jadiida
+		is_society = university_of_nyota_mwisho
+		is_society = university_of_armstrong
+		is_society = university_of_tereshkova
+		is_society = university_of_xin_qin
+		is_society = university_of_bianjiang
+		is_society = university_of_the_reach
+		is_society = university_of_paraiso
+		is_society = university_of_cauraha
+		is_society = university_of_tarka
+		is_society = university_of_avalon
+		is_society = university_of_franklin
+		is_society = university_of_hiyokuoka
+		is_society = university_of_strugatsky
+		is_society = university_of_novyy_edem
+	}
+}
+has_major_trigger = {
+	OR = {
+		has_character_modifier = law_major
+		has_character_modifier = economics_major
+		has_character_modifier = medical_major
+		has_character_modifier = science_major
+	}
+}
+has_post_secondary_education_trigger = {
+	OR = {
+		trait = lawyer
+		trait = economist
+		trait = physician
+		trait = scientist
+	}
+}
