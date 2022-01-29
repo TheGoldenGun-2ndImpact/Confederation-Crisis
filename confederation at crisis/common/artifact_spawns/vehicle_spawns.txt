@@ -12,7 +12,11 @@
 			}
 		}
 	}
-	artifacts = { sff_59_dao_starfighter }
+	artifacts = {
+		sff_59_dao_starfighter = {
+			value = 1
+		}
+	}
 }
 2998_walkers = {
 	spawn_date = 2998.1.1
@@ -28,5 +32,9 @@
 			}
 		}
 	}
-	artifacts = { valkyrie_urban_assault_armor }
+	artifacts = {
+		valkyrie_urban_assault_armor = {
+			value = 1
+		}
+	}
 }
