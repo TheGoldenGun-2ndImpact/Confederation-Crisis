@@ -424,63 +424,63 @@ feudal_elective = {
 				is_female = yes
 			}
 		}
-		additive_modifier = { #Gender weights
-			value = -40
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_1
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_2
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_3
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
+		# additive_modifier = { #Gender weights
+			# value = -40
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_1
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_2
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -10
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_3
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
 		additive_modifier = { #Gender weights
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_patriarchal
@@ -3427,10 +3427,10 @@ feudal_elective = {
 				} 
 				is_ruler = no
 				ROOT_FROMFROM = { holder_scope = { independent = yes } }
-				NOR = { 
+				NOT = { 
 					ROOT_FROMFROM = { has_law = out_of_realm_inheritance_law_1 } 
-					ROOT_FROMFROM = { has_law = crown_authority_3 } 
-					ROOT_FROMFROM = { has_law = crown_authority_4 } 
+					#ROOT_FROMFROM = { has_law = crown_authority_3 } 
+					#ROOT_FROMFROM = { has_law = crown_authority_4 } 
 				} 
 			} 
 		} 
