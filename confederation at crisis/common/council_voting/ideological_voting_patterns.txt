@@ -103,8 +103,8 @@ ideological_for = {
     legislative_type_stratocratic = {
         OR = {
             ideology_is_pro_stratocratic = yes
-            FROMFROM = { government = military_command }
-            FROMFROM = { government = military_base_government }
+            government = military_command
+            government = military_base_government
         }
     }
 
