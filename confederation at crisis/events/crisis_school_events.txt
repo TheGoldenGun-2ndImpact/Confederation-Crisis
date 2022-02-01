@@ -623,7 +623,7 @@ character_event = {
 	# Take time out of your work schedule to tutor them
 	option = {
 		name = "EVTOPTASCHOOL101"
-		change_society_currency = -50
+		detract_society_currency_tiny_effect = yes
 		FROM = {
 			opinion = { who = ROOT modifier = opinion_tutored_me }
 			hidden_tooltip = { character_event = { id = school.102 } }
@@ -772,7 +772,7 @@ character_event = {
 	# Double down on your studies
 	option = {
 		name = "EVTOPTBSCHOOL104"
-		change_society_currency = 50
+		add_society_currency_tiny_effect = yes
 		ai_chance = { factor = 50 }
 	}
 }
@@ -1140,7 +1140,7 @@ character_event = {
 		}
 		else_if = {
 			limit = { event_target:target_professor = { has_character_flag = flag_normal_exam } }
-			change_society_currency = 50
+			add_society_currency_tiny_effect = yes
 		}
 		else_if = {
 			limit = { event_target:target_professor = { has_character_flag = flag_hard_exam } }
@@ -1168,7 +1168,7 @@ character_event = {
 		else_if = {
 			limit = {
 				event_target:target_professor = { has_character_flag = flag_normal_exam }
-				change_society_currency = -50
+				detract_society_currency_tiny_effect = yes
 			}
 		}
 		else_if = {
@@ -1487,7 +1487,7 @@ character_event = {
 		}
 		else_if = {
 			limit = { has_character_flag = flag_hard_exam }
-			change_society_currency = 50
+			add_society_currency_tiny_effect = yes
 		}
 	}
 }
@@ -1750,7 +1750,7 @@ character_event = {
 		else_if = {
 			limit = {
 				event_target:target_professor = { has_character_flag = flag_normal_exam }
-				change_society_currency = -50
+				detract_society_currency_tiny_effect = yes
 			}
 		}
 		else_if = {
@@ -2466,7 +2466,7 @@ character_event = {
 		name = "EVTOPTASCHOOL141"
 		change_variable = { which = stress_var value = -15 }
 		modify_stress_effect = yes
-		change_society_currency = 50
+		add_society_currency_tiny_effect = yes
 		hidden_tooltip = { FROM = { character_event = { id = school.142 } } }
 	}
 }
@@ -2563,7 +2563,7 @@ character_event = {
 			change_variable = { which = stress_var value = 50 }
 		}
 		modify_stress_effect = yes
-		change_society_currency = 50
+		add_society_currency_tiny_effect = yes
 		religion = FROM
 		hidden_tooltip = { FROM = { character_event = { id = school.145 } } }
 		ai_chance = {
@@ -2582,7 +2582,7 @@ character_event = {
 	# Refuse to do the assignment
 	option = {
 		name = "EVTOPTCSCHOOL143"
-		change_society_currency = -50
+		detract_society_currency_tiny_effect = yes
 		hidden_tooltip = { FROM = { character_event = { id = school.146 } } }
 		ai_chance = {
 			factor = 50
@@ -2856,7 +2856,7 @@ character_event = {
 	# Do professor 1's work first
 	option = {
 		name = "EVTOPTASCHOOL151"
-		change_society_currency = 50
+		add_society_currency_tiny_effect = yes
 		event_target:professor_1 = {
 			opinion = { who = ROOT modifier = opinion_kept_up_in_class }
 			hidden_tooltip = { character_event = { id = school.152 } }
@@ -2953,7 +2953,7 @@ character_event = {
 	# Do professor 2's work first
 	option = {
 		name = "EVTOPTBSCHOOL151"
-		change_society_currency = 50
+		add_society_currency_tiny_effect = yes
 		event_target:professor_2 = {
 			opinion = { who = ROOT modifier = opinion_kept_up_in_class }
 			hidden_tooltip = { character_event = { id = school.152 } }
@@ -3088,7 +3088,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTCONFIRM"
-		change_society_currency = 50
+		add_society_currency_tiny_effect = yes
 	}
 }
 
@@ -3101,7 +3101,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTCONFIRM"
-		change_society_currency = -50
+		detract_society_currency_tiny_effect = yes
 	}
 }
 
@@ -4441,7 +4441,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTCONFIRM"
-		change_society_currency = -50
+		detract_society_currency_tiny_effect = yes
 	}
 }
 character_event = {

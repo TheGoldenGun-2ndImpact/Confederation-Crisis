@@ -4478,43 +4478,87 @@ minor_soul_corruption_effect = {
 }
 
 add_society_currency_trivial_effect = {
-	change_society_currency = 10
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 10
+	}
 }
 
+add_society_currency_tiny_effect = {
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 50
+	}
+} 
+
 add_society_currency_minor_effect = {
-	change_society_currency = 100
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 100
+	}
 }
 
 add_society_currency_medium_effect = {
-	change_society_currency = 200
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 200
+	}
 }
 
 add_society_currency_major_effect = {
-	change_society_currency = 300
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 300
+	}
+}
+
+add_society_currency_large_effect = {
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 500
+	}
 }
 
 add_society_currency_massive_effect = {
-	change_society_currency = 1000
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = 1000
+	}
 }
 
 detract_society_currency_trivial_effect = {
-	change_society_currency = -15
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = -15
+	}
 }
 
 detract_society_currency_tiny_effect = {
-	change_society_currency = -50
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = -50
+	}
 }
 
 detract_society_currency_minor_effect = {
-	change_society_currency = -150
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = -150
+	}
 }
 
 detract_society_currency_medium_effect = {
-	change_society_currency = -300
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = -300
+	}
 }
 
 detract_society_currency_major_effect = {
-	change_society_currency = -500
+	if = {
+		limit = { is_in_society = yes }
+		change_society_currency = -500
+	}
 }
 
 remove_random_maimed_effect = { #remember to clear flags if using this effect :D
