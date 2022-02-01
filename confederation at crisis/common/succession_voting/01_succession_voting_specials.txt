@@ -1128,122 +1128,122 @@ byzantine_elective = {
 		}
 		################################################################################
 
-		additive_modifier = { #Those crafty Byzantines...
-			value = 10
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 8
-			NOT = { intrigue = 10 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 15
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 10
-			NOT = { intrigue = 12 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 20
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 12
-			NOT = { intrigue = 14 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 25
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 14
-			NOT = { intrigue = 16 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 30
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 16
-			NOT = { intrigue = 18 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 35
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 18
-			NOT = { intrigue = 20 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 40
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 20
-			NOT = { intrigue = 25 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 50
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 25
-			NOT = { intrigue = 30 }
-			culture = greek
-		}
-		additive_modifier = { #Those crafty Byzantines...
-			value = 65
-			localisation_key = tooltip_imperial_vote_strength_greek_intrigue
-			vassal_of = FROMFROM 
-			NOT = { 
-				FROMFROM = { 
-					holder_scope = { character = ROOT }
-				}
-			}
-			intrigue = 30
-			culture = greek
-		}
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 10
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 8
+			# NOT = { intrigue = 10 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 15
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 10
+			# NOT = { intrigue = 12 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 20
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 12
+			# NOT = { intrigue = 14 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 25
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 14
+			# NOT = { intrigue = 16 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 30
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 16
+			# NOT = { intrigue = 18 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 35
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 18
+			# NOT = { intrigue = 20 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 40
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 20
+			# NOT = { intrigue = 25 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 50
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 25
+			# NOT = { intrigue = 30 }
+			# culture = greek
+		# }
+		# additive_modifier = { #Those crafty Byzantines...
+			# value = 65
+			# localisation_key = tooltip_imperial_vote_strength_greek_intrigue
+			# vassal_of = FROMFROM 
+			# NOT = { 
+				# FROMFROM = { 
+					# holder_scope = { character = ROOT }
+				# }
+			# }
+			# intrigue = 30
+			# culture = greek
+		# }
 		################################################################################
 
 		additive_modifier = { #Romans love their orations...
@@ -2154,75 +2154,75 @@ byzantine_elective = {
 			}
 		}
 
-		additive_modifier = { # Sneaky Byzantines
-			value = 5
-			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
-			FROM = { 
-				ere_elective_politician_titles_trigger = yes
-				intrigue = 10
-				NOT = { 
-					intrigue = 12
-				}
-			}
-		}
-		additive_modifier = { # Sneaky Byzantines
-			value = 10
-			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
-			FROM = { 
-				ere_elective_politician_titles_trigger = yes
-				intrigue = 12
-				NOT = { 
-					intrigue = 16
-				}
-			}
-		}
-		additive_modifier = { # Sneaky Byzantines
-			value = 15
-			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
-			FROM = { 
-				ere_elective_politician_titles_trigger = yes
-				intrigue = 16
-				NOT = { 
-					intrigue = 18
-				}
-			}
-		}
-		additive_modifier = { # Sneaky Byzantines
-			value = 20
-			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
-			FROM = { 
-				ere_elective_politician_titles_trigger = yes
-				intrigue = 18
-				NOT = { 
-					intrigue = 20
-				}
-			}
-		}
-		additive_modifier = { # Sneaky Byzantines
-			value = 25
-			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
-			FROM = { 
-				ere_elective_politician_titles_trigger = yes
-				intrigue = 20
-				NOT = { 
-					intrigue = 25
-				}
-			}
-		}
-		additive_modifier = { # Sneaky Byzantines
-			value = 30
-			localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
-			culture = greek
-			FROM = { 
-				ere_elective_politician_titles_trigger = yes
-				intrigue = 30
-			}
-		}
+		# additive_modifier = { # Sneaky Byzantines
+			# value = 5
+			# localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
+			# culture = greek
+			# FROM = { 
+				# ere_elective_politician_titles_trigger = yes
+				# intrigue = 10
+				# NOT = { 
+					# intrigue = 12
+				# }
+			# }
+		# }
+		# additive_modifier = { # Sneaky Byzantines
+			# value = 10
+			# localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
+			# culture = greek
+			# FROM = { 
+				# ere_elective_politician_titles_trigger = yes
+				# intrigue = 12
+				# NOT = { 
+					# intrigue = 16
+				# }
+			# }
+		# }
+		# additive_modifier = { # Sneaky Byzantines
+			# value = 15
+			# localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
+			# culture = greek
+			# FROM = { 
+				# ere_elective_politician_titles_trigger = yes
+				# intrigue = 16
+				# NOT = { 
+					# intrigue = 18
+				# }
+			# }
+		# }
+		# additive_modifier = { # Sneaky Byzantines
+			# value = 20
+			# localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
+			# culture = greek
+			# FROM = { 
+				# ere_elective_politician_titles_trigger = yes
+				# intrigue = 18
+				# NOT = { 
+					# intrigue = 20
+				# }
+			# }
+		# }
+		# additive_modifier = { # Sneaky Byzantines
+			# value = 25
+			# localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
+			# culture = greek
+			# FROM = { 
+				# ere_elective_politician_titles_trigger = yes
+				# intrigue = 20
+				# NOT = { 
+					# intrigue = 25
+				# }
+			# }
+		# }
+		# additive_modifier = { # Sneaky Byzantines
+			# value = 30
+			# localisation_key = tooltip_feudal_elector_vote_councilor_intrigue
+			# culture = greek
+			# FROM = { 
+				# ere_elective_politician_titles_trigger = yes
+				# intrigue = 30
+			# }
+		# }
 
 		#Educational preferences
 		additive_modifier = { # Warrior culture prefers warriors
