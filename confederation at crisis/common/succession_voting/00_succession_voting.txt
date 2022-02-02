@@ -3695,82 +3695,82 @@ tanistry = {
 			}
 		}
 
-		additive_modifier = { #Gender weights
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_0
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -40
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_1
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_2
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_3
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
+		# additive_modifier = { #Gender weights
+			# value = -50
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_0
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -40
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_1
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_2
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -10
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_3
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
 		additive_modifier = { #Gender weights
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_patriarchal
@@ -6973,82 +6973,82 @@ elective_gavelkind = {
 			}
 		}
 
-		additive_modifier = { #Gender weights
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_0
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -40
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_1
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_2
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_3
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-		}
+		# additive_modifier = { #Gender weights
+			# value = -50
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_0
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -40
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_1
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_2
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -10
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_3
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+		# }
 		additive_modifier = { #Gender weights
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_patriarchal
@@ -10506,94 +10506,94 @@ eldership_rules = {
 			}
 		}
 
-		additive_modifier = { #Gender weights
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_0
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -40
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_1
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_2
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
-		additive_modifier = { #Gender weights
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_3
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			FROMFROM = { 
-				holder_scope = { character = ROOT } 
-			}
-		}
+		# additive_modifier = { #Gender weights
+			# value = -50
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_0
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -40
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_1
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_2
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -10
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_3
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# FROMFROM = { 
+				# holder_scope = { character = ROOT } 
+			# }
+		# }
 		additive_modifier = { #Gender weights
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_patriarchal
@@ -13679,86 +13679,86 @@ eldership_rules = {
 			}
 			has_elector_stance = { stance = elder_pleased title = FROMFROM }
 		}
-		additive_modifier = { #Gender weights
-			value = -50
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_0
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
-		additive_modifier = { #Gender weights
-			value = -40
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_1
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
-		additive_modifier = { #Gender weights
-			value = -20
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_2
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
-		additive_modifier = { #Gender weights
-			value = -10
-			localisation_key = tooltip_feudal_elector_vote_sow
-			FROMFROM = {
-				has_law = status_of_women_3
-			}
-			NOR = {
-				has_religion_feature = religion_matriarchal
-				has_religion_feature = religion_equal
-				has_religion_feature = religion_feature_bon
-				has_game_rule = {
-					name = gender
-					value = all
-				}
-			}
-			FROM = {
-				is_female = yes
-			}
-			has_elector_stance = { stance = elder_pleased title = FROMFROM }
-		}
+		# additive_modifier = { #Gender weights
+			# value = -50
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_0
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -40
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_1
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -20
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_2
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
+		# additive_modifier = { #Gender weights
+			# value = -10
+			# localisation_key = tooltip_feudal_elector_vote_sow
+			# FROMFROM = {
+				# has_law = status_of_women_3
+			# }
+			# NOR = {
+				# has_religion_feature = religion_matriarchal
+				# has_religion_feature = religion_equal
+				# has_religion_feature = religion_feature_bon
+				# has_game_rule = {
+					# name = gender
+					# value = all
+				# }
+			# }
+			# FROM = {
+				# is_female = yes
+			# }
+			# has_elector_stance = { stance = elder_pleased title = FROMFROM }
+		# }
 		additive_modifier = { #Gender weights
 			value = -75
 			localisation_key = tooltip_feudal_elector_vote_patriarchal
