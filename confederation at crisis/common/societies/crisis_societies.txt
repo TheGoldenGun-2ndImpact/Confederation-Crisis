@@ -132,8 +132,8 @@ university_of_the_confederation = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = k_terran_commonwealth
+					has_landed_title = e_terran_confederation
+					has_landed_title = k_terran_commonwealth
 				}
 			}
 		}
@@ -165,9 +165,10 @@ university_of_the_confederation = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_huangjing = { same_realm = ROOT }
-				culture_group = terran_group
-			}
+                any_realm_lord = { has_landed_title = c_huangjing }
+                any_liege = { has_landed_title = c_huangjing }
+                culture_group = terran_group
+            }
 			OR = {
 				has_education_diplomacy_trigger = yes
 				has_education_stewardship_trigger = yes
@@ -315,9 +316,9 @@ university_of_huangjing = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_xingjie
-					is_landed_title = k_xingjie
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_xingjie
+					has_landed_title = k_xingjie
 				}
 			}
 		}
@@ -349,8 +350,9 @@ university_of_huangjing = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_huangjing = { same_realm = ROOT }
-				culture_group = xingjie_group
+                any_realm_lord = { has_landed_title = c_huangjing }
+                any_liege = { has_landed_title = c_huangjing }
+                culture_group = xingjie_group
 			}
 			OR = {
 				has_education_diplomacy_trigger = yes
@@ -499,9 +501,9 @@ university_of_encrucijada = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_tierra_celeste
-					is_landed_title = k_tierra_celeste
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_tierra_celeste
+					has_landed_title = k_tierra_celeste
 				}
 			}
 		}
@@ -683,9 +685,9 @@ university_of_makkat_al_jadiida = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_al_samawat
-					is_landed_title = k_al_samawat
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_al_samawat
+					has_landed_title = k_al_samawat
 				}
 			}
 		}
@@ -867,9 +869,9 @@ university_of_nyota_mwisho = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_zenye_nyota_angani
-					is_landed_title = k_zenye_nyota_angani
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_zenye_nyota_angani
+					has_landed_title = k_zenye_nyota_angani
 				}
 			}
 		}
@@ -1051,9 +1053,9 @@ university_of_armstrong = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_frontier
-					is_landed_title = k_frontier
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_frontier
+					has_landed_title = k_frontier
 				}
 			}
 		}
@@ -1235,9 +1237,9 @@ university_of_tereshkova = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_centauri_reach
-					is_landed_title = k_centauri_reach
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_centauri_reach
+					has_landed_title = k_centauri_reach
 				}
 			}
 		}
@@ -1419,9 +1421,9 @@ university_of_xin_qin = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_xin_zizhiqu
-					is_landed_title = k_xin_zizhiqu
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_xin_zizhiqu
+					has_landed_title = k_xin_zizhiqu
 				}
 			}
 		}
@@ -1603,9 +1605,9 @@ university_of_bianjiang = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_bianjiang
-					is_landed_title = k_bianjiang
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_bianjiang
+					has_landed_title = k_bianjiang
 				}
 			}
 		}
@@ -1787,9 +1789,9 @@ university_of_the_reach = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_orion_reach
-					is_landed_title = k_orion_reach
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_orion_reach
+					has_landed_title = k_orion_reach
 				}
 			}
 		}
@@ -1971,9 +1973,9 @@ university_of_paraiso = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_paraiso
-					is_landed_title = k_paraiso
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_paraiso
+					has_landed_title = k_paraiso
 				}
 			}
 		}
@@ -2155,15 +2157,15 @@ university_of_cauraha = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_mukta_duniya
-					is_landed_title = k_mukta_duniya
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_mukta_duniya
+					has_landed_title = k_mukta_duniya
 				}
 			}
 		}
 		modifier = {
 			factor = 4
-			culture_group = mukta_group
+			culture_group = crisis_indian_group
 		}
 		modifier = {
 			factor = 2
@@ -2190,7 +2192,7 @@ university_of_cauraha = {
 			NOT = { religion_group = outlaw_group }
 			OR = {
 				c_cauraha = { same_realm = ROOT }
-				culture_group = mukta_group
+				culture_group = crisis_indian_group
 			}
 			OR = {
 				has_education_diplomacy_trigger = yes
@@ -2339,9 +2341,9 @@ university_of_tarka = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_tarka
-					is_landed_title = k_tarka
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_tarka
+					has_landed_title = k_tarka
 				}
 			}
 		}
@@ -2523,9 +2525,9 @@ university_of_avalon = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_avalon
-					is_landed_title = k_avalon
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_avalon
+					has_landed_title = k_avalon
 				}
 			}
 		}
@@ -2707,9 +2709,9 @@ university_of_franklin = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_new_frontier
-					is_landed_title = k_new_frontier
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_new_frontier
+					has_landed_title = k_new_frontier
 				}
 			}
 		}
@@ -2891,9 +2893,9 @@ university_of_hiyokuoka = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_jion
-					is_landed_title = k_jion
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_jion
+					has_landed_title = k_jion
 				}
 			}
 		}
@@ -3075,9 +3077,9 @@ university_of_strugatsky = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_strugatsky
-					is_landed_title = k_strugatsky
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_strugatsky
+					has_landed_title = k_strugatsky
 				}
 			}
 		}
@@ -3259,9 +3261,9 @@ university_of_novyy_edem = {
 			factor = 2
 			crownlaw_title = {
 				OR = {
-					is_landed_title = e_terran_confederation
-					is_landed_title = e_novyy_edem
-					is_landed_title = k_novyy_edem
+					has_landed_title = e_terran_confederation
+					has_landed_title = e_novyy_edem
+					has_landed_title = k_novyy_edem
 				}
 			}
 		}
