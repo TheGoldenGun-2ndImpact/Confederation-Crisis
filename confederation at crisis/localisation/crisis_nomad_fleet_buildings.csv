@@ -1,0 +1,163 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+no_patrol_ships_1;Small Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_2;Small Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_3;Small Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_4;Moderate Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_5;Moderate Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_6;Large Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_7;Large Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_8;Large Patrol Flotilla;;;;;;;;;;;;;x
+no_patrol_ships_desc;A series of short range, high power military vessals which patrol the outskirts of the fleet to catch attackers before they can penetrate deeper.;;;;;;;;;;;;;x
+no_trade_ships_1;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_2;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_3;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_4;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_5;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_6;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_7;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_8;Trade Fleet;;;;;;;;;;;;;x
+no_trade_ships_desc;A number of trade vessels and container ships which guide what trade can be found out in the expansion zone.;;;;;;;;;;;;;x
+no_public_meeting_ships_1;Tiny Meeting ship;;;;;;;;;;;;;x
+no_public_meeting_ships_2;Small Meeting Ship;;;;;;;;;;;;;x
+no_public_meeting_ships_3;A Few Meeting Ships;;;;;;;;;;;;;x
+no_public_meeting_ships_4;Series of Meeting Ships;;;;;;;;;;;;;x
+no_public_meeting_ships_5;Fleet of Meeting Ships;;;;;;;;;;;;;x
+no_public_meeting_ships_6;Fleet of Meeting Ships;;;;;;;;;;;;;x
+no_public_meeting_ships_7;Fleet of Meeting Ships;;;;;;;;;;;;;x
+no_public_meeting_ships_8;Fleet of meeting Ships;;;;;;;;;;;;;x
+no_public_meeting_ships_desc;Ships used for the holding of large scale public meetings to convey the opinions of the fleet's population to it's Admiralty.;;;;;;;;;;;;;x
+no_ship_armor_crafter_1;Mobile Armor Manufactory;;;;;;;;;;;;;x
+no_ship_armor_crafter_2;Mobile Armor Manufactory;;;;;;;;;;;;;x
+no_ship_armor_crafter_3;Mobile Armor Manufactory;;;;;;;;;;;;;x
+no_ship_armor_crafter_4;Mobile Armor Manufactory;;;;;;;;;;;;;x
+no_ship_armor_crafter_5;Mobile Armor Factory;;;;;;;;;;;;;x
+no_ship_armor_crafter_6;Mobile Armor Factory;;;;;;;;;;;;;x
+no_ship_armor_crafter_7;Mobile Armor Factory;;;;;;;;;;;;;x
+no_ship_armor_crafter_8;Mobile Armor Factory;;;;;;;;;;;;;x
+no_ship_armor_crafter_desc;factory ships Specialised in manufactoring the replacement armor used by the Mobile Shipyards to repair damaged Warships.;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_1;Mobile Tunneler Manufactory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_2;Mobile Tunneler Manufactory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_3;Mobile Tunneler Manufactory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_4;Mobile Tunneler Manufactory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_5;Mobile Tunneler Factory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_6;Mobile Tunneler Factory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_7;Mobile Tunneler Factory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_8;Mobile Tunneler Factory;;;;;;;;;;;;;x
+no_tunneler_foundary_ships_desc;A specialized Mobile factory used to fabricate and maintain the delicate framework needed to build the special drives equipped on tunnelers as well as provide a storage area for these ships.  These unwieldy ships are capable of creating FTL wakes or tunnels that allow other ships to travel great distances without the need of using artificial wormholes.  The incredible fragility of the tunneler drive combined with its unpredictable nature when destroyed make ships equipped with them unsuited to combat of any kind.;;;;;;;;;;;;;x
+no_fleet_council_1;Lesser Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_2;Lesser Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_3;Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_4;Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_5;Great Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_6;Great Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_7;Grand Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_8;Grand Admiralty Chambers;;;;;;;;;;;;;x
+no_fleet_council_desc;These are the spaces aboard the fleet's flagship dedicated to the military fleet command.;;;;;;;;;;;;;x
+no_depot_ships_1;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_2;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_3;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_4;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_5;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_6;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_7;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_8;Depot Ships;;;;;;;;;;;;;x
+no_depot_ships_desc;These ships jump ahead of the fleet to lay the groundwork for its arrival in new sectors of space, making transition to these new regions easier.;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_1;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_2;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_3;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_4;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_5;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_6;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_7;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_8;Religious and Political vessals;;;;;;;;;;;;;x
+no_temple_and_political_organisation_vessels_desc;These are the various ships given over to religious and political organisations within the fleet.;;;;;;;;;;;;;x
+no_entertainment_ships_1;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_2;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_3;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_4;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_5;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_6;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_7;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_8;Entertainment Ships;;;;;;;;;;;;;x
+no_entertainment_ships_desc;These are ships repurposed by the fleet to act as the entertainment and cultural heart of the fleet.;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_1;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_2;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_3;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_4;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_5;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_6;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_7;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_8;Colony Ship Reclaimers;;;;;;;;;;;;;x
+no_colony_ship_reconstructers_desc;A specialised series of ships designed to assist in the reclaimation, reconstruction and conversion of old or abandoned colony ships for constant spaceborne habitation.;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_1;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_2;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_3;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_4;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_5;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_6;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_7;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_8;Repurposed Industrial Ships;;;;;;;;;;;;;x
+no_repurposed_industrial_ships_desc;These are originally short range vessals designed to perform light levels of industry which have since been jury rigged and overclocked to produce all the industrial goods the fleet needs.;;;;;;;;;;;;;x
+no_asteroid_mining_1;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_2;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_3;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_4;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_5;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_6;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_7;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_8;Asteroid Miners;;;;;;;;;;;;;x
+no_asteroid_mining_desc;The Equivalent of tugboats equipped with lasers, storage units and manipulating arms to gather the raw materials a fleet needs from the millions of asteroids which exist in any solar system.;;;;;;;;;;;;;x
+no_fuel_producer_1;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_2;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_3;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_4;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_5;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_6;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_7;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_8;Fuel Ships;;;;;;;;;;;;;x
+no_fuel_producer_desc;Ships designed to produce and store the fuel that the other ships in the fleet require to continue on their long celestial voyage.;;;;;;;;;;;;;x
+no_asteroid_firing_range_1;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_2;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_3;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_4;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_5;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_6;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_7;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_8;Asteroid Firing Range;;;;;;;;;;;;;x
+no_asteroid_firing_range_desc;Asteroids while also being an excellent way to retrieve resources can also provide the perfect targets for military training Exercises.;;;;;;;;;;;;;x
+no_mobile_shipyards_1;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_2;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_3;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_4;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_5;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_6;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_7;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_8;Mobile Shipyards;;;;;;;;;;;;;x
+no_mobile_shipyards_desc;These are relatively small shipyards designed to be easily moved with fleets. These maintain ships, rebuild damaged or old ships and construct new vessals using raw materials brought in via asteroids.;;;;;;;;;;;;;x
+no_distillery_ships_1;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_2;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_3;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_4;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_5;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_6;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_7;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_8;Distillery Ships;;;;;;;;;;;;;x
+no_distillery_ships_desc;These ships were handed over entirely to one of mainkind's oldest guilty pleasures entirely, afterall what improve's a ship crew's morale more than liquid courage?;;;;;;;;;;;;;x
+no_repurposed_colony_ships_1;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_2;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_3;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_4;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_5;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_6;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_7;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_8;Repurposed Colony Ships;;;;;;;;;;;;;x
+no_repurposed_colony_ships_desc;Colony ships which were lost in deep space during the first expansion or which have been carried here over the decades by refugees and migrants who never settled down have been repurposed to be suitable for prolonged spaceborne habitation.;;;;;;;;;;;;;x
+no_aquaponic_ships_1;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_2;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_3;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_4;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_5;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_6;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_7;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_8;Aquaponics Ships;;;;;;;;;;;;;x
+no_aquaponic_ships_desc;These were originally colony ships, however as the fleet transitioned to a permanent spaceborne lifestyle these vessals were completely converted to support aquaponics. Aquaponics consists of keeping both live fish together in the same enviroment as plants. This allows for a well rounded diet while also providing the most effiecient use of space possible.;;;;;;;;;;;;;x
