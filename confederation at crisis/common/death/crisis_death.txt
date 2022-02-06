@@ -1,4 +1,10 @@
 ## ROBMOD COMBAT EVENT DEATHS ##
+#GENERAL
+DEATH_STOLEN_CYBERNETICS = {
+	violent = yes
+	long_desc = "DEATH_STOLEN_CYBERNETICS"
+	can_nokiller = yes
+}
 
 death_robmodcombat_personal_combat = {
 	violent = yes
