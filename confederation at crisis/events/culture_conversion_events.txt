@@ -1172,18 +1172,18 @@ province_event = {
 			factor = 2.0
 			NOT = { num_of_settlements = 3 }
 		}
-		modifier = {
-			factor = 0.65
-			owner = {
-				top_liege = { has_law = culture_conversion_2 }
-			}
-		}
-		modifier = { #National Policy of no Cultural Conversion
-			factor = 0
-			owner = {
-				top_liege = { has_law = culture_conversion_0 }
-			}
-		}
+		#modifier = {
+		#	factor = 0.65
+		#	owner = {
+		#		top_liege = { has_law = culture_conversion_2 }
+		#	}
+		#}
+		#modifier = { #National Policy of no Cultural Conversion
+		#	factor = 0
+		#	owner = {
+		#		top_liege = { has_law = culture_conversion_0 }
+		#	}
+		#}
 		modifier = {
 			factor = 3.0
 			NOT = {

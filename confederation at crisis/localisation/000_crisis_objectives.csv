@@ -70,11 +70,6 @@ obj_win_a_war_tip;Won a war;;;;;;;;;;;;;x
 obj_convert_a_province_title;Convert A Province;;;;;;;;;;;;;x
 obj_adopt_a_lifestyle_title;Adopt A Lifestyle;;;;;;;;;;;;;x
 obj_gain_honorary_title_title;Gain An Honorary Title;;;;;;;;;;;;;x
-obj_gain_estates_1_title;Gain Estates;;;;;;;;;;;;;x
-obj_gain_estates_2_title;Gain Estates;;;;;;;;;;;;;x
-obj_gain_estates_3_title;Gain Estates;;;;;;;;;;;;;x
-obj_gain_estates_4_title;Gain Estates;;;;;;;;;;;;;x
-obj_gain_estates_5_title;Gain Estates;;;;;;;;;;;;;x
 obj_befriend_liege_title;Befriend Liege;;;;;;;;;;;;;x
 obj_befriend_top_liege_title;Befriend Top Liege;;;;;;;;;;;;;x
 obj_befriend_relhead_title;Befriend The [From.RelHead.GetTitle];;;;;;;;;;;;;x
@@ -128,3 +123,34 @@ SCIENCE_FOCUS;Scientific Focus;;;;;;;;;;;;;x
 focus_philosophy_title;Philosophy;;;;;;;;;;;;;x
 focus_philosophy_desc;[Root.GetFullName] spends [Root.GetHerHis] time in deep consideration of important matters of ethics and politics.;;;;;;;;;;;;;x
 PHILOSOPHY_FOCUS;Philosophic Focus;;;;;;;;;;;;;x
+
+grant_estate;Grant Stocks and Bonds;;;;;;;;;;;;;x
+grant_estate_desc;Grant stocks and bonds to this character. This will give them a monthly revenue and make them more loyal to you.;;;;;;;;;;;;;x
+CONSIDER_MINOR_ESTATE;Consider the size of the stocks and bonds that will be granted to §Y[This.GetTitledFirstName]§! (you will also have the opportunity to reconsider, if you wish).\n;;;;;;;;;x,,,,
+opinion_denied_estates;Denied Stocks and Bonds;Domaines refusés;Verweigerte Anwesen;;;;;;;;;;;x;
+opinion_estates_obj;Fulfilled Wish for Stocks and Bonds;Souhaite des domaines;Erfüllte Wunsch für Anwesen;;;;;;;;;;;x;
+opinion_granted_minor_estate;Granted Stocks and Bonds;Domaines minimes accordés;Anwesen Gewährt;;;;;;;;;;;x;
+estates_1;Minor Stocks and Bonds;Modestes domaines;Geringfügige Anwese;;;;;;;;;;;x;
+estates_2;Small Stocks and Bonds;Petits domaines;Kleine Anwesen;;;;;;;;;;;x;
+estates_3;Moderate Stocks and Bonds;Domaines raisonnables;Mäßige Anwesen;;;;;;;;;;;x;
+estates_4;Large Stocks and Bonds;Grands domaines;Große Anwesen;;;;;;;;;;;x;
+estates_5;Major Stocks and Bonds;Très grands domaines;Sehr Große Anwesen;;;;;;;;;;;x;
+obj_gain_estates_1_title;Gain Stocks and Bonds;Gagner des domaines;Erhalte Anwesen;;;;;;;;;;;x;
+obj_gain_estates_1_desc;[This.GetTitledFirstName] wants stocks and bonds to provide for [This.GetHerHim]self and [This.GetHerHis] family.;[This.GetTitledFirstName] veut un domaine terrien pour subvenir  à ses besoins et à ceux de sa famille.;[This.GetTitledFirstName] möchte einen Anwesen für [This.GetHerHim] selbst und [This.GetHerHis] Familie.;;;;;;;;;;;x;
+obj_gain_estates_2_title;Increase Size of Stocks and Bonds;Agrandir la taille des domaines;Anwesen Vergrössern;;;;;;;;;;;x;
+obj_gain_estates_2_desc;[This.GetTitledFirstName] is not happy with the size of [This.GetHerHis] stocks and bonds.;[This.GetTitledFirstName] n'est pas content de la taille de ses domaines;[This.GetTitledFirstName] ist nicht zufrieden mit der Größe [This.GetHerHis] Anwesen.;;;;;;;;;;;x;
+obj_gain_estates_3_title;Increase Size of Stocks and Bonds;Agrandir la taille des domaines;Anwesen Vergrössern;;;;;;;;;;;x;
+obj_gain_estates_3_desc;[This.GetTitledFirstName] is not happy with the size of [This.GetHerHis] stocks and bonds.;[This.GetTitledFirstName] n'est pas content de la taille de ses domaines;[This.GetTitledFirstName] ist nicht zufrieden mit der Größe [This.GetHerHis] Anwesen.;;;;;;;;;;;x;
+obj_gain_estates_4_title;Increase Size of Stocks and Bonds;Agrandir la taille des domaines;Anwesen Vergrössern;;;;;;;;;;;x;
+obj_gain_estates_4_desc;[This.GetTitledFirstName] is not happy with the size of [This.GetHerHis] stocks and bonds.;[This.GetTitledFirstName] n'est pas content de la taille de ses domaines;[This.GetTitledFirstName] ist nicht zufrieden mit der Größe [This.GetHerHis] Anwesen.;;;;;;;;;;;x;
+obj_gain_estates_5_title;Increase Size of Stocks and Bonds;Agrandir la taille des domaines;Anwesen Vergrössern;;;;;;;;;;;x;
+obj_gain_estates_5_desc;[This.GetTitledFirstName] is not happy with the size of [This.GetHerHis] stocks and bonds.;[This.GetTitledFirstName] n'est pas content de la taille de ses domaines;[This.GetTitledFirstName] ist nicht zufrieden mit der Größe [This.GetHerHis] Anwesen.;;;;;;;;;;;x;
+EVTDESC110040;I have arranged for the sale of my old stocks and bonds so that I can concentrate my wealth in the businesses that I now hold.;Je me suis arrangé pour vendre mes anciens domaines afin que je puisse consacrer ma richesse aux terres que je détiens.;Ich habe den Verkauf meinen alten Anwesen angeordnet, so dass ich meinen Reichtum zu den Ländern, die ich jetzt halte, zusammen sammeln kann.;;;;;;;;;;;x
+EVTDESC37501;Today, my [GetFromRelation] [From.GetFirstName] asked me for stocks and bonds to prosper from...;Aujourd'hui, mon [GetFromRelation] [From.GetFirstName] m'a demandé la permission de quitter de château familiale et souhaiterai que je lui accorde un domaine ..;Heute hat mein [GetFromRelation] [From.GetFirstName] mich dazu gebittet [From.GetHerHim] Grundbesitz zu geben um davon zu Leben...;;;;;;;;;;;x
+EVTOPTA37501;I gave [From.GetHerHim] what [From.GetSheHe] wanted;Je lui ai donné ce qu'[From.GetSheHe] voulait;Ich gabe [From.GetHerHim] was [From.GetSheHe] wollte;;;;;;;;;;;x
+EVTOPTB37501;I told [From.GetHerHim] I could not afford it...;Je lui ai dit que je ne pourrais pas me le permettre ...;Ich sagte [From.GetHerHim] das ich es nicht gewähren könnte...;;;;;;;;;;;x
+EVTDESC1000182438;I have decided to grant stocks and bonds to [From.GetFullName], but how much will [From.GetSheHe] receive?;J'ai décidé de concéder des domaines et des terres à [From.GetFullName], mais combien de titres va-t-[From.GetSheHe] recevoir ?;Ich habe mich dazu beschlossen, Ländereien und Grundstücke an [From.GetFullName] zu gewähren, aber wie viel Land wird [From.GetSheHe] erhalten?;;;;;;;;;;;x
+EVTOPTA1000182438;Minor Stocks and Bonds;Un domaine modeste;Einen kleinen Anwesen;;;;;;;;;;;x
+EVTOPTB1000182438;Moderate Stocks and Bonds;Un domaine moyen;Einen mäßigen Anwesen;;;;;;;;;;;x
+EVTOPTC1000182438;Large Stocks and Bonds;Un grand domaine;Einen großen Anwesen;;;;;;;;;;;x
+EVTOPTD1000182438;None at all!;Rien du tout!;Überhaupt nichts!;;;;;;;;;;;x

@@ -3475,7 +3475,7 @@ obj_gain_estates_1 = {
 
 		modifier = {
 			factor = 0.1
-			NOT = {
+			NOR = {
 				num_of_children = 1
 				liege = {
 					is_close_relative = ROOT
