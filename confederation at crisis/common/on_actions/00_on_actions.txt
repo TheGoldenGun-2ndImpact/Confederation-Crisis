@@ -237,10 +237,6 @@ on_bi_yearly_pulse = {
 		#maintenance.451
 
 		RIP.11700 # Prosperity system
-		
-		#Estates stuff
-		1000 = liestates.4 # Consider buying estates
-		1000 = liestates.5 # If made ruler, sell estates
 	}
 	random_events = {
 
@@ -269,6 +265,10 @@ on_bi_yearly_pulse = {
 			500 = lifestyle.118
 			500 = lifestyle.119
 		}
+
+		#Estates stuff
+		1000 = liestates.4 # Consider buying estates
+		1000 = liestates.5 # If made ruler, sell estates
 	}
 }
 
