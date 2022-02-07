@@ -761,186 +761,186 @@ de_jure_laws = {
 					}
 				}
 			}
-			modifier = {
-				factor = 0.5
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 0.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 1
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 1.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 2
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 2.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 3
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 0.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 1
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 1.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 2
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 2.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				has_law = centralization_0
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 3
-						}
-					}
-				}
-			}
+			# modifier = {
+				# factor = 0.5
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 0.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 1
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 1.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 2
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 2.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 3
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 0.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 1
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 1.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 2
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 2.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# has_law = centralization_0
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 3
+						# }
+					# }
+				# }
+			# }
 			# Decreasing
 			# Ideology
 			modifier = {
@@ -3661,175 +3661,175 @@ de_jure_laws = {
 					}
 				}
 			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 0.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 1
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 1.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 2
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 2.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 0.5
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_anti_centralization
-							power = 3
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 0.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 1
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 1.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 2
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 2.5
-						}
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				holder_scope = {
-					NOT = { trait = lunatic }
-					NOT = { trait = imbecile }
-					any_vassal = {
-						crownlaw_title = { title = PREVPREVPREV }
-						faction_power = {
-							faction = faction_pro_centralization
-							power = 3
-						}
-					}
-				}
-			}
-		}
+			# modifier = {
+				# factor = 0.5
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 0.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 1
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 1.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 2
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 2.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 0.5
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_anti_centralization
+							# power = 3
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 0.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 1
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 1.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 2
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 2.5
+						# }
+					# }
+				# }
+			# }
+			# modifier = {
+				# factor = 2
+				# holder_scope = {
+					# NOT = { trait = lunatic }
+					# NOT = { trait = imbecile }
+					# any_vassal = {
+						# crownlaw_title = { title = PREVPREVPREV }
+						# faction_power = {
+							# faction = faction_pro_centralization
+							# power = 3
+						# }
+					# }
+				# }
+			# }
+		# }
 		# pass_effect = {
 			# if = {
 				# limit = {
