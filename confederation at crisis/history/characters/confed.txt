@@ -638,11 +638,11 @@
 	add_trait = mastermind_theologian
 	
 	2962.1.1 = {
-		birth = 2962.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2980.1.1 = { employer = 1107473 } # Salman Nazari
-
+	3062.1.1 = { death = yes }
 }
 1104817 = {
 	# Nazari Chaplain
@@ -656,11 +656,11 @@
 	add_trait = mastermind_theologian
 	
 	2942.1.1 = {
-		birth = 2942.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2980.1.1 = { employer = 1107473 } # Salman Nazari
-
+	3042.1.1 = { death = yes }
 }
 
 # KOJIMA ROBOTICS
@@ -683,14 +683,15 @@
 	mother = 1108401 # Hiroko Ishii
 	
 	2957.1.1 = {
-		birth = "2957.1.1"
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed add_dynasty_modifier = patrician_family }
 	}
 	3008.1.1 = {
 		religion = cyberneticist
 		add_trait = odin_mk_iii
 		add_trait = warlord
-	}	
+	}
+	3057.1.1 = { death = yes }
 }
 
 11088571 = {
@@ -710,13 +711,14 @@
 	father = 1108857 # Shigeru Kojima
 	
 	2995.1.1 = {
-		birth = "2995.1.1"
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	3008.1.1 = {
 		religion = cyberneticist
 		add_trait = warlord
-	}	
+	}
+	3095.1.1 = { death = yes }
 }
 
 1208857 = {
@@ -728,7 +730,8 @@
 	
 	religion = terran_republican
 	culture = japanese_terran
-	2923.1.1 = { birth = "2923.1.1" 
+	2923.1.1 = { 
+		birth = yes 
 		create_bloodline = {
 			type = kojima
 			#has_dlc = "Holy Fury"
@@ -736,7 +739,7 @@
 	}
 	2956.1.1 = { add_spouse = 1108401 } # Hiroko Ishii
 	2956.1.1 = { effect = { spouse = { add_lover = ROOT } } }
-	2988.1.1 = { death = "2988.1.1" }
+	2988.1.1 = { death = yes }
 }
 1108401 = {
 	# Kojima Steward
@@ -751,10 +754,11 @@
 	add_trait = midas_touched
 	
 	2930.1.1 = {
-		birth = 2930.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2956.1.1 = { employer = 1208857 } # Ryotaro Kojima
+	3030.1.1 = { death = yes }
 }
 1218857 = {
 	# Kojima Chancellor
@@ -774,9 +778,11 @@
 	mother = 1108401 # Hiroko Ishii
 	
 	2958.1.1 = {
-		birth = "2958.1.1"
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
+	2990.1.1 = { employer = 1108857 } # Shigeru Kojima
+	3058.1.1 = { death = yes }
 }
 1101921 = {
 	# Kojima Marshal
@@ -792,11 +798,11 @@
 	add_trait = frigate_pilot
 	
 	2951.1.1 = {
-		birth = 2951.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2990.1.1 = { employer = 1108857 } # Shigeru Kojima
-
+	3051.1.1 = { death = yes }
 }
 11011345 = {
 	# Kojima Spymaster
@@ -810,11 +816,11 @@
 	add_trait = elusive_shadow
 	
 	2959.1.1 = {
-		birth = 2959.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2990.1.1 = { employer = 1108857 } # Shigeru Kojima
-
+	3059.1.1 = { death = yes }
 }
 110513 = {
 	# Kojima Scientist
@@ -828,11 +834,11 @@
 	add_trait = mastermind_theologian
 	
 	2958.1.1 = {
-		birth = 2958.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2990.1.1 = { employer = 1108857 } # Shigeru Kojima
-
+	3058.1.1 = { death = yes }
 }
 1108769 = {
 	# Kojima Chaplain
@@ -846,11 +852,11 @@
 	add_trait = mastermind_theologian
 	
 	2968.1.1 = {
-		birth = 2968.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2990.1.1 = { employer = 1108857 } # Shigeru Kojima
-
+	3068.1.1 = { death = yes }
 }
 
 # AFOLAYAN CORPORATION
@@ -876,7 +882,7 @@
 	mother = 11014289 # Lorane Badmus
 	
 	2954.1.1 = {
-		birth = 2954.1.1
+		birth = yes
 		effect = { set_dynasty_flag = flag_dynasty_processed add_dynasty_modifier = patrician_family }
 	}
 	2980.1.1 = {
@@ -886,7 +892,7 @@
 	3007.1.18 = {
 		effect = {
 			religion_authority = { modifier = allowed_major_rebellion years = 60 }
-			religion_authority = { modifier = allowed_major_rebellion years = 60 }		
+			#religion_authority = { modifier = allowed_major_rebellion years = 60 }		
 			# Imprisoned by Tao Luo after the Confederate Civil War
 			e_terran_confederation = {
 				add_pressed_claim = ROOT
@@ -895,6 +901,7 @@
 		}
 	}
 	3008.1.1 = { effect = { k_zenye_nyota_angani = { add_claim = ROOT } } }
+	3054.1.1 = { death = yes }
 }
 11020006 = {
 	# Afolayan Marshal

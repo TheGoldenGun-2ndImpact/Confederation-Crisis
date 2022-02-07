@@ -3829,7 +3829,7 @@ de_jure_laws = {
 					# }
 				# }
 			# }
-		# }
+		}
 		# pass_effect = {
 			# if = {
 				# limit = {
