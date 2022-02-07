@@ -75,9 +75,6 @@ character_event = {
 					name = "estates_1"
 					duration = -1
 				}
-				hidden_tooltip = {
-					give_minor_title = title_lord
-				}
 			}
 		}
 #		hidden_tooltip = {
@@ -140,9 +137,6 @@ character_event = {
 					name = "estates_3"
 					duration = -1
 				}
-				hidden_tooltip = {
-					give_minor_title = title_lord
-				}
 			}
 		}
 #		hidden_tooltip = {
@@ -176,9 +170,6 @@ character_event = {
 			add_character_modifier = {
 				name = "estates_5"
 				duration = -1
-			}
-			hidden_tooltip = {
-				give_minor_title = title_lord
 			}
 		}
 #		hidden_tooltip = {
@@ -265,9 +256,6 @@ character_event = {
 			add_character_modifier = {
 				name = estates_1
 				duration = -1
-			}
-			hidden_tooltip = {
-				give_minor_title = title_lord
 			}
 		}
 	}
@@ -608,8 +596,183 @@ character_event = {
 							name = "estates_1"
 							duration = -1
 						}
-						hidden_tooltip = {
-							give_minor_title = title_lord
+					}
+					ROOT = {
+						if = {
+							limit = {
+								has_character_modifier = estates_1
+							}
+							remove_character_modifier = estates_1
+						}
+						if = {
+							limit = {
+								has_character_modifier = estates_2
+							}
+							remove_character_modifier = estates_2
+							add_character_modifier = {
+								name = "estates_1"
+								duration = -1
+							}
+						}
+						if = {
+							limit = {
+								has_character_modifier = estates_3
+							}
+							remove_character_modifier = estates_3
+							add_character_modifier = {
+								name = "estates_2"
+								duration = -1
+							}
+						}
+						if = {
+							limit = {
+								has_character_modifier = estates_4
+							}
+							remove_character_modifier = estates_4
+							add_character_modifier = {
+								name = "estates_3"
+								duration = -1
+							}
+						}
+						if = {
+							limit = {
+								has_character_modifier = estates_5
+							}
+							remove_character_modifier = estates_5
+							add_character_modifier = {
+								name = "estates_4"
+								duration = -1
+							}
+						}
+					}
+				}
+				any_child = {
+					limit = {
+						is_female = no
+						is_alive = yes
+						NOR = {
+							has_character_modifier = estates_5
+							trait = bastard
+						}
+					}
+					if = {
+						limit = {
+							is_ruler = yes
+							ROOT = {
+								OR = {
+									has_character_modifier = estates_1
+									has_character_modifier = estates_2
+									has_character_modifier = estates_3
+									has_character_modifier = estates_4
+									has_character_modifier = estates_5
+								}
+							}
+						}
+						wealth = 50
+					}
+					if = {
+						limit = {
+							is_ruler = no
+							ROOT = {
+								OR = {
+									has_character_modifier = estates_1
+									has_character_modifier = estates_2
+									has_character_modifier = estates_3
+									has_character_modifier = estates_4
+									has_character_modifier = estates_5
+								}
+							}
+							has_character_modifier = estates_4
+						}
+						remove_character_modifier = estates_4
+						add_character_modifier = {
+							name = "estates_5"
+							duration = -1
+						}
+					}
+					if = {
+						limit = {
+							is_ruler = no
+							ROOT = {
+								OR = {
+									has_character_modifier = estates_1
+									has_character_modifier = estates_2
+									has_character_modifier = estates_3
+									has_character_modifier = estates_4
+									has_character_modifier = estates_5
+								}
+							}
+							has_character_modifier = estates_3
+						}
+						remove_character_modifier = estates_3
+						add_character_modifier = {
+							name = "estates_4"
+							duration = -1
+						}
+					}
+					if = {
+						limit = {
+							is_ruler = no
+							ROOT = {
+								OR = {
+									has_character_modifier = estates_1
+									has_character_modifier = estates_2
+									has_character_modifier = estates_3
+									has_character_modifier = estates_4
+									has_character_modifier = estates_5
+								}
+							}
+							has_character_modifier = estates_2
+						}
+						remove_character_modifier = estates_2
+						add_character_modifier = {
+							name = "estates_3"
+							duration = -1
+						}
+					}
+					if = {
+						limit = {
+							is_ruler = no
+							ROOT = {
+								OR = {
+									has_character_modifier = estates_1
+									has_character_modifier = estates_2
+									has_character_modifier = estates_3
+									has_character_modifier = estates_4
+									has_character_modifier = estates_5
+								}
+							}
+							has_character_modifier = estates_1
+						}
+						remove_character_modifier = estates_1
+						add_character_modifier = {
+							name = "estates_2"
+							duration = -1
+						}
+					}
+					if = {
+						limit = {
+							is_ruler = no
+							ROOT = {
+								OR = {
+									has_character_modifier = estates_1
+									has_character_modifier = estates_2
+									has_character_modifier = estates_3
+									has_character_modifier = estates_4
+									has_character_modifier = estates_5
+								}
+							}
+							NOR = {
+								has_character_modifier = estates_1
+								has_character_modifier = estates_2
+								has_character_modifier = estates_3
+								has_character_modifier = estates_4
+								has_character_modifier = estates_5
+							}
+						}
+						add_character_modifier = {
+							name = "estates_1"
+							duration = -1
 						}
 					}
 					ROOT = {
@@ -789,9 +952,6 @@ character_event = {
 							name = "estates_1"
 							duration = -1
 						}
-						hidden_tooltip = {
-							give_minor_title = title_lord
-						}
 					}
 					ROOT = {
 						if = {
@@ -970,9 +1130,6 @@ character_event = {
 							name = "estates_1"
 							duration = -1
 						}
-						hidden_tooltip = {
-							give_minor_title = title_lord
-						}
 					}
 					ROOT = {
 						if = {
@@ -1150,190 +1307,6 @@ character_event = {
 						add_character_modifier = {
 							name = "estates_1"
 							duration = -1
-						}
-						hidden_tooltip = {
-							give_minor_title = title_lord
-						}
-					}
-					ROOT = {
-						if = {
-							limit = {
-								has_character_modifier = estates_1
-							}
-							remove_character_modifier = estates_1
-						}
-						if = {
-							limit = {
-								has_character_modifier = estates_2
-							}
-							remove_character_modifier = estates_2
-							add_character_modifier = {
-								name = "estates_1"
-								duration = -1
-							}
-						}
-						if = {
-							limit = {
-								has_character_modifier = estates_3
-							}
-							remove_character_modifier = estates_3
-							add_character_modifier = {
-								name = "estates_2"
-								duration = -1
-							}
-						}
-						if = {
-							limit = {
-								has_character_modifier = estates_4
-							}
-							remove_character_modifier = estates_4
-							add_character_modifier = {
-								name = "estates_3"
-								duration = -1
-							}
-						}
-						if = {
-							limit = {
-								has_character_modifier = estates_5
-							}
-							remove_character_modifier = estates_5
-							add_character_modifier = {
-								name = "estates_4"
-								duration = -1
-							}
-						}
-					}
-				}
-				any_child = {
-					limit = {
-						is_female = no
-						is_alive = yes
-						NOR = {
-							has_character_modifier = estates_5
-							trait = bastard
-						}
-					}
-					if = {
-						limit = {
-							is_ruler = yes
-							ROOT = {
-								OR = {
-									has_character_modifier = estates_1
-									has_character_modifier = estates_2
-									has_character_modifier = estates_3
-									has_character_modifier = estates_4
-									has_character_modifier = estates_5
-								}
-							}
-						}
-						wealth = 50
-					}
-					if = {
-						limit = {
-							is_ruler = no
-							ROOT = {
-								OR = {
-									has_character_modifier = estates_1
-									has_character_modifier = estates_2
-									has_character_modifier = estates_3
-									has_character_modifier = estates_4
-									has_character_modifier = estates_5
-								}
-							}
-							has_character_modifier = estates_4
-						}
-						remove_character_modifier = estates_4
-						add_character_modifier = {
-							name = "estates_5"
-							duration = -1
-						}
-					}
-					if = {
-						limit = {
-							is_ruler = no
-							ROOT = {
-								OR = {
-									has_character_modifier = estates_1
-									has_character_modifier = estates_2
-									has_character_modifier = estates_3
-									has_character_modifier = estates_4
-									has_character_modifier = estates_5
-								}
-							}
-							has_character_modifier = estates_3
-						}
-						remove_character_modifier = estates_3
-						add_character_modifier = {
-							name = "estates_4"
-							duration = -1
-						}
-					}
-					if = {
-						limit = {
-							is_ruler = no
-							ROOT = {
-								OR = {
-									has_character_modifier = estates_1
-									has_character_modifier = estates_2
-									has_character_modifier = estates_3
-									has_character_modifier = estates_4
-									has_character_modifier = estates_5
-								}
-							}
-							has_character_modifier = estates_2
-						}
-						remove_character_modifier = estates_2
-						add_character_modifier = {
-							name = "estates_3"
-							duration = -1
-						}
-					}
-					if = {
-						limit = {
-							is_ruler = no
-							ROOT = {
-								OR = {
-									has_character_modifier = estates_1
-									has_character_modifier = estates_2
-									has_character_modifier = estates_3
-									has_character_modifier = estates_4
-									has_character_modifier = estates_5
-								}
-							}
-							has_character_modifier = estates_1
-						}
-						remove_character_modifier = estates_1
-						add_character_modifier = {
-							name = "estates_2"
-							duration = -1
-						}
-					}
-					if = {
-						limit = {
-							is_ruler = no
-							ROOT = {
-								OR = {
-									has_character_modifier = estates_1
-									has_character_modifier = estates_2
-									has_character_modifier = estates_3
-									has_character_modifier = estates_4
-									has_character_modifier = estates_5
-								}
-							}
-							NOR = {
-								has_character_modifier = estates_1
-								has_character_modifier = estates_2
-								has_character_modifier = estates_3
-								has_character_modifier = estates_4
-								has_character_modifier = estates_5
-							}
-						}
-						add_character_modifier = {
-							name = "estates_1"
-							duration = -1
-						}
-						hidden_tooltip = {
-							give_minor_title = title_lord
 						}
 					}
 					ROOT = {
