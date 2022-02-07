@@ -48,11 +48,13 @@ RETTYPE_DESTROYERS =
 
     potential = {
         any_demesne_title = {
-            OR = {
-                has_building = ca_destroyer_hanger_q_1
-                has_building = ct_emergency_reserve_q_4
-                has_building = tp_heavy_weapons_lab_q_3
-            }
+			location = {
+				OR = {
+					has_building = ca_destroyer_hanger_q_1
+					has_building = ct_emergency_reserve_q_4
+					has_building = tp_heavy_weapons_lab_q_3
+				}
+			}
         }
     }
 }
@@ -67,16 +69,18 @@ RETTYPE_BATTLESHIPS =
 
     potential = {
         any_demesne_title = {
-            OR = {
-                has_building = ca_capital_factory_q_1
-                AND = {
-                    has_building = tp_heavy_weapons_lab_q_5
-                    has_building = tp_military_mathematics_q_6
-                }
-                AND = {
-                    has_building = ct_emergency_reserve_q_5
-                    has_building = ct_mining_infrastructure_q_5
-                    has_building = ct_factories_q_8
+			location = {
+				OR = {
+					has_building = ca_capital_factory_q_1
+					AND = {
+						has_building = tp_heavy_weapons_lab_q_5
+						has_building = tp_military_mathematics_q_6
+					}
+					AND = {
+						has_building = ct_emergency_reserve_q_5
+						has_building = ct_mining_infrastructure_q_5
+						has_building = ct_factories_q_8
+					}
                 }
             }
         }
@@ -172,11 +176,13 @@ RETTYPE_ELITE_DESTROYERS =
 
     potential = {
         any_demesne_title = {
-            OR = {
-                has_building = ca_destroyer_hanger_q_1
-                has_building = ct_emergency_reserve_q_4
-                has_building = tp_heavy_weapons_lab_q_3
-            }
+			location = {
+				OR = {
+					has_building = ca_destroyer_hanger_q_1
+					has_building = ct_emergency_reserve_q_4
+					has_building = tp_heavy_weapons_lab_q_3
+				}
+			}
         }
     }
 }
@@ -203,17 +209,19 @@ RETTYPE_ELITE_BATTLESHIPS =
 
     potential = {
         any_demesne_title = {
-            OR = {
-                has_building = ca_capital_factory_q_1
-                AND = {
-                    has_building = tp_heavy_weapons_lab_q_5
-                    has_building = tp_military_mathematics_q_6
-                }
-                AND = {
-                    has_building = ct_emergency_reserve_q_5
-                    has_building = ct_mining_infrastructure_q_5
-                    has_building = ct_factories_q_8
-                }
+			location = {
+				OR = {
+					has_building = ca_capital_factory_q_1
+					AND = {
+						has_building = tp_heavy_weapons_lab_q_5
+						has_building = tp_military_mathematics_q_6
+					}
+					AND = {
+						has_building = ct_emergency_reserve_q_5
+						has_building = ct_mining_infrastructure_q_5
+						has_building = ct_factories_q_8
+					}
+				}
             }
         }
     }
