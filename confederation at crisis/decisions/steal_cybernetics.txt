@@ -2734,12 +2734,12 @@ targetted_decisions = {
 			random_list = {
 				34 = { 
 			        death = {
-			        	death_reason = death_stolen_cybernetics
+			        	death_reason = DEATH_STOLEN_CYBERNETICS
 			        	killer = FROM
 			        }
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -2749,7 +2749,7 @@ targetted_decisions = {
 				66 = {
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -2766,7 +2766,7 @@ targetted_decisions = {
 			}
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -3029,12 +3029,12 @@ targetted_decisions = {
 			random_list = {
 				34 = { 
 			        death = {
-			        	death_reason = death_stolen_cybernetics
+			        	death_reason = DEATH_STOLEN_CYBERNETICS
 			        	killer = FROM
 			        }
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -3044,7 +3044,7 @@ targetted_decisions = {
 				66 = {
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -3061,7 +3061,7 @@ targetted_decisions = {
 			}
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -3324,12 +3324,12 @@ targetted_decisions = {
 			random_list = {
 				34 = { 
 			        death = {
-			        	death_reason = death_stolen_cybernetics
+			        	death_reason = DEATH_STOLEN_CYBERNETICS
 			        	killer = FROM
 			        }
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -3339,7 +3339,7 @@ targetted_decisions = {
 				66 = {
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -3356,7 +3356,7 @@ targetted_decisions = {
 			}
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -3619,12 +3619,12 @@ targetted_decisions = {
 			random_list = {
 				34 = { 
 			        death = {
-			        	death_reason = death_stolen_cybernetics
+			        	death_reason = DEATH_STOLEN_CYBERNETICS
 			        	killer = FROM
 			        }
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -3634,7 +3634,7 @@ targetted_decisions = {
 				66 = {
 					if = {
 						limit = { trait = one_eyed }
-						add_trait = blind
+						add_trait = blinded
 					}
 					if = {
 						limit = { NOT = { trait = one_eyed } }
@@ -3651,7 +3651,7 @@ targetted_decisions = {
 			}
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -3914,7 +3914,7 @@ targetted_decisions = {
 			random_list = {
 				34 = { 
 			        death = {
-			        	death_reason = death_stolen_cybernetics
+			        	death_reason = DEATH_STOLEN_CYBERNETICS
 			        	killer = FROM
 			        }
 				}
@@ -3929,7 +3929,7 @@ targetted_decisions = {
 			}
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -4192,7 +4192,7 @@ targetted_decisions = {
 			random_list = {
 				34 = { 
 			        death = {
-			        	death_reason = death_stolen_cybernetics
+			        	death_reason = DEATH_STOLEN_CYBERNETICS
 			        	killer = FROM
 			        }
 				}
@@ -4207,7 +4207,7 @@ targetted_decisions = {
 			}
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -4473,7 +4473,7 @@ targetted_decisions = {
 #			random_list = {
 #				34 = {
 #					death = {
-#						death_reason = death_stolen_cybernetics
+#						death_reason = DEATH_STOLEN_CYBERNETICS
 #						killer = FROM
 #					}
 #				}
@@ -4493,7 +4493,7 @@ targetted_decisions = {
 #			FROM = { add_trait = damaged_cybernetics }
 #			if = {
 #				limit = { trait = damaged_cybernetics }
-#				FROM = { trait = damaged_cybernetics }
+#				FROM = { remove_trait = damaged_cybernetics }
 #			}
 #			if = {
 #				limit = {
@@ -4756,7 +4756,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -4776,7 +4776,7 @@ targetted_decisions = {
 			FROM = { add_trait = iaei_mk_i }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -5039,7 +5039,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -5059,7 +5059,7 @@ targetted_decisions = {
 			FROM = { add_trait = iaei_mk_ii }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -5322,7 +5322,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -5342,7 +5342,7 @@ targetted_decisions = {
 			FROM = { add_trait = iaei_mk_iii }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -5605,7 +5605,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -5625,7 +5625,7 @@ targetted_decisions = {
 			FROM = { add_trait = iaei_mk_iv }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -5888,7 +5888,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -5908,7 +5908,7 @@ targetted_decisions = {
 			FROM = { add_trait = iaei_mk_v }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -6171,7 +6171,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -6191,7 +6191,7 @@ targetted_decisions = {
 			FROM = { add_trait = pci_mk_i }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -6454,7 +6454,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -6474,7 +6474,7 @@ targetted_decisions = {
 			FROM = { add_trait = pci_mk_ii }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -6737,7 +6737,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -6757,7 +6757,7 @@ targetted_decisions = {
 			FROM = { add_trait = pci_mk_iii }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -7020,7 +7020,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -7040,7 +7040,7 @@ targetted_decisions = {
 			FROM = { add_trait = pci_mk_iv }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -7303,7 +7303,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -7323,7 +7323,7 @@ targetted_decisions = {
 			FROM = { add_trait = pci_mk_v }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -7586,7 +7586,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -7606,7 +7606,7 @@ targetted_decisions = {
 			FROM = { add_trait = pluto_mk_i }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -7869,7 +7869,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -7889,7 +7889,7 @@ targetted_decisions = {
 			FROM = { add_trait = pluto_mk_ii }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -8152,7 +8152,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -8172,7 +8172,7 @@ targetted_decisions = {
 			FROM = { add_trait = pluto_mk_iii }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -8435,7 +8435,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -8455,7 +8455,7 @@ targetted_decisions = {
 			FROM = { add_trait = pluto_mk_iv }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {
@@ -8718,7 +8718,7 @@ targetted_decisions = {
 			random_list = {
 				34 = {
 					death = {
-						death_reason = death_stolen_cybernetics
+						death_reason = DEATH_STOLEN_CYBERNETICS
 						killer = FROM
 					}
 				}
@@ -8738,7 +8738,7 @@ targetted_decisions = {
 			FROM = { add_trait = pluto_mk_v }
 			if = {
 				limit = { trait = damaged_cybernetics }
-				FROM = { trait = damaged_cybernetics }
+				FROM = { remove_trait = damaged_cybernetics }
 			}
 			if = {
 				limit = {

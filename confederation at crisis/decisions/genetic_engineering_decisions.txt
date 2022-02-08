@@ -3,6 +3,7 @@ targetted_decisions = {
 	get_relative_genius_decision = {
 		filter = dynasty
 		ai_target_filter = dynasty
+		is_high_prio = yes
 		from_potential = {
 			NOT = { trait = incapable }
 			prisoner = no
@@ -16,9 +17,6 @@ targetted_decisions = {
 			NOT = { religion = cyberneticist}
 		}
 		ai_check_interval = 6
-		from_potential = {
-
-		}
 		potential = {
 			dynasty = FROM
 			NOT = { age = 1 }
@@ -251,6 +249,7 @@ targetted_decisions = {
 	get_relative_quick_decision = {
 		filter = dynasty
 		ai_target_filter = dynasty
+		is_high_prio = yes
 		from_potential = {
 			NOT = { trait = incapable }
 			prisoner = no
