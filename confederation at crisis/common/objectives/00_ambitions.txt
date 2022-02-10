@@ -1567,28 +1567,28 @@ obj_wants_landed_title = {
 		is_adult = yes
 		NOT = { is_ascetic_trigger = yes }
 		NOT = { has_minor_title = title_guru }
-		liege = { num_of_extra_landed_titles = 1 }
-		OR = {
-			trait = ambitious
-			AND = {
-				liege = { any_demesne_title = { holding_type = castle } }
-				has_education_martial_trigger = yes
+		liege = {
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
 			}
-			AND = {
-				liege = { any_demesne_title = { holding_type = city } }
-				has_education_stewardship_trigger = yes
-			}
-			AND = {
-				liege = { any_demesne_title = { holding_type = temple } }
-				has_education_learning_trigger = yes
-			}
-			liege = {
-				OR = {
-					is_feudal = yes
-					is_tribal = yes
+			is_close_relative = ROOT
+			num_of_extra_landed_titles = 1
+			OR = {
+				AND = {
+					NOT = { is_father = ROOT }
+					NOT = { is_mother = ROOT }
 				}
-				is_close_relative = ROOT
-				NOT = { any_spouse = { character = ROOT } }
+				NOT = {
+					current_heir = {
+						character = ROOT
+					}
+				}
+				NOT = {
+					primary_title = {
+						has_law = succ_gavelkind
+					}
+				}
 			}
 		}
 		NOT = { has_character_flag = obj_landed_title }

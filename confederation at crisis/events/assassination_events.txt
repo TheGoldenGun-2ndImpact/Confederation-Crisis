@@ -4060,7 +4060,7 @@ letter_event = {
 				}
 				random_list = {
 					# You do so undetected
-					0 = {
+					50 = {
 						root_intrigue_score = yes
 						modifier = {
 							factor = 0
@@ -4070,7 +4070,7 @@ letter_event = {
 						event_target:target_victim = { character_event = { id = assassination.510 tooltip = "EVTTOOLTIPASSASSINATION510" days = 1 random = 5 } }
 					}
 					# You are detected by security
-					0 = {
+					50 = {
 						target_security_realm_intrigue_score = yes
 						log = "[Root.GetBestName] penetrated [target_victim.GetBestName]'s security, but was detected."
 						event_target:target_victim = { character_event = { id = assassination.520 tooltip = "EVTTOOLTIPASSASSINATION520" days = 1 random = 5 } }
