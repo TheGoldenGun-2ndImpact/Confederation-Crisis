@@ -2559,9 +2559,10 @@ university_of_avalon = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_merlin = { same_realm = ROOT }
-				culture_group = avalonian_group
-			}
+				any_realm_lord = { has_landed_title = c_merlin }
+                any_liege = { has_landed_title = c_merlin }
+                culture_group = avalonian_group
+            }
 			OR = {
 				has_education_diplomacy_trigger = yes
 				has_education_stewardship_trigger = yes
@@ -2743,9 +2744,10 @@ university_of_franklin = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_franklin = { same_realm = ROOT }
-				culture_group = frontiersman_group
-			}
+				any_realm_lord = { has_landed_title = c_franklin }
+                any_liege = { has_landed_title = c_franklin }
+                culture_group = frontiersman_group
+            }
 			OR = {
 				has_education_diplomacy_trigger = yes
 				has_education_stewardship_trigger = yes
@@ -2927,9 +2929,10 @@ university_of_hiyokuoka = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_hiyokuoka = { same_realm = ROOT }
-				culture_group = tengoku_group
-			}
+				any_realm_lord = { has_landed_title = c_hiyokuoka }
+                any_liege = { has_landed_title = c_hiyokuoka }
+                culture_group = tengoku_group
+            }
 			OR = {
 				has_education_diplomacy_trigger = yes
 				has_education_stewardship_trigger = yes
@@ -3111,9 +3114,10 @@ university_of_strugatsky = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_novyy_sol = { same_realm = ROOT }
-				culture_group = goldrus_group
-			}
+				any_realm_lord = { has_landed_title = c_novyy_sol }
+                any_liege = { has_landed_title = c_novyy_sol }
+                culture_group = goldrus_group
+            }
 			OR = {
 				has_education_diplomacy_trigger = yes
 				has_education_stewardship_trigger = yes
@@ -3295,9 +3299,10 @@ university_of_novyy_edem = {
 			is_dumb_trigger = no
 			NOT = { religion_group = outlaw_group }
 			OR = {
-				c_novyy_edem = { same_realm = ROOT }
-				culture_group = goldrus_group
-			}
+				any_realm_lord = { has_landed_title = c_novyy_edem }
+                any_liege = { has_landed_title = c_novyy_edem }
+                culture_group = goldrus_group
+            }
 			OR = {
 				has_education_diplomacy_trigger = yes
 				has_education_stewardship_trigger = yes
