@@ -344,7 +344,7 @@ emf_laws_change_succ_reaction_trigger = {
 # primogeniture and turkish succession don't use it); it's just a convenience to clarify the succession laws code.
 emf_laws_succ_basic_potential_trigger = {
 	holder_scope = {
-		NOT = { religion_group = muslim }
+		#NOT = { religion_group = muslim }
 		OR = {
 			independent = yes
 			NOR = {
@@ -479,8 +479,8 @@ plus_adventurer_can_approach_trigger = {
 		religion = ROOT
 		AND = {
 			religion_group = ROOT
-			NOT = { religion_group = muslim }
-			NOT = { religion_group = pagan_group }
+			#NOT = { religion_group = muslim }
+			#NOT = { religion_group = pagan_group }
 		}
 	}
 	OR = {
@@ -513,8 +513,8 @@ plus_adventurer_can_approach_trigger = {
 				religion = ROOT
 				AND = {
 					religion_group = ROOT
-					NOT = { religion_group = muslim }
-					NOT = { religion_group = pagan_group }
+					#NOT = { religion_group = muslim }
+					#NOT = { religion_group = pagan_group }
 				}
 			}
 			NOR = {
@@ -1514,7 +1514,7 @@ is_sinoterran_area_trigger = {
 		region = world_periphery_south_bianjiang
 	}
 }
-is_germanoterran_area_trigger = {
+is_germanterran_area_trigger = {
 	OR = {
 		region = world_periphery_orion_flame
 		region = world_periphery_orion_nebula
@@ -1635,7 +1635,7 @@ is_periphery_culture = {
 	OR = {
 		culture_group = bianjiangese_group
 		culture_group = orion_group
-		culture_group = indo_aryan_group
+		culture_group = crisis_indian_group
 		culture_group = avalonian_group
 		culture_group = tengoku_group
 		culture_group = goldrus_group

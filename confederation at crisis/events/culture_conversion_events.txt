@@ -213,19 +213,19 @@ province_event = {
 			}
 		}
 
-		mult_modifier = { #National Policy of Active Cultural Conversion
-			factor = 0.5
-			owner = {
-				top_liege = { has_law = culture_conversion_2 }
-			}
-		}
+		# mult_modifier = { #National Policy of Active Cultural Conversion
+			# factor = 0.5
+			# owner = {
+				# top_liege = { has_law = culture_conversion_2 }
+			# }
+		# }
 
-		mult_modifier = { #National Policy of no Cultural Conversion
-			factor = 0
-			owner = {
-				top_liege = { has_law = culture_conversion_0 }
-			}
-		}
+		# mult_modifier = { #National Policy of no Cultural Conversion
+			# factor = 0
+			# owner = {
+				# top_liege = { has_law = culture_conversion_0 }
+			# }
+		# }
 
 		# Effect of wonder upgrades
 		mult_modifier = {

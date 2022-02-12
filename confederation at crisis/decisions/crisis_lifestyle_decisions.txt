@@ -472,10 +472,12 @@ targetted_decisions = {
 			age = 16
 			NOT = { persistent_event_target:hunting_partner = { always = yes } }
 			any_realm_title = {
-				OR = {
-					has_building = ca_environment_1
-					has_building = ct_environment_1
-					has_building = tp_environment_1
+				location = {
+					OR = {
+						has_building = ca_environment_1
+						has_building = ct_environment_1
+						has_building = tp_environment_1
+					}
 				}
 			}
 		}
