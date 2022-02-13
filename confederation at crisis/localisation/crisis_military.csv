@@ -314,3 +314,13 @@ EVTOPTBBATTLE50;Such are the fortunes of war.;;;;;;;;;;;;;x
 EVTDESCBATTLE60;You grin as you watch [FromFrom.GetOnlyDynastyName]'s ship spiral into the black, an orange trail of leaking shock gel in its wake. You finally got the bastard.;;;;;;;;;;;;;x
 RETTYPE_DESTROYERS;Destroyer Squadron;;;;;;;;;;;;;x
 RETTYPE_ELITE_DESTROYERS;Elite Destroyer Squadron;;;;;;;;;;;;;x
+#random loc lines below - tsf4
+religious_new_republic_cb_succ_tip;We have successfully spread our ideology, and the new realm we have created rises strong!;;;;;;;;;;;x
+PLACEHOLDER;Placeholder Text;;;;;;;;;;;x
+sol_export_trade_route;Sol Export Trade Route;;;;;;;;;;;x
+DEATH_BY_MURDER_UNKNOWN_HUNTING;Killed in a hunting trip in a suspicious way;;;;;;;;;;;x
+ideology_is_despotic;Holds a despotic ideology;;;;;;;;;;;x
+WAR_NAME_WARLORD_CONQUEST;Warlord Conquest;;;;;;;;;;;x
+DEATH_ACCIDENT_HUNTING;Killed in a hunting accident;;;;;;;;;;;x
+obj_convert_a_province_desc;This character wants to convert a province to their ideology;;;;;;;;;;;x
+obj_adopt_a_lifestyle_desc;This character wants to adopt a new lifestyle in their free time.;;;;;;;;;;;x
