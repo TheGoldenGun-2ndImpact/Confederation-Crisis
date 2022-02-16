@@ -1,15 +1,203 @@
 decisions = {
+	demand_liege_title = {
+		only_playable = yes
+		is_high_prio = yes
+		potential = {
+			ai = no
+			is_playable = yes
+			has_ambition = obj_gain_any_title
+			liege = {
+				NOT = { character = ROOT }
+			}
+			is_adult = yes
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		allow = {
+			prestige = 60
+			liege = {
+				has_regent = no
+				NOT = { has_opinion_modifier = { who = ROOT modifier = requested_land } }
+				demesne_size = 3
+				any_demesne_title = {
+					can_be_given_away = yes
+					tier = COUNT
+					NOT = { location = { is_capital = yes } }
+				}
+			}
+		}
+		effect = {
+			prestige = -60
+			liege = {
+				opinion = {
+					who = ROOT
+					years = 2
+					modifier = requested_land
+				}
+				random_demesne_title = {
+					limit = {
+						can_be_given_away = yes
+						tier = COUNT
+						NOT = { location = { is_capital = yes } }
+					}
+					save_event_target_as = vassal_wanted_title
+				}
+			}
+			custom_tooltip = {
+				text = demand_liege_title_tooltip
+				hidden_tooltip = { liege = { letter_event = { id = 63041 days = 4 } } } # "vassal_request_events.txt"
+			}
+		}
+		ai_will_do = {
+			factor = 0 # The AI is limited to the similar event 63040
+		}
+	}
+	petition_doge_for_tp = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 6
+		potential = {
+			is_playable = yes
+			is_merchant_republic = no
+			is_patrician = yes
+			liege = { is_merchant_republic = yes }
+			NOT = { has_character_flag = petition_doge_for_tp_taken }
+			OR = {
+				liege = {
+					any_vassal = {
+						is_patrician = yes
+						num_of_trade_post_diff = {
+							character = ROOT
+							value = 10
+						}
+					}
+				}
+				AND = {
+					NOT = { num_of_trade_posts = 1 }
+					liege = {
+						any_vassal = {
+							is_patrician = yes
+							num_of_trade_posts = 10
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			liege = {
+				opinion = {
+					who = ROOT
+					value = 25
+				}
+			}
+		}
+		effect = {
+			set_character_flag = petition_doge_for_tp_taken
+			liege = {
+				letter_event = { id = REP.500 days = 5 tooltip = EVTTOOLTIP_REP_500 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	usurp_tp = {
+		only_playable = yes
+		is_high_prio = yes
+		ai_check_interval = 6
+		potential = {
+			is_playable = yes
+			is_merchant_republic = yes
+			is_patrician = yes
+			NOT = { has_character_flag = usurp_tp_taken }
+			OR = {
+				any_vassal = {
+					is_patrician = yes
+					num_of_trade_post_diff = {
+						character = ROOT
+						value = 10
+					}
+				}
+				AND = {
+					NOT = { num_of_trade_posts = 1 }
+					any_vassal = {
+						is_patrician = yes
+						num_of_trade_posts = 10
+					}
+				}
+			}
+		}
+		allow = {
+			is_merchant_republic = yes
+		}
+		effect = {
+			set_character_flag = usurp_tp_taken
+			if = {
+				limit = {
+					num_of_trade_posts = 1
+					any_vassal = {
+						is_patrician = yes
+						num_of_trade_post_diff = {
+							character = ROOT
+							value = 10
+						}
+					}
+				}
+				random_vassal = {
+					limit = {
+						is_patrician = yes
+						num_of_trade_post_diff = {
+							character = ROOT
+							value = 10
+						}
+					}
+					set_character_flag = target_patrician_doge
+					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { num_of_trade_posts = 1 }
+					any_vassal = {
+						is_patrician = yes
+						num_of_trade_posts = 10
+					}
+				}
+				random_vassal = {
+					limit = {
+						is_patrician = yes
+						num_of_trade_posts = 10
+					}
+					set_character_flag = target_patrician_doge
+					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	form_new_kingdom = {
 		only_independent = yes
 		is_high_prio = yes
-
+		ai_check_interval = 24
+		
 		potential = {
 			is_playable = yes
 			tier = DUKE
 			NOT = { tier = KING }
-
-			has_dlc = "Charlemagne"
-
+			
+			OR = {
+				has_dlc = "Charlemagne"
+				AND = {
+					is_alternate_start = yes
+					has_alternate_start_parameter = {
+						key = dejure_kingdoms
+						value = none
+					}
+				}
+			}
+			
 			holy_order = no
 
 			NOT = {
@@ -37,6 +225,13 @@ decisions = {
 					}
 				}
 				prestige = 15000
+				AND = {
+					is_alternate_start = yes
+					has_alternate_start_parameter = {
+						key = dejure_kingdoms
+						value = none
+					}
+				}
 			}
 		}
 		allow = {
@@ -44,7 +239,35 @@ decisions = {
 			prisoner = no
 			NOT = { trait = incapable }
 			independent = yes
-			prestige = 1000
+			
+			conditional_tooltip = {
+				trigger = {
+					AND = {
+						is_alternate_start = yes
+						has_alternate_start_parameter = {
+							key = dejure_kingdoms
+							value = none
+						}
+					}
+				}
+				prestige = 250
+				wealth = 50
+			}
+			
+			conditional_tooltip = {
+				trigger = {
+					NOT = {
+						is_alternate_start = yes
+						has_alternate_start_parameter = {
+							key = dejure_kingdoms
+							value = none
+						}
+					}
+				}
+				prestige = 1000
+				wealth = 300
+			}
+
 			OR = {
 				realm_size = 35
 				custom_tooltip = {
@@ -57,7 +280,6 @@ decisions = {
 					}
 				}
 			}
-			wealth = 300
 		}
 		effect = {
 			primary_title = {
@@ -69,7 +291,11 @@ decisions = {
 					culture = ROOT
 					holder = ROOT
 					base_title = THIS
-					copy_title_laws = ROOT
+					copy_title_laws = yes
+				}
+
+				new_title = {
+					copy_title_history = PREV
 				}
 
 				hidden_tooltip = {
@@ -93,6 +319,20 @@ decisions = {
 									}
 									de_jure_liege = PREVPREV
 								}
+								if = {
+									limit = {
+										has_alternate_start_parameter = {
+											key = dejure_kingdoms
+											value = none
+										}
+									}
+									any_title_under = {
+										limit = {
+											tier = DUKE
+										}
+										de_jure_liege = PREVPREV
+									}
+								}
 								any_title_under = {
 									limit = {
 										tier = COUNT
@@ -101,7 +341,7 @@ decisions = {
 												kingdom = {
 													has_holder = no
 												}
-
+												
 												NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
 												ROOT = {
 													completely_controls = PREV
@@ -115,13 +355,62 @@ decisions = {
 										}
 									}
 								}
+								if = {
+									limit = {
+										has_alternate_start_parameter = {
+											key = dejure_kingdoms
+											value = none
+										}
+									}
+									any_title_under = {
+										limit = {
+											tier = COUNT
+											location = {
+												duchy = {
+													NOT = { de_jure_liege_or_above = PREVPREVPREVPREV }
+													ROOT = {
+														completely_controls = PREV
+													}
+												}
+											}
+										}
+										location = {
+											duchy = {
+												de_jure_liege = PREVPREVPREVPREV
+											}
+										}
+									}
+								}
 							}
 						}
 					}
 				}
 
 			}
-			wealth = -300
+			if = {
+				limit = {
+					AND = {
+						is_alternate_start = yes
+						has_alternate_start_parameter = {
+							key = dejure_kingdoms
+							value = none
+						}
+					}
+				}
+				wealth = -50
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_alternate_start = yes
+						has_alternate_start_parameter = {
+							key = dejure_kingdoms
+							value = none
+						}
+					}
+				}
+				wealth = -300
+			}
 			custom_tooltip = { text = form_new_kingdom_tooltip }
 			chronicle = {
 				entry = CHRONICLE_FOUNDED_NEW_KINGDOM_OR_EMPIRE
@@ -1173,301 +1462,4 @@ decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	petition_doge_for_tp = {
-		is_high_prio = yes
-		ai_check_interval = 40
- 		potential = {
-			is_merchant_republic = no
-			is_patrician = yes
-			liege = { is_merchant_republic = yes }
-			NOT = { has_character_flag = petition_doge_for_tp_taken }
-			OR = {
-				liege = {
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_post_diff = {
-							character = ROOT
-							value = 10
-						}
-					}
-				}
-				AND = {
-					NOT = { num_of_trade_posts = 1 }
-					liege = {
-						any_vassal = {
-							is_patrician = yes
-							num_of_trade_posts = 10
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			liege = {
-				opinion = {
-					who = ROOT
-					value = 25
-				}
-			}
-		}
-		effect = {
-			set_character_flag = petition_doge_for_tp_taken
-			liege = {
-				letter_event = { id = REP.500 days = 5 tooltip = EVTTOOLTIP_REP_500 }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	usurp_tp = {
-		is_high_prio = yes
-		ai_check_interval = 40
- 		potential = {
-			is_merchant_republic = yes
-			is_patrician = yes
-			NOT = { has_character_flag = usurp_tp_taken }
-			OR = {
-				any_vassal = {
-					is_patrician = yes
-					num_of_trade_post_diff = {
-						character = ROOT
-						value = 10
-					}
-				}
-				AND = {
-					NOT = { num_of_trade_posts = 1 }
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_posts = 10
-					}
-				}
-			}
-		}
-		allow = {
-			is_merchant_republic = yes
-		}
-		effect = {
-			set_character_flag = usurp_tp_taken
-			if = {
-				limit = {
-					num_of_trade_posts = 1
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_post_diff = {
-							character = ROOT
-							value = 10
-						}
-					}
-				}
-				random_vassal = {
-					limit = {
-						is_patrician = yes
-						num_of_trade_post_diff = {
-							character = ROOT
-							value = 10
-						}
-					}
-					set_character_flag = target_patrician_doge
-					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
-				}
-			}
-			if = {
-				limit = {
-					NOT = { num_of_trade_posts = 1 }
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_posts = 10
-					}
-				}
-				random_vassal = {
-					limit = {
-						is_patrician = yes
-						num_of_trade_posts = 10
-					}
-					set_character_flag = target_patrician_doge
-					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	demand_liege_title = {
-		only_playable = yes
-		is_high_prio = yes
-		ai_check_interval = 40
- 		potential = { ai = no
-			ai = no
-			is_playable = yes
-			NOT = { has_character_flag = requested_de_jure_title }
-			liege = {
-				NOT = { character = ROOT }
-				primary_title = { higher_tier_than = DUKE }
-				any_demesne_title = {
-					tier = DUKE
-					has_de_jure_pretension = ROOT
-					can_be_given_away = yes
-					NOT = {
-						holder_scope = {
-							any_demesne_province = {
-								duchy = { title = PREVPREVPREV }
-							}
-						}
-					}
-				}
-			}
-			has_regent = no
-			tier = count
-		}
-		allow = {
-			liege = {
-				opinion = {
-					who = ROOT
-					value = 25
-				}
-			}
-		}
-		effect = {
-			set_character_flag = requested_de_jure_title
-			liege = {
-				set_character_flag = wants_duchy_title
-				letter_event = { id = 63041 days = 4 tooltip = "EVTTOOLTIP63041" } # "vassal_request_events.txt"
-			}
-		}
-		ai_will_do = {
-			factor = 0 # The AI is limited to the similar event 63040
-		}
-	}
-
-	petition_doge_for_tp = {
-		only_playable = yes
-		is_high_prio = yes
-		ai_check_interval = 40
- 		potential = { ai = no
-			is_playable = yes
-			is_merchant_republic = no
-			is_patrician = yes
-			liege = { is_merchant_republic = yes }
-			NOT = { has_character_flag = petition_doge_for_tp_taken }
-			OR = {
-				liege = {
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_post_diff = {
-							character = ROOT
-							value = 10
-						}
-					}
-				}
-				AND = {
-					NOT = { num_of_trade_posts = 1 }
-					liege = {
-						any_vassal = {
-							is_patrician = yes
-							num_of_trade_posts = 10
-						}
-					}
-				}
-			}
-		}
-		allow = {
-			liege = {
-				opinion = {
-					who = ROOT
-					value = 25
-				}
-			}
-		}
-		effect = {
-			set_character_flag = petition_doge_for_tp_taken
-			liege = {
-				letter_event = { id = REP.500 days = 5 tooltip = EVTTOOLTIP_REP_500 }
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	usurp_tp = {
-		only_playable = yes
-		is_high_prio = yes
-		ai_check_interval = 40
- 		potential = { ai = no
-			is_playable = yes
-			is_merchant_republic = yes
-			is_patrician = yes
-			NOT = { has_character_flag = usurp_tp_taken }
-			OR = {
-				any_vassal = {
-					is_patrician = yes
-					num_of_trade_post_diff = {
-						character = ROOT
-						value = 10
-					}
-				}
-				AND = {
-					NOT = { num_of_trade_posts = 1 }
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_posts = 10
-					}
-				}
-			}
-		}
-		allow = {
-			is_merchant_republic = yes
-		}
-		effect = {
-			set_character_flag = usurp_tp_taken
-			if = {
-				limit = {
-					num_of_trade_posts = 1
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_post_diff = {
-							character = ROOT
-							value = 10
-						}
-					}
-				}
-				random_vassal = {
-					limit = {
-						is_patrician = yes
-						num_of_trade_post_diff = {
-							character = ROOT
-							value = 10
-						}
-					}
-					set_character_flag = target_patrician_doge
-					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
-				}
-			}
-			if = {
-				limit = {
-					NOT = { num_of_trade_posts = 1 }
-					any_vassal = {
-						is_patrician = yes
-						num_of_trade_posts = 10
-					}
-				}
-				random_vassal = {
-					limit = {
-						is_patrician = yes
-						num_of_trade_posts = 10
-					}
-					set_character_flag = target_patrician_doge
-					letter_event = { id = REP.510 days = 5 tooltip = EVTTOOLTIP_REP_510 }
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }
-

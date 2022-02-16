@@ -1,55 +1,50 @@
-targeted_decisions = {
-
+targetted_decisions = {
 	create_mercenary_company_feudal = {
+		only_playable = yes
 		filter = home_court
 		ai_target_filter = home_court
 		ai_check_interval = 60
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_dlc = "Conclave"
+			is_playable = yes
 			is_landed = yes
-
-			trigger_if = {
-				limit = { ai = yes }
-
-				OR = {
-					trait = brilliant_strategist
-					trait = fortune_builder
-				}
-
-				trigger_if = {
-					limit = { is_republic = yes }
-					higher_tier_than = BARON
-				}
-				trigger_else = {
-					higher_tier_than = COUNT
-				}
-
-				is_primary_war_attacker = no
-				is_primary_war_defender = no
-			}
-
 			mercenary = no
 			holy_order = no
-
+			has_dlc = "Zeus"
+		
+			OR = {
+				ai = no
+				AND = {
+					OR = {
+						trait = brilliant_strategist
+						trait = fortune_builder
+					}
+					OR = {
+						higher_tier_than = COUNT
+						AND = {
+							is_republic = yes
+							higher_tier_than = BARON
+						}
+					}
+					NOR = {
+						is_primary_war_attacker = yes
+						is_primary_war_defender = yes
+					}
+				}
+			}
 			NOR = {
 				government = nomadic_government
 				has_character_modifier = mercenary_traditions
 			}
 		}
-
+		
 		potential = {
 			can_be_mercenary_leader_potential_trigger = yes
-
 			NAND = {
 				is_child_of = FROM
-
 				any_owned_bloodline = {
 					has_bloodline_flag = bloodline_mercenary_traditions
 				}
-
 				FROM = {
 					any_owned_bloodline = {
 						has_bloodline_flag = bloodline_mercenary_traditions
@@ -57,55 +52,49 @@ targeted_decisions = {
 				}
 			}
 		}
-
+		
 		allow = {
 			can_be_mercenary_leader_allow_trigger = yes
-
 			FROM = {
-				has_mercenary_band = no
-				wealth >= 50
+				NOT = { has_mercenary_band = yes }
+				wealth = 50
 			}
 		}
-
 		effect = {
 			FROM = {
 				wealth = -50
-
 				custom_tooltip = {
 					text = CREATE_DYNAMIC_MERC_TOOLTIP
-
-					primary_title = {
-						create_title = {
-							tier = DUKE
-							name = DYNAMIC_MERCENARY_COMPANY_FEUDAL
-							landless = yes
-							temporary = yes
-							adventurer = yes
-							custom_created = yes
-							culture = ROOT
-							holder = ROOT
-							base_title = THIS
-							mercenary = yes
-							replace_captain_on_death = yes
-							siphons_income_to_creator = 0.15
-							ruler = CAPTAIN
-							ruler_female = CAPTAIN
-							foa = CAPTAIN_FOA
+					hidden_tooltip = {
+						primary_title = {
+							create_title = {
+								tier = DUKE
+								name = DYNAMIC_MERCENARY_COMPANY_FEUDAL
+								landless = yes
+								temporary = yes
+								adventurer = yes
+								custom_created = yes
+								culture = ROOT
+								holder = ROOT
+								base_title = THIS
+								mercenary = yes
+								replace_captain_on_death = yes
+								siphons_income_to_creator = 0.15
+								ruler = "CAPTAIN"
+								ruler_female = "CAPTAIN"
+								foa = "CAPTAIN_FOA"
+							}
 						}
-					}
-
-					ROOT = {
-						set_defacto_liege = THIS
-
-						any_spouse = { move_character = ROOT }
-						any_child = { move_character = ROOT }
+						ROOT = {
+							set_defacto_liege = THIS
+							any_spouse = { move_character = ROOT }
+							any_child = { move_character = ROOT }
+						}
 					}
 				}
 			}
-
 			set_character_flag = is_mercenary_leader
 			set_character_flag = mercenary_ambition_1
-
 			primary_title = {
 				set_title_flag = ze_dyn_merc
 				set_title_flag = not_hired
@@ -114,28 +103,31 @@ targeted_decisions = {
 
 		ai_will_do = {
 			factor = 0.05
-
-			trigger = {
-				controls_religion = no
+			
+			modifier = { 
+				factor = 0
+				controls_religion = yes
 			}
+			
 		}
 	}
 
 	dissolve_mercenary_company_feudal = {
-		ai = no
-
+		only_playable = yes
+		ai_target_filter = dynasty
+		ai_check_interval = 36
+		
 		from_potential = {
-			has_dlc = "Conclave"
+			is_playable = yes
+			is_landed = yes
+			has_dlc = "Zeus"
 		}
-
 		potential = {
 			replace_mercenary_captain_potential_trigger = yes
 		}
-
 		allow = {
 			replace_mercenary_captain_allow_trigger = yes
 		}
-
 		effect = {
 			character_event = { id = ZE.11020 }
 		}
@@ -146,24 +138,25 @@ targeted_decisions = {
 	}
 
 	change_council_job = {
+		only_rulers = yes
 		filter = realm
-
-		ai = no
-
+		ai_target_filter = self 
+		ai_check_interval = 12
+		
 		from_potential = {
-			has_dlc = "Conclave"
+			has_dlc = "Zeus"
+			is_ruler = yes
 		}
-
 		potential = {
 			change_council_job_potential_trigger = yes
 		}
-
 		allow = {
-			NOT = { has_character_modifier = in_seclusion }
+			NOT = {
+				has_character_modifier = in_seclusion
+			}
 		}
-
 		effect = {
-			hidden_effect = {
+			hidden_tooltip = {
 				character_event = { id = ZE.6020 }
 			}
 		}
@@ -174,211 +167,212 @@ targeted_decisions = {
 	}
 
 	ask_wards_liege_to_allow_culture_religion_swap = {
+		only_playable = yes
 		filter = sub_realm
 		ai_target_filter = court
 		ai_check_interval = 12
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_dlc = "Conclave"
+			is_playable = yes
+			has_dlc = "Zeus"
 		}
-
+		
 		potential = {
-			NAND = {
-				culture = educator
-				religion = educator
-			}
-
-			host = {
-				OR = {
-					character = FROM
-					is_vassal_or_below_of = FROM
-				}
-			}
-
 			prisoner = no
 			is_adult = no
 			is_landed = no
-
-			NOR = {
-				vassal_of = FROM
+			NOR = { 
 				has_character_flag = guardian_asked_to_change_focus
 				has_focus = focus_ch_heritage
+				character = FROM
 			}
-		}
-
-		allow = {
-			age < 10
-		}
-
-		effect = {
-			set_character_flag = guardian_asked_to_change_focus
-
-			if = {
-				limit = { vassal_of = FROM }
-				set_focus = focus_ch_heritage
-			}
-			else = {
-				hidden_effect = {
-					liege = {
-						letter_event = {
-							id = ZE.2130
-							days = 5
-						}
-					}
-				}
-			}
-		}
-
-		ai_will_do = {
-			factor = 0.5
-
-			trigger = {
-				host = {
+			
+			host = {
+				OR = {
 					character = FROM
+					is_liege_or_above = FROM
 				}
-
+			}
+			NOT = { liege = { character = FROM } }
+			NOT = {
 				educator = {
-					culture = FROM
-					religion = FROM
-				}
-			}
-		}
-	}
-
-	change_wards_focus_to_heritage = {
-		filter = court
-		ai_target_filter = court
-		ai_check_interval = 12
-
-		only_playable = yes
-
-		from_potential = {
-			has_dlc = "Conclave"
-		}
-
-		potential = {
-			is_adult = no
-			host = { character = FROM }
-
-			trigger_if = {
-				limit = { prisoner = no }
-
-				trigger_if = {
-					limit = { is_landed = yes }
-					is_vassal_or_below_of = FROM
-				}
-				trigger_else = {
-					vassal_of = FROM
-				}
-			}
-
-			educator = {
-				NAND = {
 					culture = ROOT
 					religion = ROOT
 				}
 			}
-
-			NOR = {
-				has_focus = focus_ch_heritage
-				has_character_flag = guardian_asked_to_change_focus
+		}
+		
+		allow = { 
+			NOT = { 
+				age = 10
 			}
 		}
-
-		allow = {
-			age < 10
-		}
-
+		
 		effect = {
 			set_character_flag = guardian_asked_to_change_focus
+			if = {
+				limit = {
+					liege = { character = FROM }
+				}
+				hidden_tooltip = {
+					clear_focus = yes
+				}
+				set_focus = focus_ch_heritage
+				break = yes
+			}
+			hidden_tooltip = {
+				liege = {
+					letter_event = { id = ZE.2130 days = 5 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { host = { character = FROM } }
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					educator = {
+						culture = FROM
+						religion = FROM
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+			}
+		}
+	}
 
+	change_wards_focus_to_heritage  = {
+		only_playable = yes
+		filter = court
+		ai_target_filter = court
+		ai_check_interval = 12
+		
+		from_potential = {
+			is_playable = yes
+			has_dlc = "Zeus"
+		}
+		
+		potential = {
+			is_adult = no
+			NOR = { 
+				has_character_flag = guardian_asked_to_change_focus
+				has_focus = focus_ch_heritage
+				character = FROM
+			}
+			host = { character = FROM }
+			OR = {
+				liege = { character = FROM }
+				prisoner = yes
+			}
+			OR = {
+				is_landed = no
+				is_liege_or_above = FROM
+				prisoner = yes
+			}
+			NOT = {
+				educator = {
+					culture = ROOT
+					religion = ROOT
+				}
+			}
+		}
+		
+		allow = { 
+			NOT = { 
+				age = 10
+			}
+		}
+		
+		effect = {
+			set_character_flag = guardian_asked_to_change_focus
 			if = {
 				limit = {
 					OR = {
-						vassal_of = FROM
+						liege = { character = FROM }
 						prisoner = yes
 					}
 				}
-
+				hidden_tooltip = {
+					clear_focus = yes
+				}
 				set_focus = focus_ch_heritage
+				break = yes
 			}
-			else = {
-				hidden_effect = {
-					liege = {
-						letter_event = {
-							id = ZE.2130
-							days = 5
-						}
-					}
+			hidden_tooltip = {
+				liege = {
+					letter_event = { id = ZE.2130 days = 5 }
 				}
 			}
 		}
-
 		ai_will_do = {
-			factor = 0.5
-
-			trigger = {
-				educator = {
-					culture = FROM
-					religion = FROM
+			factor = 1
+			modifier = {
+				factor = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					educator = {
+						culture = FROM
+						religion = FROM
+					}
 				}
 			}
 		}
 	}
 
 	ask_for_pardon = {
+		only_playable = yes
 		filter = liege
 		ai_target_filter = liege
 		ai_check_interval = 12
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_dlc = "Conclave"
-			is_incapable = no
+			has_dlc = "Zeus"
+			is_playable = yes
+			NOT = { trait = incapable }
+			
 		}
-
 		potential = {
+			NOT = { trait = incapable }
 			owes_favor_to = FROM
-			is_liege_or_above_of = FROM
-			is_incapable = no
+			FROM = { is_liege_or_above = ROOT }
 		}
-
 		allow = {
 			ROOT = {
 				OR = {
-					has_opinion_modifier = { who = FROM modifier = declared_war }
-					has_opinion_modifier = { who = FROM modifier = opinion_dishonorable }
-					has_opinion_modifier = { who = FROM modifier = opinion_traitor }
-					has_opinion_modifier = { who = FROM modifier = opinion_rebel_traitor }
-					has_opinion_modifier = { who = FROM modifier = opinion_regicide_traitor }
-					has_opinion_modifier = { who = FROM modifier = opinion_killed_close_kin }
-					has_opinion_modifier = { who = FROM modifier = opinion_refused_abdicate_title }
-					has_opinion_modifier = { who = FROM modifier = opinion_fatwa_target }
-					has_opinion_modifier = { who = FROM modifier = opinion_refused_order }
-					has_opinion_modifier = { who = FROM modifier = opinion_witch }
-					has_opinion_modifier = { who = FROM modifier = opinion_takfir }
-					has_opinion_modifier = { who = FROM modifier = opinion_unfaithful_wife }
-					has_opinion_modifier = { who = FROM modifier = opinion_cuckolded }
-					has_opinion_modifier = { who = FROM modifier = opinion_charge_heresiarch }
-					has_opinion_modifier = { who = FROM modifier = opinion_charge_infidel }
-					has_opinion_modifier = { who = FROM modifier = opinion_charge_deviant }
-					has_opinion_modifier = { who = FROM modifier = opinion_charge_illegitimate }
-					has_opinion_modifier = { who = FROM modifier = opinion_charge_traitor }
-					has_opinion_modifier = { who = FROM modifier = opinion_charge_slanderer }
-					has_opinion_modifier = { who = FROM modifier = abuse_of_office }
+					has_opinion_modifier = { who = FROM modifier = declared_war } 
+					has_opinion_modifier = { who = FROM modifier = opinion_dishonorable } 
+					has_opinion_modifier = { who = FROM modifier = opinion_traitor } 
+					has_opinion_modifier = { who = FROM modifier = opinion_rebel_traitor } 
+					has_opinion_modifier = { who = FROM modifier = opinion_regicide_traitor } 
+					has_opinion_modifier = { who = FROM modifier = opinion_killed_close_kin } 
+					has_opinion_modifier = { who = FROM modifier = opinion_refused_abdicate_title } 
+					has_opinion_modifier = { who = FROM modifier = opinion_fatwa_target } 
+					has_opinion_modifier = { who = FROM modifier = opinion_refused_order } 
+					has_opinion_modifier = { who = FROM modifier = opinion_witch } 
+					has_opinion_modifier = { who = FROM modifier = opinion_takfir } 
+					has_opinion_modifier = { who = FROM modifier = opinion_unfaithful_wife } 
+					has_opinion_modifier = { who = FROM modifier = opinion_cuckolded } 
+					has_opinion_modifier = { who = FROM modifier = opinion_charge_heresiarch } 
+					has_opinion_modifier = { who = FROM modifier = opinion_charge_infidel } 
+					has_opinion_modifier = { who = FROM modifier = opinion_charge_deviant } 
+					has_opinion_modifier = { who = FROM modifier = opinion_charge_illegitimate } 
+					has_opinion_modifier = { who = FROM modifier = opinion_charge_traitor } 
+					has_opinion_modifier = { who = FROM modifier = opinion_charge_slanderer } 
+					has_opinion_modifier = { who = FROM modifier = abuse_of_office } 
 				}
 			}
 		}
-
 		effect = {
-			hidden_effect = {
-				FROM = {
-					save_event_target_as = pardon_target
-				}
-
+			hidden_tooltip = {
+				FROM = { save_event_target_as = pardon_target }
 				character_event = { id = ZE.8120 }
 			}
 		}
@@ -389,261 +383,260 @@ targeted_decisions = {
 	}
 
 	change_composition_mercenary_company_feudal = {
+		only_playable = yes
 		ai_target_filter = dynasty
 		ai_check_interval = 36
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_mercenary_band = yes
-			has_dlc = "Conclave"
+			is_playable = yes
 			is_landed = yes
+			has_dlc = "Zeus"
+			has_mercenary_band = yes
 		}
-
 		potential = {
 			replace_mercenary_captain_potential_trigger = yes
 		}
-
 		allow = {
 			FROM = {
-				wealth >= 50
+				wealth = 50
 			}
-
 			replace_mercenary_captain_allow_trigger = yes
 		}
-
 		effect = {
 			character_event = { id = ZE.23100 }
 		}
-
 		ai_will_do = {
 			factor = 0.001
 		}
 	}
 
 	send_troops_mercenary_company_feudal = {
+		only_playable = yes
 		ai_target_filter = dynasty
 		ai_check_interval = 36
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_mercenary_band = yes
-			has_dlc = "Conclave"
+			is_playable = yes
 			is_landed = yes
+			has_dlc = "Zeus"
+			has_mercenary_band = yes
 		}
-
 		potential = {
 			replace_mercenary_captain_potential_trigger = yes
 		}
-
 		allow = {
 			FROM = {
-				wealth >= 50
+				wealth = 50
 			}
-
 			replace_mercenary_captain_allow_trigger = yes
 		}
-
 		effect = {
 			character_event = { id = ZE.23105 }
 		}
-
 		ai_will_do = {
 			factor = 0.001
 		}
 	}
 
 	introduce_heir = {
+		only_playable = yes
 		is_high_prio = yes
-
+		
 		filter = home_court
 		ai_target_filter = home_court
 		ai_check_interval = 12
-
-		only_playable = yes
-
+	
 		from_potential = {
+			is_playable = yes
 			has_ambition = obj_groom_an_heir
 			prisoner = no
-			is_incapable = no
-			is_inaccessible_trigger = no
+			NOR = { 
+				trait = incapable
+				is_inaccessible_trigger = yes
+			}
 			war = no
 		}
-
+		
 		potential = {
-			is_child_of = FROM
-
+			is_alive = yes
 			NOR = {
-				has_character_flag = introduced_heir
-
 				any_sibling = {
-					has_character_flag = introduced_heir
+					AND = {
+						is_alive = yes
+						has_character_flag = introduced_heir
+					}
 				}
+				has_character_flag = introduced_heir
 			}
+			is_child_of = FROM
 		}
-
 		allow = {
 			is_primary_heir = FROM
-			host = { character = FROM }
-			age >= 12
-			is_landed = no
-			prisoner = no
-			is_adult = no
-
-			NOT = {
+			age = 12
+			NOR = {
+				is_landed = yes
+				prisoner = yes
+				is_adult = yes
 				custom_tooltip = {
 					text = bastard_eunuch_celibate_or_incapable_tt
-
 					OR = {
 						trait = bastard
 						trait = eunuch
 						trait = celibate
-						is_incapable = yes
+						trait = incapable
 					}
 				}
+				is_ascetic_trigger = yes
 			}
-
-			is_ascetic_trigger = no
 			is_inaccessible_trigger = no
-
-			FROM = {
-				num_of_vassals >= 7
-			}
+			host = { character = FROM }
+			FROM = { num_of_vassals = 7 }
 		}
-
 		effect = {
 			custom_tooltip = {
 				text = introduce_heir_custom_tooltip
-
-				set_character_flag = introduced_heir
-				save_event_target_as = introduced_heir
-
-				FROM = {
-					character_event = { id = ZE.22900 }
+				hidden_tooltip = {
+					set_character_flag = introduced_heir
+					save_event_target_as = introduced_heir
+					FROM = { character_event = { id = ZE.22900 } }
 				}
 			}
 		}
-
+		
+		
 		ai_will_do = {
-			factor = 0.1
+			factor = 1
+			
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
 		}
 	}
 
 	ask_wards_liege_to_allow_faith_focus = {
+		only_playable = yes
 		filter = sub_realm
 		ai_target_filter = court
 		ai_check_interval = 12
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_dlc = "Conclave"
+			is_playable = yes
+			has_dlc = "Zeus"
 		}
-
+		
 		potential = {
+			prisoner = no
+			is_adult = no
+			is_landed = no
+			NOR = {
+				has_character_flag = guardian_asked_to_change_focus
+				has_focus = focus_ch_faith
+				character = FROM
+			}
+			
 			host = {
 				OR = {
 					character = FROM
 					is_liege_or_above = FROM
 				}
 			}
-
-			NOR = {
-				vassal_of = FROM
-				religion = educator
-				has_focus = focus_ch_faith
-				has_character_flag = guardian_asked_to_change_focus
+			NOT = { liege = { character = FROM } }
+			
+			NOT = {
+				educator = {
+					religion = ROOT
+				}
 			}
-
-			prisoner = no
-			is_adult = no
-			is_landed = no
 		}
-
+		
 		allow = {
-			age < 10
+			NOT = {
+				age = 10
+			}
 		}
-
+		
 		effect = {
 			set_character_flag = guardian_asked_to_change_focus
-
 			if = {
 				limit = {
 					liege = { character = FROM }
 				}
-
+				hidden_tooltip = {
+					clear_focus = yes
+				}
 				set_focus = focus_ch_faith
-
+				break = yes
 			}
-			else = {
-				hidden_effect = {
-					liege = {
-						letter_event = {
-							id = ZE.2140
-							days = 5
-						}
-					}
+			hidden_tooltip = {
+				liege = {
+					letter_event = { id = ZE.2140 days = 5 }
 				}
 			}
 		}
-
 		ai_will_do = {
-			factor = 0.5
-
-			trigger = {
-				host = {
-					character = FROM
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { host = { character = FROM } }
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					educator = {
+						religion = FROM
+					}
 				}
-
-				educator = {
-					religion = FROM
-				}
+			}
+			modifier = {
+				factor = 0.5
 			}
 		}
 	}
 
 	change_wards_focus_to_faith = {
+		only_playable = yes
 		filter = court
 		ai_target_filter = court
 		ai_check_interval = 12
-
-		only_playable = yes
-
+		
 		from_potential = {
-			has_dlc = "Conclave"
+			is_playable = yes
+			has_dlc = "Zeus"
 		}
-
+		
 		potential = {
-			host = { character = FROM }
 			is_adult = no
-
 			NOR = {
-				religion = educator
-				has_focus = focus_ch_faith
 				has_character_flag = guardian_asked_to_change_focus
+				has_focus = focus_ch_faith
+				character = FROM
 			}
-
-			trigger_if = {
-				limit = { prisoner = no }
-
-				trigger_if = {
-					limit = { is_landed = yes }
-					is_vassal_or_below_of = FROM
-				}
-				trigger_else = {
-					vassal_of = FROM
+			host = { character = FROM }
+			OR = {
+				liege = { character = FROM }
+				prisoner = yes
+			}
+			OR = {
+				is_landed = no
+				is_liege_or_above = FROM
+				prisoner = yes
+			}
+			NOT = {
+				educator = {
+					religion = ROOT
 				}
 			}
 		}
-
+		
 		allow = {
-			age < 10
+			NOT = {
+				age = 10
+			}
 		}
-
+		
 		effect = {
 			set_character_flag = guardian_asked_to_change_focus
-
 			if = {
 				limit = {
 					OR = {
@@ -651,31 +644,31 @@ targeted_decisions = {
 						prisoner = yes
 					}
 				}
-
+				hidden_tooltip = {
+					clear_focus = yes
+				}
 				set_focus = focus_ch_faith
-
+				break = yes
 			}
-			else = {
-				hidden_effect = {
-					liege = {
-						letter_event = {
-							id = ZE.2140
-							days = 5
-						}
+			hidden_tooltip = {
+				liege = {
+					letter_event = { id = ZE.2140 days = 5 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.5
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					educator = {
+						religion = FROM
 					}
 				}
 			}
 		}
-
-		ai_will_do = {
-			factor = 0.5
-
-			trigger = {
-				educator = {
-					religion = FROM
-				}
-			}
-		}
 	}
-
 }
