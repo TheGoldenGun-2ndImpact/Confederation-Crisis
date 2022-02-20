@@ -975,4 +975,29 @@ settlement_decisions = {
 			}
 		}
 	}
+	
+	destroy_artifact = {
+		only_playable = yes
+		ai = no
+		hide_in_decisions_list = yes
+		potential = {
+			FROM = {
+				owner = {
+					character = ROOT
+				}
+			}
+		}
+		allow = {
+			FROM = {
+				show_scope_change = no
+				is_indestructible = no 
+				custom_tooltip = { text = tooltip_considering_artifact_donation NOT = { has_artifact_flag = flag_considering_donation } } 
+			}
+		}
+		effect = {
+			FROM = {
+				destroy_artifact = yes
+			}
+		}
+	}
 }
