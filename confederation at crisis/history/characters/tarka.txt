@@ -249,7 +249,6 @@
 	
 	religion = cyberneticist
 	culture = indo_tarkan
-	religion = iranian_samawati
 	
 	stewardship = 8
 	add_trait = quick
@@ -643,7 +642,7 @@
 	add_trait = economist
 	
 	2940.1.1 = {
-		birth = "2940	.1.1"
+		birth = "2940.1.1"
 		effect = { set_dynasty_flag = flag_dynasty_processed }
 	}
 	2998.1.1 = {
