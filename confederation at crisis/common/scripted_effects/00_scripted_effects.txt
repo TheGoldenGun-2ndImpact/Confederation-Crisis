@@ -5132,13 +5132,13 @@ monastic_order_purity_effect = {
 				factor = 2
 				piety = 1000
 			}
-			modifier = {
-				factor = 3
-				OR = {
-					society_member_of = monastic_order_jain
-					society_member_of = monastic_order_buddhist
-				}
-			}
+			# modifier = {
+				# factor = 3
+				# OR = {
+					# society_member_of = monastic_order_jain
+					# society_member_of = monastic_order_buddhist
+				# }
+			# }
 			character_event = { id = MNM.4400 days = 10 random = 10 }
 		}
 	}

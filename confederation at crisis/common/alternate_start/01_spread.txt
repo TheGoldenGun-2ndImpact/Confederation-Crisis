@@ -1,4 +1,14 @@
 adjacencies = {
+	443 = 445 # FN-331 - FN-379
+	445 = 449 # FN-379 - Hades
+	441 = 440 # Xiao Mei - Diyu
+	440 = 446 # Diyu - FN-664
+	434 = 439 # Shihai - FN-122
+	439 = 436 # FN-122 - Infierno
+	420 = 421 # Sortelha - ON-47
+	421 = 424 # ON-47 - ON-793
+	424 = 425 # ON-793 - ON-567
+	425 = 426 # ON-567 - Yunque
 }
 
 culture_group_spread = {
