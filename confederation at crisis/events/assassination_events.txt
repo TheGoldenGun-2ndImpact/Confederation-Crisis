@@ -3626,7 +3626,7 @@ character_event = {
 					plot_is_known_by = ROOT
 				}
 			}
-			death = { death = { death_reason = death_murder_brainjack killer = FROMFROM } }
+			death = { death_reason = death_murder_brainjack killer = FROMFROM }
 		}
 		else_if = {
 			limit = {
@@ -3635,7 +3635,7 @@ character_event = {
 					plot_target_char = { character = ROOT }
 				}
 			}
-			death = { death = { death_reason = death_murder_brainjack_unknown killer = FROMFROM } }
+			death = { death_reason = death_murder_brainjack_unknown killer = FROMFROM }
 		}
 		else_if = {
 			limit = { event_target:target_mastermind = { plot_is_known_by = ROOT } }
