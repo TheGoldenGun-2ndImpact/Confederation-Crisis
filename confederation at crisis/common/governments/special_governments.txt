@@ -147,7 +147,7 @@ feudal_governments = {
 
         unit_modifier = {
             levy_size = 0.5
-            land_organization = 0.5
+            land_organisation = 0.5
             land_morale = 0.5
             key = "MILITARY_SOCIETY"
         }

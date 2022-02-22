@@ -1506,18 +1506,19 @@ has_society_currency_major_trigger = {
 }
 
 is_devil_worshiper_trigger = {
-	custom_tooltip = {
-		text = IS_DEVIL_WORSHIPPER_TRIGGER
-		OR = {
-			society_member_of = the_satanists
-			society_member_of = the_cold_ones
-			society_member_of = the_plaguebringers
-			society_member_of = the_cult_of_kali
-			society_member_of = the_cult_of_balor
-			society_member_of = cult_of_angra_mainyu
-			society_member_of = the_trollcrafters
-		}
-	}
+	always = no
+	# custom_tooltip = {
+		# text = IS_DEVIL_WORSHIPPER_TRIGGER
+		# OR = {
+			# society_member_of = the_satanists
+			# society_member_of = the_cold_ones
+			# society_member_of = the_plaguebringers
+			# society_member_of = the_cult_of_kali
+			# society_member_of = the_cult_of_balor
+			# society_member_of = cult_of_angra_mainyu
+			# society_member_of = the_trollcrafters
+		# }
+	# }
 }
 
 has_negative_congenital_trigger = {
