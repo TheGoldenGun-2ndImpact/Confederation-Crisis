@@ -324,3 +324,4 @@ WAR_NAME_WARLORD_CONQUEST;Warlord Conquest;;;;;;;;;;;x
 DEATH_ACCIDENT_HUNTING;Killed in a hunting accident;;;;;;;;;;;x
 obj_convert_a_province_desc;This character wants to convert a province to their ideology;;;;;;;;;;;x
 obj_adopt_a_lifestyle_desc;This character wants to adopt a new lifestyle in their free time.;;;;;;;;;;;x
+GALLEYS;Troop Transports;;;;;;;;;;;x

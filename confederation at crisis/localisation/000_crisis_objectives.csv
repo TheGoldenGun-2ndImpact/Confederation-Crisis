@@ -29,6 +29,7 @@ obj_become_exalted_3_desc;[Root.GetFullName] wants to earn such fame and recogni
 obj_become_exalted_4_title;Become Famed Across the Stars;;;;;;;;;;;;;x
 obj_become_exalted_4_desc;[Root.GetFullName] wants to earn such fame and recognition that [Root.GetHerHis] name will be spoken across the Known Worlds.;;;;;;;;;;;;;x
 obj_find_lover_title;Find Lover;;;;;;;;;;;;;x
+obj_find_lover_desc;This character seeks to find a lover to spend time with.;;;;;;;;;;;x
 obj_become_independent_title;Become Independent;;;;;;;;;;;;;x
 obj_become_independent_desc;[Root.GetFullName] does not wish to answer to an overlord and wants to rule an independent realm.;;;;;;;;;;;;;x
 obj_have_five_children_title;Have 5 Children;;;;;;;;;;;;;x
