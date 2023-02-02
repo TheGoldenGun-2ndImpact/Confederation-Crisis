@@ -1448,22 +1448,10 @@ obj_twenty_children = {
 		if = {
 			limit = {
 				has_nickname = no
-				religion_group = christian
 			}
 			give_nickname = nick_the_quiverfull
 		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			prestige = 50
-		}
-		if = {
-			limit = {
-				NOT = { religion_group = muslim }
-			}
-			prestige = 100
-		}
+		prestige = 100
 		set_character_flag = obj_have_child_6
 	}
 }

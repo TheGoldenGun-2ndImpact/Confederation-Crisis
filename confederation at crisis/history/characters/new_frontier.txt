@@ -122,7 +122,8 @@
 	culture = anglo_frontiersman
 	religion = colonial_separatist
 	
-	add_trait = expert_scientist
+	trait = martial_cleric
+	add_trait = scientist
 	add_trait = open_minded
 	add_trait = content
 	add_trait = humble
