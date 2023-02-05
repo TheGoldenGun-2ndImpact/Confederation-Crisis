@@ -89,12 +89,6 @@ religious_terran_group = {
         ignores_defensive_attrition = yes
         castes = no
         caste_opinions = no
-
-        # At least we need to give +10 opinion toward this religion, from related religious groups
-        # Default inter-group opinion is -20, thus end result is -10 instead.
-        character_modifier = {
-            political_terran_group_opinion = 10
-        }
     }
     pilgrim = {
         graphical_culture = jewishgfx
@@ -178,12 +172,6 @@ religious_terran_group = {
         ignores_defensive_attrition = yes
         castes = no
         caste_opinions = no
-
-        # At least we need to give +10 opinion toward this religion, from related religious groups
-        # Default inter-group opinion is -20, thus end result is -10 instead.
-        character_modifier = {
-            political_terran_group_opinion = 10
-        }
     }
     solarian = {
         graphical_culture = muslimgfx
@@ -211,10 +199,6 @@ religious_terran_group = {
         #intermarry = religious_group
         #intermarry = transhumanist_group
         #intermarry = outlaw_group
-
-        character_modifier = {
-            political_terran_group_opinion = 10
-        }
     }
     solar_cultist = {
         graphical_culture = muslimgfx
@@ -239,10 +223,6 @@ religious_terran_group = {
         #intermarry = religious_group
         #intermarry = transhumanist_group
         #intermarry = outlaw_group
-
-        character_modifier = {
-            political_terran_group_opinion = 10
-        }
     }
     terran_imperial_cult = {
         graphical_culture = westerngfx
@@ -333,13 +313,6 @@ religious_terran_group = {
         ignores_defensive_attrition = yes
         castes = no
         caste_opinions = no
-
-        # At least we need to give +10 opinion toward this religion, from related religious groups
-        # Default inter-group opinion is -20, thus end result is -10 instead.
-        character_modifier = {
-            general_opinion = -5
-            political_terran_group_opinion = 10
-        }
     }
 }
 
@@ -377,10 +350,6 @@ religious_group = {
         #intermarry = transhumanist_group
         #intermarry = outlaw_group
         intermarry = machine_cultist
-        character_modifier = {
-            political_group_opinion = 10
-            machine_cultist_opinion = 10
-        }
     }
     adoptionist_cultist = {
         graphical_culture = muslimgfx
@@ -412,12 +381,104 @@ religious_group = {
         #   heavy_infantry_defensive = 0.15
         #   key = "OFF_RELIGION"
         #}
-
-        character_modifier = {
-            political_group_opinion = 10
-            machine_cultist_opinion = 10
-        }
     }
+	neo_feudal = { #Now a Grail-centric Mystery Cult rather than an ideology
+		graphical_culture = westerngfx
+		icon = 4
+
+		color = { 0.4 0.2 0.4 }
+
+		# Defaults to the Pilgrimage
+		crusade_name = CRUSADE
+		scripture_name = THE_PARZIVAL
+		piety_name = LEGITIMACY
+		high_god_name = GOD_THE_GRAIL
+		god_names = { GOD_THE_WORTHIES GOD_PARZIVAL GOD_GALAHAD GOD_THE_WORTHY_WOMEN GOD_CHIVALRY }
+		priest_title = RECTOR
+		evil_god_names = {
+			EVIL_MORDRED EVIL_BRUTUS EVIL_ACHAEANS EVIL_GOLIATH
+			*These are understood more as spiritual concepts and abstractions, adherents generally do not regard Greeks as being Evil
+		}
+
+		# Ai Behaviour
+		ai_convert_same_group = 1
+		ai_convert_other_group = 1
+		pacifist = no #Affects wars, plots, etc...
+		aggression = 1.2 #Affects how much it wants wars.
+		rel_head_defense = no
+		join_crusade_if_bordering_hostile = no
+
+		# Gender Rules
+		matrilineal_marriages = yes
+		female_temple_holders = no
+		male_temple_holders = yes
+		feminist = no # affects opinion modifier toward female rulers
+
+		# Religious Head Powers (assuming it has a religious head)
+		autocephaly = no
+		can_have_antipopes = no
+		#can_grant_invasion_cb = no
+		can_call_crusade = no
+		can_grant_divorce = yes
+
+		# Secular Rulers Powers
+		investiture = yes
+		can_demand_religious_conversion = no
+		can_retire_to_monastery = no # Name should be: Can SEND people to monastery
+		has_heir_designation = yes #Need Rajas of India DLC
+		raised_vassal_opinion_loss = yes
+		landed_kin_prestige_bonus = no
+
+		# Actual Religion Rules
+		priests_can_marry = yes
+		priests_can_inherit = no
+		attacking_same_religion_piety_loss = no
+		uses_decadence = no
+		peace_piety_gain = 0.5
+		peace_prestige_loss = no
+		#short_reign_opinion_year_mult = 0.5 #overrides a define.
+
+		# Marriage Rules:
+			# Incest rules
+			divine_blood = no
+			bs_marriage = no
+			pc_marriage = no
+			psc_marriage = yes
+			cousin_marriage = yes
+			# Forms of Marriage
+			max_wives = 1
+			max_consorts = 0
+			men_can_take_consorts = no
+			women_can_take_consorts = no
+			#Intermarriage Rules
+			intermarry = political_group
+			#intermarry = political_terran_group
+			intermarry = religious_group
+			#intermarry = religious_terran_group
+			intermarry = transhumanist_group
+			#intermarry = outlaw_group
+
+
+		# Outlaw Features
+		allow_viking_invasion = no #Prepare Invasion diplomatic avtion
+		allow_looting = no
+		seafarer = no #makes boats cheap and make AI prefer coastal, but ALL provinces in CotC are coastal...
+		allow_rivermovement = no #This allows crossing normally impassable nebulas.
+		uses_jizya_tax = no
+
+		# Mod Disabled Features
+		defensive_attrition = no
+		ignores_defensive_attrition = yes
+		castes = no
+		caste_opinions = no
+		unit_modifier = {
+		levy_size = 0.40
+		light_infantry_offensive = 0.1
+		heavy_infantry_offensive = 0.1
+		pikemen_offensive = 0.1
+		key = "CHIVALRIC_RELIGION"
+		}
+	}
     xenoterran = {
         graphical_culture = muslimgfx
         icon = 19
@@ -445,7 +506,7 @@ religious_group = {
         feminist = yes # affects opinion modifier toward female rulers
 
         # Religious Head Powers (assuming it has a religious head)
-        autocephaly = yes
+        autocephaly = no
         can_have_antipopes = no
         can_grant_invasion_cb = invasion
         can_call_crusade = yes
@@ -553,16 +614,11 @@ religious_group = {
         #intermarry = outlaw_group
         intermarry = machine_cultist
         psc_marriage = no
-        autocephaly = yes
+        autocephaly = no
         # can_have_antipopes = yes
 
         max_consorts = 4
         women_can_take_consorts = yes
-
-        character_modifier = {
-            political_group_opinion = 10
-            machine_cultist_opinion = 10
-        }
     }
 
     # This one shouldn´t spawn normaly

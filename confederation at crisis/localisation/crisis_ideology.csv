@@ -2,8 +2,8 @@
 CB_NAME_RELIGIOUS_LIBERATION;Ideological Liberation of the [Title.GetBaseName] Sector;;;;;;;;;;;;;x
 religious_liberation_desc;§Y$CLAIMANT$§! can use this Casus Belli to liberate all of §Y$TARGET$§!'s provinces in the §Y$TITLE$§! that share their ideology.;;;;;;;;;;;;x
 WAR_NAME_RELIGIOUS_LIBERATION;$ORDER$[Actor.Religion.GetName] Liberation of the $OTHER_TITLE$ Sector;;;;;;;;;;;;;x
-political_group;Political;;;;;;;;;;;;;x
-political_terran_group;Pro-Terra Political;;;;;;;;;;;;;x
+political_group;Liberal;;;;;;;;;;;;;x
+political_terran_group;Terran Ideology;;;;;;;;;;;;;x
 terran_federalist;Terran Federalist;;;;;;;;;;;;;x
 terran_federalist_DESC;"§Y"Above all, we recognize this - that all men are brothers and all women sisters, the sons and daughters of Earth."\n - Fourth Treaty of Terra, 2489§!\n\nThe Federalist Party was one of the two primary political parties of the Terran Confederation throughout most of its history. Terran Federalists support the ideal of a single, united human state, a democratic federation with its capital on Earth.";;;;;;;;;;;;;x
 terran_republican;Terran Republican;;;;;;;;;;;;;x
@@ -12,14 +12,16 @@ terran_imperial;Terran Imperialist;;;;;;;;;;;;;x
 terran_imperial_DESC;"§Y"It takes a peculiar sort of mind to witness the horrors of the Crisis and still say, 'Yes, democracy will be our salvation.'"\n - Captain-General Luo Tao, 3007§!\n\nThe disasters of the late 30th century caused many Terrans to lose their faith in democracy. Terran Imperialists seek to unite humanity under the rule of a strong, authoritarian government centered on Earth.";;;;;;;;;;;;;x
 colonial_separatist;Colonial Separatist;;;;;;;;;;;;;x
 colonial_separatist_DESC;"§Y"We are indeed the children of Earth. But all children must one day learn to stand on their own."\n - Governor-General Juan Lebedev, 2997§!\n\nColonial Separatists believe that the notion of a single pan-human government is inherently flawed, and that Earth's colonies should be allowed to seek their own futures. They support free and independent democracies.";;;;;;;;;;;;;x
-neo_feudal;Neo-Feudalist;;;;;;;;;;;;;x
+neo_feudal;Grail Mysteries;;;;;;;;;;;;;x
 neo_feudal_DESC;"§Y"It is no coincidence that the archetypical hero is the knight in shining armor."\n - Duke Joseph Blackburne, 2999§!\n\nNeo-Feudalists are a diverse lot. Some believe that the failures of the Confederation have proved that the Enlightenment itself was a mistake. Others simply prefer the romance of feudal titles to stark military ranks. Either way, they support independent and decentralized but autocratic governments.";;;;;;;;;;;;;x
+astrist_group;Astrist;;;;;;;;;;;;;x
 astrist;Astrist;;;;;;;;;;;;;x
 astrist_DESC;"§Y"Up there, someone on your crew says something, you don't ask questions. You do it, because they're on your crew. No exceptions."\n - Captain Michael McKinley, 2183§!\n\nThe Astrist movement began when the first great wave of space explorers returned to Earth and found themselves unable to integrate with ordinary life. Astrists support the imposition of spacer values - loyalty to your crew, honesty and integrity in your dealings with others, responsibility to your subordinates and absolute and unquestioning obedience to your superiors - over everyday life. They support highly centralized autocratic dictatorships, but possess a distaste for Terrans in particular.";;;;;;;;;;;;;x
-neo_socialist;Neo-Socialist;;;;;;;;;;;;;x
+socialist_group;Socialist;;;;;;;;;;;;;x
+neo_socialist;Marxist-Leninist-Pozharskist;;;;;;;;;;;;;x
 neo_socialist_DESC;"§Y"We have conquered gravity. We have conquered the stars. Is it really so impossible that we might conquer human greed?"\n - Director-General Ekateirna Leonidov, 2549§!\n\nWhen Russia first began settling the Centauri Reach, many Russian communists fled Earth for the one place not yet corrupted by capitalism: space. Neo-socialists the modern heirs to the various socialist and Communist movements of the 20th century. In theory, they support democracy and autonomy, but they are often willing to sacrifice these things in the name of the greater good.";;;;;;;;;;;;;x
 religious_group;Religious;;;;;;;;;;;;;x
-religious_terran_group;Pro-Terra Religious;;;;;;;;;;;;;x
+religious_terran_group;Terran Religious;;;;;;;;;;;;;x
 pilgrim;Pilgrim;;;;;;;;;;;;;x
 pilgrim_DESC;"§Y"This is, of course, space travel - and in any discussion of religion, it deserves to be written thus: SPACE TRAVEL!"\n - Frank Herbert, 1965§!\n\nWhile humanity follows many different religions, nearly all of them share one vital commonality - they all originated on Old Earth. Across the galaxy are billions of colonists who find themselves compelled to travel to the holy places on Earth, and over time, an infrastructure has evolved to support them. The largest organization responsible for the transportation of pilgrims is known simply as "the Pilgrimage."";;;;;;;;;;;;;x
 orthodox;Terran Orthodox;;;;;;;;;;;;;x
@@ -68,14 +70,20 @@ MILITARY_SOCIETY;Militarized Society;;;;;;;;;;;;;x
 THE_SCRIPTURES;Scripture;;;;;;;;;;;;;x
 THE_CONSTITUTION;The Constitution;;;;;;;;;;;;;x
 THE_OATHS;The Oaths;;;;;;;;;;;;;x
+THE_PARZIVAL;The Codex Parzival;;;;;;;;;;;;;x
 THE_DOCTRINE;The Doctrine of Astrism;;;;;;;;;;;;;x
 THE_MANIFESTOS;The Manifestos;;;;;;;;;;;;;x
+THE_NEW_MODEL;The Fourth Millennium and Third October;;;;;;;;;;;;;x
 THE_ARTICLES;The Articles of Independence;;;;;;;;;;;;;x
 THE_CODE;Code of the Pirate Brethren;;;;;;;;;;;;;x
 THE_LAWS;The Three Laws of Transhumanism;;;;;;;;;;;;;x
 THE_DEUS_EX;To bring God from the Machine;;;;;;;;;;;;;x
 THE_PRINCIPLES;The Principles of Directed Evolution;;;;;;;;;;;;;x
 THE_THESIS;The Imperial Thesis;;;;;;;;;;;;;x
+GOD_THE_GRAIL;The Holy Grail;;;;;;;;;;;;;x
+GOD_PARZIVAL;Parzival;;;;;;;;;;;;;x
+GOD_GALAHAD;Galahad;;;;;;;;;;;;;x
+GOD_THE_EMPIRE;The Empire;;;;;;;;;;;;;x
 GOD_THE_EMPEROR;The [Root.TopLiege.GetTitle];;;;;;;;;;;;;x
 GOD_UNITY;Unity;;;;;;;;;;;;;x
 GOD_FEDERALISM;Federalism;;;;;;;;;;;;;x
@@ -89,7 +97,8 @@ GOD_INDEPENDENCE;Independence;;;;;;;;;;;;;x
 GOD_ORION_LEAGUE;The Orion League;;;;;;;;;;;;;x
 GOD_CHIVALRY;Chivalry;;;;;;;;;;;;;x
 GOD_LIBERTY;Liberty;;;;;;;;;;;;;x
-GOD_THE_WORTHIES;The Nine Worthies;;;;;;;;;;;;;x
+GOD_THE_WORTHIES;The Nine Valiant Princes;;;;;;;;;;;;;x
+GOD_THE_WORTHY_WOMEN;The Nine Worthy Women;;;;;;;;;;;;;x
 HOLY_TERRA;Holy Terra;;;;;;;;;;;;;x
 REGULAR_TERRA;Terra;;;;;;;;;;;;;x
 GOD_BOUNDLESS_VOID;The Boundless Void;;;;;;;;;;;;;x
@@ -99,10 +108,13 @@ GOD_THEORY;Theory;;;;;;;;;;;;;x
 GOD_LENIN;Lenin;;;;;;;;;;;;;x
 GOD_TROTSKY;Trotsky;;;;;;;;;;;;;x
 GOD_STALIN;Stalin;;;;;;;;;;;;;x
+GOD_POZHARSKY;Pozharsky;;;;;;;;;;;;;x
 GOD_MONEY;Money;;;;;;;;;;;;;x
 GOD_HUSTLE;Hustle;;;;;;;;;;;;;x
 GOD_LOYALTY;Loyalty;;;;;;;;;;;;;x
 GOD_RESPECT;Respect;;;;;;;;;;;;;x
+EVIL_ACHAEANS;The Achaeans;;;;;;;;;;;;;x
+EVIL_GOLIATH;The Goliath;;;;;;;;;;;;;x
 EVIL_SEPARATISM;Separatism;;;;;;;;;;;;;x
 EVIL_REPUBLICANISM;Republicanism;;;;;;;;;;;;;x
 EVIL_TERRANS;Terrans;;;;;;;;;;;;;x

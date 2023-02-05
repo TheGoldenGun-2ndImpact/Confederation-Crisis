@@ -24,7 +24,7 @@ transhumanist_group = {
         }
 
         investiture = yes
-        autocephaly = yes
+        autocephaly = no
         can_excommunicate = no
         can_grant_divorce = yes
         #can_grant_invasion_cb = no #wants a cb
@@ -51,7 +51,7 @@ transhumanist_group = {
 
 
     }
-    machine_cultist = {
+    machine_cultist = { 
         graphical_culture = westerngfx
         icon = 8
 
@@ -99,7 +99,6 @@ transhumanist_group = {
 
         character_modifier = {
             religious_group_opinion = 10
-			machine_cultist_opinion = -10 # The flesh is sinful after all. Offset by positive opinion modifiers from Cybernetic Enhancements.
         }
     }
     hiver = {
@@ -177,7 +176,7 @@ transhumanist_group = {
         intermarry = xenoterran
         can_have_antipopes = yes
         investiture = yes
-        autocephaly = yes
+        autocephaly = no
         can_excommunicate = no
         can_grant_divorce = yes
         can_grant_invasion_cb = invasion #yes #wants a cb #had a cb called "holy invasion" but it wasn't working

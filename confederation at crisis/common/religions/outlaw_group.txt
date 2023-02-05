@@ -11,7 +11,6 @@ outlaw_group = {
 
         color = { 0.3 0.3 0.3 }
 
-        # Default to the Pilgrimage
         scripture_name = THE_CODE
         piety_name = RESPECT
         high_god_name = GOD_MONEY
@@ -57,8 +56,6 @@ outlaw_group = {
         character_modifier = {
             intrigue = 1
             martial = 1
-            general_opinion = -10
-			
         }
     }
 
@@ -68,7 +65,6 @@ outlaw_group = {
 
         color = { 0.3 0.3 0.3 }
 
-        # Default to the Pilgrimage
         scripture_name = THE_CODE
         piety_name = RESPECT
         high_god_name = GOD_MONEY
@@ -113,8 +109,6 @@ outlaw_group = {
         character_modifier = {
             intrigue = 1
             martial = 1
-            general_opinion = -10
-            astrist_opinion = 5
         }
     }
 }

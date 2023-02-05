@@ -26,7 +26,6 @@ political_terran_group = {
 		high_god_name = REGULAR_TERRA
 		god_names = { REGULAR_TERRA GOD_FEDERALISM GOD_THE_REPUBLIC }
 		priest_title = RECTOR
-		# Actually randomly-generated names for military operations and science projects
 		evil_god_names = {
 			EVIL_DESPOTISM EVIL_SEPARATISM
 		}
@@ -106,7 +105,6 @@ political_terran_group = {
 		# At least we need to give +10 opinion toward this religion, from related religious groups
 		# Default inter-group opinion is -20, thus end result is -10 instead.
 		character_modifier = {
-			religious_terran_group_opinion = 10 #Longstanding history of cooperation with the Pilgrimage religions
 			terran_republican_opinion = 5 #Opposing ideas on how the Confederation should be structured and governed, but still a lot in common
 		}
 	}
@@ -123,7 +121,6 @@ political_terran_group = {
 		high_god_name = REGULAR_TERRA
 		god_names = { REGULAR_TERRA GOD_UNITY GOD_THE_REPUBLIC }
 		priest_title = RECTOR
-		# Actually randomly-generated names for military operations and science projects
 		evil_god_names = {
 			EVIL_DESPOTISM EVIL_SEPARATISM GOD_FEDERALISM
 		}
@@ -143,7 +140,7 @@ political_terran_group = {
 		feminist = yes # affects opinion modifier toward female rulers
 
 		# Religious Head Powers (assuming it has a religious head)
-		autocephaly = yes
+		autocephaly = no
 		can_have_antipopes = no
 		#can_grant_invasion_cb = no
 		can_call_crusade = yes
@@ -203,7 +200,6 @@ political_terran_group = {
 		# At least we need to give +10 opinion toward this religion, from related religious groups
 		# Default inter-group opinion is -20, thus end result is -10 instead.
 		character_modifier = {
-			religious_terran_group_opinion = 10 #Longstanding history of cooperation with the Pilgrimage religions
 			terran_federalist_opinion = 5 #Opposing ideas on how the Confederation should be structured and governed, but still a lot in common
 		}
 	}
@@ -217,7 +213,7 @@ political_terran_group = {
 		crusade_name = UNIFICATION
 		scripture_name = THE_THESIS
 		piety_name = LEGITIMACY
-		high_god_name = GOD_GOD
+		high_god_name = GOD_THE_EMPIRE
 		god_names = { GOD_UNITY REGULAR_TERRA GOD_THE_EMPEROR }
 		priest_title = RECTOR
 		evil_god_names = {
@@ -295,21 +291,14 @@ political_terran_group = {
 		ignores_defensive_attrition = yes
 		castes = no
 		caste_opinions = no
-
-		# At least we need to give +10 opinion toward this religion, from related religious groups
-		# Default inter-group opinion is -20, thus end result is -10 instead.
-		character_modifier = {
-			religious_terran_group_opinion = 10 #Relations with the Pilgrimage religions are generally good, so long as they're loyal
-		}
 	}
 }
 
-political_group = {
+political_group = { #Now the Liberal Group
 	#merge_republic_interface = yes
 	has_coa_on_barony_only = yes
 	graphical_culture = westerngfx
 	playable = yes
-	hostile_within_group = yes
 	crusade_cb = crusade
 	ai_fabricate_claims = yes
 
@@ -402,118 +391,19 @@ political_group = {
 		ignores_defensive_attrition = yes
 		castes = no
 		caste_opinions = no
-
-		# At least we need to give +10 opinion toward this religion, from related religious groups
-		# Default inter-group opinion is -20, thus end result is -10 instead.
-		character_modifier = {
-			religious_group_opinion = 10#United by a common opposition to Terra
-			political_terran_group_opinion = -10#Formed the core of the Orion League
-		}
 	}
-	neo_feudal = {
-		graphical_culture = westerngfx
-		icon = 4
+}
+socialist_group = {
+	#merge_republic_interface = yes
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	crusade_cb = crusade
+	ai_fabricate_claims = yes
 
-		color = { 0.4 0.2 0.4 }
-
-		# Defaults to the Pilgrimage
-		crusade_name = CRUSADE
-		scripture_name = THE_OATHS
-		piety_name = LEGITIMACY
-		high_god_name = GOD_GOD
-		god_names = { GOD_CHIVALRY GOD_LIBERTY GOD_THE_WORTHIES }
-		priest_title = RECTOR
-		evil_god_names = {
-			EVIL_COWARDICE EVIL_TYRANNY EVIL_BRUTUS EVIL_MORDRED
-		}
-
-		# Ai Behaviour
-		ai_convert_same_group = 1
-		ai_convert_other_group = 1
-		pacifist = no #Affects wars, plots, etc...
-		aggression = 1.2 #Affects how much it wants wars.
-		rel_head_defense = no
-		join_crusade_if_bordering_hostile = no
-
-		# Gender Rules
-		matrilineal_marriages = yes
-		female_temple_holders = yes
-		male_temple_holders = yes
-		feminist = no # affects opinion modifier toward female rulers
-
-		# Religious Head Powers (assuming it has a religious head)
-		autocephaly = yes
-		can_have_antipopes = no
-		#can_grant_invasion_cb = no
-		can_call_crusade = no
-		can_grant_divorce = yes
-
-		# Secular Rulers Powers
-		investiture = yes
-		can_demand_religious_conversion = no
-		can_retire_to_monastery = no # Name should be: Can SEND people to monastery
-		has_heir_designation = yes #Need Rajas of India DLC
-		raised_vassal_opinion_loss = yes
-		landed_kin_prestige_bonus = no
-
-		# Actual Religion Rules
-		priests_can_marry = yes
-		priests_can_inherit = no
-		attacking_same_religion_piety_loss = no
-		uses_decadence = no
-		peace_piety_gain = 0.5
-		peace_prestige_loss = no
-		#short_reign_opinion_year_mult = 0.5 #overrides a define.
-
-		# Marriage Rules:
-			# Incest rules
-			divine_blood = no
-			bs_marriage = no
-			pc_marriage = no
-			psc_marriage = yes
-			cousin_marriage = yes
-			# Forms of Marriage
-			max_wives = 1
-			max_consorts = 0
-			men_can_take_consorts = no
-			women_can_take_consorts = no
-			#Intermarriage Rules
-			intermarry = political_group
-			#intermarry = political_terran_group
-			intermarry = religious_group
-			#intermarry = religious_terran_group
-			intermarry = transhumanist_group
-			#intermarry = outlaw_group
-
-
-		# Outlaw Features
-		allow_viking_invasion = no #Prepare Invasion diplomatic avtion
-		allow_looting = no
-		seafarer = no #makes boats cheap and make AI prefer coastal, but ALL provinces in CotC are coastal...
-		allow_rivermovement = no #This allows crossing normally impassable nebulas.
-		uses_jizya_tax = no
-
-		# Mod Disabled Features
-		defensive_attrition = no
-		ignores_defensive_attrition = yes
-		castes = no
-		caste_opinions = no
-		unit_modifier = {
-		levy_size = 0.40
-		light_infantry_offensive = 0.1
-		heavy_infantry_offensive = 0.1
-		pikemen_offensive = 0.1
-		key = "CHIVALRIC_RELIGION"
-		}
-
-		# At least we need to give +10 opinion toward this religion, from related religious groups
-		# Default inter-group opinion is -20, thus end result is -10 instead.
-		character_modifier = {
-			religious_group_opinion = 10 #Generally amicable to the religious
-			religious_terran_group_opinion = 5 #See above, but to a lesser extent due to the anti-Terran mentality of Neo-Feudals
-		}
-	}
-	neo_socialist = {
+	color = { 0.8 0.2 0.2 }
+	
+	neo_socialist = { #Now Marxist-Leninist-Pozharskist
 		graphical_culture = westerngfx
 		has_coa_on_barony_only = yes
 		icon = 5
@@ -522,14 +412,13 @@ political_group = {
 
 		# Defaults to the Pilgrimage
 		crusade_name = CRUSADE
-		scripture_name = THE_MANIFESTOS
+		scripture_name = THE_NEW_MODEL
 		piety_name = CREDIBILITY
 		high_god_name = GOD_IMMORTAL_SCIENCE
-		god_names = { GOD_MARX GOD_THEORY GOD_LENIN GOD_TROTSKY GOD_STALIN }
+		god_names = { GOD_MARX GOD_THEORY GOD_LENIN GOD_TROTSKY GOD_STALIN GOD_POZHARSKY }
 		evil_god_names = {
-			EVIL_CAPITALISM EVIL_SPLITTERS GOD_LENIN GOD_TROTSKY GOD_STALIN
+			EVIL_CAPITALISM EVIL_SPLITTERS
 		}
-		#This is intentional
 
 		# Ai Behaviour
 		ai_convert_same_group = 1
@@ -546,7 +435,7 @@ political_group = {
 		feminist = yes # affects opinion modifier toward female rulers
 
 		# Religious Head Powers (assuming it has a religious head)
-		autocephaly = yes # Also they have no normal head either.
+		autocephaly = no # Also they have no normal head either.
 		can_have_antipopes = no
 		#can_grant_invasion_cb = no
 		can_call_crusade = no
@@ -602,13 +491,17 @@ political_group = {
 		ignores_defensive_attrition = yes
 		castes = no
 		caste_opinions = no
-
-		# At least we need to give +10 opinion toward this religion, from related religious groups
-		# Default inter-group opinion is -20, thus end result is -10 instead.
-		character_modifier = {
-			#This will be refined in the future
-		}
 	}
+}
+astrist_group = {
+	#merge_republic_interface = yes
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	crusade_cb = crusade
+	ai_fabricate_claims = yes
+
+	color = { 0.2 0.2 0.2 }
 	astrist = {
 		graphical_culture = westerngfx
 		icon = 6
@@ -639,7 +532,7 @@ political_group = {
 		feminist = yes # affects opinion modifier toward female rulers
 
 		# Religious Head Powers (assuming it has a religious head)
-		autocephaly = yes # Also they have no normal head either.
+		autocephaly = no # Also they have no normal head either.
 		can_have_antipopes = no
 		can_grant_invasion_cb = invasion
 		can_call_crusade = no
@@ -713,15 +606,8 @@ political_group = {
 			archers_defensive = -0.2
 			key = "SPACER_RELIGION"
 		}
-		# At least we need to give +10 opinion toward this religion, from related religious groups
-		# Default inter-group opinion is -20, thus end result is -10 instead.
 		character_modifier = {
 			martial = 2
-			religious_group_opinion = 10 #Mainly for Novyy Edem, which adheres to a more religious form of Astrism and gets along well with the non-Pilgrimage religions. Will be replaced when the Astrist rework eventually happens
-			political_terran_group_opinion = -10 #Astrists are not on good terms with Terrans
-			religious_terran_group_opinion = -10 #See above
-			general_opinion = -5 #Militaristic Isolationists
-			same_religion_opinion = 5 #to counterbalance the line above
 			liege_opinion = 15 #Astrists place emphasis on loyalty and deference to superiors
 		}
 	}
