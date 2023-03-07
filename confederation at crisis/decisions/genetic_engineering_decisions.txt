@@ -1229,9 +1229,6 @@ targetted_decisions = {
 			NOT = { religion = cyberneticist}
 		}
 		ai_check_interval = 6
-		from_potential = {
-
-		}
 		potential = {
 			dynasty = FROM
 			NOT = { age = 1 }
@@ -1473,9 +1470,6 @@ targetted_decisions = {
 			}
 		}
 		ai_check_interval = 9
-		from_potential = {
-
-		}
 		potential = {
 			dynasty = FROM
 			NOT = { age = 1 }
@@ -1723,9 +1717,6 @@ targetted_decisions = {
 			NOT = { religion = cyberneticist}
 		}
 		ai_check_interval = 6
-		from_potential = {
-
-		}
 		potential = {
 			dynasty = FROM
 			NOT = { age = 1 }
@@ -1972,9 +1963,6 @@ targetted_decisions = {
 			NOT = { religion = cyberneticist}
 		}
 		ai_check_interval = 9
-		from_potential = {
-
-		}
 		allow = {
 			OR = {
 				FROM = { wealth = 2500 }

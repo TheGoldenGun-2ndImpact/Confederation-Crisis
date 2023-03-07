@@ -496,7 +496,6 @@
 11013643 = {
 	# Commander of Nueva Valencia
 	name = "Catalina"
-	dynasty = random
 	female = yes
 	
 	culture = hispanic_orion

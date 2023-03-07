@@ -397,7 +397,7 @@ religious_group = {
 		priest_title = RECTOR
 		evil_god_names = {
 			EVIL_MORDRED EVIL_BRUTUS EVIL_ACHAEANS EVIL_GOLIATH
-			*These are understood more as spiritual concepts and abstractions, adherents generally do not regard Greeks as being Evil
+			#These are understood more as spiritual concepts and abstractions, adherents generally do not regard Greeks as being Evil
 		}
 
 		# Ai Behaviour

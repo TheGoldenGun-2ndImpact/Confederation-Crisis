@@ -627,7 +627,7 @@
 		}
 	}
 }
-107073 = {
+107074 = {
 	# Dean of Economics
 	name = "Vignesh"
 	dynasty = 3233 # Ogbae

@@ -62,7 +62,7 @@ decisions = {
 				is_ruler = yes
 				NOT = { trait = carefree }
 				NOT = { trait = pragmatic }
-				NOT = { religion_group = criminal_group }
+				NOT = { religion_group = outlaw_group }
 				NOT = { has_character_modifier = spice_withdrawal }
 			}
 			modifier = {
@@ -70,7 +70,7 @@ decisions = {
 				is_councillor = yes
 				NOT = { trait = carefree }
 				NOT = { trait = pragmatic }
-				NOT = { religion_group = criminal_group }
+				NOT = { religion_group = outlaw_group }
 				NOT = { has_character_modifier = spice_withdrawal }
 			}
 			modifier = {
